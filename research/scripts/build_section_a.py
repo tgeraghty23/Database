@@ -86,9 +86,9 @@ ws['A1'] = 'A3. Concentration: largest Swedish business law firms ranked by late
 ws['A2'] = ('Revenue = latest available year per firm (SEK m). Affärsvärlden figures are fee income; company accounts (AB) are net sales of the main legal entity and are not '
             'strictly comparable. Partners and lawyers mostly firm-supplied to Chambers (2026). Employees = headcount, used as a proxy for FTEs (no FTE data is published); '
             'AB headcounts usually exclude partners who bill via own companies. Ratios are calculated only where both inputs exist. Grey = not found.')
-ws['A2'].alignment = WRAP; ws.merge_cells('A2:N2'); ws.row_dimensions[2].height = 55
+ws['A2'].alignment = WRAP; ws.merge_cells('A2:O2'); ws.row_dimensions[2].height = 55
 hdr = ['#', 'Firm', 'FY', 'Revenue SEK m', 'Revenue basis', 'Partners', 'Partner source', 'Lawyers', 'Employees (FTE proxy)', 'Employee source',
-       'Rev / partner SEK m', 'Rev / employee SEK m', 'Rev / lawyer SEK m', 'Notes']
+       'Rev / partner SEK m', 'Rev / employee SEK m', 'Rev / lawyer SEK m', 'Leverage (partners / lawyers)', 'Notes']
 R = 4
 for c, h in enumerate(hdr, 1):
     x = ws.cell(R, c, h); x.font = H; x.fill = HF; x.alignment = Alignment(wrap_text=True, vertical='center', horizontal='center'); x.border = BOX
@@ -106,7 +106,12 @@ for i, f in enumerate(F, 1):
             x.value = f'=D{r}/{num}{r}'; x.number_format = '0.0'
         else:
             x.fill = grey
-    x = ws.cell(r, 14, f[9]); x.border = BOX; x.alignment = WRAP
+    x = ws.cell(r, 14); x.border = BOX
+    if f[4] and f[6]:
+        x.value = f'=F{r}/H{r}'; x.number_format = '0%'
+    else:
+        x.fill = grey
+    x = ws.cell(r, 15, f[9]); x.border = BOX; x.alignment = WRAP
 last = R + len(F)
 r = last + 1
 ws.cell(r, 2, 'Total shown').font = Font(bold=True); ws.cell(r, 4, f'=SUM(D{R+1}:D{last})').number_format = '#,##0'
@@ -114,6 +119,7 @@ ws.cell(r + 1, 2, 'Top 5 share of ~SEK 16bn panel (indicative, mixed years/bases
 ws.cell(r + 2, 2, 'Top 10 share of ~SEK 16bn panel (indicative)'); ws.cell(r + 2, 4, f'=SUM(D{R+1}:D{R+10})/16000').number_format = '0%'
 notes = [
     'Caveats: Vinge partner count covers only the Stockholm and Malmö dividend-receiving partners (no Göteborg), so Vinge rev/partner is overstated. White & Case partners are implied from Dagens Juridik ">SEK 69m per partner" (paywalled).',
+    'Leverage = partners / lawyers (lawyer counts as supplied to Chambers include partners); shown only where both counts exist. White & Case uses the implied partner count.',
     'Setterwalls partner count (37) is as supplied to Chambers and looks low against the firm size. Roschier group partner count (52) includes Finland and is not used. Magnusson: no Swedish revenue or headcount found.',
     'Sources: Affärsvärlden 12-Apr-25 https://www.affarsvarlden.se/artikel/vinge-gar-om-msa-sa-gar-det-for-affarsjuristerna ; 3-Oct-25 https://www.affarsvarlden.se/artikel/affarsjuristerna-gar-starkt-finns-fler-bolag-i-ipo-pipelinen ;',
     'Realtid 7-Aug-26 https://www.realtid.se/juridik/vinge-tappar-mark-mannheimer-swartling-drar-ifran/ ; Realtid 26-Apr-26 https://www.realtid.se/juridik/affarsjuridiken-vaxer-men-sprickorna-syns/ ; Realtid 27-Nov-25 https://www.realtid.se/juridik/white-case-dubblade-omsattningen-var-styrka/ ;',
@@ -122,7 +128,7 @@ notes = [
 ]
 for k, t in enumerate(notes):
     ws.cell(r + 4 + k, 1, t).font = N
-for c, w in zip(range(1, 15), (4, 26, 13, 11, 30, 9, 30, 9, 11, 24, 10, 10, 10, 40)):
+for c, w in zip(range(1, 16), (4, 26, 13, 11, 30, 9, 30, 9, 11, 24, 10, 10, 10, 11, 40)):
     ws.column_dimensions[get_column_letter(c)].width = w
 ws.freeze_panes = 'C5'
 
