@@ -1,0 +1,1038 @@
+{
+ "banking-finance-regulatory": [],
+ "banking-finance": [
+  [
+   "Band 1",
+   "Advokatfirman Vinge KB"
+  ],
+  [
+   "Band 1",
+   "Mannheimer Swartling"
+  ],
+  [
+   "Band 2",
+   "Advokatfirman Cederquist KB"
+  ],
+  [
+   "Band 2",
+   "Roschier"
+  ],
+  [
+   "Band 2",
+   "Setterwalls"
+  ],
+  [
+   "Band 2",
+   "White & Case Advokat AB"
+  ],
+  [
+   "Band 3",
+   "Cirio Advokatbyrå AB"
+  ],
+  [
+   "Band 3",
+   "Gernandt & Danielsson Advokatbyrå KB"
+  ],
+  [
+   "Band 3",
+   "TM & Partners"
+  ],
+  [
+   "Band 4",
+   "Advokatfirman Lindahl"
+  ],
+  [
+   "Band 4",
+   "Advokatfirman Schjødt"
+  ],
+  [
+   "Band 4",
+   "BAHR"
+  ],
+  [
+   "Band 4",
+   "Baker McKenzie"
+  ],
+  [
+   "Band 4",
+   "CMS Wistrand"
+  ],
+  [
+   "Band 4",
+   "DLA Piper"
+  ],
+  [
+   "Band 4",
+   "Linklaters Advokatbyrå"
+  ],
+  [
+   "Band 4",
+   "RE:FI STHLM"
+  ],
+  [
+   "Band 4",
+   "Snellman Advokatbyrå AB"
+  ],
+  [
+   "Band 4",
+   "Wigge"
+  ]
+ ],
+ "capital-markets-debt": [
+  [
+   "Band 1",
+   "Gernandt & Danielsson Advokatbyrå KB"
+  ],
+  [
+   "Band 1",
+   "Roschier"
+  ],
+  [
+   "Band 2",
+   "Advokatfirman Vinge KB"
+  ],
+  [
+   "Band 2",
+   "Mannheimer Swartling"
+  ],
+  [
+   "Band 2",
+   "White & Case Advokat AB"
+  ],
+  [
+   "Band 3",
+   "Advokatfirman Cederquist KB"
+  ]
+ ],
+ "capital-markets-equity": [
+  [
+   "Band 1",
+   "Advokatfirman Vinge KB"
+  ],
+  [
+   "Band 1",
+   "Gernandt & Danielsson Advokatbyrå KB"
+  ],
+  [
+   "Band 2",
+   "Mannheimer Swartling"
+  ],
+  [
+   "Band 2",
+   "Roschier"
+  ],
+  [
+   "Band 2",
+   "White & Case Advokat AB"
+  ],
+  [
+   "Band 3",
+   "Advokatfirman Cederquist KB"
+  ],
+  [
+   "Band 3",
+   "Advokatfirman Schjødt"
+  ],
+  [
+   "Band 3",
+   "Baker McKenzie"
+  ],
+  [
+   "Band 3",
+   "Setterwalls"
+  ],
+  [
+   "Band 3",
+   "Snellman Advokatbyrå AB"
+  ],
+  [
+   "Band 4",
+   "Advokatfirman Lindahl"
+  ],
+  [
+   "Band 4",
+   "BAHR"
+  ],
+  [
+   "Band 4",
+   "Cirio Advokatbyrå AB"
+  ],
+  [
+   "Band 4",
+   "Linklaters Advokatbyrå"
+  ],
+  [
+   "Band 4",
+   "TM & Partners"
+  ],
+  [
+   "Band 4",
+   "Wigge"
+  ]
+ ],
+ "competition-european-law": [
+  [
+   "Band 1",
+   "Advokatfirman Vinge KB"
+  ],
+  [
+   "Band 1",
+   "BOKWALL RISLUND Advisors"
+  ],
+  [
+   "Band 1",
+   "Mannheimer Swartling"
+  ],
+  [
+   "Band 2",
+   "Delphi"
+  ],
+  [
+   "Band 2",
+   "Kastell Advokatbyrå"
+  ],
+  [
+   "Band 2",
+   "Roschier"
+  ],
+  [
+   "Band 3",
+   "Advokatfirman Cederquist KB"
+  ],
+  [
+   "Band 3",
+   "Setterwalls"
+  ],
+  [
+   "Band 4",
+   "Advokatfirman Hammarskiöld & Co AB"
+  ],
+  [
+   "Band 4",
+   "Advokatfirman Schjødt"
+  ],
+  [
+   "Band 4",
+   "DLA Piper"
+  ],
+  [
+   "Band 4",
+   "Snellman Advokatbyrå AB"
+  ]
+ ],
+ "corporate-investigations": [
+  [
+   "Band 1",
+   "Mannheimer Swartling"
+  ],
+  [
+   "Band 2",
+   "Advokatfirman Vinge KB"
+  ]
+ ],
+ "corporate-ma": [
+  [
+   "Band 1",
+   "Advokatfirman Vinge KB"
+  ],
+  [
+   "Band 1",
+   "Mannheimer Swartling"
+  ],
+  [
+   "Band 1",
+   "Roschier"
+  ],
+  [
+   "Band 2",
+   "Gernandt & Danielsson Advokatbyrå KB"
+  ],
+  [
+   "Band 3",
+   "Advokatfirman Cederquist KB"
+  ],
+  [
+   "Band 3",
+   "Baker McKenzie"
+  ],
+  [
+   "Band 3",
+   "DLA Piper"
+  ],
+  [
+   "Band 3",
+   "Linklaters Advokatbyrå"
+  ],
+  [
+   "Band 3",
+   "Setterwalls"
+  ],
+  [
+   "Band 3",
+   "Snellman Advokatbyrå AB"
+  ],
+  [
+   "Band 3",
+   "White & Case Advokat AB"
+  ],
+  [
+   "Band 4",
+   "Advokatfirman Hammarskiöld & Co AB"
+  ],
+  [
+   "Band 4",
+   "Advokatfirman Lindahl"
+  ],
+  [
+   "Band 4",
+   "Advokatfirman Schjødt"
+  ],
+  [
+   "Band 4",
+   "Cirio Advokatbyrå AB"
+  ],
+  [
+   "Band 4",
+   "CMS Wistrand"
+  ],
+  [
+   "Band 5",
+   "BAHR"
+  ],
+  [
+   "Band 5",
+   "Bird & Bird"
+  ],
+  [
+   "Band 5",
+   "Delphi"
+  ],
+  [
+   "Band 5",
+   "Eversheds Sutherland Advokatbyrå AB"
+  ],
+  [
+   "Band 5",
+   "KANTER Advokatbyrå"
+  ],
+  [
+   "Band 5",
+   "TM & Partners"
+  ],
+  [
+   "Band 5",
+   "Wigge"
+  ]
+ ],
+ "data-protection": [],
+ "dispute-resolution-most-in-demand-arbitrators": [],
+ "dispute-resolution": [
+  [
+   "Band 1",
+   "Advokatfirman Vinge KB"
+  ],
+  [
+   "Band 1",
+   "Mannheimer Swartling"
+  ],
+  [
+   "Band 2",
+   "Advokatfirman Cederquist KB"
+  ],
+  [
+   "Band 2",
+   "Gernandt & Danielsson Advokatbyrå KB"
+  ],
+  [
+   "Band 2",
+   "Roschier"
+  ],
+  [
+   "Band 2",
+   "Setterwalls"
+  ],
+  [
+   "Band 2",
+   "Westerberg & Partners"
+  ],
+  [
+   "Band 2",
+   "White & Case Advokat AB"
+  ],
+  [
+   "Band 3",
+   "CMS Wistrand"
+  ],
+  [
+   "Band 3",
+   "Delphi"
+  ],
+  [
+   "Band 3",
+   "Kastell Advokatbyrå"
+  ],
+  [
+   "Band 3",
+   "Norburg & Scherp Advokatbyrå"
+  ],
+  [
+   "Band 3",
+   "Snellman Advokatbyrå AB"
+  ],
+  [
+   "Band 3",
+   "Wallin & Partners"
+  ],
+  [
+   "Band 4",
+   "A1 Advokater"
+  ],
+  [
+   "Band 4",
+   "Advokatfirman Schjødt"
+  ],
+  [
+   "Band 4",
+   "TIME DANOWSKY Advokatbyrå AB"
+  ],
+  [
+   "Band 5",
+   "Advokatfirman Hammarskiöld & Co AB"
+  ],
+  [
+   "Band 5",
+   "Advokatfirman Lindahl"
+  ],
+  [
+   "Band 5",
+   "BAHR"
+  ],
+  [
+   "Band 5",
+   "Cirio Advokatbyrå AB"
+  ],
+  [
+   "Band 5",
+   "DLA Piper"
+  ],
+  [
+   "Band 5",
+   "Magnusson"
+  ],
+  [
+   "Band 5",
+   "Morris Law AB"
+  ],
+  [
+   "Band 5",
+   "Sandart & Partners"
+  ]
+ ],
+ "employment": [
+  [
+   "Band 1",
+   "Advokatfirman Vinge KB"
+  ],
+  [
+   "Band 1",
+   "Mannheimer Swartling"
+  ],
+  [
+   "Band 1",
+   "Setterwalls"
+  ],
+  [
+   "Band 2",
+   "Advokatfirman Cederquist KB"
+  ],
+  [
+   "Band 2",
+   "DLA Piper"
+  ],
+  [
+   "Band 2",
+   "Elmzell Advokatbyrå"
+  ],
+  [
+   "Band 2",
+   "Roschier"
+  ],
+  [
+   "Band 3",
+   "Advokatfirman Lindahl"
+  ],
+  [
+   "Band 3",
+   "Bird & Bird"
+  ],
+  [
+   "Band 3",
+   "Morris Law AB"
+  ],
+  [
+   "Band 3",
+   "TM & Partners"
+  ],
+  [
+   "Band 4",
+   "Advokatfirman Schjødt"
+  ],
+  [
+   "Band 4",
+   "Baker McKenzie"
+  ],
+  [
+   "Band 4",
+   "Delphi"
+  ],
+  [
+   "Band 4",
+   "Eversheds Sutherland Advokatbyrå AB"
+  ],
+  [
+   "Band 4",
+   "MAQS Advokatbyrå"
+  ],
+  [
+   "Band 4",
+   "Next Law KB"
+  ],
+  [
+   "Band 4",
+   "Snellman Advokatbyrå AB"
+  ]
+ ],
+ "energy-natural-resources": [
+  [
+   "Band 1",
+   "Advokatfirman Vinge KB"
+  ],
+  [
+   "Band 1",
+   "Mannheimer Swartling"
+  ],
+  [
+   "Band 1",
+   "Setterwalls"
+  ],
+  [
+   "Band 2",
+   "Cirio Advokatbyrå AB"
+  ],
+  [
+   "Band 2",
+   "DLA Piper"
+  ],
+  [
+   "Band 3",
+   "Advokatfirman Lindahl"
+  ],
+  [
+   "Band 3",
+   "Roschier"
+  ]
+ ],
+ "environment": [
+  [
+   "Band 1",
+   "Fröberg & Lundholm Advokatbyrå"
+  ],
+  [
+   "Band 1",
+   "Mannheimer Swartling"
+  ],
+  [
+   "Band 1",
+   "Setterwalls"
+  ],
+  [
+   "Band 2",
+   "Advokatfirman Vinge KB"
+  ],
+  [
+   "Band 2",
+   "Delphi"
+  ],
+  [
+   "Band 3",
+   "Advokatfirman Lindahl"
+  ],
+  [
+   "Band 3",
+   "Advokatfirman Åberg & Co AB"
+  ],
+  [
+   "Band 3",
+   "Alrutz' Advokatbyrå"
+  ]
+ ],
+ "information-technology": [
+  [
+   "Band 1",
+   "Advokatfirman Kahn Pedersen"
+  ],
+  [
+   "Band 1",
+   "Mannheimer Swartling"
+  ],
+  [
+   "Band 1",
+   "Setterwalls"
+  ],
+  [
+   "Band 2",
+   "Advokatfirman Vinge KB"
+  ],
+  [
+   "Band 2",
+   "Delphi"
+  ],
+  [
+   "Band 2",
+   "Snellman Advokatbyrå AB"
+  ],
+  [
+   "Band 3",
+   "Advokatfirman Cederquist KB"
+  ],
+  [
+   "Band 3",
+   "Cirio Advokatbyrå AB"
+  ],
+  [
+   "Band 3",
+   "DLA Piper"
+  ],
+  [
+   "Band 3",
+   "Roschier"
+  ],
+  [
+   "Band 3",
+   "Synch Law AB"
+  ],
+  [
+   "Band 3",
+   "TIME DANOWSKY Advokatbyrå AB"
+  ],
+  [
+   "Band 4",
+   "Eversheds Sutherland Advokatbyrå AB"
+  ],
+  [
+   "Band 4",
+   "Hellström Advokatbyrå kb"
+  ],
+  [
+   "Band 4",
+   "Kompass Advokat"
+  ]
+ ],
+ "insurance": [
+  [
+   "Band 1",
+   "Advokatfirman Vinge KB"
+  ],
+  [
+   "Band 1",
+   "Mannheimer Swartling"
+  ],
+  [
+   "Band 1",
+   "Setterwalls"
+  ],
+  [
+   "Band 2",
+   "DLA Piper"
+  ],
+  [
+   "Band 2",
+   "Magnusson"
+  ],
+  [
+   "Band 3",
+   "Advokatfirman Lindahl"
+  ],
+  [
+   "Band 3",
+   "CMS Wistrand"
+  ],
+  [
+   "Band 3",
+   "Kompass Advokat"
+  ],
+  [
+   "Band 3",
+   "Nordia Law"
+  ]
+ ],
+ "intellectual-property": [
+  [
+   "Band 1",
+   "Advokatfirman Vinge KB"
+  ],
+  [
+   "Band 1",
+   "Sandart & Partners"
+  ],
+  [
+   "Band 1",
+   "Westerberg & Partners"
+  ],
+  [
+   "Band 2",
+   "Mannheimer Swartling"
+  ],
+  [
+   "Band 2",
+   "Roschier"
+  ],
+  [
+   "Band 2",
+   "Setterwalls"
+  ],
+  [
+   "Band 3",
+   "Delphi"
+  ],
+  [
+   "Band 3",
+   "Ström Advokatbyrå"
+  ],
+  [
+   "Band 4",
+   "Advokatbyrån Gulliksson AB"
+  ],
+  [
+   "Band 4",
+   "Advokatfirman Lindahl"
+  ],
+  [
+   "Band 4",
+   "Bird & Bird"
+  ],
+  [
+   "Band 4",
+   "KANTER Advokatbyrå"
+  ],
+  [
+   "Band 4",
+   "Synch Law AB"
+  ],
+  [
+   "Band 4",
+   "TIME DANOWSKY Advokatbyrå AB"
+  ]
+ ],
+ "private-equity-fund-formation": [
+  [
+   "Band 1",
+   "Advokatfirman Vinge KB"
+  ],
+  [
+   "Band 1",
+   "Andulf Advokat AB"
+  ],
+  [
+   "Band 1",
+   "Mannheimer Swartling"
+  ],
+  [
+   "Band 2",
+   "Wigge"
+  ]
+ ],
+ "private-equity": [
+  [
+   "Band 1",
+   "Advokatfirman Vinge KB"
+  ],
+  [
+   "Band 1",
+   "Mannheimer Swartling"
+  ],
+  [
+   "Band 1",
+   "Roschier"
+  ],
+  [
+   "Band 1",
+   "White & Case Advokat AB"
+  ],
+  [
+   "Band 2",
+   "Gernandt & Danielsson Advokatbyrå KB"
+  ],
+  [
+   "Band 2",
+   "Setterwalls"
+  ],
+  [
+   "Band 3",
+   "Advokatfirman Cederquist KB"
+  ],
+  [
+   "Band 3",
+   "Baker McKenzie"
+  ],
+  [
+   "Band 3",
+   "DLA Piper"
+  ],
+  [
+   "Band 3",
+   "Snellman Advokatbyrå AB"
+  ],
+  [
+   "Band 4",
+   "Advokatfirman Hammarskiöld & Co AB"
+  ],
+  [
+   "Band 4",
+   "Advokatfirman Lindahl"
+  ],
+  [
+   "Band 4",
+   "Advokatfirman Schjødt"
+  ],
+  [
+   "Band 4",
+   "Cirio Advokatbyrå AB"
+  ],
+  [
+   "Band 4",
+   "Delphi"
+  ],
+  [
+   "Band 4",
+   "KANTER Advokatbyrå"
+  ]
+ ],
+ "public-procurement": [
+  [
+   "Band 1",
+   "Advokatfirman Kahn Pedersen"
+  ],
+  [
+   "Band 1",
+   "Advokatfirman Vinge KB"
+  ],
+  [
+   "Band 1",
+   "BOKWALL RISLUND Advisors"
+  ],
+  [
+   "Band 2",
+   "Kastell Advokatbyrå"
+  ],
+  [
+   "Band 2",
+   "Snellman Advokatbyrå AB"
+  ],
+  [
+   "Band 3",
+   "Advokatfirman Schjødt"
+  ],
+  [
+   "Band 3",
+   "Advokatfirman Ulfsdotter AB"
+  ],
+  [
+   "Band 3",
+   "Mannheimer Swartling"
+  ],
+  [
+   "Band 3",
+   "Setterwalls"
+  ],
+  [
+   "Band 4",
+   "Advokatfirman Lindahl"
+  ],
+  [
+   "Band 4",
+   "Magnusson"
+  ]
+ ],
+ "real-estate": [
+  [
+   "Band 1",
+   "Mannheimer Swartling"
+  ],
+  [
+   "Band 1",
+   "Roschier"
+  ],
+  [
+   "Band 1",
+   "Wigge"
+  ],
+  [
+   "Band 2",
+   "CMS Wistrand"
+  ],
+  [
+   "Band 2",
+   "Setterwalls"
+  ],
+  [
+   "Band 3",
+   "Advokatfirman Vinge KB"
+  ],
+  [
+   "Band 3",
+   "Born"
+  ],
+  [
+   "Band 3",
+   "Brick Advokat"
+  ],
+  [
+   "Band 3",
+   "DLA Piper"
+  ],
+  [
+   "Band 3",
+   "Gernandt & Danielsson Advokatbyrå KB"
+  ],
+  [
+   "Band 3",
+   "REAL Advokatbyrå"
+  ],
+  [
+   "Band 3",
+   "Kilpatrick Townsend & Stockton Advokat KB"
+  ],
+  [
+   "Band 4",
+   "Advokatfirman Cederquist KB"
+  ],
+  [
+   "Band 4",
+   "Advokatfirman Lindahl"
+  ],
+  [
+   "Band 4",
+   "Advokatfirman Schjødt"
+  ],
+  [
+   "Band 4",
+   "Cirio Advokatbyrå AB"
+  ],
+  [
+   "Band 4",
+   "Edel Advokater"
+  ],
+  [
+   "Band 4",
+   "Skierfe Advokatfirma"
+  ],
+  [
+   "Band 4",
+   "TM & Partners"
+  ],
+  [
+   "Band 4",
+   "AG Advokat"
+  ]
+ ],
+ "restructuring-insolvency-trustees-administrators": [
+  [
+   "Band 1",
+   "Advokatfirman Schjødt"
+  ],
+  [
+   "Band 1",
+   "Cirio Advokatbyrå AB"
+  ],
+  [
+   "Band 2",
+   "CMS Wistrand"
+  ],
+  [
+   "Band 2",
+   "DLA Piper"
+  ],
+  [
+   "Band 3",
+   "Advokatfirman Carler"
+  ],
+  [
+   "Band 3",
+   "Advokatfirman Fylgia KB"
+  ]
+ ],
+ "restructuring-insolvency": [
+  [
+   "Band 1",
+   "Advokatfirman Vinge KB"
+  ],
+  [
+   "Band 1",
+   "Gernandt & Danielsson Advokatbyrå KB"
+  ],
+  [
+   "Band 1",
+   "Mannheimer Swartling"
+  ],
+  [
+   "Band 1",
+   "Roschier"
+  ],
+  [
+   "Band 2",
+   "Advokatfirman Cederquist KB"
+  ],
+  [
+   "Band 2",
+   "Cirio Advokatbyrå AB"
+  ],
+  [
+   "Band 3",
+   "Advokatfirman Schjødt"
+  ],
+  [
+   "Band 3",
+   "CMS Wistrand"
+  ],
+  [
+   "Band 3",
+   "DLA Piper"
+  ]
+ ],
+ "tax": [
+  [
+   "Band 1",
+   "Advokatfirman Vinge KB"
+  ],
+  [
+   "Band 1",
+   "Mannheimer Swartling"
+  ],
+  [
+   "Band 2",
+   "CMS Wistrand"
+  ],
+  [
+   "Band 2",
+   "Setterwalls"
+  ],
+  [
+   "Band 3",
+   "Advokatfirman Schjødt"
+  ],
+  [
+   "Band 3",
+   "Baker McKenzie"
+  ],
+  [
+   "Band 3",
+   "Bird & Bird"
+  ],
+  [
+   "Band 3",
+   "DLA Piper"
+  ]
+ ],
+ "telecommunications": []
+}

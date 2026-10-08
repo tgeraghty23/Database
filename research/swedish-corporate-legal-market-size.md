@@ -77,3 +77,7 @@ How this relates to the press figures: SCB's ~SEK 29bn for all advokatbyråer in
 - https://foretagsbevakning.se/branscher/advokatbyraer
 - https://lindahl.se/en/latest-news/news/2023/continued-growth-and-success-for-lindahl
 - https://snisok.scb.se/69101
+
+## Section B: Chambers & Legal 500 practice rankings
+- **Where it is:** `research/swedish_legal_market.xlsx`, sheet "B. Practice rankings". It is a firm × practice-area matrix showing the Chambers Europe 2026 band and the current Legal 500 EMEA tier for each firm. MAQS is boxed on its own, and Magnusson, Delphi and Lindahl are boxed as one group. Sheet "B. Rankings raw" has the full 650+ row extract.
+- **Rebuilding it:** run `python3 research/scripts/build_rankings.py research/swedish_legal_market.xlsx`. The script reads `research/data/chambers_europe_2026_sweden_firm_bands.json` and `research/data/legal500_emea_sweden_firm_tiers.json`.
