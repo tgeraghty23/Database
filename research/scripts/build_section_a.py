@@ -54,31 +54,31 @@ ws.column_dimensions['B'].width = 40; ws.column_dimensions['C'].width = 20; ws.c
 # ---------------- A. Firms ----------------
 # firm, FY, revenue SEKm, revenue basis, partners, partner src, lawyers, employees, employee src, notes
 F = [
-    ['Vinge', '2025', 2036, 'Group, annual reports (DJ via Realtid)', 63, 'Dividend recipients: Stockholm 49 + Malmö 14; excl. Göteborg (understated)', None, 550, 'Website, 2026 (~550)', '-2% y/y; 2024 was a record (2,083-2,085)'],
+    ['Vinge', '2025', 2036, 'Group, annual reports (DJ via Realtid)', 71, 'Firm website count, Oct-26 (lawyers incl. ~46 on leave)', 389, 550, 'Website, 2026 (~550)', '-2% y/y; 2024 was a record (2,083-2,085)'],
     ['Mannheimer Swartling', '2025', 2002, 'Group, annual report (DJ via Realtid)', 92, 'DJ (dividend split), 2025', 430, 650, 'Chambers 2026 / AB 649', '+4%; EBIT SEK 796m; dividend SEK 617m'],
-    ['Roschier (Sweden)', 'FY Jun24-May25', 1254, 'Affärsvärlden Oct-25', None, 'Group 52 incl. Finland (not used)', None, 226, 'Company accounts (AB)', 'FY25/26 net sales 1,304 (220 staff)'],
+    ['Roschier (Sweden)', 'FY Jun24-May25', 1254, 'Affärsvärlden Oct-25', 26, 'Firm website count, Oct-26 (Stockholm)', 181, 226, 'Company accounts (AB)', 'FY25/26 net sales 1,304 (220 staff)'],
     ['White & Case (Stockholm)', '2025', 1108, 'Company accounts, net sales (AB)', 16, 'Implied (est.): DJ ">SEK 69m per partner"', 70, 120, 'Company accounts (AB)', '2024: 859; +29%. AB net sales may include intra-group billing; per-head ratios look high, treat with caution'],
-    ['Setterwalls', '2025', 1000, 'Affärsvärlden (">1bn"); parent AB 1,056', 37, 'Chambers 2026 (firm-supplied; looks low)', None, 306, 'Sum of 3 entities (AB)', 'Malmö office (SEK 305m) left Sep-26 for AGRD'],
-    ['Lindahl', '2024', 737, 'Affärsvärlden Apr-25', None, '', 153, 300, 'Chambers 2026', '2025 entity sum ~635 (est., not comparable)'],
-    ['Gernandt & Danielsson', 'FY24/25', 676, 'Affärsvärlden Oct-25', 21, 'Chambers 2026', 80, 150, 'Firm website', '+12% (FY23/24: 601)'],
-    ['DLA Piper (Sweden)', 'FY24/25', 602, 'Affärsvärlden Oct-25', None, '', None, None, '', '-9%'],
-    ['CMS Wistrand', '2024', 558, 'Affärsvärlden Apr-25', None, '', None, None, '', ''],
-    ['Schjødt (Sweden)', '2025', 534, 'Est.: ">SEK 0.5bn", +25% on 427', None, '', None, None, '', 'Branch, no Swedish accounts; 8 Sthlm partners left for BAHR (2026)'],
+    ['Setterwalls', '2025', 1000, 'Affärsvärlden (">1bn"); parent AB 1,056', 38, 'Firm website count, Oct-26 (Sthlm + Gbg; Malmö left Sep-26)', 177, 306, 'Sum of 3 entities (AB)', 'Malmö office (SEK 305m) left Sep-26 for AGRD'],
+    ['Lindahl', '2024', 737, 'Affärsvärlden Apr-25', 68, 'Legal 500 (firm-supplied, 2026)', 220, 300, 'Chambers 2026', '2025 entity sum ~635 (est., not comparable)'],
+    ['Gernandt & Danielsson', 'FY24/25', 676, 'Affärsvärlden Oct-25', 20, 'Firm website count, Oct-26', 91, 150, 'Firm website', '+12% (FY23/24: 601)'],
+    ['DLA Piper (Sweden)', 'FY24/25', 602, 'Affärsvärlden Oct-25', 37, 'Firm website count, Oct-26 (profile pages)', 148, None, '', '-9%'],
+    ['CMS Wistrand', '2024', 558, 'Affärsvärlden Apr-25', 51, 'Firm statement (cms.law)', 150, None, '', ''],
+    ['Schjødt (Sweden)', '2025', 534, 'Est.: ">SEK 0.5bn", +25% on 427', 20, 'Firm website count, Oct-26 (may include leavers to BAHR)', 65, None, '', 'Branch, no Swedish accounts; 8 Sthlm partners left for BAHR (2026)'],
     ['Delphi', '2024', 516, 'Affärsvärlden Apr-25', 49, 'Chambers 2026', 150, 220, 'Firm website', '+2%'],
-    ['Cirio', '2025', 431, 'Company accounts, net sales (AB)', None, '', None, 127, 'Company accounts (AB)', '+15% (Afv); 2024 Afv 363'],
-    ['MAQS', '2024', 417, 'Affärsvärlden Apr-25', None, '', 127, 180, 'Chambers 2026', '+21%'],
-    ['Baker McKenzie (Stockholm)', 'FY23/24', 334, 'Affärsvärlden Apr-25', None, '', None, None, '', 'KB, no public accounts'],
+    ['Cirio', '2025', 431, 'Company accounts, net sales (AB)', 27, 'Legal 500 (firm-supplied, 2026)', 76, 127, 'Company accounts (AB)', '+15% (Afv); 2024 Afv 363'],
+    ['MAQS', '2024', 417, 'Affärsvärlden Apr-25', 48, 'Firm website count, Oct-26', 144, 180, 'Chambers 2026', '+21%'],
+    ['Baker McKenzie (Stockholm)', 'FY23/24', 334, 'Affärsvärlden Apr-25', 12, 'Firm website count, Oct-26 (+2 principals)', 73, None, '', 'KB, no public accounts'],
     ['Snellman (Sweden)', '2025', 279, 'Company accounts, net sales (AB)', None, '', None, 107, 'Company accounts (AB)', '2024 Afv 295'],
-    ['Foyen', '2024', 277, 'Affärsvärlden Apr-25', None, '', None, 106, 'Company accounts (AB)', ''],
-    ['Glimstedt', '2024', 196, 'Affärsvärlden Apr-25', None, '', None, None, '', '~200 staff on website includes Baltics (not used)'],
+    ['Foyen', '2024', 277, 'Affärsvärlden Apr-25', 23, 'Firm website count, Oct-26', 73, 106, 'Company accounts (AB)', ''],
+    ['Glimstedt', '2024', 196, 'Affärsvärlden Apr-25', 41, 'Firm website count, Oct-26 (Sweden)', 78, None, '', '~200 staff on website includes Baltics (not used)'],
     ['Eversheds Sutherland', '2025', 166, 'Company accounts, net sales (AB)', None, '', None, 59, 'Company accounts (AB)', '2024 Afv 140'],
-    ['Fylgia', '2024', 131, 'Affärsvärlden Apr-25', None, '', None, None, '', 'Record 2025 (firm)'],
-    ['Westerberg & Partners', '2025', 107, 'Company accounts, net sales (AB)', 12, 'Chambers 2026', None, 35, 'Company accounts (AB)', ''],
-    ['Moll Wendén', '2025', 101, 'Company accounts, net sales (AB)', None, '', None, 44, 'Company accounts (AB)', ''],
-    ['Born', '2024', 86, 'Affärsvärlden Apr-25', None, '', None, None, '', 'Part of AGRD since 2025'],
-    ['Harvest', '2025', 82, 'Company accounts, net sales (AB)', None, '', None, 27, 'Company accounts (AB)', ''],
-    ['Synch', '2025', 81, 'Company accounts, net sales (AB)', None, '', None, 38, 'Company accounts (AB)', 'Part of AGRD since 2025'],
-    ['Kastell', '2025', 80, 'Company accounts, net sales (AB)', 9, 'Chambers 2026', 19, 21, 'Company accounts (AB)', ''],
+    ['Fylgia', '2024', 131, 'Affärsvärlden Apr-25', 21, 'Firm website count, Oct-26', 35, None, '', 'Record 2025 (firm)'],
+    ['Westerberg & Partners', '2025', 107, 'Company accounts, net sales (AB)', 12, 'Firm website count, Oct-26', 24, 35, 'Company accounts (AB)', ''],
+    ['Moll Wendén', '2025', 101, 'Company accounts, net sales (AB)', 8, 'Firm website count, Oct-26', 37, 44, 'Company accounts (AB)', ''],
+    ['Born', '2024', 86, 'Affärsvärlden Apr-25', 9, 'Firm website count, Oct-26', 26, None, '', 'Part of AGRD since 2025'],
+    ['Harvest', '2025', 82, 'Company accounts, net sales (AB)', 5, 'Firm website count, Oct-26', 27, 27, 'Company accounts (AB)', ''],
+    ['Synch', '2025', 81, 'Company accounts, net sales (AB)', 9, 'Firm website count, Oct-26', 38, 38, 'Company accounts (AB)', 'Part of AGRD since 2025'],
+    ['Kastell', '2025', 80, 'Company accounts, net sales (AB)', 9, 'Firm website count, Oct-26', 18, 21, 'Company accounts (AB)', ''],
 ]
 F.sort(key=lambda x: -x[2])
 ws = wb.create_sheet('A. Firms', 1)
@@ -118,9 +118,9 @@ ws.cell(r, 2, 'Total shown').font = Font(bold=True); ws.cell(r, 4, f'=SUM(D{R+1}
 ws.cell(r + 1, 2, 'Top 5 share of ~SEK 16bn panel (indicative, mixed years/bases)'); ws.cell(r + 1, 4, f'=SUM(D{R+1}:D{R+5})/16000').number_format = '0%'
 ws.cell(r + 2, 2, 'Top 10 share of ~SEK 16bn panel (indicative)'); ws.cell(r + 2, 4, f'=SUM(D{R+1}:D{R+10})/16000').number_format = '0%'
 notes = [
-    'Caveats: Vinge partner count covers only the Stockholm and Malmö dividend-receiving partners (no Göteborg), so Vinge rev/partner is overstated. White & Case partners are implied from Dagens Juridik ">SEK 69m per partner" (paywalled).',
+    'Caveats: headcounts are current (mostly counted on firm websites, Oct-26) while revenue is FY2024/25, so ratios are indicative. White & Case partners are implied from Dagens Juridik ">SEK 69m per partner" (paywalled).',
     'Leverage = partners / lawyers (lawyer counts as supplied to Chambers include partners); shown only where both counts exist. White & Case uses the implied partner count.',
-    'Setterwalls partner count (37) is as supplied to Chambers and looks low against the firm size. Roschier group partner count (52) includes Finland and is not used. Magnusson: no Swedish revenue or headcount found.',
+    'Setterwalls: 2025 revenue includes the Malmö office (~SEK 305m) but headcount excludes it (left Sep-26), so per-head ratios are overstated. Snellman, Eversheds and White & Case: no reliable partner count found. Magnusson (Sweden, Oct-26): 13 partners / ~47 lawyers, no current revenue found.',
     'Sources: Affärsvärlden 12-Apr-25 https://www.affarsvarlden.se/artikel/vinge-gar-om-msa-sa-gar-det-for-affarsjuristerna ; 3-Oct-25 https://www.affarsvarlden.se/artikel/affarsjuristerna-gar-starkt-finns-fler-bolag-i-ipo-pipelinen ;',
     'Realtid 7-Aug-26 https://www.realtid.se/juridik/vinge-tappar-mark-mannheimer-swartling-drar-ifran/ ; Realtid 26-Apr-26 https://www.realtid.se/juridik/affarsjuridiken-vaxer-men-sprickorna-syns/ ; Realtid 27-Nov-25 https://www.realtid.se/juridik/white-case-dubblade-omsattningen-var-styrka/ ;',
     'Realtid 1-Sep-26 https://www.realtid.se/juridik/setterwalls-malmokontor-gar-till-riskkapitalagda-agrd/ ; Affärsvärlden 5-Oct-26 (Schjødt) https://www.affarsvarlden.se/artikel/schjdt-vaxer-snabbast--men-konkurrensen-hardnar ;',
@@ -159,8 +159,8 @@ table(ws, 4, ['Firm', 'Growth', 'Period', 'Driver', 'Detail', 'Source'], G, [24,
 ws.cell(6 + len(G), 1, 'Market context: 2025 growth came from international transactions, disputes and regulatory work; IPOs were the weakest segment. Firms expect +6.8% in 2026 (Affärsvärlden/Realtid).').font = N
 
 wb.move_sheet('A. Market size', -wb.index(wb['A. Market size']))
-order = ['A. Market size', 'A. Firms', 'A. Growth drivers', 'B. Practice rankings', 'B. Rankings raw']
-wb._sheets = [wb[n] for n in order]
+order = ['A. Market size', 'A. Firms', 'A. Growth drivers', 'A. Niche firms', 'B. Practice rankings', 'B. Rankings raw']
+wb._sheets = [wb[n] for n in order if n in wb.sheetnames] + [w for w in wb._sheets if w.title not in order]
 wb.active = 0
 wb.save(path)
 print('ok', wb.sheetnames)

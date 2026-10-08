@@ -15,11 +15,12 @@ BORDER = {'Hammarskiöld': 'Mid-size full-service', 'Foyen': 'Mid-size full-serv
 AGRD = {'Allié', 'Born', 'Morris Law', 'Next Law', 'Synch', 'TM & Partners'}
 # Partners / lawyers (firm-supplied to Legal 500 or Chambers, 2026); source tag
 HC = {'Kahn Pedersen': (6, 19, 'L500/Chambers'), 'Sandart & Partners': (10, 12, 'L500'), 'REAL Advokatbyrå': (5, 20, 'L500/Chambers'),
-      'Kompass': (4, 15, 'L500'), 'Hellström': (22, 49, 'L500 (22 partners, 10 senior assoc., 17 assoc.)'), 'Wigge & Partners': (10, 40, 'L500 (10 partners, 30 associates)'),
-      'Kanter': (13, 39, 'Chambers'), 'Kastell': (9, 19, 'Chambers'), 'Fylgia': (19, 30, 'Chambers (lawyers excl. partners?)'),
-      'Carler': (7, None, 'Chambers'), 'Ström': (5, None, 'Chambers'), 'Westerberg & Partners': (12, None, 'Chambers'),
-      'Hammarskiöld': (None, 47, 'Chambers'), 'Foyen': (None, 75, 'L500'), 'TM & Partners': (None, 60, 'L500'), 'Morris Law': (None, 56, 'L500'),
+      'Kompass': (4, 15, 'L500'), 'Hellström': (22, 49, 'L500 (22 partners, 10 senior assoc., 17 assoc.)'), 'Wigge & Partners': (11, 40, 'Firm website, Oct-26'),
+      'Kanter': (13, 39, 'Chambers (IFLR1000: 10 partners / Realtid: 21 lawyers; conflicting)'), 'Kastell': (9, 18, 'Firm website, Oct-26'), 'Fylgia': (21, 35, 'Firm website, Oct-26'),
+      'Carler': (7, None, 'Chambers'), 'Ström': (5, None, 'Chambers'), 'Westerberg & Partners': (12, 24, 'Firm website, Oct-26'),
+      'Hammarskiöld': (None, 47, 'Chambers'), 'Foyen': (23, 73, 'Firm website, Oct-26'), 'TM & Partners': (18, 63, 'Firm website, Oct-26'), 'Morris Law': (None, 56, 'L500'),
       'AG Advokat': (None, 41, 'L500'), 'Gulliksson': (None, 41, 'L500'), 'TIME DANOWSKY Advokatbyrå AB': (None, 22, 'L500'), 'Norburg & Scherp': (None, 18, 'L500'),
+      'Born': (9, 26, 'Firm website, Oct-26'), 'Harvest': (5, 27, 'Firm website, Oct-26'), 'Synch': (9, 38, 'Firm website, Oct-26'),
       'A1 Advokater': (None, None, 'Chambers: 17 staff')}
 
 firms = {}
@@ -55,7 +56,7 @@ n_ftw = sum(1 for r in rows if r[1].startswith('Legal 500 firm'))
 n_b = sum(1 for r in rows if r[1].startswith('Borderline'))
 ws['A2'] = (f'Universe: firm-level rankings in Chambers Europe 2026 (Sweden) and Legal 500 EMEA (Sweden), incl. Legal 500 "firms to watch". Excludes international firms '
             f'and the nine largest Swedish full-service firms. Counts: {n_core} ranked independents (incl. PE-owned AGRD firms) + {n_ftw} firms to watch only = {n_core + n_ftw}; '
-            f'+{n_b} borderline mid-size firms = {n_core + n_ftw + n_b}. Partner/lawyer counts are firm-supplied to Legal 500 / Chambers (2026), blank where not published.')
+            f'+{n_b} borderline mid-size firms = {n_core + n_ftw + n_b}. Partner/lawyer counts: firm website counts (Oct-26) where available, else firm-supplied to Legal 500 / Chambers (2026); blank where not found.')
 ws['A2'].alignment = Alignment(wrap_text=True, vertical='top'); ws.merge_cells('A2:K2'); ws.row_dimensions[2].height = 60
 hdr = ['Firm', 'Category', '# Chambers rankings', '# Legal 500 rankings', '# L500 firm-to-watch', 'Best band/tier', 'Practice area(s) at best band/tier',
        'Firm-to-watch areas', 'Partners', 'Lawyers', 'Headcount source']
