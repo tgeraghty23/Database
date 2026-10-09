@@ -20,3 +20,14 @@ The main deliverable is `research/swedish_legal_market.xlsx`. This file summaris
 - **Partner counts:** these are thin and partly firm-supplied to Chambers. Vinge's count covers only Stockholm and Malmö partners. White & Case's count is implied from Dagens Juridik.
 - **Headcount:** no FTE data is published, so employee headcount is used instead. Company-account headcounts usually exclude partners who bill through their own companies.
 - **Paywalls:** Affärsvärlden's full FY2025 table and Dagens Juridik's 2025 tables are paywalled. Those would fill the remaining FY2025 gaps.
+
+## Section D. Rate card comparison (sheet "D. Rate cards")
+- **D1:** list-price rate cards by level. Mannheimer Swartling is undated (supplied by a colleague, date to be confirmed); Cederquist is 2025. Includes mid-points, the partner/junior multiple and the multiple of the legal-aid hourly norm.
+- **D2:** indicative firm-wide hourly ranges from a third-party directory (low reliability).
+- **D3:** dated rates from invoices, court cost claims, Chapter 11 filings, public tenders and market commentary.
+- **D4:** benchmarks, including the legal-aid hourly norm (timkostnadsnorm), fee income per lawyer, and Danish, Norwegian and UK rates.
+- **Rebuilding it:** run `python3 research/scripts/build_section_d.py research/swedish_legal_market.xlsx`.
+
+## Market data briefing (Word)
+- **File:** `research/swedish_legal_charging_rates.docx`, a dated and sourced briefing on charging rates in Swedish business law.
+- **Rebuilding it:** run `node research/scripts/build_rates_doc.js research/swedish_legal_charging_rates.docx`.
