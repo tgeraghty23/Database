@@ -31,3 +31,8 @@ The main deliverable is `research/swedish_legal_market.xlsx`. This file summaris
 ## Market data briefing (Word)
 - **File:** `research/swedish_legal_charging_rates.docx`, a dated and sourced briefing on charging rates in Swedish business law.
 - **Rebuilding it:** run `node research/scripts/build_rates_doc.js research/swedish_legal_charging_rates.docx`.
+
+## Section E. Partner compensation (sheet "E. Partner compensation")
+- **Basis:** profit pool per partner, calculated from annual reports filed with Bolagsverket (read via allabolag.se). Profit before tax plus disclosed board/CEO salaries, divided by partners, gives a proxy for average equity-partner pay before tax. Also shows dividend per partner and an illustrative senior-partner figure (1.4x the average, an assumption). Raw data: `research/data/allabolag_firm_entity_accounts.json`.
+- **Context:** SCB salary distribution for salaried lawyers (SSYK 2611/2614), 2025.
+- **Rebuilding it:** run `python3 research/scripts/build_section_e.py research/swedish_legal_market.xlsx`.
