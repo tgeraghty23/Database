@@ -1,0 +1,700 @@
+{
+ "meta": {
+  "as_of": "2026-10-12",
+  "notes": "Compiled via web search/fetch. Web-search budget was exhausted part-way through Part 3; items marked 'unverified' come from prior knowledge and must be checked. Figures are as reported by the cited source; nothing has been estimated unless labelled 'derived'."
+ },
+ "legalvision": {
+  "founded": {
+   "value": "2012, Sydney; founders Lachlan McKnight (CEO), Evan Tait-Styles (CTO), Ursula Hogben. Started as online legal-document service, incorporated legal practice 2014, membership model adopted 2019",
+   "source": [
+    "https://www.smartcompany.com.au/?p=136076",
+    "https://www.lawfuel.com/legal-disrupter-arrives-in-new-zealand-to-democratise-legal-access"
+   ]
+  },
+  "model": {
+   "value": "Subscription ('membership') law firm: unlimited business-as-usual legal work (consults, drafting, reviews, trade marks, employment/HR) for a fixed weekly fee billed monthly; litigation, corporate transactions/M&A/fundraising charged hourly (50% discount for 3- and 5-year members). Min 12-month term; discounts for 3/5-year terms; 30-day money-back for new members. Revenue mix (Feb 2022): ~50% subscription, ~25% hourly, ~25% fixed fee (legacy).",
+   "source": [
+    "https://legalvision.co.uk/membership/",
+    "https://www.rallylegal.com/blog/scaling-with-subscriptions-interview-with-lachlan-mcknight"
+   ]
+  },
+  "pricing_uk_gbp": {
+   "value": "LV Pro: £115 to £620+ per week + VAT, by business size/contract length (website, Oct 2026). Legal Futures Mar-2025: £115-£399/week; at 2022 launch £49-£329/week. LV Essentials (<2 employees) price not published. Desk Extension (in-house) and H&S add-on unpriced.",
+   "source": [
+    "https://legalvision.co.uk/membership/",
+    "https://www.legalfutures.co.uk/latest-news/exclusive-australian-firm-eyes-major-uk-expansion-with-pe-backing/print/",
+    "https://www.legalfutures.co.uk/latest-news/australian-law-firm-targets-uk-smes-with-unlimited-subscription-service/print/"
+   ]
+  },
+  "pricing_au_aud": {
+   "value": "LV Pro: A$219 to A$1,350+ per week ex GST by business size; LV Essentials: A$119-A$149/week (website, Oct 2026). Earlier (2019) subscription launched at A$149/month.",
+   "source": [
+    "https://legalvision.com.au/membership/",
+    "https://legalvision.com.au/news/legalvision-launches-legal-advice-subscription-for-149-month"
+   ]
+  },
+  "pricing_nz_nzd": {
+   "value": "At Jan-2021 NZ launch: 'LVConnect' membership NZ$199 + GST per month. Current NZ tier pricing not retrieved (site fetch blocked).",
+   "source": [
+    "https://www.lawfuel.com/legal-disrupter-arrives-in-new-zealand-to-democratise-legal-access"
+   ]
+  },
+  "revenue": {
+   "value": "Capital Brief (1 Oct 2024): ~A$50m 'this year' for AU+NZ and A$13m UK; target A$100m by 2027. Rally Legal (Feb 2022): ~A$25m annualised cited as scale needed. SmartCompany Smart50 2017: A$7.8m revenue, 341% growth. Company does not publish turnover (CEO declined, Mar 2025).",
+   "source": [
+    "https://www.capitalbrief.com/article/legalvisions-lachlan-mcknight-on-how-saas-land-inspired-his-law-firm-26db1565-d4f0-4a80-9f65-f25a7abb5eb5/",
+    "https://www.rallylegal.com/blog/scaling-with-subscriptions-interview-with-lachlan-mcknight",
+    "https://www.smartcompany.com.au/?p=136076",
+    "https://www.legalfutures.co.uk/latest-news/exclusive-australian-firm-eyes-major-uk-expansion-with-pe-backing/print/"
+   ]
+  },
+  "uk_entity_financials_companies_house": {
+   "value": {
+    "entity": "LEGALVISION LAW UK LTD",
+    "company_number": "13704561",
+    "incorporated": "2021-10-26",
+    "registered_office": "3.06 Colony, Jactin House, 24 Hood Street, Manchester M4 6WX",
+    "sic": "69102 Solicitors",
+    "turnover_26Oct2021_to_31Oct2022_gbp": 292830,
+    "turnover_8m_to_30Jun2023_gbp": 1312708,
+    "turnover_FY_to_30Jun2024_gbp": 3687797,
+    "turnover_FY2024_restated_gbp": 3351280,
+    "turnover_FY_to_30Jun2025_gbp": null,
+    "FY2025_note": "Small-company filing; income statement omitted. Profit for year £6,720 (FY24: £121,733). Net liabilities £578,459; non-current liabilities £4.38m (intercompany loan at 11% p.a.).",
+    "operating_profit_FY2024_gbp": 101084,
+    "avg_employees_FY2022": 9,
+    "avg_employees_FY2023": 15,
+    "avg_employees_FY2024": 24,
+    "avg_employees_FY2025": 41,
+    "immediate_parent": "LegalVision International Pty Ltd (Sydney)",
+    "ultimate_parent_FY2024": "Jiclan Pty Ltd as trustee for McKnight Family Trust",
+    "ultimate_parent_FY2025": "QPE Epsilon 1 Pty Limited, Level 30, 126 Phillip St, Sydney (Quadrant PE vehicle) - indicates Quadrant holds controlling interest",
+    "PSCs_from_9May2025": "Peter Moussa Elkhouri and Marcus Lopez Darville (Quadrant); Jill McKnight ceased",
+    "charge_registered": "2025-06-06 (charge 137045610001)",
+    "auditor": "Azets Audit Services (auditor resignation filed 15 Aug 2025)",
+    "directors": "Lachlan Alexander McKnight, Evan Andrew Tait-Styles"
+   },
+   "source": [
+    "https://find-and-update.company-information.service.gov.uk/company/13704561",
+    "https://find-and-update.company-information.service.gov.uk/company/13704561/filing-history",
+    "https://find-and-update.company-information.service.gov.uk/company/13704561/officers",
+    "Companies House iXBRL accounts FY2023, FY2024, FY2025 (downloaded)"
+   ]
+  },
+  "uk_revenue_reconciliation_flag": "Capital Brief's A$13m UK revenue (~£6.5m) vs Companies House FY-Jun-2024 turnover £3.35-3.69m: either forward-looking, includes revenue booked by AU parent, or different period. Treat A$13m as unverified management figure.",
+  "sra_status": {
+   "value": "Licensed body (ABS), SRA licence 837339 granted 13 May 2022; trades as LegalVision; reserved activities include conduct of litigation and probate.",
+   "source": "https://www.sra.org.uk/solicitors/firm-based-authorisation/abs-register/837339/"
+  },
+  "uk_launch": {
+   "value": "UK expansion announced Nov 2021 (CEO relocating); UK entity incorporated 26 Oct 2021; began trading from Manchester 2022 (ABS licence May 2022; Legal Futures June 2022: 7 staff, ~100 new members/month group-wide, 85% renewal, NPS 70). Lawyers Weekly: entered UK Nov 2021, NZ Oct 2020 (went live Jan 2021).",
+   "source": [
+    "https://www.lawyersweekly.com.au/newlaw/32991-legalvision-eyes-becoming-truly-global",
+    "https://www.legalfutures.co.uk/latest-news/australian-law-firm-targets-uk-smes-with-unlimited-subscription-service/print/",
+    "https://www.lawyersweekly.com.au/newlaw/41683-quadrant-private-equity-invests-in-legalvision"
+   ]
+  },
+  "uk_leadership": {
+   "value": "No UK MD named in press. CEO Lachlan McKnight (based Sydney, relocated to UK for a period 2022). Group: Evan Tait-Styles CTO, Chris Bambury CFO, Mark McMinn CRO, Lauren Wray Head of Growth. UK: Anthony Satti Co-Head of Legal / Corporate & Commercial Practice Leader (Pro-Manchester, Nov 2025).",
+   "source": [
+    "https://legalvision.co.uk/meet-our-team/operations/",
+    "https://www.pro-manchester.co.uk/newsrooms/member-spotlight-anthony-satti-head-of-legal-legalvision/",
+    "https://www.legalfutures.co.uk/latest-news/exclusive-australian-firm-eyes-major-uk-expansion-with-pe-backing/print/"
+   ]
+  },
+  "headcount": {
+   "value": "Mar 2025: UK ~40 staff (28 lawyers, 12 sales), mostly Manchester, ~10 remote, target 100; Australia 200+ (also provides UK back office). Feb 2022: 130-138 staff group. 2017: ~65. Companies House avg UK employees FY25: 41.",
+   "source": [
+    "https://www.legalfutures.co.uk/latest-news/exclusive-australian-firm-eyes-major-uk-expansion-with-pe-backing/print/",
+    "https://www.rallylegal.com/blog/scaling-with-subscriptions-interview-with-lachlan-mcknight",
+    "https://find-and-update.company-information.service.gov.uk/company/13704561"
+   ]
+  },
+  "members_clients": {
+   "value": ">4,500 active clients group-wide (Quadrant, Mar 2025); ~40% of new business from UK (Mar 2025). 2022: ~100 new members/month, 85% renewal, NPS 70. Site claims 110,000+ businesses assisted historically.",
+   "source": [
+    "https://www.legalfutures.co.uk/latest-news/exclusive-australian-firm-eyes-major-uk-expansion-with-pe-backing/print/",
+    "https://www.lawyersweekly.com.au/newlaw/41683-quadrant-private-equity-invests-in-legalvision"
+   ]
+  },
+  "growth_rate": {
+   "value": "'30%+ p.a.' (Quadrant, Mar 2025); 40% YoY (Nov 2021); 30%+ YoY in Australia (Feb 2022); 341% (2017).",
+   "source": [
+    "https://www.legalfutures.co.uk/latest-news/exclusive-australian-firm-eyes-major-uk-expansion-with-pe-backing/print/",
+    "https://www.lawyersweekly.com.au/newlaw/32991-legalvision-eyes-becoming-truly-global"
+   ]
+  },
+  "funding_ownership": {
+   "value": "Not bootstrapped at present: founder-owned (McKnight Family Trust ultimate controller through FY2024) until Quadrant Private Equity acquired a stake announced 11-12 Mar 2025 (undisclosed terms; first deal from A$660m Quadrant Growth Fund No.3, which targets A$50-100m per company). UK filings show ultimate parent became QPE Epsilon 1 Pty Ltd and Quadrant's Elkhouri/Darville became PSCs from 9 May 2025, consistent with Quadrant control. Capital Brief (Oct 2024) described Gilbert + Tobin as 'only external institutional investor' pre-Quadrant (G+T also advised on the sale). Sell-side advisers Allier Capital, G+T; buy-side PwC, OC&C, Corrs.",
+   "source": [
+    "https://www.quadrantpe.com.au/news-insights/afr-quadrant-private-equity-swoops-on-disruptor-law-firm-legalvision",
+    "https://www.lawyersweekly.com.au/newlaw/41683-quadrant-private-equity-invests-in-legalvision",
+    "https://www.capitalbrief.com/article/legalvisions-lachlan-mcknight-on-how-saas-land-inspired-his-law-firm-26db1565-d4f0-4a80-9f65-f25a7abb5eb5/",
+    "https://find-and-update.company-information.service.gov.uk/company/13704561/filing-history"
+   ]
+  },
+  "awards": {
+   "value": "FT Innovative Lawyers 2026 shortlists (Innovative Business Models; Strategic Direction); LexisNexis Legal Awards 2026 finalist/highly commended; The Lawyer Awards 2024/2025/2026 finalist; Law Firm of the Year, Australasian Law Awards 2021 & 2022; FT1000 fastest-growing law firm APAC 2018 & 2021; Australasian Lawyer Fast Firms 2023, 2024; AFR Fast 100 finalist 2018, 2020; Smart50 #9 (2017); Innovator of the Year, Australian Law Awards 2016; Business Awards UK Commercial Law Firm of the Year 2024.",
+   "source": "https://legalvision.co.uk/awards/"
+  },
+  "peers_entering_uk": {
+   "lawpath": {
+    "value": "Sydney SaaS legal platform; Feb 2025 A$10m round led by Westpac (5-yr partnership); ~A$24m raised since inception incl. A$7.5m (2021); claims 500,000+ Australian businesses served, 7% of AU incorporations; target 1m clients by 2030; NZ/SE Asia expansion planned (not UK). Revenue not disclosed (third-party estimates A$3m-25m, unreliable).",
+    "source": [
+     "https://www.businessnewsaustralia.com/articles/westpac-invests--10m-in-lawpath-as-small-business-legal-platform-doubles-down-on-ai.html",
+     "https://www.artificiallawyer.com/2025/02/04/lawpath-bags-10m-advances-legal-ai-solution-for-smbs/"
+    ]
+   },
+   "sprintlaw": {
+    "value": "Sydney online fixed-fee/subscription firm (founders Alex Solo, Tomoyuki Hachigo). £1.2m first equity raise Dec 2019 (revenue +250% in 2019; 7,000+ clients). Launched UK (England & Wales) 8 June 2021 funded by ~A$1m angel round (incl. ex-Smartgroup CEO Deven Billimoria); UK MD Adil Khan (ex-Lexoo). Membership launched 2020 at £399/yr; 3,000+ members across UK/AU/NZ as at 2024. AFR Fast Starters 2021. Revenue not disclosed.",
+    "source": [
+     "https://thelawyermag.com/au/news/general/nsw-online-firm-becomes-first-australian-newlaw-firm-to-hit-the-uk/257802",
+     "https://sprintlaw.co.uk/sprintlaw-secures-funding-capital-raise/",
+     "https://sprintlaw.co.uk/articles/coming-soon-sprintlaws-new-member-platform/"
+    ]
+   }
+  }
+ },
+ "market": [
+  {
+   "metric": "UK legal services market turnover (IRN Legal Reports, 16th ed.)",
+   "value": "£55.5bn (+6.1%)",
+   "year": 2025,
+   "source": "https://www.legalfutures.co.uk/latest-news/legal-market-to-grow-in-all-areas-as-pe-extends-reach/print/ ; https://todaysconveyancer.co.uk/uk-legal-services-sector-grew-6-1-last-year-residential-conveyancing-worth-2-5bn/"
+  },
+  {
+   "metric": "UK legal services market forecast (IRN)",
+   "value": "£59bn in 2026 (+6.8%); £69bn by 2029 (5.5% CAGR 2026-29)",
+   "year": 2026,
+   "source": "https://www.legalfutures.co.uk/latest-news/legal-market-to-grow-in-all-areas-as-pe-extends-reach/print/"
+  },
+  {
+   "metric": "UK legal services market (IRN, prior edition)",
+   "value": "£52bn (+10%); business/B2B ~51% = ~£26.5bn (£19.5bn corporate/commercial + £7bn commercial property); core consumer market £19bn",
+   "year": 2024,
+   "source": "https://www.legalfutures.co.uk/latest-news/legal-markets-strong-growth-in-2024-set-to-continue-this-year/print/"
+  },
+  {
+   "metric": "Consumer segments (IRN)",
+   "value": "2024: PI/med-neg £4.4bn, employment £3.7bn, family £3.4bn, probate/wills £2.8bn, conveyancing £2.4bn, crime £2.2bn, other £5.9bn. 2025: PI £4.6bn, family £3.6bn, wills/probate £3.0bn, residential conveyancing £2.5bn",
+   "year": "2024/2025",
+   "source": "https://www.legalfutures.co.uk/latest-news/legal-markets-strong-growth-in-2024-set-to-continue-this-year/print/ ; https://todaysconveyancer.co.uk/uk-legal-services-sector-grew-6-1-last-year-residential-conveyancing-worth-2-5bn/"
+  },
+  {
+   "metric": "UK legal activities revenue (TheCityUK, Legal Services 2025 report, Dec 2025)",
+   "value": "£52.3bn (+11%); GVA £38bn (1.5% of UK GVA); employment ~364,000 (2023); trade surplus £8.9bn; 13% of E&W firms are ABSs; top-100 firms turnover >£37bn (2023/24)",
+   "year": 2024,
+   "source": "https://www.thecityuk.com/our-work/uk-legal-services-2025/"
+  },
+  {
+   "metric": "UK legal services exports (Law Society)",
+   "value": "£10.97bn (2025) vs £6.81bn (2021); trade surplus ~£9.6bn",
+   "year": 2025,
+   "source": "https://www.lawgazette.co.uk/news/english-law-booming-as-exports-reach-almost-11bn/5127961.article"
+  },
+  {
+   "metric": "Law Society economic value: sector turnover / GVA",
+   "value": "Turnover £44bn, GVA £34.2bn (2022); +50% over decade",
+   "year": 2022,
+   "source": "https://www.lawsociety.org.uk/contact-or-visit-us/press-office/press-releases/legal-sector-grows-by-50-per-cent-in-the-last-decade"
+  },
+  {
+   "metric": "Solicitors' firms (E&W) turnover (Law Society)",
+   "value": "£34.27bn (+7%)",
+   "year": 2024,
+   "source": "Law Society via lawgazette.co.uk (search result)"
+  },
+  {
+   "metric": "Law Society Financial Benchmarking Survey",
+   "value": "Median practice fee income +11.2% in 2025 (6.1% in 2024); 85% of firms grew",
+   "year": 2025,
+   "source": "https://www.lawsociety.org.uk/contact-or-visit-us/press-office/press-releases/legal-sector-sees-strong-growth-annual-survey-finds"
+  },
+  {
+   "metric": "PwC Strategy& UK legal market",
+   "value": "c.£40bn (2024), ~5.1% CAGR to 2029; consumer ~3% vs corporate ~6%",
+   "year": 2024,
+   "source": "https://www.strategyand.pwc.com/uk/en/reports/uk-legal-services-market-report-2025.pdf"
+  },
+  {
+   "metric": "IBISWorld UK Legal Activities revenue",
+   "value": "£50.4bn (2025 est.); £51.4bn (2026); forecast £53.7bn by 2026-27 (1.3% CAGR); 34,058 businesses",
+   "year": "2025/2026",
+   "source": "https://www.ibisworld.com/united-kingdom/industry/legal-activities/3870/"
+  },
+  {
+   "metric": "Number of SRA-regulated firms (head offices)",
+   "value": "8,923 (Aug 2026); 9,166 (Dec 2024); 9,341 (Dec 2023); 10,056 (Dec 2020); 59% incorporated companies",
+   "year": 2026,
+   "source": "https://www.sra.org.uk/sra/research-publications/regulated-community-statistics/data/solicitor_firms/"
+  },
+  {
+   "metric": "SRA ABS (licensed body) count",
+   "value": "Exact current count not retrieved. TheCityUK: 13% of E&W firms are ABSs (=> ~1,150-1,200 derived from ~9,000 firms). Historical: 402 licences by Apr 2015; 792 at an undated later point (Lexology)",
+   "year": 2025,
+   "source": "https://www.thecityuk.com/our-work/uk-legal-services-2025/ ; https://www.lexology.com/library/detail.aspx?g=b5d2be17-1def-4a0a-9003-cc7d1e7483a3"
+  },
+  {
+   "metric": "ABS regime",
+   "value": "Legal Services Act 2007; SRA began licensing ABSs 2012; non-lawyer ownership/external capital permitted (basis for PE and corporate ownership of law firms, incl. LegalVision Law UK Ltd licence 837339)",
+   "year": 2012,
+   "source": "https://legalservicesboard.org.uk/our-work/work-related-to-previous-years/alternative-business-structures"
+  },
+  {
+   "metric": "Small businesses (E&W) base",
+   "value": "5.5m small businesses (2021); >90% of 5.46m businesses have <50 employees",
+   "year": 2021,
+   "source": "LSB Small Business Legal Needs wave 4 PDF"
+  },
+  {
+   "metric": "LSB Small Business Legal Needs Survey (wave 4, YouGov fieldwork Jul-Sep 2021, published Apr 2022): incidence",
+   "value": "32% experience a legal issue annually (=1.8m businesses, 15.4m issues); trading 21%, regulation 9%, employees 8%, tax 7%; 24% of 1-employee firms vs 48% of 2-9 and 44%+ of 10-49",
+   "year": 2021,
+   "source": "https://legalservicesboard.org.uk/wp-content/uploads/2022/05/20220406-Small-business-legal-needs-FINAL.pdf"
+  },
+  {
+   "metric": "LSB SBLNS: response to legal issue",
+   "value": "25% used professional help as main adviser (28% in 2017); 44-46% sought to resolve entirely alone (53% in 2013); 8% took no action (10% in 2017); 19% asked independent adviser; main advisers: accountants 22%, solicitors 16%, not-for-profit 10%; only 10% view lawyers as cost-effective; 4% used legal expenses insurance; 48% paid for service; fixed price most common pricing (44%); 70% satisfied",
+   "year": 2021,
+   "source": "https://legalservicesboard.org.uk/wp-content/uploads/2022/05/20220406-Small-business-legal-needs-FINAL.pdf"
+  },
+  {
+   "metric": "LSB SBLNS: unmet need (OECD experimental model)",
+   "value": "Of those with an issue, ~12% had an unmet legal need vs 3% met (LSB news/Legal Futures); 'vast majority' of needs requiring professional support are not met; 1-9 employee firms least likely to use professional help",
+   "year": 2021,
+   "source": "https://www.legalfutures.co.uk/latest-news/massive-unmet-legal-need-among-small-businesses-landmark-research-finds ; LSB PDF"
+  },
+  {
+   "metric": "LSB SBLNS: digital",
+   "value": "71% of small businesses did not use the internet for any listed legal task; 54% of legal services delivered by email, 43% phone, 16% in person, 15% video",
+   "year": 2021,
+   "source": "LSB Small Business Legal Needs wave 4 PDF"
+  },
+  {
+   "metric": "Economic cost of SME legal problems (LSB)",
+   "value": "£40bn (2017 survey); separate benchmarking scaled to £100bn; commentary puts unmet SME+consumer demand at up to £11.4bn/yr (2021)",
+   "year": 2017,
+   "source": "https://www.legalfutures.co.uk/latest-news/massive-unmet-legal-need-among-small-businesses-landmark-research-finds ; https://www.artificiallawyer.com/2021/11/03/huge-opportunity-for-sme-focused-legal-tech-report/"
+  },
+  {
+   "metric": "LSB/Law Society Individual Legal Needs Survey 2023 (YouGov, n=17,688, published Apr 2024)",
+   "value": "66% of adults had a legal issue in last 4 years; 52% of those got professional help, 38% no help, 11% non-professional only; unmet need 32% (31% in 2019; corrected from 36%); ~9 in 10 satisfied with adviser",
+   "year": 2023,
+   "source": "https://legalservicesboard.org.uk/news/two-in-three-people-have-legal-problems-but-many-dont-get-professional-help"
+  },
+  {
+   "metric": "PE share of law-firm M&A (IRN)",
+   "value": "31% (19 of 62 deals) in year to Jan 2026; ~25% in year to Mar 2025",
+   "year": 2025,
+   "source": "https://www.legalfutures.co.uk/latest-news/legal-market-to-grow-in-all-areas-as-pe-extends-reach/print/"
+  },
+  {
+   "metric": "PE investment in UK law firms (Acquira data via Law Gazette)",
+   "value": "£250m in 2025 vs £534m in 2024; 15 PE-backed legal deals in 2026 YTD vs 12 in each of 2024 and 2025; no top-100 firm has taken PE since DWF (2023)",
+   "year": 2026,
+   "source": "https://www.lawgazette.co.uk/news/private-equity-bypasses-top-100-in-favour-of-scalable-legal-practices/5126952.article"
+  },
+  {
+   "metric": "Global online legal services market (market-research estimate, low reliability)",
+   "value": "$25.2bn (2025), 14.4% CAGR to $42.0bn (2029)",
+   "year": 2025,
+   "source": "https://www.businesswire.com/news/home/20250303634682/en"
+  },
+  {
+   "metric": "AI adoption - UK solicitors (Clio/Censuswide, 500 solicitors mostly small firms)",
+   "value": "96% firms adopted AI in some way; 56% widespread; uses: drafting 36%, contract review 29%, e-disclosure 20%, research 17%; only 29% say AI saves cost",
+   "year": 2025,
+   "source": "https://www.legalfutures.co.uk/latest-news/small-law-firms-embracing-ai-as-they-move-away-from-hourly-billing"
+  },
+  {
+   "metric": "AI adoption gap (Law Society)",
+   "value": "~75% of largest firms use AI daily vs ~30% of small firms exploring",
+   "year": 2025,
+   "source": "https://todaysfamilylawyer.co.uk/2025/11/12/"
+  },
+  {
+   "metric": "AI adoption - UK SMEs generally (BCC/Atos)",
+   "value": "54% of UK firms actively using AI (Mar 2026) vs 35% (2025)",
+   "year": 2026,
+   "source": "https://www.sopherco.com/industry-news/business-news/archive/article/2025/September/more-smes-unlocking-ai"
+  },
+  {
+   "metric": "AI-referred web traffic to UK law firms",
+   "value": "+310% YoY; overall legal web traffic +2.5% (573 domains)",
+   "year": 2025,
+   "source": "https://byfieldconsultancy.com/wp-content/uploads/2026/05/Top-573-Global-Law-Firms-Share-and-Performance-Report.pdf"
+  }
+ ],
+ "deals": [
+  {
+   "date": "2025-03-11",
+   "target": "LegalVision (AU/NZ/UK subscription law firm)",
+   "acquirer_or_investor": "Quadrant Private Equity (Growth Fund No.3)",
+   "type": "PE",
+   "value": null,
+   "multiple_or_valuation": null,
+   "notes": "Undisclosed stake; fund targets A$50-100m cheques; 4,500+ clients, 30%+ growth; UK filings show Quadrant vehicle QPE Epsilon 1 became ultimate parent",
+   "source": "https://www.quadrantpe.com.au/news-insights/afr-quadrant-private-equity-swoops-on-disruptor-law-firm-legalvision"
+  },
+  {
+   "date": "2024-02 (signed) / 2024-05-31 (closed)",
+   "target": "Marlowe plc GRC software & services division (WorkNest employment law, VinciWorks, Compliance Office)",
+   "acquirer_or_investor": "Inflexion (Buyout Fund VI)",
+   "type": "PE",
+   "value": "£430m EV (cash-free/debt-free)",
+   "multiple_or_valuation": "Division = ~20% of Marlowe revenue and ~40% of adj. EBITDA (Marlowe group ~£500m rev / £90m EBITDA => division ~£100m rev / ~£36m EBITDA, implying ~12x EBITDA - derived)",
+   "notes": "Inflexion legal portfolio also includes DWF, Movera (ONP), aosphere",
+   "source": "https://slaughterandmay.com/recent-work/inflexion-on-its-acquisition-of-grc-software-and-services-assets-from-marlowe-plc-for-430-million/ ; https://www.inflexion.com/news-and-insights/insights/2024/carving-out-opportunity-grc-s-carve-out-from-marlowe-plc/ ; https://www.legalfutures.co.uk/latest-news/law-hungry-pe-house-adds-employment-business-to-portfolio/print/"
+  },
+  {
+   "date": "2020-08",
+   "target": "Citation Group (HR/H&S/employment-law subscription services to SMEs)",
+   "acquirer_or_investor": "KKR (with Hg re-investing for co-control Sep 2020; HarbourVest)",
+   "type": "PE",
+   "value": "Undisclosed; press est. £450-525m",
+   "multiple_or_valuation": "~15x EBITDA on £30-35m EBITDA (Reorg/Octus source); Hg bought from ECI for £185m in 2016",
+   "notes": "Dec 2024 recapitalisation; HgCapital Trust stake valued ~£45.1m",
+   "source": "https://reorg.com/emea-middle-market-kkr-acquires-citation/ ; https://hgcapital.com/insights/hg-announces-kkr-investment-in-the-citation-group"
+  },
+  {
+   "date": "2023-07/10",
+   "target": "DWF Group plc (listed law firm)",
+   "acquirer_or_investor": "Inflexion (Buyout Fund VI)",
+   "type": "PE (take-private)",
+   "value": "£342m equity value (100p/share: 97p cash + 3p dividend)",
+   "multiple_or_valuation": "52.7% premium; FY22 revenue ~£350m => ~1.0x revenue (derived); EBITDA multiple not found",
+   "notes": "First top-100 UK law firm taken private by PE",
+   "source": "https://cityam.com/?p=2020819 ; https://pehub.com/inflexion-makes-take-private-move-for-dwf-group-llcps-law-business-research-in-add-on"
+  },
+  {
+   "date": "2024-10-17",
+   "target": "Farewill (digital wills/probate/funerals)",
+   "acquirer_or_investor": "Dignity (Castelnau/Valderrama)",
+   "type": "M&A",
+   "value": "£12.9m EV (share-for-share)",
+   "multiple_or_valuation": "Farewill had raised ~$39m VC previously - sold well below capital raised",
+   "notes": "Completion subject to FCA approval, expected after 1 Jan 2025",
+   "source": "https://www.investegate.co.uk/announcement/prn/castelnau-group-limited--cgl/dignity-acquires-farewill/8491296"
+  },
+  {
+   "date": "2026-02-05",
+   "target": "Lawhive (AI-native consumer/SME law firm, London)",
+   "acquirer_or_investor": "Series B led by Mitch Rales; TQ Ventures, GV, Balderton, Jigsaw, Anton Levy, LTS",
+   "type": "VC",
+   "value": "$60m (£44m/€50m)",
+   "multiple_or_valuation": "Not disclosed (multiples.vc est. $685m / 19.6x rev - unverified)",
+   "notes": "Revenue >$35m, 7x YoY; ~500 lawyers across 3 regulated firms (2 UK, 1 Arizona); acquired Woodstock Legal Services 2025; prior: $12m seed Apr 2024 (GV, Khosla), $40m Series A Dec 2024 (GV, TQ); total ~$112-114m",
+   "source": "https://finance.yahoo.com/news/exclusive-lawhive-startup-using-ai-080000322.html ; https://www.eu-startups.com/2026/02/uk-legaltech-startup-lawhive-secures-e50-million-to-scale-ai-driven-consumer-law-firm-model/"
+  },
+  {
+   "date": "2021 (Phoenix) / 2016 (BGF); sale process 2026-05",
+   "target": "Setfords (consultant law firm, ~650 lawyers)",
+   "acquirer_or_investor": "Phoenix Equity Partners (replaced BGF 2021); Baird appointed May 2026 to explore sale",
+   "type": "PE",
+   "value": null,
+   "multiple_or_valuation": null,
+   "notes": "Revenue £67.7m FY2024/25 (+35%). NB: no Lonsdale Capital involvement found",
+   "source": "https://www.nonbillable.co.uk/news/setfords-weighs-potential-sale-report-says ; https://legalfutures.co.uk/latest-news/setfords-unveils-second-round-of-private-equity-investment"
+  },
+  {
+   "date": "2021-10-20",
+   "target": "Fletchers Solicitors (serious injury/med-neg)",
+   "acquirer_or_investor": "Sun European Partners (Sun Capital Fund VII)",
+   "type": "PE",
+   "value": null,
+   "multiple_or_valuation": "At entry: revenue ~£34-45m, PBT £5.5m, LTM EBITDA £8.0m",
+   "notes": "Buy-and-build: Scott Rees (Jan 2025), Rayden (Nov 2025), EMG Solicitors & JE Bennett Law (Apr 2026); revenue £69m FY23/24, ~£100m target FY24/25; LTM EBITDA £37.9m at Sep 2025; single-asset continuation vehicle Feb 2026 (Sun reinvested; terms undisclosed)",
+   "source": "https://www.legalfutures.co.uk/latest-news/exclusive-major-private-equity-house-buys-top-100-law-firm/print/ ; https://www.privsource.com/acquisitions/deal/4dSZ8r ; https://www.legalfutures.co.uk/latest-news/pe-backed-injury-giant-unveils-latest-major-acquisition/print/"
+  },
+  {
+   "date": "2024-09-25",
+   "target": "Stowe Family Law",
+   "acquirer_or_investor": "Investcorp (from Livingbridge, which invested >£10m all-equity in 2017)",
+   "type": "PE (secondary)",
+   "value": null,
+   "multiple_or_valuation": "Turnover >£37m FY to Mar 2024 (prior yr ~£25m, profit £2.7m); 2017: £9m rev/£3m profit",
+   "notes": "Staff 44/100 -> ~400; 10 -> 90 locations",
+   "source": "https://www.legalfutures.co.uk/latest-news/private-equity-owner-sells-family-law-giant-to-global-investor/print/"
+  },
+  {
+   "date": "2018 (100% equity) / 2017 (£5m facility)",
+   "target": "Simpson Millar",
+   "acquirer_or_investor": "Doorway Capital / Doorway Holdings (Steve Din)",
+   "type": "PE/credit",
+   "value": "£50m five-year funding commitment; 100% equity taken",
+   "multiple_or_valuation": "Doorway targeted >=25% p.a. return",
+   "notes": "Parent Fairpoint Group plc went into administration",
+   "source": "https://www.legalfutures.co.uk/latest-news/exclusive-simpson-millar-owner-eyes-further-law-firm-investments/print/"
+  },
+  {
+   "date": "2021-2026",
+   "target": "Lawfront (regional consolidator: Fisher Jones Greenwood 2021, Farleys 2022, Nelsons 2023, Slater Heelis May 2024, Brachers Jan 2025, Trethowans May 2025, Field Seymour Parkes 2026)",
+   "acquirer_or_investor": "Blixt Group (PE) - NB not Sovereign Capital",
+   "type": "PE buy-and-build",
+   "value": "Slater Heelis £18.5m (incl. £12.2m cash + ~£6m contingent); Brachers £17.6m upfront / £26.5m total paid; Trethowans £34.2m initial; Alker Ball Healds £3.3m",
+   "multiple_or_valuation": "Brachers ~£20m revenue => ~1.3x revenue (derived)",
+   "notes": "Revenue ~£75m FY Mar 2025 (from £47m), PBT £1.5m; >£130m pro forma after Trethowans; refinancing Jul 2026 nearly doubled facilities (drawn £56m of £65m at YE)",
+   "source": "https://solicitornews.co.uk/accounts-reveal-70m-law-firm-acquisitions/ ; https://www.legalfutures.co.uk/latest-news/pe-backed-group-set-for-further-acquistions-after-refinancing/print/ ; https://www.globallegalpost.com/news/pe-backed-lawfront-scoops-up-sixth-regional-uk-firm-1674091585"
+  },
+  {
+   "date": "2024-07",
+   "target": "Beyond Law Group (Manchester; Beyond Corporate, McAlister Family Law, Home Property Law)",
+   "acquirer_or_investor": "Waterland Private Equity (minority)",
+   "type": "PE",
+   "value": null,
+   "multiple_or_valuation": "Turnover ~£13.8m, profit ~£4m FY Mar 2024",
+   "notes": "Acquired Hawkswell Kilvington Oct 2025 (5th firm); 130+ staff; >£20m revenue expected",
+   "source": "https://www.legalfutures.co.uk/latest-news/law-firm-targets-acquisitions-after-taking-private-equity-backing/print/"
+  },
+  {
+   "date": "2024-11",
+   "target": "FBC Manby Bowdler (via Adeptio Law Group platform)",
+   "acquirer_or_investor": "Horizon Capital (60%; partners 30%; 10% reserved)",
+   "type": "PE",
+   "value": "£30m initial commitment to platform (<half used for FBC)",
+   "multiple_or_valuation": "FBC turnover £16.5m, operating profit £5.7m (FY Mar 2024) => implied <£15m on £5.7m op profit (derived, <2.6x)",
+   "notes": "Targets four regional practices in two years",
+   "source": "https://www.legalfutures.co.uk/latest-news/law-firm-acquired-by-private-equity-aims-to-double-in-size-in-a-year"
+  },
+  {
+   "date": "2025-11",
+   "target": "Express Solicitors (PI, 950 staff)",
+   "acquirer_or_investor": "Ufenau Capital Partners (majority)",
+   "type": "PE",
+   "value": null,
+   "multiple_or_valuation": null,
+   "notes": "Acquired Aegis Legal Apr 2026",
+   "source": "https://www.legalfutures.co.uk/latest-news/major-pe-backed-law-firms-unveil-latest-acquisitions"
+  },
+  {
+   "date": "2025-10-01",
+   "target": "Frenkel Topping Group (AIM; PI/clinical-neg financial & professional services)",
+   "acquirer_or_investor": "Harwood Private Equity (Irwell Financial Services Bidco)",
+   "type": "PE (take-private)",
+   "value": "£65.8m (50p cash + CVR; alt 10p + Bidco shares)",
+   "multiple_or_valuation": "12.9% premium; H1 2025 revenue £20.9m (+17%), recurring £13.4m; Harwood already ~30% holder",
+   "notes": "Scheme of arrangement; completion subject to approvals",
+   "source": "https://financialplanningtoday.co.uk/news/frenkel-topping-accepts-£65-8m-pe-takeover-bid"
+  },
+  {
+   "date": "2025-01/02",
+   "target": "RBG Holdings plc (Rosenblatt, Memery Crystal)",
+   "acquirer_or_investor": "n/a - wind-down; Ian Rosenblatt reclaimed Rosenblatt brand",
+   "type": "Distress",
+   "value": null,
+   "multiple_or_valuation": "Shares 160p peak (2021) -> 0.89p at suspension; 2023 revenue £39.2m, loss £11.4m; Memery Crystal bought 2021 for £30m",
+   "notes": "Failed to appoint administrator; orderly wind-down",
+   "source": "https://www.legalcheek.com/2025/02/listed-legal-business-rbg-to-be-wound-down-after-failing-to-appoint-administrator/"
+  },
+  {
+   "date": "2026-06",
+   "target": "Irwin Mitchell (revenue ~£330m)",
+   "acquirer_or_investor": "Exploring PE investment (Stifel advising) to fix ownership issue (ex-partners hold >50% of holdco)",
+   "type": "PE (prospective)",
+   "value": null,
+   "multiple_or_valuation": null,
+   "notes": "No transaction agreed; firm says no decision made",
+   "source": "https://www.scottishlegal.com/articles/irwin-mitchell-weighs-private-equity-deal-to-resolve-ownership-issue"
+  },
+  {
+   "date": "2023-08-01",
+   "target": "Lawyers On Demand (LOD) + SYKE (Bowmark Capital portfolio)",
+   "acquirer_or_investor": "Consilio (Stone Point / Aquiline)",
+   "type": "M&A",
+   "value": null,
+   "multiple_or_valuation": null,
+   "notes": "4,500+ practitioners, 25 countries; William Blair advised",
+   "source": "https://www.businesswire.com/news/home/20230801815621/en/"
+  },
+  {
+   "date": "2022-01",
+   "target": "Mishcon de Reya IPO",
+   "acquirer_or_investor": "n/a (planned LSE listing)",
+   "type": "IPO (cancelled)",
+   "value": "Expected ~£750m valuation",
+   "multiple_or_valuation": null,
+   "notes": "Postponed Jan 2022, shelved 'for foreseeable future'; ~£11.7m spent on preparation",
+   "source": "https://www.cityam.com/?p=1909937 ; https://www.lawgazette.co.uk/news/mishcon-de-reyas-ipo-shelved-indefinitely/5112714.article"
+  },
+  {
+   "date": "2020-09 / 2021-02",
+   "target": "LawBite (online SME legal platform; subscription ~48% of revenue 2020)",
+   "acquirer_or_investor": "Taylor Vinters (minority equity stake)",
+   "type": "Strategic minority",
+   "value": null,
+   "multiple_or_valuation": null,
+   "notes": "NB: no Markel/LawBite deal found. LawBite's operator Lawbit Ltd later entered administration; SRA shut Lawbriefs Ltd; rescue failed (Law Gazette 2024). Markel's UK legal entry was Abbey Protection/LHS (£116.5m, 9.3x EBITDA, 2013)",
+   "source": "https://www.legalfutures.co.uk/latest-news/law-firm-takes-stake-in-online-legal-services-platform-for-smes ; https://www.lawgazette.co.uk/news-focus/in-depth-lawbites-the-dust-new-breed-law-firm-rescue-bid-fails/5121708.article"
+  },
+  {
+   "date": "2024-10",
+   "target": "Genie AI (contract AI, London)",
+   "acquirer_or_investor": "Series A led by GV with Khosla Ventures",
+   "type": "VC",
+   "value": "$17.8m (£13.3m); total >$20m",
+   "multiple_or_valuation": null,
+   "notes": "",
+   "source": "https://legaltechnology.com/?p=64366"
+  },
+  {
+   "date": "2024-11 (per CB Insights, flagged unreliable)",
+   "target": "Robin AI (contract AI, London)",
+   "acquirer_or_investor": "Series B-II incl. Temasek, PayPal Ventures, Plural, QuantumLight, AFG",
+   "type": "VC",
+   "value": "$51m per CB Insights; total $93.8m",
+   "multiple_or_valuation": null,
+   "notes": "Prior knowledge, NOT verified in this session (web-search budget exhausted) - verify before use - Robin AI's Jan-2024 Series B was widely reported as $26m led by Temasek",
+   "source": "https://www.cbinsights.com/company/robin-ai/financials"
+  },
+  {
+   "date": "2025-2026",
+   "target": "Harvey (legal AI; UK/London office)",
+   "acquirer_or_investor": "Sequoia ($300m at $3bn, Feb 2025); Kleiner/Coatue ($300m at $5bn, Jun 2025); later reported $11bn (Mar 2026) and $500-550m at $15.5bn (Sep 2026)",
+   "type": "VC",
+   "value": "see notes",
+   "multiple_or_valuation": "Revenue reported >$350m at $15.5bn",
+   "notes": "2026 figures from aggregators - verify",
+   "source": "https://techcrunch.com/2025/05/15/harvey-reportedly-in-discussions-to-raise-250m-at-5b-valuation/ ; https://www.pymnts.com/?p=4054083"
+  },
+  {
+   "date": "2025-06",
+   "target": "vLex (legal research/AI)",
+   "acquirer_or_investor": "Clio",
+   "type": "M&A",
+   "value": "~$1bn (reported)",
+   "multiple_or_valuation": "Clio Series F Jul 2024: $900m at $3bn valuation",
+   "notes": "Prior knowledge, NOT verified in this session (web-search budget exhausted) - verify before use",
+   "source": null
+  },
+  {
+   "date": "2025-02",
+   "target": "Luminance (legal AI, Cambridge)",
+   "acquirer_or_investor": "Series C led by Point72 Private Investments",
+   "type": "VC",
+   "value": "~$75m",
+   "multiple_or_valuation": null,
+   "notes": "Prior knowledge, NOT verified in this session (web-search budget exhausted) - verify before use",
+   "source": null
+  },
+  {
+   "date": "2022",
+   "target": "Juro (CLM, London)",
+   "acquirer_or_investor": "Series B led by Eight Roads",
+   "type": "VC",
+   "value": "~$23m",
+   "multiple_or_valuation": null,
+   "notes": "Prior knowledge, NOT verified in this session (web-search budget exhausted) - verify before use",
+   "source": null
+  },
+  {
+   "date": null,
+   "target": "Summize / SeedLegals / Definely / Legl / Juno / Quanta / gunnercooke / Taylor Rose / Slater and Gordon UK / Peninsula Group",
+   "acquirer_or_investor": null,
+   "type": null,
+   "value": null,
+   "multiple_or_valuation": null,
+   "notes": "NOT RESEARCHED - web-search budget exhausted before these could be run. Prior knowledge (unverified): Slater and Gordon UK owned by Anacap-led lenders since 2017 debt-for-equity; Peninsula Group privately held by Peter Done (no PE); SeedLegals raised ~£4m Series A 2020; Definely Series B $30m (Alchemist/Octopus, 2025); gunnercooke took growth investment from Ascend/?? (uncertain). Treat all as gaps.",
+   "source": null
+  },
+  {
+   "date": "2024-2025",
+   "target": "NAHL Group (National Accident Helpline)",
+   "acquirer_or_investor": "Bush & Co divestment process (Sep-Dec 2024); earlier Frenkel Topping reverse-takeover talks terminated 2021",
+   "type": "M&A (asset sale)",
+   "value": null,
+   "multiple_or_valuation": null,
+   "notes": "Outcome of Bush & Co sale not confirmed",
+   "source": "https://sharecast.com/scroll_3/news/aim-bulletin/nahl-group-in-final-discussions-to-sell-bush-co--18370348.html"
+  }
+ ],
+ "listed_comps": [
+  {
+   "company": "Keystone Law Group",
+   "ticker": "AIM:KEYS",
+   "revenue": "£97.7m FY Jan-2025 (+11.1%); H1 FY26 £54.2m (+16.5%); TTM £129.3m (stockanalysis); FY26 mkt exp. >£103.6m (guided ahead)",
+   "revenue_fy": "FY to 31 Jan 2025 / H1 to 31 Jul 2025",
+   "ebitda_margin": "Adj. PBT margin 13.0% (FY25 £12.7m); EBITDA not reported by company; stockanalysis TTM EBITDA £14.3m (~11%)",
+   "market_cap": "£217.3m (691p, 12 Oct 2026)",
+   "ev_revenue": 1.61,
+   "ev_ebitda": 14.11,
+   "source": "https://www.ticker.app/lse/KEYS/rns/2025-05-01/Final-Results/8977G ; https://www.investegate.co.uk/announcement/rns/keystone-law-group--keys/half-year-report-/9124446 ; https://stockanalysis.com/quote/aim/KEYS/statistics/"
+  },
+  {
+   "company": "Knights Group Holdings",
+   "ticker": "AIM:KGH",
+   "revenue": "£207.7m underlying FY Apr-2026 (+28%; organic +7%)",
+   "revenue_fy": "FY to 30 Apr 2026",
+   "ebitda_margin": "Underlying EBITDA £51.5m = 24.8%; underlying PBT £33.2m; reported PBT £10.2m; net debt £65.4m",
+   "market_cap": "£145.1m (170.5p, 12 Oct 2026)",
+   "ev_revenue": 1.26,
+   "ev_ebitda": "6.18 (stockanalysis, on TTM EBITDA £35.7m); ~5.1x on underlying EBITDA £51.5m (derived)",
+   "source": "https://www.lse.co.uk/rns/full-year-results-uf3g0la0kf4txg4.html ; https://stockanalysis.com/quote/aim/KGH/statistics/"
+  },
+  {
+   "company": "Gateley (Holdings)",
+   "ticker": "AIM:GTLY",
+   "revenue": "£194.3m FY Apr-2026 (+8.2%; organic +6.2%); £179.5m FY25",
+   "revenue_fy": "FY to 30 Apr 2026",
+   "ebitda_margin": "Adj. operating margin 11.1% (£21.5m); adj. PBT £21.6m; statutory PBT £7.7m; stockanalysis TTM EBITDA £10.6m; net debt £25.3m; dividend cut 44%",
+   "market_cap": "£98.2m (72.5p, 12 Oct 2026)",
+   "ev_revenue": 0.78,
+   "ev_ebitda": 10.04,
+   "source": "https://kalkine.co.uk/news/industrials/gateley-holdings-plc-lsegtly-full-year-results-analysis ; https://stockanalysis.com/quote/aim/GTLY/statistics/"
+  },
+  {
+   "company": "RBG Holdings",
+   "ticker": "AIM:RBGP (delisted/wound down 2025)",
+   "revenue": "£39.2m FY2023 (-12.6%)",
+   "revenue_fy": "FY Dec 2023",
+   "ebitda_margin": "Loss before tax £11.4m",
+   "market_cap": "n/a - suspended at 0.89p Jan 2025; peak 160p 2021",
+   "ev_revenue": null,
+   "ev_ebitda": null,
+   "source": "https://www.cityam.com/?p=2165956 ; https://www.legalcheek.com/2025/02/listed-legal-business-rbg-to-be-wound-down-after-failing-to-appoint-administrator/"
+  },
+  {
+   "company": "Frenkel Topping Group",
+   "ticker": "AIM:FEN (take-private by Harwood PE agreed Oct 2025)",
+   "revenue": "H1 2025 £20.9m (+17%); recurring £13.4m",
+   "revenue_fy": "H1 to 30 Jun 2025",
+   "ebitda_margin": null,
+   "market_cap": "Offer £65.8m (50p + CVR)",
+   "ev_revenue": "~1.6x on annualised H1 revenue (derived)",
+   "ev_ebitda": null,
+   "source": "https://financialplanningtoday.co.uk/news/frenkel-topping-accepts-£65-8m-pe-takeover-bid"
+  },
+  {
+   "company": "DWF Group (now private)",
+   "ticker": "LSE:DWF (delisted 2023)",
+   "revenue": "~£350m FY2022",
+   "revenue_fy": "FY Apr 2022",
+   "ebitda_margin": null,
+   "market_cap": "£342m take-private equity value",
+   "ev_revenue": "~1.0x (derived)",
+   "ev_ebitda": null,
+   "source": "https://cityam.com/?p=2020819"
+  },
+  {
+   "company": "LegalZoom.com",
+   "ticker": "NASDAQ:LZ",
+   "revenue": "$756.0m FY2025 (+11%); subscription $492.5m (65% of total, +13%); transaction $263.6m; TTM $792.5m; 2026 guide $805-825m",
+   "revenue_fy": "FY Dec 2025",
+   "ebitda_margin": "Adj. EBITDA $172.2m = 23%; net income $15.4m; FCF $147.9m; 1,939k subscription units; ARPU $266; no debt, $203m cash",
+   "market_cap": "$1.04bn (12 Oct 2026)",
+   "ev_revenue": 1.1,
+   "ev_ebitda": "19.6 (GAAP basis, stockanalysis); ~5.1x on adj. EBITDA $172m (derived, EV $885m)",
+   "source": "https://seekingalpha.com/pr/20406677 ; https://stockanalysis.com/stocks/lz/statistics/"
+  },
+  {
+   "company": "Rocket Lawyer (private)",
+   "ticker": null,
+   "revenue": "Not disclosed; third-party estimate ~$63m (low confidence)",
+   "revenue_fy": null,
+   "ebitda_margin": null,
+   "market_cap": "Series E Apr 2021: $223m (Vista Credit Partners) at reported $530m pre-money; PitchBook post-val $646m (Aug 2022); total raised $276-326m (sources conflict)",
+   "ev_revenue": null,
+   "ev_ebitda": null,
+   "source": "https://www.thedailyupside.com/technology/rocket-lawyer-gets-223-million-influx-to-grow-its-online-legal-practice/ ; https://www.startuphub.ai/startups/rocket-lawyer"
+  }
+ ]
+}
