@@ -100,6 +100,33 @@ for occ, vals in (('2611 Advokater', (70200, 47200, 54800, 66000, 80000, 100000)
 r += 1
 ws.cell(r, 1, 'SCB table AM0110A/LoneSpridSektYrk4AN (salaried employees only; equity partners paid via profit shares are not captured). 2611 mean rose from 58,600 (2023) to 70,200 (2025).').font = N
 
+r += 3
+ws.cell(r, 1, 'E2. Published press reporting on partner incomes (firm-level aggregates only; no individuals listed)').font = Font(bold=True, size=11)
+r += 1
+for c, h in enumerate(['Publication', 'Date', 'Income year', 'Measure', 'Firm', 'Firm-level figures reported', 'Notes', 'Source'], 1):
+    x = ws.cell(r, c, h); x.font = H; x.fill = HF; x.alignment = C; x.border = B
+PR = [
+ ['Dagens Juridik (via Realtid)', 'Aug-2026', 'FY2025', 'Proposed dividend (annual report)', 'Mannheimer Swartling', 'Pool SEK 617m (prior 582m); ~SEK 6.8m per partner (92)', 'Lockstep: payout rises with seniority', 'https://www.realtid.se/juridik/vinge-tappar-mark-mannheimer-swartling-drar-ifran/'],
+ ['Dagens Juridik (via Realtid)', 'Aug-2026', 'FY2025', 'Proposed dividend (annual report)', 'Vinge', 'Stockholm SEK 273m to 49 partners (~5.5m each); Malmö 32m to 14 (~2.3m each)', 'Paid to partners\' holding companies; Göteborg not reported', 'https://www.realtid.se/juridik/vinge-tappar-mark-mannheimer-swartling-drar-ifran/'],
+ ['Dagens Juridik (citing DI)', 'Jul-2025', '2020-2023', 'Tax reassessment of employment income', 'Vinge (Göteborg)', '13 partners reassessed by ~SEK 141m in total (~10.8m each over 4 years); ~70m tax + >20m penalties', 'Profits routed to partners\' companies via share buybacks; under appeal', 'https://www.dagensjuridik.se/nyheter/vingeadvokater-upptaxerade-med-140-miljoner/'],
+ ['Dagens Juridik', 'Oct-2026', '2025', 'Revenue per partner (not pay)', 'White & Case (top)', '~SEK 69m revenue per partner', 'Paywalled; others not visible', 'https://www.dagensjuridik.se/nyheter/sa-mycket-drar-delagarna-in-i-snitt-white-case-toppar/'],
+ ['Affärsvärlden', 'Apr-2023 / May-2022', '2022 / 2021', 'Revenue per partner (not pay)', 'White & Case; Roschier; industry', 'W&C SEK 54m (2022), ~42m (2021); Roschier 34-35m; industry average ~13m (2021)', '', 'https://www.affarsvarlden.se/artikel/stor-kartlaggning-av-affarsjuristerna-har-ar-byraerna-som-drar-in-mest'],
+ ['Realtid', '2009-2012', 'FY2008-FY2011', 'Dividend per partner', 'MSA; Vinge; Setterwalls Göteborg', 'MSA ~SEK 2.0-2.6m average; Vinge Stockholm ~2.35m; Setterwalls Gbg ~1.4m', 'Historical context: FY2025 averages are ~2.5-3x higher', 'https://www.realtid.se/bors-finans/vinge-bracker-miljardvallen-igen/'],
+ ['Affärsvärlden', 'Aug-2004', '2002 tax returns + 2003 accounts', 'Taxed income + profit share to holding companies', 'MSA, Hammarskiöld, G&D, White & Case, Cederquist, Vinge, Wistrand', 'Average taxed income SEK 2.1m (135 lawyers). Top-34 ranges: MSA 3.3-5.1m, Hammarskiöld 3.4-5.9m, G&D 3.2-4.7m, W&C 3.0-6.3m, Cederquist 3.4-6.9m. Vinge partners declared ~0.9-1.3m but holding companies received 3.9-9.6m; Wistrand 4.6-6.3m', 'Shows structure effect (lockstep salary vs holding-company dividends)', 'https://www.affarsvarlden.se/artikel/stjarnadvokaternas-miljonloner-6731326'],
+ ['Affärsvärlden', 'Aug-2003', '2001', 'Declared taxed income + profit share', '64 lawyers across firms', 'Average SEK 1.8m; Vinge partners\' holding companies up to ~14-16m vs declared salary ~1.3m', 'Lockstep vs eat-what-you-kill comparison', 'https://www.affarsvarlden.se/artikel/toppadvokaterna-havar-in-miljoner-6750635'],
+]
+for row in PR:
+    r += 1
+    for c, v in enumerate(row, 1):
+        x = ws.cell(r, c, v); x.border = B; x.alignment = W
+r += 2
+for t in [
+    'No Swedish press ranking of business lawyers by taxed income was found for 2020-2026 (recent "best-paid lawyer" lists cover public defenders\' state fees, not business law). DI, Expressen and Aftonbladet could not be checked directly.',
+    'Structure decides what tax records show: lockstep firms (MSA, Setterwalls, Lindahl) pay largely as salary (partners appear at ~SEK 3-7m); firms paying via partner holding companies (e.g. Vinge) show low declared income (~SEK 1-1.5m) while holding companies receive far more.',
+    'Implication: FY2025 average distributions of ~SEK 5.5-7m per partner at the top firms suggest senior partners earn SEK 10m+ (inference, consistent with the 1.4x illustration above).',
+]:
+    ws.cell(r, 1, t).font = N; r += 1
+
 for c, w in zip(range(1, 17), (24, 22, 12, 10, 11, 11, 11, 9, 22, 11, 11, 13, 10, 11, 10, 50)):
     ws.column_dimensions[get_column_letter(c)].width = w
 ws.freeze_panes = 'B5'
