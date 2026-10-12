@@ -36,3 +36,15 @@ The main deliverable is `research/swedish_legal_market.xlsx`. This file summaris
 - **Basis:** profit pool per partner, calculated from annual reports filed with Bolagsverket (read via allabolag.se). Profit before tax plus disclosed board/CEO salaries, divided by partners, gives a proxy for average equity-partner pay before tax. Also shows dividend per partner and an illustrative senior-partner figure (1.4x the average, an assumption). Raw data: `research/data/allabolag_firm_entity_accounts.json`.
 - **Context:** SCB salary distribution for salaried lawyers (SSYK 2611/2614), 2025.
 - **Rebuilding it:** run `python3 research/scripts/build_section_e.py research/swedish_legal_market.xlsx`.
+
+## Section C. Benchmarking (sheet "C. Benchmarking")
+- **Coverage:** the top 30 firms by Affärsvärlden FY2024 fee income, plus Baker McKenzie and Linklaters, which are missing from the revised table. Shows revenue per partner, per employee and per lawyer, two leverage measures (partners / total employees and partners / lawyers), employees per partner, and medians across the 30.
+- **Rebuilding it:** run `python3 research/scripts/build_section_c.py research/swedish_legal_market.xlsx`.
+
+## Section F. M&A & team lifts (sheet "F. M&A & team lifts")
+- **F1:** mergers, acquisitions, PE roll-ups (AGRD), market entries and splits, 2020 to Oct 2026.
+- **F2:** team lifts of 2+ partners or 5+ lawyers.
+- **F3:** notable single-partner moves.
+- **F4:** net partner flow per firm.
+- **F5:** key takeaways.
+- **Rebuilding it:** run `python3 research/scripts/build_section_f.py research/swedish_legal_market.xlsx`.

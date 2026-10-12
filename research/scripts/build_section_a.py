@@ -146,7 +146,7 @@ G = [
     ['MAQS', '+21%', '2024', 'Organic', 'Strong demand in M&A, capital markets and disputes (CEO Katrin Troedsson).', 'https://www.affarsvarlden.se/artikel/vinge-gar-om-msa-sa-gar-det-for-affarsjuristerna'],
     ['', '', '', 'Lateral hire', 'Strategic sustainability hires, e.g. Anna Domander (ex head of legal, Systembolaget); date not given.', 'https://www.affarsvarlden.se/artikel/vinge-gar-om-msa-sa-gar-det-for-affarsjuristerna'],
     ['Vinge', '+19%', '2024', 'Organic', 'Broad client activity and full-service model; accounted for ~25% of total market growth. Then -2% in 2025 ("2024 exceptional").', 'https://www.affarsvarlden.se/artikel/vinge-gar-om-msa-sa-gar-det-for-affarsjuristerna'],
-    ['Gernandt & Danielsson', '+19% / +12%', 'FY23/24 / FY24/25', 'Lateral hire', 'Linklaters Stockholm real estate team: partners Magnus Lidman and Anna Eriksson + 5 associates (dated Jun-24 by Global Legal Post/Legal 500; Afv says early 2025).', 'https://www.affarsvarlden.se/artikel/affarsjuristerna-gar-starkt-finns-fler-bolag-i-ipo-pipelinen'],
+    ['Gernandt & Danielsson', '+19% / +12%', 'FY23/24 / FY24/25', 'Lateral hire', 'Linklaters Stockholm real estate team: partners Magnus Lidman and Anna Eriksson + 5 associates (effective 1 Jun 2024, G&D press release).', 'https://www.affarsvarlden.se/artikel/affarsjuristerna-gar-starkt-finns-fler-bolag-i-ipo-pipelinen'],
     ['', '', '', 'Organic', 'Strong bond and M&A teams.', 'https://www.affarsvarlden.se/artikel/affarsjuristerna-gar-starkt-finns-fler-bolag-i-ipo-pipelinen'],
     ['Cirio', '~+15%', '2025', 'Lateral hire', '12-person real estate and construction team from AG Advokat from Jan-25, incl. partners Johan Lindberg, Johan Rosén, Måns Derk; new construction disputes offering.', 'https://www.realtid.se/juridik/cirio-expanderar-inom-fastighets-och-entreprenadjuridik/'],
     ['', '', '', 'Organic', 'Investment in real estate transactions and insolvency.', 'https://www.realtid.se/juridik/affarsjuridiken-vaxer-men-sprickorna-syns/'],
@@ -159,7 +159,7 @@ table(ws, 4, ['Firm', 'Growth', 'Period', 'Driver', 'Detail', 'Source'], G, [24,
 ws.cell(6 + len(G), 1, 'Market context: 2025 growth came from international transactions, disputes and regulatory work; IPOs were the weakest segment. Firms expect +6.8% in 2026 (Affärsvärlden/Realtid).').font = N
 
 wb.move_sheet('A. Market size', -wb.index(wb['A. Market size']))
-order = ['A. Market size', 'A. Firms', 'A. Growth drivers', 'A. Niche firms', 'B. Practice rankings', 'B. Rankings raw']
+order = ['A. Market size', 'A. Firms', 'A. Growth drivers', 'A. Niche firms', 'B. Practice rankings', 'B. Rankings raw', 'C. Benchmarking', 'D. Rate cards', 'E. Partner compensation', 'F. M&A & team lifts']
 wb._sheets = [wb[n] for n in order if n in wb.sheetnames] + [w for w in wb._sheets if w.title not in order]
 wb.active = 0
 wb.save(path)
