@@ -15,11 +15,11 @@ W = Alignment(wrap_text=True, vertical='top'); C = Alignment(horizontal='center'
 N = Font(italic=True, size=9); grey = PatternFill('solid', fgColor='EDEDED')
 
 ws['A1'] = 'Section C. Benchmarking: top 30 Swedish business law firms (replaces former A. Firms tab)'; ws['A1'].font = Font(bold=True, size=14)
-ws['A2'] = ('Ranking: Affärsvärlden fee income FY2024 (revised table, 3 Oct 2025; split-year firms on FY24/25). Ratios use the latest available revenue '
+ws['A2'] = ('Ranking: Affärsvärlden fee income FY2024; FY2025 revenue from filed company accounts / press where available (revised table, 3 Oct 2025; split-year firms on FY24/25). Ratios use the latest available revenue '
             '(FY2025 where published, else FY2024; basis shown) against current headcount (mostly Oct-2026), so they are indicative. '
             'Leverage (requested) = partners / total employees; partners / lawyers shown alongside. Grey = not available.')
-ws['A2'].alignment = W; ws.merge_cells('A2:R2'); ws.row_dimensions[2].height = 45
-hdr = ['#', 'Firm', 'Afv fee income FY2024', 'Afv FY2023', 'Growth FY24', 'Latest revenue', 'Latest revenue basis', 'Partners', 'Lawyers (incl. partners)',
+ws['A2'].alignment = W; ws.merge_cells('A2:U2'); ws.row_dimensions[2].height = 45
+hdr = ['#', 'Firm', 'Afv fee income FY2024', 'Revenue FY2025', 'YoY FY25 vs FY24 (like-for-like)', 'FY2025 source / coverage', 'Afv FY2023', 'Growth FY24', 'Latest revenue', 'Latest revenue basis', 'Partners', 'Lawyers (incl. partners)',
        'Total employees', 'Headcount source', 'Rev / partner', 'Rev / employee', 'Rev / lawyer', 'Leverage: partners / employees', 'Leverage: partners / lawyers',
        'Employees per partner', 'Notes']
 R = 4
@@ -62,35 +62,76 @@ D = [
  ('n/r', 'Baker McKenzie (Stockholm)', 334, 323, 334, 'FY23/24 (Afv Apr-25; not in revised table)', 12, 73, 125, WEB + '; "~125 professionals" (Mar-26)', 'Would rank ~14'),
  ('n/r', 'Linklaters (Stockholm)', 195, 199, 195, 'FY23/24 (Afv Apr-25; not in revised table)', None, None, 75, 'AB accounts FY24/25', 'AB net sales 376 (basis unclear)'),
 ]
+# FY2025 revenue (SEK m): (FY2025, FY2024 on the same basis, source / coverage). YoY is like-for-like on the same basis.
+FY25 = {
+ 'Vinge': (2036, 2083, 'Group annual reports (DJ via Realtid): full firm'),
+ 'Mannheimer Swartling': (2002, 1916, 'Annual report (AB): full firm'),
+ 'Roschier (Sweden)': (1304, 1254, 'AB accounts FY Jun25-May26 vs FY24/25: full firm'),
+ 'White & Case (Stockholm)': (1108, 859, 'AB accounts: full firm (Stockholm)'),
+ 'Setterwalls': (1056, 996, 'Parent AB accounts (pass-through, incl. Malmö); Afv ">1bn"'),
+ 'Lindahl': (438, 406, 'PARTIAL: Malmö, Stockholm, Göteborg ABs only'),
+ 'Gernandt & Danielsson': (None, None, 'Not filed (KB)'),
+ 'DLA Piper (Sweden)': (None, None, 'Not filed (KB)'),
+ 'CMS Wistrand': (None, None, 'Not filed (KB)'),
+ 'Delphi': (356, 355, 'PARTIAL: Stockholm, Göteborg, Malmö ABs'),
+ 'Cederquist': (555, 500, 'Press snippet (Afv FY2025), unverified; KB not filed'),
+ 'Schjødt (Sweden)': (534, 427, 'Press estimate (Afv: ">0.5bn", +25%)'),
+ 'Cirio': (431, 373, 'AB accounts: full firm'),
+ 'Snellman (Sweden)': (279, 299, 'AB accounts: full firm'),
+ 'Foyen': (172, 164, 'PARTIAL: main Swedish AB'),
+ 'AG Advokat': (None, None, 'Not filed (KB)'),
+ 'Glimstedt': (None, None, 'Not collected (multiple regional ABs)'),
+ 'TM & Partners': (103, 92, 'PARTIAL: TM & Partners Law AB'),
+ 'WSA': (None, None, 'Not collected'),
+ 'Morris Law': (None, None, 'Not collected'),
+ 'Hammarskiöld': (178, 160, 'AB accounts: full firm'),
+ 'Wigge & Partners': (None, None, 'Service AB only (not comparable)'),
+ 'Gulliksson': (None, None, 'Not collected'),
+ 'Eversheds Sutherland': (166, 160, 'AB accounts: full firm'),
+ 'Fylgia': (None, None, 'Not filed (KB)'),
+ 'Kilpatrick Townsend': (None, None, 'Service AB only (not comparable)'),
+ 'Nordia Law': (None, None, 'Not collected'),
+ 'Kaiding': (None, None, 'Not collected'),
+ 'Magnusson (Sweden)': (125, 112, 'AB accounts: full firm'),
+ 'Moll Wendén': (101, 108, 'AB accounts: full firm'),
+ 'Baker McKenzie (Stockholm)': (None, None, 'Not filed (KB)'),
+ 'Linklaters (Stockholm)': (376, 422, 'AB accounts FY May24-Apr25 vs prior year; basis unclear'),
+ 'MAQS': (324, 301, 'MAQS AB accounts (excl. Malmö KB)'),
+}
 r = R
 for d in D:
     r += 1
     rk, firm, fy24, fy23, latest, basis, p, l, e, src, note = d
-    vals = [rk, firm, fy24, fy23, None, latest, basis, p, l, e, src]
+    f25, f24s, f25src = FY25.get(firm, (None, None, 'Not collected'))
+    vals = [rk, firm, fy24, f25, None, f25src, fy23, None, latest, basis, p, l, e, src]
     for c, v in enumerate(vals, 1):
-        x = ws.cell(r, c, v); x.border = B; x.alignment = W if c in (2, 7, 11) else C
-        if c in (3, 4, 6): x.number_format = '#,##0'
-        if c in (8, 9, 10) and v is None: x.fill = grey
-    x = ws.cell(r, 5, f'=C{r}/D{r}-1'); x.number_format = '0%'; x.border = B; x.alignment = C
-    calcs = {12: (p, f'=F{r}/H{r}', '0.0'), 13: (e, f'=F{r}/J{r}', '0.00'), 14: (l, f'=F{r}/I{r}', '0.00'),
-             15: (p and e, f'=H{r}/J{r}', '0%'), 16: (p and l, f'=H{r}/I{r}', '0%'), 17: (p and e, f'=J{r}/H{r}', '0.0')}
+        x = ws.cell(r, c, v); x.border = B; x.alignment = W if c in (2, 6, 10, 14) else C
+        if c in (3, 4, 7, 9): x.number_format = '#,##0'
+        if c in (4, 11, 12, 13) and v is None: x.fill = grey
+        if c == 6 and ('PARTIAL' in f25src or 'Press' in f25src or 'unclear' in f25src): x.fill = PatternFill('solid', fgColor='FFF2CC')
+    x = ws.cell(r, 5); x.border = B; x.alignment = C
+    if f25 and f24s: x.value = f'=D{r}/{f24s}-1'; x.number_format = '+0%;-0%'
+    else: x.fill = grey
+    x = ws.cell(r, 8, f'=C{r}/G{r}-1'); x.number_format = '0%'; x.border = B; x.alignment = C
+    calcs = {15: (p, f'=I{r}/K{r}', '0.0'), 16: (e, f'=I{r}/M{r}', '0.00'), 17: (l, f'=I{r}/L{r}', '0.00'),
+             18: (p and e, f'=K{r}/M{r}', '0%'), 19: (p and l, f'=K{r}/L{r}', '0%'), 20: (p and e, f'=M{r}/K{r}', '0.0')}
     for c, (ok, f, fmt) in calcs.items():
         x = ws.cell(r, c); x.border = B; x.alignment = C
         if ok: x.value = f; x.number_format = fmt
         else: x.fill = grey
-    x = ws.cell(r, 18, note); x.border = B; x.alignment = W
+    x = ws.cell(r, 21, note); x.border = B; x.alignment = W
 last = r
 r += 1
 ws.cell(r, 2, 'Median (top 30)').font = Font(bold=True)
-for c in range(12, 18):
+for c in [5] + list(range(15, 21)):
     col = get_column_letter(c)
     x = ws.cell(r, c, f'=MEDIAN({col}{R+1}:{col}{R+30})'); x.font = Font(bold=True); x.alignment = C
     x.number_format = ws.cell(R + 2, c).number_format
 r += 1
 ws.cell(r, 2, 'Top-30 total fee income FY2024').font = Font(bold=True)
 ws.cell(r, 3, f'=SUM(C{R+1}:C{R+30})').number_format = '#,##0'
-ws.cell(r, 4, f'=SUM(D{R+1}:D{R+30})').number_format = '#,##0'
-ws.cell(r, 5, f'=C{r}/D{r}-1').number_format = '0%'
+ws.cell(r, 7, f'=SUM(G{R+1}:G{R+30})').number_format = '#,##0'
+ws.cell(r, 8, f'=C{r}/G{r}-1').number_format = '0%'
 ws.cell(r + 1, 2, 'Share of Afv panel total (SEK 15,455m)')
 ws.cell(r + 1, 3, f'=C{r}/15455').number_format = '0%'
 ws.cell(r + 2, 2, 'Top-5 share of Afv panel total')
@@ -99,7 +140,7 @@ ws.cell(r + 3, 2, 'Top-10 share of Afv panel total')
 ws.cell(r + 3, 3, f'=SUM(C{R+1}:C{R+10})/15455').number_format = '0%'
 r += 5
 for t in [
-    'Units: SEK m; ratios in SEK m per head. Revenue per partner/employee/lawyer uses "Latest revenue" (column F).',
+    'Units: SEK m; ratios in SEK m per head. Revenue per partner/employee/lawyer uses "Latest revenue" (column I). FY2025 YoY is like-for-like on the same basis (company accounts vs prior-year company accounts; group vs group); yellow = partial entity coverage, press figure or unclear basis. The full Afv FY2025 table is paywalled; limited partnerships (KB) do not file.',
     'Sources: Affärsvärlden 3 Oct 2025 https://www.affarsvarlden.se/artikel/affarsjuristerna-gar-starkt-finns-fler-bolag-i-ipo-pipelinen (FY2024 table) and 12 Apr 2025 (original); '
     'company accounts via allabolag.se (Bolagsverket filings); firm websites (counted Oct-2026); Legal 500 and Chambers Europe 2026 firm-supplied figures.',
     'Gaps: total employees not found for DLA Piper, Cederquist, Schjødt (Sweden), Glimstedt (Sweden only), TM & Partners, Wigge, Fylgia, AG Advokat; partner counts missing for 9 firms. '
@@ -136,7 +177,7 @@ r += 1
 ws.cell(r, 1, 'Reading: Nordic norm ~1,200-1,300 billable hours (70-75% of a ~1,650-1,700 h year); large business-law firms target ~1,400-1,600 h for associates. '
               'No current published targets found for named Nordic firms or for Finland. See the charging rates briefing for international benchmarks (PwC UK, Thomson Reuters).').font = N
 r += 2
-for c, w in zip(range(1, 19), (5, 26, 11, 10, 9, 10, 26, 9, 10, 10, 30, 10, 10, 10, 12, 12, 10, 40)):
+for c, w in zip(range(1, 22), (5, 26, 11, 10, 10, 28, 10, 9, 10, 26, 9, 10, 10, 30, 10, 10, 10, 12, 12, 10, 40)):
     ws.column_dimensions[get_column_letter(c)].width = w
 ws.freeze_panes = 'C5'
 order = ['A. Market size', 'A. Nordic market', 'A. Growth drivers', 'A. Niche firms', 'B. Practice rankings', 'B. Rankings raw', 'B. Top lawyers', 'B. Partner pipeline', 'C. Benchmarking', 'D. Rate cards', 'E. Partner compensation', 'F. M&A & team lifts', 'G. MAQS key data']
