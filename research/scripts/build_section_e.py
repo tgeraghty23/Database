@@ -121,7 +121,7 @@ for row in PR:
         x = ws.cell(r, c, v); x.border = B; x.alignment = W
 r += 2
 for t in [
-    'No Swedish press ranking of business lawyers by taxed income was found for 2020-2026 (recent "best-paid lawyer" lists cover public defenders\' state fees, not business law). DI, Expressen and Aftonbladet could not be checked directly.',
+    'No Swedish press ranking of business lawyers by taxed income was found for 2020-2026. DI, Expressen and Aftonbladet could not be checked directly.',
     'Structure decides what tax records show: lockstep firms (MSA, Setterwalls, Lindahl) pay largely as salary (partners appear at ~SEK 3-7m); firms paying via partner holding companies (e.g. Vinge) show low declared income (~SEK 1-1.5m) while holding companies receive far more.',
     'Implication: FY2025 average distributions of ~SEK 5.5-7m per partner at the top firms suggest senior partners earn SEK 10m+ (inference, consistent with the 1.4x illustration above).',
 ]:

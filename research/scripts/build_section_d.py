@@ -119,7 +119,7 @@ for row in P:
         x = ws.cell(r, c, v); x.border = B; x.alignment = W if c not in (5, 6) else C
         if c in (5, 6): x.number_format = '#,##0'
 r += 1
-ws.cell(r, 1, 'Removed: pre-2023 invoices and court claims (2007-2017), US firms, public-sector and legal-aid data (not relevant to a Nordic business-law investment).').font = N
+ws.cell(r, 1, 'Scope: Nordic business-law firms only, 2023 onwards.').font = N
 r += 2
 
 # ---- D4 benchmarks

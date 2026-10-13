@@ -147,7 +147,7 @@ c.push(H1('5. Revenue per lawyer and implied realised rates (Sweden)'));
 ].forEach(x => c.push(B(...x)));
 
 c.push(H1('5b. Utilisation and realisation'));
-c.push(P('Few Nordic firms publish utilisation; the evidence is mainly industry-level. Three independent Nordic bases point to ~1,200-1,300 billable hours (70-75% of a ~1,650-1,700 hour year), while large business-law firms target more for associates.'));
+c.push(P('Few Nordic business-law firms publish utilisation; the evidence is mainly industry-level. Swedish and Norwegian law-firm surveys point to ~70-72% of working time billed (~1,200-1,300 billable hours), while large business-law firms target ~1,400-1,600 hours for associates.'));
 c.push(table(['Market', 'Metric', 'Value', 'Period', 'Source'], [
   ['Sweden', 'Billable-hour requirement, business-law firms', '1,400-1,600 h p.a.', '2018', 'Advokaten no. 7 2018 (snippet)'],
   ['Sweden', 'Share of worked time billed', 'median just over 70% (range 40-90%)', '2012', 'Advokaten 2012 (snippet)'],

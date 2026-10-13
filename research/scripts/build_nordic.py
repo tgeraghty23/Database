@@ -82,7 +82,7 @@ hdr(r, ['Country', 'Largest firm (revenue)', 'Top-5 revenue', 'Concentration', '
 LF = [
  ['Sweden', 'Vinge SEK 2,036m (2025)', 'Top-5 ~46% of Afv panel (FY2024)', 'Top-10 ~66% of panel', 'SEK 3.1-3.9m (MSA, Vinge, 2025)', 'Partner list SEK 6,000-10,000/h (2025-26)', 'Bar firms lawyer-owned only; route = leave the Bar (AGRD: 9+ firms since 2025); Bar reviewing rules 2026'],
  ['Norway', 'Schjødt NOK 2,498m (2025, consolidated incl. SE/DK/UK)', 'NOK 9.4bn (2025): Schjødt, Wikborg Rein, Thommessen, BAHR, Wiersholm', 'Top-5 ~31% of SSB 69.1 (2024); top-100 NOK 22.2bn', 'NOK 4.7-5.5m (Thommessen, Wiersholm, BAHR, 2025)', 'Blended ~NOK 5,500/h (Wiersholm, court ruling)', 'Lawyers Act 2025: owners must work in the firm, lawyer board majority; passive / PE ownership not permitted for advokat firms'],
- ['Denmark', 'Gorrissen Federspiel DKK 1,311m (2025)', 'Gorrissen, Plesner, Bech-Bruun, Accura, DLA Piper ~DKK 5.5bn (2025)', 'Top-10 ~44% of sector (2022, KFST); est. 47-49% (2025)', 'DKK 2.4-2.55m per FTE (2025)', 'Partner DKK 2,057-5,400/h (2023, mid-market); Kammeradvokat DKK 2,710', 'Law-firm shares only for practising lawyers / staff (BEK 1427/2007); advocates\' court monopoly'],
+ ['Denmark', 'Gorrissen Federspiel DKK 1,311m (2025)', 'Gorrissen, Plesner, Bech-Bruun, Accura, DLA Piper ~DKK 5.5bn (2025)', 'Top-10 ~44% of sector (2022, KFST); est. 47-49% (2025)', 'DKK 2.4-2.55m per FTE (2025)', 'Partner DKK 2,057-5,400/h (2023, mid-market firms)', 'Law-firm shares only for practising lawyers / staff (BEK 1427/2007); advocates\' court monopoly'],
  ['Finland', 'Roschier EUR 99m (FY05/2026)', 'EUR ~349m: Roschier, Krogerus, Hannes Snellman, Borenius, Castrén & Snellman', 'Top-5 ~27% of TOL 691 (2025); top-5 ~55% of top-30', 'EUR 205-384k per staff (top-10)', 'No current survey (2012 median EUR 200/h)', 'Bar firms lawyer-owned; licensed-counsel route gives full rights of audience; Fondia (listed, non-Bar)'],
 ]
 for row in LF:
@@ -95,7 +95,7 @@ hdr(r, ['Country', 'Activity'])
 for row in [
  ['Sweden', 'AGRD (Axcel) roll-up of 9+ firms since Aug-2025 incl. Setterwalls Malmö; CMS-Wistrand (2024); BAHR Stockholm (2026); Schjødt-Hamilton (2020); Magnusson-Gro, Walthon Ramberg (2026); Hannes Snellman split (2024); MAQS split (2027)'],
  ['Norway', 'Schjødt-Hamilton SE (2020), Copenhagen (2022), Norrbom Vinding DK (Mar-2026); BAHR opens Stockholm and Copenhagen (2025-26) after hiring ~18 Schjødt partners; Ræder Bing (2023), Lippestad / Bache-Wiig and Tofte Hald (2024); Cedra buys Big-4 regional law offices (Dec-2025)'],
- ['Denmark', 'HortenDahl merger (Jan-2026); DLA Piper takes 49 from Lundgrens (Mar-2025); Schjødt-Norrbom Vinding (Mar-2026); Kromann Reumert converts to P/S (Nov-2025); proposal to open Kammeradvokat mandate (~DKK 0.7bn) to competition'],
+ ['Denmark', 'HortenDahl merger (Jan-2026); DLA Piper takes 49 from Lundgrens (Mar-2025); Schjødt-Norrbom Vinding (Mar-2026); Kromann Reumert converts to P/S (Nov-2025)'],
  ['Finland', 'Hannes Snellman split (2024); DLA Piper-Project Law (2023); Merilampi-I&O Partners (2025, single source); no PE investment found; Fondia (listed) shrinking'],
 ]:
     r += 1
