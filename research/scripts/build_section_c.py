@@ -14,7 +14,7 @@ thin = Side(style='thin', color='BFBFBF'); B = Border(left=thin, right=thin, top
 W = Alignment(wrap_text=True, vertical='top'); C = Alignment(horizontal='center', vertical='top', wrap_text=True)
 N = Font(italic=True, size=9); grey = PatternFill('solid', fgColor='EDEDED')
 
-ws['A1'] = 'Section C. Benchmarking: top 30 Swedish business law firms'; ws['A1'].font = Font(bold=True, size=14)
+ws['A1'] = 'Section C. Benchmarking: top 30 Swedish business law firms (replaces former A. Firms tab)'; ws['A1'].font = Font(bold=True, size=14)
 ws['A2'] = ('Ranking: Affärsvärlden fee income FY2024 (revised table, 3 Oct 2025; split-year firms on FY24/25). Ratios use the latest available revenue '
             '(FY2025 where published, else FY2024; basis shown) against current headcount (mostly Oct-2026), so they are indicative. '
             'Leverage (requested) = partners / total employees; partners / lawyers shown alongside. Grey = not available.')
@@ -93,7 +93,11 @@ ws.cell(r, 4, f'=SUM(D{R+1}:D{R+30})').number_format = '#,##0'
 ws.cell(r, 5, f'=C{r}/D{r}-1').number_format = '0%'
 ws.cell(r + 1, 2, 'Share of Afv panel total (SEK 15,455m)')
 ws.cell(r + 1, 3, f'=C{r}/15455').number_format = '0%'
-r += 3
+ws.cell(r + 2, 2, 'Top-5 share of Afv panel total')
+ws.cell(r + 2, 3, f'=SUM(C{R+1}:C{R+5})/15455').number_format = '0%'
+ws.cell(r + 3, 2, 'Top-10 share of Afv panel total')
+ws.cell(r + 3, 3, f'=SUM(C{R+1}:C{R+10})/15455').number_format = '0%'
+r += 5
 for t in [
     'Units: SEK m; ratios in SEK m per head. Revenue per partner/employee/lawyer uses "Latest revenue" (column F).',
     'Sources: Affärsvärlden 3 Oct 2025 https://www.affarsvarlden.se/artikel/affarsjuristerna-gar-starkt-finns-fler-bolag-i-ipo-pipelinen (FY2024 table) and 12 Apr 2025 (original); '
@@ -105,7 +109,7 @@ for t in [
 for c, w in zip(range(1, 19), (5, 26, 11, 10, 9, 10, 26, 9, 10, 10, 30, 10, 10, 10, 12, 12, 10, 40)):
     ws.column_dimensions[get_column_letter(c)].width = w
 ws.freeze_panes = 'C5'
-order = ['A. Market size', 'A. Firms', 'A. Growth drivers', 'A. Niche firms', 'B. Practice rankings', 'B. Rankings raw',
+order = ['A. Market size', 'A. Growth drivers', 'A. Niche firms', 'B. Practice rankings', 'B. Rankings raw',
          'C. Benchmarking', 'D. Rate cards', 'E. Partner compensation', 'F. M&A & team lifts']
 wb._sheets = [wb[n] for n in order if n in wb.sheetnames] + [w for w in wb._sheets if w.title not in order]
 wb.save(path)

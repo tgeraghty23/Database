@@ -6,7 +6,7 @@ from openpyxl.utils import get_column_letter
 
 path = sys.argv[1]
 wb = load_workbook(path)
-for n in ('A. Market size', 'A. Firms', 'A. Growth drivers'):
+for n in ('A. Market size', 'A. Growth drivers'):  # 'A. Firms' merged into 'C. Benchmarking'
     if n in wb.sheetnames: del wb[n]
 
 H = Font(bold=True, color='FFFFFF'); HF = PatternFill('solid', fgColor='1F3864')
@@ -51,90 +51,9 @@ for t in ['* New SCB series from 2022 (NV0109P): 2022 onward is not directly com
     ws.cell(r - 1, 1, t).font = N; r += 1
 ws.column_dimensions['B'].width = 40; ws.column_dimensions['C'].width = 20; ws.column_dimensions['D'].width = 24; ws.column_dimensions['E'].width = 20
 
-# ---------------- A. Firms ----------------
-# firm, FY, revenue SEKm, revenue basis, partners, partner src, lawyers, employees, employee src, notes
-F = [
-    ['Vinge', '2025', 2036, 'Group, annual reports (DJ via Realtid)', 71, 'Firm website count, Oct-26 (lawyers incl. ~46 on leave)', 389, 550, 'Website, 2026 (~550)', '-2% y/y; 2024 was a record (2,083-2,085)'],
-    ['Mannheimer Swartling', '2025', 2002, 'Group, annual report (DJ via Realtid)', 92, 'DJ (dividend split), 2025', 430, 650, 'Chambers 2026 / AB 649', '+4%; EBIT SEK 796m; dividend SEK 617m'],
-    ['Roschier (Sweden)', 'FY Jun24-May25', 1254, 'Affärsvärlden Oct-25', 26, 'Firm website count, Oct-26 (Stockholm)', 181, 226, 'Company accounts (AB)', 'FY25/26 net sales 1,304 (220 staff)'],
-    ['White & Case (Stockholm)', '2025', 1108, 'Company accounts, net sales (AB)', 16, 'Implied (est.): DJ ">SEK 69m per partner"', 70, 120, 'Company accounts (AB)', '2024: 859; +29%. AB net sales may include intra-group billing; per-head ratios look high, treat with caution'],
-    ['Setterwalls', '2025', 1000, 'Affärsvärlden (">1bn"); parent AB 1,056', 38, 'Firm website count, Oct-26 (Sthlm + Gbg; Malmö left Sep-26)', 177, 306, 'Sum of 3 entities (AB)', 'Malmö office (SEK 305m) left Sep-26 for AGRD'],
-    ['Lindahl', '2024', 737, 'Affärsvärlden Apr-25', 68, 'Legal 500 (firm-supplied, 2026)', 220, 300, 'Chambers 2026', '2025 entity sum ~635 (est., not comparable)'],
-    ['Gernandt & Danielsson', 'FY24/25', 676, 'Affärsvärlden Oct-25', 20, 'Firm website count, Oct-26', 91, 150, 'Firm website', '+12% (FY23/24: 601)'],
-    ['DLA Piper (Sweden)', 'FY24/25', 602, 'Affärsvärlden Oct-25', 37, 'Firm website count, Oct-26 (profile pages)', 148, None, '', '-9%'],
-    ['CMS Wistrand', '2024', 558, 'Affärsvärlden Apr-25', 51, 'Firm statement (cms.law)', 150, None, '', ''],
-    ['Schjødt (Sweden)', '2025', 534, 'Est.: ">SEK 0.5bn", +25% on 427', 20, 'Firm website count, Oct-26 (may include leavers to BAHR)', 65, None, '', 'Branch, no Swedish accounts; 8 Sthlm partners left for BAHR (2026)'],
-    ['Delphi', '2024', 516, 'Affärsvärlden Apr-25', 49, 'Chambers 2026', 150, 220, 'Firm website', '+2%'],
-    ['Cirio', '2025', 431, 'Company accounts, net sales (AB)', 27, 'Legal 500 (firm-supplied, 2026)', 76, 127, 'Company accounts (AB)', '+15% (Afv); 2024 Afv 363'],
-    ['MAQS', '2024', 417, 'Affärsvärlden Apr-25', 48, 'Firm website count, Oct-26', 144, 180, 'Chambers 2026', '+21%'],
-    ['Baker McKenzie (Stockholm)', 'FY23/24', 334, 'Affärsvärlden Apr-25', 12, 'Firm website count, Oct-26 (+2 principals)', 73, None, '', 'KB, no public accounts'],
-    ['Snellman (Sweden)', '2025', 279, 'Company accounts, net sales (AB)', None, '', None, 107, 'Company accounts (AB)', '2024 Afv 295'],
-    ['Foyen', '2024', 277, 'Affärsvärlden Apr-25', 23, 'Firm website count, Oct-26', 73, 106, 'Company accounts (AB)', ''],
-    ['Glimstedt', '2024', 196, 'Affärsvärlden Apr-25', 41, 'Firm website count, Oct-26 (Sweden)', 78, None, '', '~200 staff on website includes Baltics (not used)'],
-    ['Eversheds Sutherland', '2025', 166, 'Company accounts, net sales (AB)', None, '', None, 59, 'Company accounts (AB)', '2024 Afv 140'],
-    ['Fylgia', '2024', 131, 'Affärsvärlden Apr-25', 21, 'Firm website count, Oct-26', 35, None, '', 'Record 2025 (firm)'],
-    ['Westerberg & Partners', '2025', 107, 'Company accounts, net sales (AB)', 12, 'Firm website count, Oct-26', 24, 35, 'Company accounts (AB)', ''],
-    ['Moll Wendén', '2025', 101, 'Company accounts, net sales (AB)', 8, 'Firm website count, Oct-26', 37, 44, 'Company accounts (AB)', ''],
-    ['Born', '2024', 86, 'Affärsvärlden Apr-25', 9, 'Firm website count, Oct-26', 26, None, '', 'Part of AGRD since 2025'],
-    ['Harvest', '2025', 82, 'Company accounts, net sales (AB)', 5, 'Firm website count, Oct-26', 27, 27, 'Company accounts (AB)', ''],
-    ['Synch', '2025', 81, 'Company accounts, net sales (AB)', 9, 'Firm website count, Oct-26', 38, 38, 'Company accounts (AB)', 'Part of AGRD since 2025'],
-    ['Kastell', '2025', 80, 'Company accounts, net sales (AB)', 9, 'Firm website count, Oct-26', 18, 21, 'Company accounts (AB)', ''],
-]
-F.sort(key=lambda x: -x[2])
-ws = wb.create_sheet('A. Firms', 1)
-ws['A1'] = 'A3. Concentration: largest Swedish business law firms ranked by latest revenue'; ws['A1'].font = T
-ws['A2'] = ('Revenue = latest available year per firm (SEK m). Affärsvärlden figures are fee income; company accounts (AB) are net sales of the main legal entity and are not '
-            'strictly comparable. Partners and lawyers mostly firm-supplied to Chambers (2026). Employees = headcount, used as a proxy for FTEs (no FTE data is published); '
-            'AB headcounts usually exclude partners who bill via own companies. Ratios are calculated only where both inputs exist. Grey = not found.')
-ws['A2'].alignment = WRAP; ws.merge_cells('A2:O2'); ws.row_dimensions[2].height = 55
-hdr = ['#', 'Firm', 'FY', 'Revenue SEK m', 'Revenue basis', 'Partners', 'Partner source', 'Lawyers', 'Employees (FTE proxy)', 'Employee source',
-       'Rev / partner SEK m', 'Rev / employee SEK m', 'Rev / lawyer SEK m', 'Leverage (partners / lawyers)', 'Notes']
-R = 4
-for c, h in enumerate(hdr, 1):
-    x = ws.cell(R, c, h); x.font = H; x.fill = HF; x.alignment = Alignment(wrap_text=True, vertical='center', horizontal='center'); x.border = BOX
-grey = PatternFill('solid', fgColor='EDEDED')
-for i, f in enumerate(F, 1):
-    r = R + i
-    vals = [i, f[0], f[1], f[2], f[3], f[4], f[5], f[6], f[7], f[8]]
-    for c, v in enumerate(vals, 1):
-        x = ws.cell(r, c, v); x.border = BOX; x.alignment = Alignment(vertical='top', wrap_text=c in (5, 7, 10))
-        if v in (None, '') and c in (6, 8, 9): x.fill = grey
-    ws.cell(r, 4).number_format = '#,##0'
-    for c, num in ((11, 'F'), (12, 'I'), (13, 'H')):
-        x = ws.cell(r, c); x.border = BOX
-        if ws[f'{num}{r}'].value:
-            x.value = f'=D{r}/{num}{r}'; x.number_format = '0.0'
-        else:
-            x.fill = grey
-    x = ws.cell(r, 14); x.border = BOX
-    if f[4] and f[6]:
-        x.value = f'=F{r}/H{r}'; x.number_format = '0%'
-    else:
-        x.fill = grey
-    x = ws.cell(r, 15, f[9]); x.border = BOX; x.alignment = WRAP
-last = R + len(F)
-r = last + 1
-ws.cell(r, 2, 'Total shown').font = Font(bold=True); ws.cell(r, 4, f'=SUM(D{R+1}:D{last})').number_format = '#,##0'
-ws.cell(r + 1, 2, 'Top 5 share of ~SEK 16bn panel (indicative, mixed years/bases)'); ws.cell(r + 1, 4, f'=SUM(D{R+1}:D{R+5})/16000').number_format = '0%'
-ws.cell(r + 2, 2, 'Top 10 share of ~SEK 16bn panel (indicative)'); ws.cell(r + 2, 4, f'=SUM(D{R+1}:D{R+10})/16000').number_format = '0%'
-notes = [
-    'Caveats: headcounts are current (mostly counted on firm websites, Oct-26) while revenue is FY2024/25, so ratios are indicative. White & Case partners are implied from Dagens Juridik ">SEK 69m per partner" (paywalled).',
-    'Leverage = partners / lawyers (lawyer counts as supplied to Chambers include partners); shown only where both counts exist. White & Case uses the implied partner count.',
-    'Setterwalls: 2025 revenue includes the Malmö office (~SEK 305m) but headcount excludes it (left Sep-26), so per-head ratios are overstated. Snellman, Eversheds and White & Case: no reliable partner count found. Magnusson (Sweden, Oct-26): 13 partners / ~47 lawyers, no current revenue found.',
-    'Sources: Affärsvärlden 12-Apr-25 https://www.affarsvarlden.se/artikel/vinge-gar-om-msa-sa-gar-det-for-affarsjuristerna ; 3-Oct-25 https://www.affarsvarlden.se/artikel/affarsjuristerna-gar-starkt-finns-fler-bolag-i-ipo-pipelinen ;',
-    'Realtid 7-Aug-26 https://www.realtid.se/juridik/vinge-tappar-mark-mannheimer-swartling-drar-ifran/ ; Realtid 26-Apr-26 https://www.realtid.se/juridik/affarsjuridiken-vaxer-men-sprickorna-syns/ ; Realtid 27-Nov-25 https://www.realtid.se/juridik/white-case-dubblade-omsattningen-var-styrka/ ;',
-    'Realtid 1-Sep-26 https://www.realtid.se/juridik/setterwalls-malmokontor-gar-till-riskkapitalagda-agrd/ ; Affärsvärlden 5-Oct-26 (Schjødt) https://www.affarsvarlden.se/artikel/schjdt-vaxer-snabbast--men-konkurrensen-hardnar ;',
-    'company accounts via https://www.allabolag.se/{org.nr} ; Chambers Europe 2026 firm profiles (firm-supplied "top figures"); firm websites.',
-]
-for k, t in enumerate(notes):
-    ws.cell(r + 4 + k, 1, t).font = N
-for c, w in zip(range(1, 16), (4, 26, 13, 11, 30, 9, 30, 9, 11, 24, 10, 10, 10, 11, 40)):
-    ws.column_dimensions[get_column_letter(c)].width = w
-ws.freeze_panes = 'C5'
-
 # ---------------- A. Growth drivers ----------------
-ws = wb.create_sheet('A. Growth drivers', 2)
-ws['A1'] = 'A4. Fastest growers and growth drivers'; ws['A1'].font = T
+ws = wb.create_sheet('A. Growth drivers', 1)
+ws['A1'] = 'A3. Fastest growers and growth drivers'; ws['A1'].font = T
 ws['A2'] = 'Driver tags: Lateral hire / M&A / New office / Organic. Only drivers found in a cited source are listed.'; ws['A2'].font = N
 G = [
     ['Carthiel', '+155%', '2024', 'M&A', 'Merged with Grey Advokatbyrå (operating from Feb-2024), adding a disputes team. Small base (~10 people).', 'https://www.carthiel.se/post/advokatfirman-carthiel-g%C3%A5r-ihop-med-grey-advokatbyr%C3%A5'],
@@ -159,7 +78,7 @@ table(ws, 4, ['Firm', 'Growth', 'Period', 'Driver', 'Detail', 'Source'], G, [24,
 ws.cell(6 + len(G), 1, 'Market context: 2025 growth came from international transactions, disputes and regulatory work; IPOs were the weakest segment. Firms expect +6.8% in 2026 (Affärsvärlden/Realtid).').font = N
 
 wb.move_sheet('A. Market size', -wb.index(wb['A. Market size']))
-order = ['A. Market size', 'A. Firms', 'A. Growth drivers', 'A. Niche firms', 'B. Practice rankings', 'B. Rankings raw', 'C. Benchmarking', 'D. Rate cards', 'E. Partner compensation', 'F. M&A & team lifts']
+order = ['A. Market size', 'A. Growth drivers', 'A. Niche firms', 'B. Practice rankings', 'B. Rankings raw', 'C. Benchmarking', 'D. Rate cards', 'E. Partner compensation', 'F. M&A & team lifts']
 wb._sheets = [wb[n] for n in order if n in wb.sheetnames] + [w for w in wb._sheets if w.title not in order]
 wb.active = 0
 wb.save(path)

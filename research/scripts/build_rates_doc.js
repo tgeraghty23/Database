@@ -44,6 +44,9 @@ const U = {
   uk: 'https://www.legalcheek.com/2025/04/the-2000-per-hour-solicitor',
   legora: 'https://www.legaltechmonitor.com/2026/04/legora-raises-50m-series-d-extension-atlassian-and-nvidia-fund-join-as-investors/',
   skatt: 'https://www.xn--skattertt-12a.se/byra/vinge-skatt/',
+  dist: 'https://www.realtid.se/juridik/vinge-tappar-mark-mannheimer-swartling-drar-ifran/',
+  nv: 'https://www.affarsvarlden.se/artikel/sa-dyrt-blev-northvolts-raddningsforsok-i-usa-debiteras-47-000-timmar',
+  lulea: 'https://www.realtid.se/juridik/ratten-om-timarvoden-4-000-kronor-i-timmen-ar-ok/',
 };
 const c = [];
 c.push(new Paragraph({ spacing: { after: 60 }, children: [run('Charging rates in Nordic business law', { bold: true, size: 40, color: '1F3864' })] }));
@@ -83,6 +86,24 @@ c.push(H2('Market commentary on Nordic rate levels'));
  ['Norway: commercial litigation rates that were ~NOK 3,000/h have "doubled in a short time" according to the Norwegian Government Attorney.', '2026', `${RT}, 5 Jun 2026`, U.noreg],
 ].forEach(x => c.push(B(...x)));
 
+c.push(H2('Top-firm economics: profit distribution, rates and leverage (Vinge and Mannheimer Swartling)'));
+c.push(P('Based on Realtid\'s interview series with Olle Flygt (advokat with three decades at Vinge and Mannheimer Swartling), published 1 April 2026, supplemented with FY2025 annual-report data:'));
+[
+ ['Business model: "hours times price". A partner bills SEK 7,000–9,000/h; beneath each partner sit three to five associates billing ~SEK 3,000/h who "cost at most a third" of that. The result is "a very efficient billing machine" that takes firms such as Roschier, Vinge and Mannheimer Swartling to SEK 1bn+ revenue.', '2026', `${RT}, 1 Apr 2026`, U.flygt],
+ ['Leverage: "It is built on leverage. The more people under you, the better." And: "the bigger you make the matters, the bigger the invoices."', '2026', `${RT}, 1 Apr 2026`, U.flygt],
+ ['Profit distribution differs: Vinge rewards the individual partner\'s importance and contribution; Mannheimer Swartling shares profit equally (lockstep) with a deduction for junior partners. Some partners could switch firm and earn double, but it rarely happens; the two firms watch each other closely.', '2026', `${RT}, 1 Apr 2026`, U.flygt],
+ ['Profit distributed (FY2025): Mannheimer Swartling proposed SEK 617m (up from 582m), ~SEK 6.8m per partner across 92 partners; Vinge Stockholm SEK 273m (down from 286m), ~SEK 5.5m each across 49 partners; Vinge Malmö SEK 32m to 14 partners.', 'FY2025', `${RT} (Dagens Juridik), 7 Aug 2026`, U.dist],
+ ['Ownership: law firms can only be owned by their partners (no listing, unlike e.g. EQT), which brings privileges such as protection from police searches and confidentiality, and makes profit distribution central.', '2026', `${RT}, 1 Apr 2026`, U.flygt],
+ ['Conflict: "There is a conflict between the law firm\'s demand for high profitability and what is the best advice." Flygt calls big firms a "golden cage", financially attractive but hard to leave.', '2026', `${RT}, 1 Apr and 26 Apr 2026`, U.flygt2],
+].forEach(x => c.push(B(...x)));
+c.push(P([run('Illustrative leverage economics: ', { bold: true }), run('an associate billing SEK 3,000/h at a cost of at most ~SEK 1,000/h contributes ≥SEK 2,000 per billed hour; at 1,400–1,600 billed hours that is ~SEK 2.8–3.2m per associate per year, or ~SEK 8–16m per partner with three to five associates, before overheads. This is why leverage (and its exposure to AI, see section 4) drives partner profit.')]));
+c.push(H2('Realised rates, 2023 onwards'));
+[
+ ['Mannheimer Swartling\'s realised blended rate on the Northvolt restructuring was ~SEK 4,000/h (~6,000 hours, SEK 32m), the lowest of all advisers; this compares with list partner rates of SEK 6,000–10,000/h and illustrates the gap between list and realised rates.', 'Nov 2024 – Mar 2025', `${AV}, 2 May 2025`, U.nv],
+ ['Luleå tingsrätt held SEK 4,000/h reasonable for law-firm counsel in a cost ruling.', 'Apr 2026', `${RT}, 25 Apr 2026`, U.lulea],
+].forEach(x => c.push(B(...x)));
+c.push(P('Both points sit close to the ~SEK 2,600–2,950/h blended realised rate implied by industry fee income per lawyer (section 5), suggesting realised blended rates of roughly SEK 3,000–4,000/h at top firms.'));
+
 c.push(H1('2. Nordic rate trends and client pushback'));
 [
  ['Affärsvärlden: market growth 8.4% and operating margin 13.5% while lawyer headcount grew only 3.7%; firms are "better at charging".', '2024', `${AV}, 5 Oct 2024`, U.av24],
@@ -112,7 +133,7 @@ c.push(H2('4.1 Impact on the business model'));
 ].forEach(x => c.push(B(...x)));
 c.push(H2('4.2 Impact on pricing and charging rates'));
 [
- ['Delphi (Agnes Hammarstrand): AI efficiency pushes senior hourly rates up as routine junior hours disappear; Delphi favours fixed monthly subscription arrangements over hourly billing.', '2026', `${RT}, 15 Apr 2026`, U.delphi],
+ ['Delphi (Agnes Hammarstrand): "Colleagues tell me that what we did in a working day now takes five minutes. So how do we charge?" She argues hourly billing is "almost an outdated way to charge", favours fixed monthly subscriptions, and sees AI efficiency pushing senior rates up as junior hours disappear.', '2026', `${RT}, 15 Apr 2026`, U.delphi],
  ['Baker McKenzie (which has a Stockholm office) has made a "strategic decision to largely abandon the billable-hour model".', '2026', `${RT}, 15 Apr 2026`, U.delphi],
  ['Client expectation of AI-driven fee reductions is international, not yet Nordic-specific: in a European/US GC survey, 79% say AI should lower fees, 84% have seen no reduction and 72% believe firms keep the savings.', '2026', `${RT}, 3 Oct 2026`, U.aidisc],
  ['No Nordic client or bank has publicly demanded explicit "AI discounts" yet (US banks have; see section 6).', 'Oct 2026', `${RT}, 1 Sep 2026`, U.banks],
