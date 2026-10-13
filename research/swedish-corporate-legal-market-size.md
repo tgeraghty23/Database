@@ -55,3 +55,7 @@ The main deliverable is `research/swedish_legal_market.xlsx`. This file summaris
 ## Section B3. Top lawyers (sheet "B. Top lawyers")
 - **Contents:** individually ranked lawyers in Corporate / M&A, Private equity, Banking & finance and Dispute resolution. Includes Chambers Europe 2026 Bands 1-3 and Legal 500's Hall of Fame, Leading partners and Next Generation Partners, with a summary count per firm.
 - **Rebuilding it:** run `python3 research/scripts/build_lawyers.py research/swedish_legal_market.xlsx`.
+
+## Section B4. Partner pipeline (sheet "B. Partner pipeline")
+- **Contents:** a lateral-hire long list of 172 ranked lawyers in Corporate / M&A, Private equity, Banking & finance and Dispute resolution. Each is scored on firm pressure, career stage, seniority, affordability against MAQS economics and mover history, then prioritised A / B / C, with an approach angle for each.
+- **Rebuilding it:** run `python3 research/scripts/build_pipeline.py research/swedish_legal_market.xlsx`.

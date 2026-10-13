@@ -22,7 +22,7 @@ CANON = {
     'Wigge': 'Wigge & Partners', 'Wigge & Partners': 'Wigge & Partners', 'Advokatfirman Fylgia KB': 'Fylgia',
     'Advokatfirman Kahn Pedersen': 'Kahn Pedersen', 'Advokatfirman Kahn Pedersen KB': 'Kahn Pedersen',
     'BOKWALL RISLUND Advisors': 'Bokwall Rislund', 'BOKWALL RISLUND': 'Bokwall Rislund',
-    'Sandart & Partners': 'Sandart & Partners', 'Sandart&Partners Advokatbyrå KB': 'Sandart & Partners',
+    'Setterwalls Advokatbyrå': 'Setterwalls', 'Sandart & Partners': 'Sandart & Partners', 'Sandart&Partners Advokatbyrå KB': 'Sandart & Partners',
     'Westerberg & Partners': 'Westerberg & Partners', 'Kastell Advokatbyrå': 'Kastell', 'Kastell Advokatbyrå AB': 'Kastell',
     'Morris Law AB': 'Morris Law', 'Morris Law': 'Morris Law', 'Next Law KB': 'Next Law', 'RE:FI STHLM': 'RE:FI STHLM',
     'Fröberg & Lundholm Advokatbyrå': 'Fröberg & Lundholm', 'Norburg & Scherp Advokatbyrå': 'Norburg & Scherp', 'Norburg & Scherp': 'Norburg & Scherp',
