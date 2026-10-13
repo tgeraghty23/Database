@@ -106,11 +106,40 @@ for t in [
     'Limited partnerships (KB) file no public accounts.',
 ]:
     ws.cell(r, 1, t).font = N; r += 1
+r += 1
+ws.cell(r, 1, 'C2. Utilisation benchmarks: billable-hour targets and Nordic norms').font = Font(bold=True, size=12)
+r += 1
+for c, h in enumerate(['', 'Firm / basis', 'Metric', '', '', 'Value', 'Period', 'Reliability / source'], 1):
+    x = ws.cell(r, c, h); x.font = H; x.fill = HF; x.alignment = C; x.border = B
+UT = [
+    ('Vinge', 'Associate billable-hour target', '1,500 h (incl. 100 h qualifying internal)', 'c.2012-14', 'Indicative: anonymous crowd-sourced table (juristlon.wordpress.com, 2014)'),
+    ('Mannheimer Swartling', 'Associate billable-hour target', '1,500 h (none in year 1)', 'c.2012-14', 'Indicative: as above'),
+    ('Cederquist', 'Bonus ladder', '0.75 month at 1,500 h up to 4.25 months at 1,800 h', 'c.2012-14', 'Indicative: as above'),
+    ('White & Case (Stockholm)', 'Associate billable-hour target', '1,700 h', 'c.2012-14', 'Indicative: as above'),
+    ('Lindahl', 'Associate billable-hour target', '1,350 h (up to 200 h internal); bonus from 1,450 h', 'c.2012-14', 'Indicative: as above'),
+    ('Fylgia', 'Target / bonus', '1,400 h; bonus at 1,400 / 1,500 h', 'c.2012-14', 'Indicative: as above'),
+    ('Delphi', 'Bonus threshold', '1,500 h', 'c.2012-14', 'Indicative: as above'),
+    ('Baker McKenzie (Stockholm)', 'Bonus threshold', 'from 1,400 billed h', 'c.2012-14', 'Indicative: as above'),
+    ('Bird & Bird (Stockholm)', 'Ramp-up target', '1,000 / 1,200 / 1,450 h (years 1 / 2 / 3+)', '2007', 'Indicative: as above'),
+    ('Swedish business-law firms', 'Billable-hour requirement', '1,400-1,600 h p.a.', '2018', 'Advokaten no. 7 2018 (snippet)'),
+    ('Swedish law firms', 'Share of worked time billed', '40-90%, median just over 70%', '2012', 'Advokaten 2012 (snippet)'),
+    ('Norwegian law firms', 'Billing rate (faktureringsgrad)', 'just over 72% (~1,220 h on 1,695 h)', '2016', 'Advokatforeningen industry survey (memo Sep-2017)'),
+    ('Norwegian associates', 'Actual vs contracted hours', '46 h/week actual (48 h at 50+ lawyer firms) vs 39 h contracted; 27% under-record hours', 'Nov-2025', 'Juristforbundet survey (n=279)'),
+    ('Danish associates / lawyers', 'Fixed billable-hour requirement', '54% / 55% have one; 47 / 46 h worked per week', '2018', 'Djøf Advokat survey'),
+]
+for firm, metric, val, per, src in UT:
+    r += 1
+    for c, v in ((2, firm), (3, metric), (6, val), (7, per), (8, src)):
+        x = ws.cell(r, c, v); x.border = B; x.alignment = W
+    ws.merge_cells(start_row=r, start_column=3, end_row=r, end_column=5)
+r += 1
+ws.cell(r, 1, 'Reading: Nordic norm ~1,200-1,300 billable hours (70-75% of a ~1,650-1,700 h year); large business-law firms target ~1,400-1,600 h for associates. '
+              'No current published targets found for named Nordic firms or for Finland. See the charging rates briefing for international benchmarks (PwC UK, Thomson Reuters).').font = N
+r += 2
 for c, w in zip(range(1, 19), (5, 26, 11, 10, 9, 10, 26, 9, 10, 10, 30, 10, 10, 10, 12, 12, 10, 40)):
     ws.column_dimensions[get_column_letter(c)].width = w
 ws.freeze_panes = 'C5'
-order = ['A. Market size', 'A. Growth drivers', 'A. Niche firms', 'B. Practice rankings', 'B. Rankings raw',
-         'C. Benchmarking', 'D. Rate cards', 'E. Partner compensation', 'F. M&A & team lifts']
+order = ['A. Market size', 'A. Nordic market', 'A. Growth drivers', 'A. Niche firms', 'B. Practice rankings', 'B. Rankings raw', 'B. Top lawyers', 'B. Partner pipeline', 'C. Benchmarking', 'D. Rate cards', 'E. Partner compensation', 'F. M&A & team lifts', 'G. MAQS key data']
 wb._sheets = [wb[n] for n in order if n in wb.sheetnames] + [w for w in wb._sheets if w.title not in order]
 wb.save(path)
 print('ok', wb.sheetnames)

@@ -107,8 +107,7 @@ for t in ['Sources: SCB; SSB tables 08206 / 12817; Danmarks Statistik GF11 / REG
     ws.cell(r, 1, t).font = N; r += 1
 for c, w in zip(range(1, 9), (34, 30, 28, 28, 24, 30, 50, 34)):
     ws.column_dimensions[get_column_letter(c)].width = w
-order = ['A. Market size', 'A. Nordic market', 'A. Growth drivers', 'A. Niche firms', 'B. Practice rankings', 'B. Rankings raw', 'B. Top lawyers', 'B. Partner pipeline',
-         'C. Benchmarking', 'D. Rate cards', 'E. Partner compensation', 'F. M&A & team lifts', 'G. MAQS key data']
+order = ['A. Market size', 'A. Nordic market', 'A. Growth drivers', 'A. Niche firms', 'B. Practice rankings', 'B. Rankings raw', 'B. Top lawyers', 'B. Partner pipeline', 'C. Benchmarking', 'D. Rate cards', 'E. Partner compensation', 'F. M&A & team lifts', 'G. MAQS key data']
 wb._sheets = [wb[n] for n in order if n in wb.sheetnames] + [w for w in wb._sheets if w.title not in order]
 wb.save(path)
 print('ok', wb.sheetnames)

@@ -146,6 +146,26 @@ c.push(H1('5. Revenue per lawyer and implied realised rates (Sweden)'));
  ['Illustrative: SEK 4.13m per lawyer implies a blended realised rate of ~SEK 2,580/h at 1,600 billable hours or ~SEK 2,950/h at 1,400 hours, well below list rates, reflecting leverage, write-offs and discounts. Notably close to the MAQS sell-side associate rate.', '2024', 'Calculation', ''],
 ].forEach(x => c.push(B(...x)));
 
+c.push(H1('5b. Utilisation and realisation'));
+c.push(P('Few Nordic firms publish utilisation; the evidence is mainly industry-level. Three independent Nordic bases point to ~1,200-1,300 billable hours (70-75% of a ~1,650-1,700 hour year), while large business-law firms target more for associates.'));
+c.push(table(['Market', 'Metric', 'Value', 'Period', 'Source'], [
+  ['Sweden', 'Billable-hour requirement, business-law firms', '1,400-1,600 h p.a.', '2018', 'Advokaten no. 7 2018 (snippet)'],
+  ['Sweden', 'Share of worked time billed', 'median just over 70% (range 40-90%)', '2012', 'Advokaten 2012 (snippet)'],
+  ['Sweden', 'Associate targets at named firms', '1,350-1,700 h (Vinge, MSA 1,500; W&C 1,700; Lindahl 1,350); bonus ladders 1,400-1,800 h', 'c.2012-14', 'Anonymous crowd-sourced table (indicative)'],
+  ['Norway', 'Billing rate (faktureringsgrad)', 'just over 72% (~1,220 h)', '2016', 'Advokatforeningen survey'],
+  ['Norway', 'Associate hours', '46 h/week actual vs 39 h contracted; 27% under-record', 'Nov-2025', 'Juristforbundet survey'],
+  ['Denmark', 'Billable requirement / hours', '54-55% have a fixed requirement; 46-47 h/week; associate hours down from 48.3 to 44.9 h/week over 10 years', '2018 / 2026', 'Djøf Advokat'],
+  ['Finland', 'Utilisation', 'no public data found', '', ''],
+], [1000, 2300, 2900, 900, 1926]));
+c.push(P(''));
+c.push(H2('International benchmarks (context)'));
+[
+ ['UK top-10 firms: chargeable hours of 1,433-1,521 for associates (NQ to 5 PQE), 1,375 for 9+ PQE and 1,125 for full equity partners; senior grades down 8-9% year on year. Top 51-100 firms: ~800-1,130 h.', 'FY2025', 'PwC UK Law Firms\' Survey, Oct 2025', ''],
+ ['UK: 36% of top-100 firms write off 15%+ of fee income; lock-up 135-145 days; firms expect AI to cut chargeable time by ~16%.', 'FY2025', 'PwC UK Law Firms\' Survey', ''],
+ ['US: collected realisation ~90% of worked rates (associates 85.6%); hours per lawyer flat (~1,589); growth driven by rates (+7.1% worked rates, Q4 2025).', '2025', 'Thomson Reuters; Wells Fargo LSG', ''],
+].forEach(x => c.push(B(...x)));
+c.push(P([run('Implications: ', { bold: true }), run('model ~1,200-1,300 billable hours as the Nordic norm and a further ~10-15% realisation haircut; utilisation is unlikely to be the main margin lever (AI and hour scrutiny cap it), so rates, leverage and alternative pricing matter more. Recorded hours understate actual effort (Norway, Denmark surveys).')]));
+
 c.push(H1('6. International pricing trends (leading indicators)'));
 c.push(P('Leading indicators from the US and UK markets, and whether each has reached the Nordic market:'));
 c.push(table(['Indicator', 'Market / period', 'Reached the Nordics?', 'Comment'], [

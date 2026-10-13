@@ -77,8 +77,7 @@ r += 2
 ws.cell(r, 1, 'Sources: https://chambers.com/legal-guide/europe-7 (Sweden ranking tables); https://www.legal500.com/c/sweden/<practice-area>/lawyers').font = Font(italic=True, size=9)
 for c, w in zip(range(1, 9), (26, 18, 18, 18, 22, 10, 10, 10)):
     ws.column_dimensions[get_column_letter(c)].width = w
-order = ['A. Market size', 'A. Growth drivers', 'A. Niche firms', 'B. Practice rankings', 'B. Rankings raw', 'B. Top lawyers',
-         'C. Benchmarking', 'D. Rate cards', 'E. Partner compensation', 'F. M&A & team lifts']
+order = ['A. Market size', 'A. Nordic market', 'A. Growth drivers', 'A. Niche firms', 'B. Practice rankings', 'B. Rankings raw', 'B. Top lawyers', 'B. Partner pipeline', 'C. Benchmarking', 'D. Rate cards', 'E. Partner compensation', 'F. M&A & team lifts', 'G. MAQS key data']
 wb._sheets = [wb[n] for n in order if n in wb.sheetnames] + [w for w in wb._sheets if w.title not in order]
 wb.save(path)
 print('rows', len(rows)); print([(f, sum(len(v) for v in cnt[f].values())) for f in firms][:15])

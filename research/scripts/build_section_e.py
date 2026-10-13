@@ -130,7 +130,7 @@ for t in [
 for c, w in zip(range(1, 17), (24, 22, 12, 10, 11, 11, 11, 9, 22, 11, 11, 13, 10, 11, 10, 50)):
     ws.column_dimensions[get_column_letter(c)].width = w
 ws.freeze_panes = 'B5'
-order = ['A. Market size', 'A. Growth drivers', 'A. Niche firms', 'B. Practice rankings', 'B. Rankings raw', 'D. Rate cards', 'E. Partner compensation']
+order = ['A. Market size', 'A. Nordic market', 'A. Growth drivers', 'A. Niche firms', 'B. Practice rankings', 'B. Rankings raw', 'B. Top lawyers', 'B. Partner pipeline', 'C. Benchmarking', 'D. Rate cards', 'E. Partner compensation', 'F. M&A & team lifts', 'G. MAQS key data']
 wb._sheets = [wb[n] for n in order if n in wb.sheetnames] + [w for w in wb._sheets if w.title not in order]
 wb.save(path)
 print('ok', last)
