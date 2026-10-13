@@ -46,6 +46,10 @@ CARDS = [
      6500, 8000, 4500, 5800, 3600, 4100, 2300, 3100, 1500,
      'Partners; Senior Associates; Associates; Junior Associates; Paralegals',
      'Time-incurred basis; open to alternative fee arrangements per project.'],
+    ['MAQS', 'Sell-side model (Oct-2026)', 'Sell-side model (vendor financial model)',
+     5014.83020687709, 5014.83020687709, None, None, 2753.06754681269, 2753.06754681269, None, None, None,
+     'Partner; Associate (single rates)',
+     'Single model rates, not a published rate card range; confirm whether list or realised (effective) rates.'],
 ]
 first = r + 1
 for card in CARDS:
@@ -53,8 +57,10 @@ for card in CARDS:
     for c, v in enumerate(card[:12], 1):
         x = ws.cell(r, c, v); x.border = B; x.alignment = W if c <= 3 else C
         if c >= 4: x.number_format = '#,##0'
-    ws.cell(r, 13, f'=AVERAGE(D{r}:E{r})'); ws.cell(r, 14, f'=AVERAGE(J{r}:K{r})')
-    ws.cell(r, 15, f'=M{r}/N{r}'); ws.cell(r, 16, f'=M{r}/1586')
+    ws.cell(r, 13, f'=AVERAGE(D{r}:E{r})')
+    if card[9]:
+        ws.cell(r, 14, f'=AVERAGE(J{r}:K{r})'); ws.cell(r, 15, f'=M{r}/N{r}')
+    ws.cell(r, 16, f'=M{r}/1586')
     for c, fmt in ((13, '#,##0'), (14, '#,##0'), (15, '0.0'), (16, '0.0')):
         x = ws.cell(r, c); x.number_format = fmt; x.border = B; x.alignment = C
     for c, v in ((17, card[12]), (18, card[13])):
@@ -62,9 +68,22 @@ for card in CARDS:
     ws.row_dimensions[r].height = 60
 r += 1
 ws.cell(r, 1, 'Difference: Mannheimer Swartling vs Cederquist (mid-points)').font = Font(bold=True)
+maqs_row = first + 2
 for col in ('D', 'F', 'H', 'J'):
     nxt = get_column_letter(ws[col + '1'].column + 1)
     ws[f'{col}{r}'] = f'=AVERAGE({col}{first}:{nxt}{first})/AVERAGE({col}{first+1}:{nxt}{first+1})-1'
+    ws[f'{col}{r}'].number_format = '+0%;-0%'; ws[f'{col}{r}'].alignment = C
+r += 1
+ws.cell(r, 1, 'MAQS (sell-side model) vs Cederquist mid-point').font = Font(bold=True)
+for col in ('D', 'H'):
+    nxt = get_column_letter(ws[col + '1'].column + 1)
+    ws[f'{col}{r}'] = f'={col}{maqs_row}/AVERAGE({col}{first+1}:{nxt}{first+1})-1'
+    ws[f'{col}{r}'].number_format = '+0%;-0%'; ws[f'{col}{r}'].alignment = C
+r += 1
+ws.cell(r, 1, 'MAQS (sell-side model) vs Mannheimer Swartling mid-point').font = Font(bold=True)
+for col in ('D', 'H'):
+    nxt = get_column_letter(ws[col + '1'].column + 1)
+    ws[f'{col}{r}'] = f'={col}{maqs_row}/AVERAGE({col}{first}:{nxt}{first})-1'
     ws[f'{col}{r}'].number_format = '+0%;-0%'; ws[f'{col}{r}'].alignment = C
 r += 2
 
