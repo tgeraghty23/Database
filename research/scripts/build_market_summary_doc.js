@@ -81,6 +81,20 @@ c.push(P([run('Nordic total: ', { bold: true }), run('legal activities ~SEK 110b
  ['Finland', 'is the smallest, with a very profitable top tier (EBIT margins ~37-54% at Roschier, Krogerus, Avance, Borenius) and a fragmented mid-tier of firms of EUR 6-38m revenue.'],
  ['Sweden', 'is the largest and most fragmented business-law market, and the only one with an established PE roll-up (AGRD).'],
 ].forEach(([a, b]) => c.push(Bl(a, b)));
+c.push(H2('Consolidation and international activity, 2020-2026'));
+c.push(table(['Country', 'Activity'], [
+  ['Sweden', 'AGRD (Axcel) PE roll-up of 9+ firms since Aug-2025 (Allié, Born, Morris Law, Next, Synch, TM & Partners; then Wigge, Bokwall Rislund, Moll Wendén, Setterwalls Malmö as Ascente Law; Synch-Qap Legal); CMS-Wistrand (2024); BAHR Stockholm (2026); Schjødt-Hamilton (2020); Magnusson-Gro and Walthon Ramberg (2026); splits: Hannes Snellman (2024), MAQS (2027), Glimstedt Stockholm/Göteborg (2021)'],
+  ['Norway', 'Schjødt-Hamilton SE (2020), Copenhagen office (2022), Norrbom Vinding DK (Mar-2026); BAHR opens Stockholm and Copenhagen (2025-26) after hiring ~18 Schjødt partners; Ræder Bing (2023), Lippestad / Bache-Wiig and Tofte Hald (2024); Cedra buys Big-4 regional law offices (Dec-2025)'],
+  ['Denmark', 'HortenDahl merger (Jan-2026); DLA Piper takes 49 people from Lundgrens (Mar-2025); Schjødt-Norrbom Vinding (Mar-2026); Kromann Reumert converts to P/S (Nov-2025)'],
+  ['Finland', 'Hannes Snellman split into Finnish and Swedish firms (2024); DLA Piper-Project Law (2023); Merilampi-I&O Partners (2025, single source); no PE investment found; Fondia (listed, non-Bar) shrinking'],
+], [1300, 7726]));
+c.push(P(''));
+c.push(P([run('Swedish team lifts and partner moves (2+ partners): ', { bold: true }), run('Lindahl from Westermark Anjou (2 partners, 2020); MAQS from Delphi (3 M&A partners, 2024); Gernandt & Danielsson from Linklaters (2 partners + 5 associates, real estate, 2024); Cirio from AG Advokat (3 partners + 9, real estate/construction, 2025); BAHR from Schjødt Sweden (8 partners, 2025-26); Setterwalls Malmö to AGRD (12 partners, ~100 people, 2026).')]));
+[['PE consolidation:', 'Sweden is the only Nordic market with an established PE roll-up (AGRD: 11 firms in ~13 months); firms must leave the Bar. Norway and Denmark restrict external ownership; no PE deals found in Finland.'],
+ ['Cross-border:', 'Norwegian firms (Schjødt, BAHR) are building pan-Scandinavian platforms through mergers and team lifts; CMS and DLA Piper consolidate through network membership and team hires.'],
+ ['Net partner flows (Sweden, 2020-26):', 'largest net gainers BAHR (+10), MAQS (+5), Lindahl, Gernandt & Danielsson and Cirio (+2 each); largest net losers Setterwalls (-13, Malmö exit), Schjødt (-7), Snellman (-4), Delphi and AG Advokat (-4 each).'],
+ ['Domestic mergers:', 'mostly small and mid-sized combinations (Ræder Bing, HortenDahl, Magnusson-Gro, Walthon Ramberg), consistent with scale pressure from technology costs and talent competition.'],
+].forEach(([a, b]) => c.push(Bl(a, b)));
 if (X.sections) X.sections({ c, H1, H2, P, Bl, NOTE, run, table }).forEach(x => c.push(x));
 c.push(H1((X.sections ? '4' : '3') + '. Guide to the data book'));
 const tabs = [
