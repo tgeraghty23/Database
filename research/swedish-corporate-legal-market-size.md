@@ -51,3 +51,7 @@ The main deliverable is `research/swedish_legal_market.xlsx`. This file summaris
 
 ## Section A4. Niche firms (sheet "A. Niche firms")
 - **Coverage:** every Swedish firm ranked by Chambers or Legal 500: 9 full-service firms, ranked independents, PE-owned (AGRD) firms and Legal 500 firms to watch. Includes Affärsvärlden FY2024 revenue and revenue per partner where available.
+
+## Section B3. Top lawyers (sheet "B. Top lawyers")
+- **Contents:** individually ranked lawyers in Corporate / M&A, Private equity, Banking & finance and Dispute resolution. Includes Chambers Europe 2026 Bands 1-3 and Legal 500's Hall of Fame, Leading partners and Next Generation Partners, with a summary count per firm.
+- **Rebuilding it:** run `python3 research/scripts/build_lawyers.py research/swedish_legal_market.xlsx`.
