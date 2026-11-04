@@ -29,3 +29,8 @@ Minimal event record, per METHOD.md "How to test this method". Dated entries, ne
   shareholders approved 1 Oct 2026): remove; banks (Arbuthnot 59.9% Angest; DFCH PRA bank; Manx) weak fit; LendInvest
   founders ~54%; Sancus uninvestable. Agent challenge accepted: "specialty finance" is mostly balance-sheet lending,
   outside Corsair's stated verticals; retained only as context.
+- 2026-11-04 20:50 Return 2 (insurance / litigation finance): Personal Group the only plausible fit (GBP 143m cap, adj
+  EBITDA GBP 12.1m, GBP 29m net cash, PRA-regulated insurer inside; family stake ~36% unverified). B.P. Marsh is an
+  investment company (Marsh 38.5%); its investees, not BPM, are the Corsair-type assets. Helios: Lloyd's vehicle,
+  weak fit. Burford: too large and levered, NYSE primary. LCM in run-off, Manolete and Orchard sub-scale, RentGuarantor
+  unproven. Tapir Holdings is a misclassified investing company (Rendeavour stake): removed from the universe.
