@@ -1,0 +1,497 @@
+rank,ticker,company,market_cap_gbp_m
+1,GGP,Greatland Resources Limited,3470
+2,JET2,Jet2 plc,2800
+3,HCM,HUTCHMED (China) Limited,1790
+4,SRC,SigmaRoc plc,1450
+5,YCA,Yellow Cake plc,1300
+6,FEVR,Fevertree Drinks PLC,1060
+7,UPR,Uniphar plc,935.57
+8,MPE,M.P. Evans Group PLC,919.85
+9,RNWH,Renew Holdings plc,845.47
+10,BVS,Bravura Solutions Limited,752.76
+11,GRP,Greencoat Renewables PLC,719.78
+12,POLR,Polar Capital Holdings Plc,699.91
+13,BUR,Burford Capital Limited,681.50
+14,RKH,Rockhopper Exploration plc,680.13
+15,AMS,Advanced Medical Solutions Group plc,613.54
+16,EVPL,everplay group plc,586.47
+17,CHRT,Cohort plc,586.44
+18,JHD,James Halstead plc,575.48
+19,FTC,Filtronic plc,545.46
+20,ITM,ITM Power Plc,539.30
+21,GFM,Griffin Mining Limited,537.19
+22,RWS,RWS Holdings plc,534.06
+23,TUN,Tungsten West PLC,484.53
+24,MTL,Metals Exploration plc,461.83
+25,LSC,London Security plc,447.45
+26,AAZ,Anglo Asian Mining PLC,447.03
+27,GWI,Globalworth Real Estate Investments Limited,438.98
+28,IQE,IQE plc,429.92
+29,TAM,Tatton Asset Management plc,424.95
+30,DEBS,boohoo group plc,418.68
+31,RST,Restore plc,411.95
+32,BXP,Beximco Pharmaceuticals PLC.,405.90
+33,NICL,Nichols plc,394.95
+34,OGN,Origin Enterprises plc,380.05
+35,MHA,Mha Plc,369.87
+36,CRW,Craneware plc,366.47
+37,NFG,Next 15 Group plc,361.68
+38,BOKU,"Boku, Inc.",356.63
+39,YOU,YouGov plc,334.14
+40,TFW,FW Thorpe Plc,318.26
+41,THX,Thor Explorations Ltd.,316.57
+42,FRAN,Franchise Brands plc,316.11
+43,WVIA,Winvia Entertainment Plc,310.12
+44,CAGL,Coastal Africa Group Limited,305.51
+45,FRP,FRP Advisory Group plc,303.43
+46,YU,Yü Group PLC,301.89
+47,TPFG,The Property Franchise Group PLC,301.50
+48,LTHM,James Latham plc,285.81
+49,AVG,Avingtrans plc,280.80
+50,AVCT,Avacta Group Plc,279.90
+51,VIC,Victorian Plumbing Group plc,275.12
+52,VTU,Vertu Motors plc,274.37
+53,MSI,MS INTERNATIONAL plc,272.83
+54,BIG,Big Technologies PLC,270.16
+55,CMCL,Caledonia Mining Corporation Plc,270.01
+56,NIOX,NIOX Group Plc,269.35
+57,OPT,Optima Health plc,268.68
+58,HSP,Hargreaves Services Plc,267.13
+59,BPM,B.P. Marsh & Partners PLC,257.05
+60,PPHC,"Public Policy Holding Company, Inc.",256.84
+61,CNC,Concurrent Technologies Plc,250.53
+62,PTAL,PetroTal Corp.,249.73
+63,KIST,Kistos Holdings Plc,249.35
+64,KEYS,Keystone Law Group plc,242.16
+65,SAG,Science Group plc,230.36
+66,JDG,Judges Scientific plc,224.80
+67,CER,Cerillion Plc,224.51
+68,NET,Netcall plc,224.33
+69,EEE,Empire Metals Limited,223.03
+70,SLP,Sylvania Platinum Limited,222.59
+71,CAML,Central Asia Metals plc,216.76
+72,ADVT,AdvancedAdvT Limited,215.82
+73,TRB,Tribal Group plc,214.38
+74,ASY,Andrews Sykes Group plc,213.48
+75,RFX,Ramsdens Holdings PLC,206.11
+76,JSE,Jadestone Energy plc,201.62
+77,ELCO,Eleco plc,193.34
+78,TSTL,Tristel plc,191.33
+79,SRT,SRT Marine Systems plc,188.38
+80,SEE,Seeing Machines Limited,186.43
+81,KP2,Kore Potash plc,186.33
+82,ABDP,AB Dynamics plc,182.95
+83,HUW,Helios Underwriting plc,182.39
+84,BTG,BTG Consulting plc,180.38
+85,FNX,Fonix Plc,178.65
+86,AET,Afentra plc,177.46
+87,CCP,Celtic plc,175.92
+88,FDEV,Frontier Developments plc,172.62
+89,DXRX,Diaceutics PLC,171.89
+90,DOTD,dotdigital Group Plc,168.00
+91,MCON,Mincon Group plc,166.79
+92,LIKE,Likewise Group Plc,162.53
+93,FNTL,Fintel Plc,161.50
+94,MIDW,Midwich Group plc,157.79
+95,SOM,"Somero Enterprises, Inc.",155.33
+96,ECO,Eco (Atlantic) Oil & Gas Ltd.,155.02
+97,GAL,Galantas Gold Corporation,154.93
+98,W7L,Warpaint London PLC,152.83
+99,SUP,Supreme Plc,152.01
+100,RGG,RentGuarantor Holdings PLC,150.83
+101,MUL,Mulberry Group plc,143.59
+102,EYE,Eagle Eye Solutions Group PLC,143.57
+103,PGH,Personal Group Holdings Plc,143.21
+104,SRB,Serabi Gold plc,140.41
+105,KGH,Knights Group Holdings plc,140.38
+106,GMET,Guardian Metal Resources PLC,139.87
+107,SAA,M&C Saatchi plc,139.18
+108,AOTI,"AOTI, Inc.",138.27
+109,BKS,Beeks Financial Cloud Group plc,137.98
+110,AXS,Accsys Technologies PLC,137.48
+111,SPR,Springfield Properties Plc,136.74
+112,CAM,Camellia Plc,136.50
+113,SML,Strategic Minerals Plc,136.35
+114,SAV,Savannah Resources Plc,135.97
+115,TUNE,Focusrite plc,135.16
+116,ALL,Atlantic Lithium Limited,134.25
+117,SVML,Sovereign Metals Limited,133.01
+118,ARBB,Arbuthnot Banking Group PLC,132.89
+120,MKA,Mkango Magnetic Materials Limited,130.08
+121,BRCK,BRCK Group plc,127.30
+122,MERC,Mercia Asset Management PLC,126.54
+123,ATM,Andrada Mining Limited,124.46
+124,AII,Aimia Inc.,121.45
+125,PLSR,Pulsar Helium Inc.,117.90
+126,DFCH,Distribution Finance Capital Holdings plc,117.08
+127,PANR,Pantheon Resources Plc,116.92
+128,SAVE,Savannah Energy PLC,111.28
+129,IPX,Impax Asset Management Group Plc,110.56
+130,PEEL,Peel Hunt Limited,109.30
+131,QTX,Quartix Technologies plc,107.78
+132,AXL,Arrow Exploration Corp.,107.15
+133,HDD,Hardide plc,106.40
+134,SEI,Sintana Energy Inc.,106.22
+135,BVXP,Bioventix PLC,105.80
+136,ANP,Anpario plc,105.60
+137,TAPH,Tapir Holdings Ltd.,105.05
+138,SCLP,Scancell Holdings plc,103.04
+139,MPAC,Mpac Group plc,102.25
+140,DUKE,Duke Capital Limited,101.96
+141,ACSO,accesso Technology Group plc,101.72
+142,ROAD,Roadside Real Estate plc,101.61
+143,EKF,EKF Diagnostics Holdings plc,101.07
+144,ENSI,EnSilica plc,100.68
+145,RCN,Redcentric plc,100.17
+146,SDI,SDI Group plc,99.34
+147,TPX,TPXimpact Holdings plc,99.25
+148,GTLY,Gateley (Holdings) Plc,98.85
+149,SPEC,INSPECS Group plc,98.26
+150,IOF,Iofina plc,98.02
+151,SOLI,Solid State plc,97.86
+152,JNEO,Journeo plc,96.50
+153,AURR,Aurrigo International plc,96.39
+154,AMCO,Amcomri Group plc,95.73
+155,BOR,Borders & Southern Petroleum plc,95.22
+156,ALU,The Alumasc Group plc,94.73
+157,TRCS,Tracsis plc,92.40
+158,CHAR,Chariot Limited,91.76
+159,TENG,Ten Technologies Group plc,90.94
+160,IGP,Intercede Group plc,90.91
+161,HPOW,H-Power plc,89.24
+162,LDG,Logistics Development Group plc,88.74
+163,SPSC,Spectra Systems Corporation,87.16
+164,STCM,Steppe Cement Ltd.,86.94
+165,IGR,IG Design Group plc,85.08
+167,BOOM,Audioboom Group plc,83.74
+168,BBSN,Brave Bison Group plc,82.95
+169,KEFI,KEFI Gold and Copper Plc,82.63
+170,4BB,4basebio PLC,82.35
+171,AGY,Allergy Therapeutics plc,82.32
+172,TIG,Team Internet Group plc,82.21
+173,HEX,Helix Exploration PLC,82.08
+174,VLG,Venture Life Group plc,81.55
+175,GMR,Gaming Realms plc,79.65
+176,WYN,Wynnstay Group Plc,79.42
+177,TIN,Cornish Metals plc,79.05
+178,NWF,NWF Group plc,78.86
+179,EUA,Eurasia Mining Plc,78.21
+180,CBOX,Cake Box Holdings Plc,77.00
+181,MTEC,Made Tech Group Plc,76.77
+182,CNS,Corero Network Security plc,76.18
+183,CRPR,James Cropper PLC,75.55
+184,PEBB,The Pebble Group plc,74.94
+185,KOO,Kooth plc,74.03
+186,CDGP,Chapel Down Group Plc,73.76
+187,SEA,Seascape Energy Asia plc,73.15
+188,CORA,Cora Gold Limited,72.70
+189,TMT,TMT Investments PLC,72.66
+190,CFX,Colefax Group PLC,70.01
+191,SFT,Software Circle plc,68.26
+192,LBG,LBG Media plc,66.95
+193,LIV,Livermore Investments Group Limited,66.14
+194,SAAS,Microlise Group plc,66.11
+195,KETL,Strix Group Plc,65.60
+196,ZPHR,Zephyr Energy plc,65.12
+197,WRKS,TheWorks plc,65.00
+198,MBH,Michelmersh Brick Holdings plc,64.23
+199,EAH,ECO Animal Health Group plc,64.07
+200,FARN,Faron Pharmaceuticals Oy,63.92
+201,AOM,ActiveOps Plc,63.84
+202,BGO,Bango PLC,61.64
+203,IES,Invinity Energy Systems plc,61.14
+204,1947,1947 Oil & Gas plc,60.24
+205,PAT,Panthera Resources PLC,57.85
+206,DPP,DP Poland Plc,57.49
+207,KOD,Kodal Minerals Plc,57.04
+208,TRU,TruFin plc,55.77
+209,MWE,M.T.I Wireless Edge Ltd.,54.54
+210,VAST,Vast Resources PLC,53.75
+211,RLE,Real Estate Investors Plc,53.33
+212,JLP,Jubilee Metals Group PLC,53.31
+213,SDG,Sanderson Design Group plc,53.19
+214,TIME,Time Finance plc,53.17
+215,BILN,Billington Holdings Plc,53.02
+216,CCT,The Character Group plc,52.90
+217,PCIP,PCI-PAL PLC,52.89
+218,MOL,Molecule Group plc,52.50
+219,GEM,Gemfields Group Limited,52.29
+220,80M,80 Mile Plc,52.26
+221,OBI,Ondine Biomedical Inc.,52.19
+222,WKS,Winking Studios Limited,52.01
+223,DOTL,Dotlines Global Limited,51.79
+224,FLO,Flowtech Fluidpower plc,51.33
+225,TBLD,"tinyBuild, Inc.",51.13
+226,WATR,Water Intelligence plc,51.06
+227,PNS,Panther Securities PLC,50.18
+228,MRK,Marks Electrical Group PLC,50.11
+229,CML,CML Microsystems plc,49.35
+230,POLB,Poolbeg Pharma PLC,49.17
+231,CREO,Creo Medical Group PLC,48.75
+232,EMAN,Everyman Media Group plc,48.22
+233,VLE,Volvere plc,47.85
+234,CLX,Calnex Solutions plc,47.56
+235,G4M,Gear4music (Holdings) plc,47.34
+236,PMI,Premier Miton Group plc,46.70
+237,VCP,Victoria PLC,46.14
+238,SHR,Shaires Holdings Ltd,45.38
+239,CRCL,Corcel Plc,45.29
+240,CASP,Caspian Sunrise plc,44.77
+241,GATC,Gattaca plc,44.02
+242,ANIC,Agronomics Limited,42.85
+243,DCI,DCI Advisors Limited,42.52
+244,WINE,Naked Wines plc,42.40
+245,OHGR,One Health Group Plc,42.19
+246,OMG,Oxford Metrics plc,42.09
+247,AAU,Ariana Resources plc,41.92
+248,STAF,Staffline Group PLC,41.90
+249,IKA,Ilika plc,41.80
+250,CHH,Churchill China plc,41.79
+251,ATC,ATC Music Group plc,41.67
+252,GELN,Gelion plc,41.31
+253,OMI,Orosur Mining Inc.,40.98
+254,PWR,Power Probe PLC,40.90
+255,SYS1,System1 Group PLC,40.81
+256,ULTP,Ultimate Products Plc,40.64
+257,TXP,Touchstone Exploration Inc.,40.32
+258,QED,Quadrise Plc,39.43
+259,MPAL,MedPal AI PLC,39.08
+260,WJG,Watkin Jones Plc,38.67
+261,LINV,LendInvest plc,38.66
+262,ENW,Enwell Energy plc,38.65
+263,GETB,GetBusy plc,38.02
+264,HVO,hVIVO plc,37.79
+265,JOG,Jersey Oil and Gas Plc,37.73
+266,SKL,Skillcast Group plc,37.68
+267,TMO,Time Out Group plc,37.24
+268,STAR,Star Energy Group Plc,37.07
+269,STX,Shield Therapeutics plc,37.06
+270,ABDX,Abingdon Health Plc,36.98
+271,ANG,Angling Direct PLC,36.84
+272,CTG,Christie Group plc,36.73
+273,AREC,Arecor Therapeutics plc,36.24
+274,GDP,Goldplat PLC,36.07
+275,AURA,Aura Energy Limited,35.58
+276,REVB,Revolution Beauty Group plc,35.57
+277,KMK,Kromek Group plc,34.83
+278,ZAM,Zambeef Products PLC,34.55
+279,IXI,IXICO plc,34.25
+280,PEB,Pebble Beach Systems Group plc,34.15
+281,GCM,GCM Resources Plc,33.92
+282,RENX,Renalytix Plc,32.86
+283,SNX,Synectics plc,32.44
+284,SHOE,Shoe Zone plc,31.34
+285,PRO,ProService Building Services Marketplace Plc,30.70
+286,SYS,SysGroup plc,30.14
+287,MEX,Tortilla Mexican Grill plc,29.77
+288,COIL,Coiled Therapeutics plc,29.38
+289,HE1,Helium One Global Limited,28.94
+290,HERC,Hercules Plc,28.73
+291,ZIOC,Zanaga Iron Ore Company Limited,27.75
+292,BZT,Bezant Resources Plc,26.81
+293,EDX,EDX Medical Group Plc,26.75
+294,EGT,European Green Transition plc,26.29
+295,NCYT,Novacyt S.A.,25.93
+296,EDEN,Eden BioSolutions plc,25.43
+297,WSP,Wynnstay Properties Plc,25.08
+298,XPF,XP Factory Plc,25.03
+299,CTL,CleanTech Lithium Plc,24.63
+300,MFX,Manx Financial Group PLC,24.59
+301,SAR,Sareum Holdings plc,24.54
+302,EARN,EARNZ plc,24.42
+303,TMG,The Mission Group plc,24.34
+304,WINK,M Winkworth PLC,23.84
+305,ITX,Itaconix plc,23.74
+306,FPO,First Property Group plc,23.65
+307,PXEN,Prospex Energy Plc,23.42
+308,NXQ,Nexteq plc,23.29
+309,CAV,Cavendish plc,22.84
+310,PMP,Portmeirion Group PLC,22.72
+311,BMT,Braime Group PLC,22.08
+313,NAH,NAHL Group Plc,22.00
+314,SOS,Sosandar Plc,21.53
+315,COPC,Coppa Collective plc,21.44
+316,KDNC,Cadence Minerals Plc,21.11
+317,RBN,Robinson plc,20.94
+318,KRM,KRM22 Plc,20.76
+319,RFG,Roebuck Food Group plc,20.73
+320,BIRD,Blackbird plc,20.60
+321,IMM,ImmuPharma plc,20.35
+322,PMG,The Parkmead Group plc,20.32
+323,PULS,Pulsar Group plc,20.00
+324,DNM,Dianomi plc,19.52
+325,VNET,Vianet Group plc,19.22
+326,NEWS,Pathos Communications PLC,19.00
+327,EOG,Europa Oil & Gas (Holdings) plc,18.83
+328,LORD,Lords Group Trading plc,18.55
+329,CLBS,Celebrus Technologies plc,18.49
+330,HAYD,Haydale plc,18.37
+331,SBAR,Sundae Bar AI PLC,18.27
+332,TEAM,TEAM plc,18.24
+333,PXS,Provexis plc,18.23
+334,FIH,FIH group plc,17.78
+335,CIC,The Conygar Investment Company PLC,17.77
+336,CMET,Capital Metals plc,17.23
+337,EMR,Empresaria Group plc,17.17
+338,EMH,European Metals Holdings Limited,17.16
+339,RUA,RUA Life Sciences plc,17.13
+340,RHAI,Roundhouse AI LTD.,17.12
+341,TGP,Tekmar Group plc,16.78
+342,B90,B90 Holdings PLC,16.75
+343,GDR,genedrive plc,15.98
+344,PEN,Pennant International Group plc,15.84
+345,CTA,CT Automotive Group plc,15.82
+346,CKT,Checkit plc,15.66
+347,MET1,Metals One PLC,15.64
+348,ORCH,Orchard Funding Group plc,15.59
+349,DIAL,Diales Group Plc,15.58
+350,MAFL,Mineral & Financial Investments Limited,15.54
+351,ECOB,Eco Buildings Group plc,15.51
+352,ART,The Artisanal Spirits Company plc,15.44
+353,RMR,Rome Resources Plc,15.44
+354,SWG,Shearwater Group plc,15.36
+355,IHC,Inspiration Healthcare Group plc,15.30
+356,NTBR,Northern Bear PLC,15.07
+357,AGI,Potentially AI PLC,14.92
+358,KZG,Kazera Global plc,14.90
+359,MANO,Manolete Partners Plc,14.78
+360,MTR,Meantime Resources PLC,14.78
+361,EML,Emmerson PLC,14.70
+362,CHA,Chaleit Holdings PLC,14.69
+363,SYM,Symphony Environmental Technologies plc,14.65
+364,TAND,Tan Delta Systems plc,14.64
+365,ANGS,Angus Energy plc,14.42
+366,ROCK,Rockfire Resources plc,14.40
+367,PAM,Potter & Moore Plc,14.39
+368,ATOM,Atome Plc,14.34
+369,MATD,Petro Matad Limited,14.23
+370,GANA,Gana Media Group PLC,14.19
+371,GWMO,Great Western Mining Corporation PLC,14.08
+372,ALT,Altitude Group plc,13.97
+373,TIA,Tialis Essential IT PLC,13.97
+374,CSC,Chesterfield Special Cylinders Holdings Plc,13.66
+375,SOUC,Southern Energy Corp.,13.65
+376,IOM,iomart Group plc,13.57
+377,88E,88 Energy Limited,13.44
+378,OBD,Oxford BioDynamics Plc,13.44
+379,BUC,Built Cybernetics plc,13.35
+380,ORR,Oriole Resources PLC,13.22
+381,SBTX,SkinBioTherapeutics plc,13.02
+382,VINO,Virgin Wines UK PLC,13.00
+383,ZOO,ZOO Digital Group plc,12.90
+384,EPP,EnergyPathways plc,12.89
+385,FIPP,Frontier IP Group Plc,12.63
+386,RTC,RTC Group plc,12.55
+387,ARCM,Arc Minerals Limited,12.54
+388,EBQ,Ebiquity plc,12.51
+389,AMP,AMPEAK ENERGY LIMITED,12.32
+390,COG,Cambridge Cognition Holdings Plc,12.23
+391,QUBE,Quantum Base Holdings PLC,12.21
+392,MPL,Mercantile Ports & Logistics Limited,12.11
+393,DSW,DSW Capital plc,12.06
+394,EMVC,EMV Capital plc,12.01
+395,CPH2,Clean Power Hydrogen plc,11.87
+396,SALT,MicroSalt plc,11.83
+397,BLOE,Block Energy Plc,11.53
+398,CSSG,Croma Security Solutions Group plc,11.50
+399,MYX,MYCELX Technologies Corporation,11.45
+400,SNDA,Sunda Energy Plc,11.19
+401,HVT,The Heavitree Brewery PLC,11.13
+403,ZIN,Zinc Media Group plc,11.12
+404,ORCA,Orcadian Energy Plc,11.09
+405,LPA,LPA Group Plc,11.02
+406,MAI,Maintel Holdings Plc,10.86
+407,ADF,Facilities by ADF plc,10.76
+408,INSG,Insig AI Plc,10.66
+409,POW,Power Metal Resources plc,10.61
+410,MDH,Mendell Helium plc,10.56
+411,ARC,Arcontech Group plc,10.50
+412,OMIP,One Media iP Group Plc,10.23
+413,AIEA,AIREA plc,10.15
+414,CMX,Catalyst Media Group plc,10.11
+415,UOG,United Oil & Gas Plc,9.97
+416,BANK,Fiinu Plc,9.84
+417,LEX,Lexington Gold Ltd,9.83
+418,THAT,Thalia Therapeutics Plc,9.78
+419,TND,Tandem Group plc,9.77
+420,CRTA,Cirata plc,9.77
+421,ING,Ingenta plc,9.66
+422,TON,Titon Holdings Plc,9.62
+423,XTR,Xtract Resources Plc,9.52
+424,APTA,Aptamer Group PLC,9.37
+425,PHE,PowerHouse Energy Group Plc,9.35
+426,REAT,REACT Group PLC,9.22
+427,GROC,GreenRoc Strategic Materials Plc,9.15
+428,NWT,Newmark Security plc,9.14
+429,QHE,Quantum Helium Limited,9.00
+430,FMET,Fulcrum Metals plc,8.82
+431,RBD,Reabold Resources Plc,8.77
+432,ARK,Arkle Resources PLC,8.76
+433,XSG,Xeros Technology Group plc,8.62
+434,CPX,CAP-XX Limited,8.54
+435,AEO,Aeorema Communications plc,8.49
+436,RIFT,Rift Helium plc,8.45
+437,GLR,Galileo Resources Plc,8.41
+438,TAP,Tap Global Group Plc,8.40
+439,GRL,Goldstone Resources Limited,8.39
+440,BOW,Bow Street Group plc,8.37
+441,ARS,Asiamet Resources Limited,8.36
+442,VRCI,Verici Dx plc,8.35
+443,LST,Light Science Technologies Holdings Plc,8.29
+444,WPHO,Windar Photonics PLC,8.27
+445,SELK,Selkirk Group Plc,8.09
+446,SRVL,Serval Resources Plc,7.96
+447,TERN,Tern Plc,7.89
+448,MBO,MobilityOne Limited,7.87
+449,CEPS,CEPS PLC,7.81
+450,NEXS,Nexus Infrastructure plc,7.68
+451,THRU,Thruvision Group plc,7.63
+452,HALO,Halo Minerals PLC,7.61
+453,TAN,Tanfield Group PLC,7.54
+454,LEND,Sancus Lending Group Limited,7.52
+455,TAVI,Tavistock Investments Plc,7.45
+456,VEL,Velocity Composites plc,7.44
+457,FAB,Fusion Antibodies plc,7.26
+458,CLBX,CelLBxHealth plc,7.19
+459,BHL,Bradda Head Lithium Limited,7.13
+460,UFO,Alien Metals Limited,7.09
+461,KRPZ,Kropz plc,6.98
+462,TAR,Talon Resources plc,6.97
+463,ORCP,Oracle Power PLC,6.84
+464,GTC,Getech Group plc,6.79
+465,RHR,Richmond Hill Resources Plc,6.76
+466,CRTX,CRISM Therapeutics Corporation,6.73
+467,SWT,Switch Metals Plc,6.70
+468,NAR,Northamber plc,6.64
+469,SEED,Seed Innovations Limited,6.64
+470,DSG,Dillistone Group Plc,6.55
+471,CGNR,Conroy Gold and Natural Resources plc,6.54
+472,FKE,Fiske plc,6.50
+473,HSM,Samuel Heath & Sons plc,6.46
+474,TRP,Tower Resources plc,6.42
+475,TIDE,Crimson Tide plc,6.41
+476,SEEN,SEEEN plc,6.39
+477,TRT,Transense Technologies plc,6.24
+478,CLA,Celsius Resources Limited,6.00
+479,LND,Landore Resources Limited,5.96
+480,ITIM,Itim Group Plc,5.79
+481,OPTI,OptiBiotix Health Plc,5.68
+482,TEK,Tekcapital plc,5.66
+483,JAN,Jangada Mines Plc,5.58
+484,TST,Touchstar plc,5.55
+485,TLM,Talisman Metals PLC,5.53
+486,PRM,Proteome Sciences plc,5.51
+487,AEG,Active Energy Group Plc,5.47
+488,ECR,ECR Minerals plc,5.41
+489,FORG,Forgent plc,5.33
+490,MAC,Marechale Capital Plc,5.27
+491,COM,Comptoir Group PLC,5.21
+492,ACRM,Acuity RM Group Plc,5.19
+493,AUTG,Autins Group plc,5.19
+494,PEG,Petards Group plc,5.16
+495,THR,Thor Energy Plc,5.07
+496,DBOX,Digitalbox plc,4.89
+497,FADL,"Fadel Partners, Inc.",4.85
+498,HUD,Huddled Group Plc,4.77
+499,FRG,Firering Strategic Minerals Plc,4.76
+500,POS,Plexus Holdings plc,4.75
