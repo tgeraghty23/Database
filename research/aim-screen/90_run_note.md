@@ -24,3 +24,8 @@ Minimal event record, per METHOD.md "How to test this method". Dated entries, ne
 - 2026-11-04 20:25 Practical limit: the session's web-search budget (200 searches per turn, shared with agents) ran
   out during the verification round. Remaining checks use direct page fetches only. Where an agent return is thin,
   that is a budget stop, not evidential completion (METHOD.md "User attention and stopping").
+- 2026-11-04 20:40 Return 1 (specialty finance / advisory): Begbies Traynor renamed BTG Consulting (ticker BTG) Feb 2026,
+  on-vertical and in range; Time Finance under recommended offer (Bentley Park / Tavistock Group, 59.1p, GBP 55m,
+  shareholders approved 1 Oct 2026): remove; banks (Arbuthnot 59.9% Angest; DFCH PRA bank; Manx) weak fit; LendInvest
+  founders ~54%; Sancus uninvestable. Agent challenge accepted: "specialty finance" is mostly balance-sheet lending,
+  outside Corsair's stated verticals; retained only as context.
