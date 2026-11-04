@@ -44,3 +44,9 @@ Minimal event record, per METHOD.md "How to test this method". Dated entries, ne
   line since 28 Jul 2026; any deal is an Australian scheme; L6/Pinetree 22.8%. Netcall best in-range UK name (EV ~GBP
   205m, EBITDA GBP 12.1m, dispersed register). AdvancedAdvT is an acquirer (Marwyn/BGF/Murria ~43%). ActiveOps,
   Skillcast, GetBusy, Celebrus, Arcontech, Software Circle: on-theme, add-on only. No third-party bids in the batch.
+- 2026-11-04 21:20 Return 5 (wealth / asset management): Tatton (GBP 425m cap, adj op profit GBP 28.5m, cash GBP 34m,
+  Hogarth 14.65%) and Fintel (GBP 162m, adj EBITDA GBP 25.9m, net debt rising to ~2.5x after Mortgage Brain deal
+  Oct 2026, Ken Davy 23.9%, shares at 52-week low) are the fits. Polar Capital at the EV ceiling and a people
+  business; Impax in outflow turnaround (BNP ~14% holder, ~35% of AUM). Premier Miton and Mercia add-on size only.
+  Mortgage Advice Bureau moved to Main Market 1 May 2026 (remove). Brokers (Peel Hunt, Cavendish) off-vertical.
+  Gap: bid-approach checks for Fintel, Polar, Mercia, Cavendish incomplete (search budget).
