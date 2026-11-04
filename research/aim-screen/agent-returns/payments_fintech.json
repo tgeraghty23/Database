@@ -1,0 +1,340 @@
+[
+  {
+    "company": "Boku Inc",
+    "ticker": "BOKU",
+    "listing_status": "Still on AIM (depositary interests; Delaware-incorporated). Last RNS 4 Nov 2026 (Holding(s) in Company).",
+    "business": "Global mobile-first payments network: direct carrier billing, digital wallets and account-to-account/local payment methods connected via a single integration for large digital merchants (app stores, streaming, gaming). FY25: DCB $70.4m, Digital Wallets/A2A $43.5m, Bundling $14.9m.",
+    "corsair_vertical": "Payments - international / integrated (alternative payment method orchestration). Genuine fit on sector; EV ~GBP 290m (~USD 380m) sits inside the USD 150-750m range.",
+    "market_cap_gbp_m": {
+      "value": 356.6,
+      "source": "stockanalysis.com/quote/aim/BOKU/statistics (delayed LSE price 125p, 285.3m shares)",
+      "as_of": "2026-11-04"
+    },
+    "latest_fy_financials": {
+      "fy_end": "2025-12-31",
+      "revenue_gbp_m": 99.1,
+      "adj_ebitda_gbp_m": 31.8,
+      "net_cash_or_debt_gbp_m": 65.1,
+      "basis": "FY25 RNS 17 Mar 2026: revenue $128.8m (+30%), adjusted EBITDA $41.3m (32.1% margin), operating profit $18.9m. Group cash $245.6m includes funds held for merchants; FY25 own-cash split not retrieved. Net cash shown = 'own cash' $84.6m disclosed at H1 2026 (30 Jun 2026) after $23.6m of buybacks; stockanalysis shows total debt $5.4m (likely leases). USD figures converted to GBP at an assumed 1.30 USD/GBP (rate not verified on 4 Nov 2026); native USD given in basis"
+    },
+    "ownership": "No holder above 10% confirmed from 2026 RNS. BlackRock 3.99% (4 Nov 2026, down from 8.03% in Jul 2026); Richard Griffiths 4.25% (Sep 2026). Third-party (Simply Wall St, dated 31 Dec 2024, unverified) listed Octopus Investments 11.9%, Vitruvian Partners 9.0%, Aberdeen 5.1%, Canaccord Genuity AM 4.9%; these may be stale. No founder/strategic blocking stake identified. Free float not stated.",
+    "corporate_activity": "No bid approach, strategic review or formal sale process found 2024-2026. Company instead running buybacks: GBP 9m programme started Jan 2026 ('shares undervalued'), 4m-share programme completed 2 Jun 2026, extended 8 Jul 2026; $23.6m repurchased in H1 2026. Share-Talk commentary calls it 'ripe for takeover' (not a corporate event).",
+    "flags": "Regulatory: operates regulated e-money/payment entities (EMI permissions in UK/EU, MAS etc. per prior knowledge - not re-verified in this pass); change of control would need regulator consent. Operational: H1 2026 headline adjusted EBITDA down 10% to $19.6m (underlying +7%), merchant launch delays and two DCB carrier connections suspended; FY26 guidance revenue $135-142m, adj EBITDA $38-42m. Concentration on a small number of very large digital merchants (not quantified in sources retrieved). Delaware incorporation / DI structure complicates a UK scheme. Buyback programme signals board sees no need for external capital.",
+    "sources": [
+      "https://www.investegate.co.uk/announcement/rns/boku-inc-di-reg-s-cat-3-144a--boku/2025-full-year-results/9476987",
+      "https://www.investegate.co.uk/announcement/rns/boku-inc-di-reg-s-cat-3-144a--boku/interim-results/9785613",
+      "https://www.investegate.co.uk/company/BOKU",
+      "https://www.investegate.co.uk/announcement/rns/boku-inc-di-reg-s-cat-3-144a--boku/holding-s-in-company/9858794",
+      "https://www.investegate.co.uk/announcement/rns/boku-inc-di-reg-s-cat-3-144a--boku/holding-s-in-company/9664008",
+      "https://www.investegate.co.uk/announcement/rns/boku-inc-di-reg-s-cat-3-144a--boku/holding-s-in-company/9783037",
+      "https://stockanalysis.com/quote/aim/BOKU/statistics",
+      "https://stockanalysis.com/quote/aim/BOKU/financials/balance-sheet/",
+      "https://www.lse.co.uk/news/in-brief-boku-completes-and-extends-buyback-programme-ejyll9dv5d6mxhk.html",
+      "https://simplywall.st/stocks/gb/diversified-financials/aim-boku/boku-shares/ownership"
+    ],
+    "confidence": "medium - financials from primary RNS summaries; own-cash figure is H1 2026 not FY25; shareholder register above 5% not confirmed from a 2026 primary source."
+  },
+  {
+    "company": "Fonix plc",
+    "ticker": "FNX",
+    "listing_status": "Still on AIM. Final results for FY to 30 Jun 2026 published 22 Sep 2026; Holding(s) RNS 5 Oct 2026.",
+    "business": "UK-centred mobile payments and messaging: carrier billing / SMS-based micropayments and messaging for media (TV voting/competitions), charities, gaming and ticketing clients; expanding to Ireland, Austria, Germany, France.",
+    "corsair_vertical": "Payments - integrated/carrier billing. Sector fit reasonable but narrow (media-driven micropayments); EV ~GBP 150-170m (~USD 200m) is at the low end of range.",
+    "market_cap_gbp_m": {
+      "value": 178.7,
+      "source": "stockanalysis.com/quote/aim/FNX/statistics (delayed LSE price 183p, 97.6m shares)",
+      "as_of": "2026-11-04"
+    },
+    "latest_fy_financials": {
+      "fy_end": "2026-06-30",
+      "revenue_gbp_m": 83.4,
+      "adj_ebitda_gbp_m": 16.2,
+      "net_cash_or_debt_gbp_m": null,
+      "basis": "FY26 RNS 22 Sep 2026: gross profit GBP 21.0m (+12.9%), adjusted EBITDA GBP 16.2m (+11.0%), final dividend 6.20p, GBP 2.4m buybacks. Revenue GBP 83.35m per stockanalysis (RNS summary did not quote revenue). Gross cash GBP 28.6m at 30 Jun 2026 (stockanalysis) but this includes cash held for customers; FY26 'underlying cash' excluding customer funds not retrieved (FY25: GBP 9.9m underlying vs GBP 22.0m gross). No borrowings (FY25: 'not externally funded', leases only)."
+    },
+    "ownership": "Rathbones Investment Management 11.84% (5 Oct 2026). Starnevesse Ltd (Richard Thompson) sold down from 7.36% to nil (May-Sep 2026). Downing LLP 4.02% (Mar 2026). Founders/management concert party (William Neale, CEO Rob Weisz, Ganton Ltd etc.) sold GBP 15m in Apr 2024; Ganton was 19.12% after that sale - current concert-party percentage not retrieved. Third-party (Simply Wall St, undated) shows insiders ~24%, institutions ~67%. Free float not stated.",
+    "corporate_activity": "None found 2024-2026: no approach, strategic review or offer. Capital returned via dividends, special dividend (3.0p Feb 2025) and buybacks.",
+    "flags": "Concentration: three customers each >10% of gross profit (FY25 annual results). UK media/charity exposure and dependence on mobile network operator billing; gambling client exited UK on tighter regulation. Not FCA-regulated as such (premium-rate services regulated by PSA/Ofcom - not re-verified). Legacy concert party of founders could still be material; revenue is gross of operator pass-through so GP (GBP 21m) is the real top line.",
+    "sources": [
+      "https://www.investegate.co.uk/announcement/rns/fonix-plc--fnx/final-results/9783161",
+      "https://www.ticker.app/lse/FNX/rns/2025-09-23/Final-Results/3098A",
+      "https://www.investegate.co.uk/company/FNX",
+      "https://www.investegate.co.uk/announcement/rns/fonix-plc--fnx/holding-s-in-company/9807101",
+      "https://www.investegate.co.uk/announcement/rns/fonix-plc--fnx/holding-s-in-company/9801575",
+      "https://www.investegate.co.uk/announcement/rns/fonix-plc--fnx/holding-s-in-company/9588315",
+      "https://www.investegate.co.uk/announcement/rns/fonix-plc--fnx/holding-s-in-company/9461067",
+      "https://stockanalysis.com/quote/aim/FNX/statistics",
+      "https://stockanalysis.com/quote/aim/FNX/financials/",
+      "https://stockanalysis.com/quote/aim/FNX/financials/balance-sheet/",
+      "https://www.morningstar.co.uk/uk/news/AN_1713509747795875000/in-brief-fonix-mobile-concert-party-sells-gbp15-million-in-shares.aspx"
+    ],
+    "confidence": "medium - EBITDA/GP from RNS; FY26 revenue and cash from a data aggregator; underlying (own) cash and founder concert-party stake not confirmed."
+  },
+  {
+    "company": "Bango plc",
+    "ticker": "BGO",
+    "listing_status": "Still on AIM. 1H26 interim results 25 Sep 2026.",
+    "business": "Sells the Digital Vending Machine subscription-bundling platform (SaaS) to telcos and content providers, plus a legacy carrier-billing payments business routing app-store/merchant payments through mobile operators; reports in USD.",
+    "corsair_vertical": "Weak-to-moderate fit: software for telcos (subscription bundling) plus payments; but EV ~GBP 70m (~USD 90m) is below the USD 150m floor and the group is loss-making at statutory level.",
+    "market_cap_gbp_m": {
+      "value": 61.6,
+      "source": "stockanalysis.com/quote/aim/BGO/statistics (delayed LSE price 80p, 77.0m shares)",
+      "as_of": "2026-11-04"
+    },
+    "latest_fy_financials": {
+      "fy_end": "2025-12-31",
+      "revenue_gbp_m": 40.2,
+      "adj_ebitda_gbp_m": 12.6,
+      "net_cash_or_debt_gbp_m": -7.1,
+      "basis": "FY25 RNS 27 Apr 2026: revenue $52.2m (-2%), adjusted EBITDA $16.4m (+7%), loss after tax $7.6m, net debt $9.2m (borrowings $14.5m, cash $5.3m); ARR $14.0m. H1 2026: revenue $25.9m, adj EBITDA $9.0m, ARR $20.4m, net debt $8.7m. USD figures converted to GBP at an assumed 1.30 USD/GBP (rate not verified on 4 Nov 2026); native USD given in basis"
+    },
+    "ownership": "No holder above 10% confirmed. Herald Investment Trust position (9.85%) transferred to abrdn management Aug 2026 (5.52% shown as of 31 Jul 2026); West Elk Capital 7.08% (undated TipRanks notice); NHN Corporation (Korea) is a long-standing strategic investor and term lender (percentage not retrieved); founders Ray Anderson / Anil Malhotra hold low single digits. Free float not stated.",
+    "corporate_activity": "None found: no offer, approach or strategic review 2024-2026. Operational 'review' of low-margin payment routes (Jan 2026). Directors bought shares Jul 2026. Refinanced Jun 2025 with enhanced NHN term loan and $15m NatWest RCF.",
+    "flags": "Balance sheet: net debt $9.2m funded by strategic investor NHN plus NatWest RCF - NHN's lender/shareholder role is a potential blocker or counterparty. Statutory losses widening (FY25 loss $7.6m) despite adjusted EBITDA; heavy capitalised development. Payments revenue declining; one Asian partner ~10% of revenue. Sub-scale for the mandate.",
+    "sources": [
+      "https://www.ticker.app/lse/BGO/rns/2026-04-27/Bango-FY25-Final-Results/9213B",
+      "https://www.investegate.co.uk/announcement/rns/bango--bgo/bango-1h26-interim-results/9790237",
+      "https://www.investegate.co.uk/announcement/rns/bango--bgo/holding-s-in-company/9707022",
+      "https://www.investegate.co.uk/company/BGO",
+      "https://stockanalysis.com/quote/aim/BGO/statistics",
+      "https://www.lse.co.uk/rns/BGO/trading-update-c4t05fwtm9crn5x.html",
+      "https://www.tipranks.com/news/company-announcements/bango-plc-sees-increase-in-major-holdings-by-west-elk-capital"
+    ],
+    "confidence": "medium - FY25 figures from the RNS text; shareholder register partly from secondary sources."
+  },
+  {
+    "company": "PCI-PAL plc",
+    "ticker": "PCIP",
+    "listing_status": "Still on AIM. NOTE: audited FY26 results (year to 30 Jun 2026), due 22 Sep 2026, were postponed on 16 Sep 2026 pending 'finalisation of revenue recognition and related audit matters' and had not been published as of 4 Nov 2026 (latest RNS 22 Sep 2026: BT reseller partnership).",
+    "business": "Cloud SaaS that de-scopes contact centres from PCI DSS by securely capturing card payments over phone/digital channels; sold via partners (NiCE, BT, Genesys etc.) to enterprises and public sector (HMRC) in UK/US.",
+    "corsair_vertical": "Software - risk & compliance / payments security. Sub-sector fit is good but far too small (market cap GBP 53m, EV ~GBP 49m) and barely EBITDA-positive.",
+    "market_cap_gbp_m": {
+      "value": 52.9,
+      "source": "stockanalysis.com/quote/aim/PCIP/statistics (delayed LSE price 73p, 72.5m shares)",
+      "as_of": "2026-11-04"
+    },
+    "latest_fy_financials": {
+      "fy_end": "2026-06-30 (unaudited trading update 28 Jul 2026; audited results delayed)",
+      "revenue_gbp_m": 24.6,
+      "adj_ebitda_gbp_m": 1.1,
+      "net_cash_or_debt_gbp_m": 4.0,
+      "basis": "Trading update 28 Jul 2026: revenue ~GBP 24.6m (+9%), adjusted EBITDA ~GBP 1.1m, ARR GBP 24.4m (+27%), CARR GBP 27.5m, cash GBP 4.0m, debt-free. Last audited year FY25 (30 Jun 2025): revenue GBP 22.48m, adjusted EBITDA GBP 2.32m, adjusted PBT GBP 0.81m, cash GBP 3.92m. Sep 2026 update restated indications as revenue 'no less than' GBP 24.6m and adj EBITDA 'no less than' GBP 1.1m."
+    },
+    "ownership": "Gresham House Asset Management 16.13% (10 Mar 2026, building from 12.32% in Feb 2026). Herald Investment Management reduced to 3.92% (Feb 2026). Directors bought shares Jul/Aug 2026. No founder blocking stake identified. Free float not stated.",
+    "corporate_activity": "No offer, approach or strategic review found 2024-2026. New partnerships (NiCE Jul 2026, BT reseller Sep 2026); HMRC contract re-secured on 8-year term (Jul 2026).",
+    "flags": "Audit/revenue-recognition issue delaying FY26 results - a diligence red flag until resolved. Minimal profitability (adj EBITDA margin ~4%) and reliance on channel partners. Historic patent litigation with Sycurio (resolved in PCI Pal's favour per prior knowledge - not re-verified). Gresham House at 16% is the only large holder.",
+    "sources": [
+      "https://www.investegate.co.uk/announcement/rns/pci-pal--pcip/trading-update/9689852",
+      "https://www.investegate.co.uk/announcement/rns/pci-pal--pcip/update-on-timing-of-full-year-results-announcement/9773925",
+      "https://www.investegate.co.uk/company/PCIP",
+      "https://www.investegate.co.uk/announcement/rns/pci-pal--pcip/holding-s-in-company/9467732",
+      "https://www.investegate.co.uk/announcement/rns/pci-pal--pcip/holding-s-in-company/9424435",
+      "https://www.investegate.co.uk/announcement/rns/pci-pal--pcip/holding-s-in-company/9411848",
+      "https://ir.pcipal.com/docs/librariesprovider64/archives/results/prelims-2025.pdf",
+      "https://www.edisongroup.com/research/securing-contact-centre-payments/BM-1911/",
+      "https://stockanalysis.com/quote/aim/PCIP/statistics",
+      "https://stockanalysis.com/quote/aim/PCIP/financials/income-statement/"
+    ],
+    "confidence": "medium - FY26 numbers are unaudited and the audit is unresolved; ownership from primary RNS."
+  },
+  {
+    "company": "Beeks Financial Cloud Group plc",
+    "ticker": "BKS",
+    "listing_status": "Still on AIM. FY26 final results published 19 Oct 2026.",
+    "business": "Low-latency private/proximity cloud infrastructure-as-a-service and network analytics (Market Edge Intelligence) for exchanges, banks, brokers and trading firms, co-located in financial data centres globally.",
+    "corsair_vertical": "Software/infrastructure for capital markets (vertical software/fintech infrastructure). Fit on financial-services specialism; EV ~GBP 137m (~USD 180m) at the bottom of range.",
+    "market_cap_gbp_m": {
+      "value": 138.0,
+      "source": "stockanalysis.com/quote/aim/BKS/statistics (delayed LSE price 200.5p, 68.8m shares)",
+      "as_of": "2026-11-04"
+    },
+    "latest_fy_financials": {
+      "fy_end": "2026-06-30",
+      "revenue_gbp_m": 40.0,
+      "adj_ebitda_gbp_m": 16.1,
+      "net_cash_or_debt_gbp_m": 0.6,
+      "basis": "FY26 RNS 19 Oct 2026: revenue GBP 40.0m (+11%; +12% cc), underlying EBITDA GBP 16.1m (+18%), underlying PBT GBP 6.3m, ACMRR GBP 34.0m. Net cash GBP 0.6m (FY25: GBP 7.0m): gross cash GBP 5.4m less GBP 1.5m bank loan and GBP 3.2m asset finance; GBP 5m Barclays RCF undrawn post year-end. FY27 guidance revenue GBP 43-48m, underlying EBITDA margin 38-42%."
+    },
+    "ownership": "Founder/CEO Gordon McArthur has historically held a very large stake (c.35-40% per prior knowledge) - not verified in this pass; no 'Holding(s) in Company' RNS in 2026 (last major-holdings notifications Feb 2025). Institutional holders not confirmed. Likely founder blocking stake. Free float not stated.",
+    "corporate_activity": "None found 2024-2026: no offer, approach or strategic review. Shares slumped Oct 2026 on results / cash burn despite record H2.",
+    "flags": "Cash consumed by upfront infrastructure capex (net cash GBP 7.0m to GBP 0.6m), new bank debt and asset finance; H1 FY26 revenue fell 7% on Proximity Cloud timing and exchange revenue-share transition. Founder control likely. Not FCA-regulated itself (infrastructure vendor) but customer base is regulated exchanges (concentration on a few exchange deals).",
+    "sources": [
+      "https://www.investegate.co.uk/announcement/rns/beeks-financial-cloud-group--bks/final-results-for-the-year-ended-30-june-2026/9828244",
+      "https://fxnewsgroup.com/forex-news/platforms/beeks-financial-cloud-registers-11-increase-in-fy26-revenue/",
+      "https://www.investegate.co.uk/announcement/rns/beeks-financial-cloud-group--bks/final-results-for-the-year-ended-30-june-2025/9151423",
+      "https://www.investegate.co.uk/company/BKS",
+      "https://stockanalysis.com/quote/aim/BKS/statistics",
+      "https://www.financemagnates.com/forex/technology/beeks-financial-cloud-revenue-drops-7-despite-record-contract-wins/"
+    ],
+    "confidence": "medium - financials from RNS/press of 19 Oct 2026; ownership not verified."
+  },
+  {
+    "company": "TruFin plc",
+    "ticker": "TRU",
+    "listing_status": "Still on AIM, but in wind-down/return-of-capital mode: sold 84.5% of Playstack (games publisher) for EV GBP 125m on 10 Jun 2026; GBP 56.8m tender (140p) Jul 2026, GBP 22.5m special dividend Aug 2026, further GBP 17.5m special dividend announced 3 Nov 2026.",
+    "business": "Remaining group: Oxygen Finance (early-payment programmes and spend analytics for UK public-sector bodies; acquired Rockford Associates overpayment-audit firm Oct 2026 for GBP 1.8m) and Satago (SaaS invoice-finance/cash-flow platform, EBITDA-positive from Jun 2026). Jersey-incorporated.",
+    "corsair_vertical": "Payments - B2B (Oxygen early payment) nominally, but what remains is a ~GBP 6m-revenue micro-cap with ~GBP 3m cash after distributions. Weak fit on size.",
+    "market_cap_gbp_m": {
+      "value": 55.8,
+      "source": "stockanalysis.com/quote/aim/TRU/statistics (delayed LSE price 103.5p, 53.9m shares); pre the GBP 17.5m (32.48p) further special dividend announced 3 Nov 2026",
+      "as_of": "2026-11-04"
+    },
+    "latest_fy_financials": {
+      "fy_end": "2025-12-31 (includes Playstack, since sold)",
+      "revenue_gbp_m": 65.9,
+      "adj_ebitda_gbp_m": 12.6,
+      "net_cash_or_debt_gbp_m": null,
+      "basis": "FY25 RNS 18 Mar 2026: gross revenue GBP 65.9m (+20%), adjusted EBITDA GBP 12.6m (+66%), adjusted PBT GBP 8.4m; Playstack GBP 55.3m, Oxygen GBP 9.1m, Satago GBP 1.2m. FY25 net cash not retrieved. Continuing operations H1 2026: gross revenue GBP 5.9m, net revenue GBP 5.3m, adjusted EBITDA GBP 0.5m, LBT GBP 1.5m. Company expects >= GBP 3m cash at 31 Dec 2026 after the further dividend."
+    },
+    "ownership": "Watrium AS (Norwegian family office) is the largest shareholder and did not tender, requiring a Rule 9 (>30%) waiver - post-tender percentage not retrieved; Gresham House also a large holder (indicated it would reduce below a threshold); Jeremy Attard-Manche 6.01% (Oct 2026). Concentrated register with a controlling-type holder.",
+    "corporate_activity": "2026: Playstack disposal to VantageCo (EV GBP 125m, net proceeds GBP 112.4m), GBP 80m capital return (tender at 140p: 40.6m shares bought; special dividend 43.03p), further special dividend 32.48p and 30% head-office cost cut (3 Nov 2026) with CEO moving to Executive Chairman. No third-party offer for TruFin itself found.",
+    "flags": "Effectively a cash-shell plus two small businesses after >GBP 110m returned; controlling shareholder (Watrium) and Rule 9 dynamics; Satago/Oxygen are sub-scale; Oxygen is a public-sector concentrated business. Not a PE platform candidate at this size.",
+    "sources": [
+      "https://www.investegate.co.uk/announcement/rns/trufin--tru/final-results-for-the-12-months-ended-31-dec-2025/9479251",
+      "https://www.investegate.co.uk/announcement/rns/trufin--tru/proposed-disposal-of-playstack-limited/9578817",
+      "https://www.investegate.co.uk/announcement/rns/trufin--tru/proposed-return-of-capital-to-shareholders/9614689",
+      "https://www.investegate.co.uk/announcement/rns/trufin--tru/results-of-general-meeting-and-tender-offer/9689115",
+      "https://www.investegate.co.uk/announcement/rns/trufin--tru/special-dividend-/9689935",
+      "https://www.investegate.co.uk/announcement/rns/trufin--tru/interim-results-and-directorate-change/9776258",
+      "https://www.investegate.co.uk/announcement/rns/trufin--tru/acquisition-of-rockford-associates-ltd-by-oxygen/9844583",
+      "https://www.investegate.co.uk/announcement/rns/trufin--tru/further-special-dividend-and-cost-restructuring/9854500",
+      "https://www.investegate.co.uk/announcement/rns/trufin--tru/holding-s-in-company/9843522",
+      "https://www.investegate.co.uk/company/TRU",
+      "https://stockanalysis.com/quote/aim/TRU/statistics"
+    ],
+    "confidence": "medium - corporate events well documented; Watrium/Gresham percentages and FY25 net cash not retrieved."
+  },
+  {
+    "company": "Ramsdens Holdings plc",
+    "ticker": "RFX",
+    "listing_status": "Still on AIM as of 4 Nov 2026 but under a recommended cash takeover by Chess Bidco (FirstCash Holdings, NYSE: FCFS): final offer 675p cash plus permitted dividends (up to 684p) announced 16 Jul 2026; scheme approved by shareholders 10 Aug 2026; completion 'remains ongoing, subject to regulatory approval' (CMA) per 12 Oct 2026 pre-close update; Form 8.3 disclosures continuing; shares at 631p. Will be cancelled from AIM on completion (long-stop 31 Dec 2026).",
+    "business": "UK pawnbroking, foreign currency exchange, precious-metals buying and jewellery retail through ~170 stores plus online; FCA consumer-credit regulated.",
+    "corsair_vertical": "Weak fit - consumer pawnbroking/FX retail, not Corsair's payments/software/business-services remit; and in any case already agreed to a trade buyer.",
+    "market_cap_gbp_m": {
+      "value": 206.1,
+      "source": "stockanalysis.com/quote/aim/RFX/statistics (delayed LSE price 631p, 32.7m shares); offer values equity at up to ~GBP 232m at 684p",
+      "as_of": "2026-11-04"
+    },
+    "latest_fy_financials": {
+      "fy_end": "2025-09-30",
+      "revenue_gbp_m": 116.8,
+      "adj_ebitda_gbp_m": null,
+      "net_cash_or_debt_gbp_m": null,
+      "basis": "FY25 annual results 14 Jan 2026: revenue GBP 116.8m (+22%), gross profit GBP 60.7m, PBT GBP 16.2m (+43%), EPS 37.0p, net assets GBP 62.9m; EBITDA not disclosed in sources used; net cash/debt not retrieved. FY26 (to 30 Sep 2026) PBT guided GBP 32-35m (pre-close 12 Oct 2026); results not yet published."
+    },
+    "ownership": "Not retrieved. Letters of intent supporting the offer rose to 17.25% (Jul 2026). No founder blocking stake identified.",
+    "corporate_activity": "23 Jun 2026: recommended cash offer from FirstCash's Chess Bidco at up to 609p (33-58% premium, ~GBP 206m); 16 Jul 2026: final increased offer 675p + dividends (~GBP 232m); 10 Aug 2026: scheme approved; CMA opened early consultation; awaiting clearance as of Oct/Nov 2026. FirstCash previously bought H&T (Aug 2025) via the same structure.",
+    "flags": "Taken out of play by an agreed trade sale; CMA review (FirstCash now owns H&T) is the remaining risk - if blocked, the asset would re-emerge but remains off-remit. FCA consumer credit permissions; gold-price sensitivity.",
+    "sources": [
+      "https://www.investegate.co.uk/announcement/rns/ramsdens-holdings--rfx/recommended-acquisition-of-ramsdens-holdings-plc/9630725",
+      "https://www.lse.co.uk/rns/RFX/final-recommended-cash-offer-evgpeb59alcpxqd.html",
+      "https://www.investegate.co.uk/announcement/rns/ramsdens-holdings--rfx/pre-close-trading-update/9816769",
+      "https://investegate.co.uk/company/RFX",
+      "https://www.investegate.co.uk/announcement/rns/ramsdens-holdings--rfx/annual-results-year-ended-30-september-2025/9351696",
+      "https://www.investegate.co.uk/announcement/rns/ramsdens-holdings--rfx/update-on-letters-of-intent/9699337",
+      "https://www.hl.co.uk/shares/stock-market-news/aim-and-small-cap-news/aim-bulletin/cma-opens-early-consultation-on-firstcashs-offer-for-ramsdens",
+      "https://www.perivan.com/resources/news/scheme-document-published-for-the-232-million-recommended-acquisition-of-ramsdens-holdings-by-firstcash/",
+      "https://stockanalysis.com/quote/aim/RFX/statistics"
+    ],
+    "confidence": "high on status/offer; low on EBITDA and net cash (not retrieved)."
+  },
+  {
+    "company": "Finseta plc (formerly Cornerstone FS)",
+    "ticker": "FIN",
+    "listing_status": "Still on AIM under ticker FIN (renamed from Cornerstone FS in 2023). Interim results 16 Sep 2026.",
+    "business": "FCA-regulated payments and foreign-exchange provider (Finseta Payment Solutions) offering multi-currency accounts, international payments and corporate cards to SMEs, HNW individuals and corporate clients; offices in UK, Dubai (DFSA retail endorsement) and Canada; MFSA (Malta) application pending for EU access.",
+    "corsair_vertical": "Payments - international/B2B FX nominally, but micro-cap (GBP 4.5m) and loss-making; far below size floor.",
+    "market_cap_gbp_m": {
+      "value": 4.5,
+      "source": "stockanalysis.com/quote/aim/FIN/statistics (delayed LSE price 6.4p, 70.4m shares)",
+      "as_of": "2026-11-04"
+    },
+    "latest_fy_financials": {
+      "fy_end": "2025-12-31",
+      "revenue_gbp_m": 12.4,
+      "adj_ebitda_gbp_m": 0.2,
+      "net_cash_or_debt_gbp_m": -0.3,
+      "basis": "FY25 RNS 4 Jun 2026: revenue GBP 12.4m (+9%), adjusted EBITDA GBP 0.2m (FY24: GBP 2.0m), operating loss GBP 1.2m, net loss GBP 1.1m, cash GBP 1.5m, net debt GBP 0.3m. GBP 0.9m placing at 8.5p (Apr 2026). H1 2026: revenue GBP 5.4m (-8%), adjusted EBITDA loss GBP 1.0m, cash GBP 2.1m, net debt GBP 0.2m; FY26 revenue guided ~GBP 11m, below expectations (1 Sep 2026)."
+    },
+    "ownership": "David Ryan & family interests 8.63% (Sep 2025); Mark Horrocks & family 4.28% (Jul 2026, down from 5%). No holder above 10% identified in RNS retrieved; directors' holdings not retrieved.",
+    "corporate_activity": "No offer, approach or strategic review found. Equity raises: Apr 2026 placing/subscription/retail offer ~GBP 1.0m at a discount.",
+    "flags": "FCA authorised payment institution - change of control approval needed; loss-making with ~GBP 2m cash and profit warning Sep 2026 (going-concern/funding risk); revenue per customer falling; regional conflict affecting Dubai. Too small to be relevant even as an add-on unless as a licence vehicle.",
+    "sources": [
+      "https://www.investegate.co.uk/announcement/rns/finseta-plc--fin/final-results/9600679",
+      "https://www.investegate.co.uk/announcement/rns/finseta-plc--fin/interim-results/9773935",
+      "https://www.investegate.co.uk/announcement/rns/finseta-plc--fin/placing-subscription-and-proposed-retail-offer/9517972",
+      "https://www.investegate.co.uk/announcement/rns/finseta-plc--fin/holding-s-in-company/9650185",
+      "https://www.investegate.co.uk/announcement/rns/finseta-plc--fin/holding-s-in-company/9119699",
+      "https://www.investegate.co.uk/company/FIN",
+      "https://www.financemagnates.com/fintech/payments/finseta-swings-to-full-year-loss-as-expansion-costs-outrun-revenue-growth/",
+      "https://stockanalysis.com/quote/aim/FIN/statistics"
+    ],
+    "confidence": "medium-high - figures from RNS summaries; FCA status from company description (not re-verified on FCA register)."
+  },
+  {
+    "company": "Intercede Group plc",
+    "ticker": "IGP",
+    "listing_status": "Still on AIM. FY26 final results 23 Jun 2026; trading update 8 Oct 2026.",
+    "business": "Cybersecurity software (MyID credential management, authentication/PKI, SecureVault) issuing and managing digital identities and smart-card/FIDO credentials for governments, defence and large enterprises; ~82% of revenue from the Americas, largely US federal.",
+    "corsair_vertical": "Software - risk & compliance (identity/credential management). Good sub-sector fit, but EV ~GBP 70m (~USD 90m) is below the USD 150m floor; could be an add-on.",
+    "market_cap_gbp_m": {
+      "value": 90.9,
+      "source": "stockanalysis.com/quote/aim/IGP/statistics (delayed LSE price 149p, 61.0m shares)",
+      "as_of": "2026-11-04"
+    },
+    "latest_fy_financials": {
+      "fy_end": "2026-03-31",
+      "revenue_gbp_m": 17.2,
+      "adj_ebitda_gbp_m": 4.0,
+      "net_cash_or_debt_gbp_m": 20.0,
+      "basis": "FY26 RNS 23 Jun 2026: revenue GBP 17.2m (-2.8%), adjusted EBITDA GBP 4.0m (FY25: GBP 4.5m), operating profit GBP 3.2m, PBT GBP 3.7m, net profit GBP 3.4m, recurring revenue ~GBP 11.4m (66%), gross cash GBP 20.0m, no debt (leases ~GBP 1.1m). H1 FY27 (Oct 2026 update): revenue ~GBP 10.85m (+32%), gross cash ~GBP 23.4m; FY27 market expectations revenue GBP 21m, adj EBITDA GBP 5.0m."
+    },
+    "ownership": "No holder above 10% found in 2025-26 RNS; Herald Investment Management 4.33% (Nov 2025); William Christopherson 3.03% (Feb 2026). Board engaged with 25+ acquisition targets in FY26 without proceeding. Free float not stated.",
+    "corporate_activity": "No offer, approach or strategic review found 2024-2026; buybacks in Dec 2024; no dividend. Company is itself an acquirer-in-waiting with GBP 20m+ cash.",
+    "flags": "Customer/geographic concentration (US federal government and defence; Americas 82% of revenue); lumpy perpetual-licence revenue and procurement delays (FY25 revenue fell 11%); US government security clearances/ITAR considerations for a change of control (not verified). Otherwise clean balance sheet.",
+    "sources": [
+      "https://www.ticker.app/lse/IGP/rns/2026-06-23/Final-Results/2804J",
+      "https://www.investegate.co.uk/announcement/rns/intercede-group--igp/trading-update-new-contract-orders-and-renewals/9812181",
+      "https://www.investegate.co.uk/company/IGP",
+      "https://www.investegate.co.uk/announcement/rns/intercede-group--igp/holding-s-in-company/9421898",
+      "https://www.investegate.co.uk/announcement/rns/intercede-group--igp/holding-s-in-company/9270712",
+      "https://www.lse.co.uk/rns/IGP/final-results-hx68kjssvfz0njq.html",
+      "https://stockanalysis.com/quote/aim/IGP/statistics"
+    ],
+    "confidence": "high - all financials from the FY26 RNS text."
+  },
+  {
+    "company": "KRM22 plc",
+    "ticker": "KRM",
+    "listing_status": "Still on AIM. Interim results 30 Sep 2026; new customer contracts 22 Oct 2026.",
+    "business": "Risk-management SaaS (Limits Manager, Risk Manager, market-surveillance/compliance apps) for futures brokers, FCMs, exchanges and trading firms; expanding into equities and fixed income; 53 institutional customers.",
+    "corsair_vertical": "Software - risk & compliance for capital markets. Right sub-sector, but micro-cap (market cap GBP 21m, EV ~GBP 16m) and only marginally EBITDA-positive; add-on size at most.",
+    "market_cap_gbp_m": {
+      "value": 20.8,
+      "source": "stockanalysis.com/quote/aim/KRM/statistics (delayed LSE price 35p, 59.3m shares)",
+      "as_of": "2026-11-04"
+    },
+    "latest_fy_financials": {
+      "fy_end": "2025-12-31",
+      "revenue_gbp_m": 7.4,
+      "adj_ebitda_gbp_m": 0.8,
+      "net_cash_or_debt_gbp_m": 5.2,
+      "basis": "FY25 RNS 13 May 2026: revenue GBP 7.4m (+9.9%), ARR GBP 7.6m, adjusted EBITDA GBP 0.8m, loss before tax GBP 2.1m, gross cash GBP 5.2m, debt-free after GBP 9.2m placing at 40p (Nov 2025) repaid Trading Technologies loan. H1 2026: revenue GBP 3.8m, ARR GBP 7.9m (GBP 8.4m post-period), adjusted EBITDA GBP 0.2m, LBT GBP 0.3m, cash GBP 4.7m."
+    },
+    "ownership": "Kestrel Partners LLP 19.15% (Sep 2026); Canaccord Genuity Group 8.68% (May 2026, down from 12.07%); Herald Investment Management 3.70% (Jul 2026). Chairman/CEO Keith Todd holds a stake (percentage not retrieved). Kestrel's ~19% plus Canaccord is a de facto blocking group.",
+    "corporate_activity": "No offer, approach or strategic review found 2024-2026. Nov 2025 GBP 9.2m placing (Kestrel and Canaccord subscribed) to repay Trading Technologies loan; Dutch acquisition (Object+) earlier.",
+    "flags": "Sub-scale, loss-making at PBT level; weak H1 2026 new contracted ARR (GBP 0.3m) and a customer cancellation; dependence on futures/FCM niche; Trading Technologies was a lender and strategic partner (relationship post-repayment not verified). Kestrel-controlled register.",
+    "sources": [
+      "https://www.investegate.co.uk/announcement/rns/krm22--krm/final-results/9565113",
+      "https://www.investegate.co.uk/announcement/rns/krm22--krm/interim-results-/9797685",
+      "https://www.investegate.co.uk/announcement/rns/krm22--krm/holding-s-in-company/9797273",
+      "https://www.investegate.co.uk/announcement/rns/krm22--krm/holding-s-in-company/9586178",
+      "https://www.investegate.co.uk/announcement/rns/krm22--krm/holding-s-in-company/9586078",
+      "https://www.investegate.co.uk/announcement/rns/krm22--krm/holding-s-in-company/9668672",
+      "https://www.investegate.co.uk/announcement/rns/krm22--krm/result-of-placing-/9171359",
+      "https://www.investegate.co.uk/company/KRM",
+      "https://stockanalysis.com/quote/aim/KRM/statistics"
+    ],
+    "confidence": "high - financials and ownership from primary RNS."
+  }
+]

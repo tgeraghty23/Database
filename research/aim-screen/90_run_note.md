@@ -34,3 +34,8 @@ Minimal event record, per METHOD.md "How to test this method". Dated entries, ne
   investment company (Marsh 38.5%); its investees, not BPM, are the Corsair-type assets. Helios: Lloyd's vehicle,
   weak fit. Burford: too large and levered, NYSE primary. LCM in run-off, Manolete and Orchard sub-scale, RentGuarantor
   unproven. Tapir Holdings is a misclassified investing company (Rendeavour stake): removed from the universe.
+- 2026-11-04 21:00 Return 3 (payments / fintech): Boku the clear fit (GBP 357m cap, EV ~GBP 290m, adj EBITDA USD 41m
+  FY25, net cash, dispersed register, no bid). Fonix (GBP 179m, EBITDA GBP 16m, customer concentration) and Beeks
+  (GBP 138m, cash run down, founder stake likely blocking) marginal. Intercede, KRM22, PCI-PAL right sub-sector but
+  sub-scale; PCI-PAL FY26 audit delayed. Ramsdens: FirstCash offer at 675p approved by holders Aug 2026 (note: higher
+  than the 609p June figure; CMA clearance pending). TruFin now a near cash-shell after Playstack sale. Finseta micro-cap.
