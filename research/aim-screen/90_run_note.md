@@ -56,3 +56,29 @@ Minimal event record, per METHOD.md "How to test this method". Dated entries, ne
   levered) are fits. Knights, Gateley, MHA harder (SRA / audit-ownership rules). TPFG partial (FCA broking ~30% of
   revenue). Restore and RWS above band and off-vertical. Harwood Capital is the recurring activist (Restore 15.5%,
   Optima 11.2%). No bids in the batch 2024-26. Agent challenge accepted: professional-services list was over-inclusive.
+- 2026-11-04 21:45 Return 7 (precedents): 17 in-scope AIM FS/services bid situations since Jan 2024; clean recommended
+  premiums 26-45%, insider-led 11-18%; sponsors Pollen Street, Bridgepoint, STG, TA, GA, TowerBrook/JCF, Harwood, DBAY,
+  Long Path; FirstCash and Corpay the biggest payers. Alpha Group was Main Market at offer (not an AIM precedent).
+  Alpha FMC terms low confidence (recollection). Time Finance terms were unverified by this agent but verified at 59.1p
+  by return 1; return 1's figure used.
+- 2026-11-04 21:50 Integration. Provisional claim held: pool thin, survivors either priced for growth, priced for a
+  problem, or people businesses. Alternative A1 (pool better than expected) rejected: no in-band on-vertical name with
+  dispersed ownership trades below precedent multiples except FRP/BTG, and those carry personal-licence risk. A2 (pool
+  worse) partly right on professional services. A3 (carve-outs) kept open as an implication, not researched.
+  Decision: conclude; no further round. Next round would resolve only the Corsair-mandate premise, which is a private
+  fact obtainable from the user, not from research.
+- 2026-11-04 21:55 Decisive-claim checks (document sentence vs source):
+  (1) "EV USD 150m-750m" - Greymont summary of Corsair site; Corsair's own page gives verticals and deal types only.
+      Document now says the band is third-party. (2) Tatton figures - company Rule 26 page and FY26 results; holds.
+  (3) Boku EBITDA USD 41.3m FY25, guide 38-42m, no >10% holder - RNS summaries; "c.9x" uses FY25 at 1.30; holds, medium.
+  (4) Fintel Davy 23.9%, net debt GBP 31m, ~2.5x post Mortgage Brain - RNS summaries; pro-forma EV is a range, stated.
+  (5) FRP EBITDA 46.1m, net cash 26m - FY26 RNS; holds. (6) GBG and MAB moved to Main Market - RNS; holds.
+  (7) Premium band 26-45% - eight sourced deals; holds. (8) "28 of 84 departures" - ii article; holds.
+  Prose sentence changed as a result: Ramsdens price corrected from 609p (June press) to 675p (final terms).
+- 2026-11-04 22:00 Review record. Agent challenges logged and decided: "specialty finance is off-vertical" accepted
+  (banks removed to context); "professional-services list over-inclusive" accepted (Restore, RWS, FRAN, PPHC, SAG, OHGR
+  removed); "loosen the USD 150m floor" declined (mandate premise, flagged as the key uncertainty instead); agents'
+  proposals for follow-up search rounds on Fintel/Polar/Mercia/Cavendish bid checks recorded as open items, not run
+  (budget stop). No separate reviewer agents used; writing review done by the owner against the "reader reconstruction"
+  test. Supervision: none from the user during the run. Practical stop: search budget; evidential stop reached for
+  the ranking, not for the four open bid checks.

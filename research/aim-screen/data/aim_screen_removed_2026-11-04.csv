@@ -1,0 +1,40 @@
+ticker,company,reason_removed,source_confidence
+GBG,GB Group,Moved to Main Market 30 Oct 2025 (FTSE 250),high
+MAB1,Mortgage Advice Bureau,Moved to Main Market 1 May 2026,high
+RFX,Ramsdens Holdings,Recommended cash offer from FirstCash (Chess Bidco) at 675p; holders approved Aug 2026; CMA/FCA clearance pending; off-vertical (pawnbroking),high
+TIME,Time Finance,Recommended 59.1p cash offer from Bentley Park (Tavistock Group); holders approved 1 Oct 2026,medium
+LIT,Litigation Capital Management,Orderly run-off after failed strategic review (Sep 2026); net liabilities,high
+TAPH,Tapir Holdings,BVI investing company (10% of Rendeavour); sector misclassification; Ashcroft 76%,high
+TRU,TruFin,Near cash-shell after Playstack sale and capital returns (2026),high
+FIN,Finseta,GBP 4.5m micro-cap; loss-making; profit warning Sep 2026,high
+LEND,Sancus Lending,Distressed; equity c.GBP 1m vs GBP 187m debt; Somerston controlled,high
+BUR,Burford Capital,NYSE primary; USD 1.5bn net debt; above EV ceiling; litigation-asset model,high
+BPM,B.P. Marsh & Partners,Investment company (minority stakes in brokers/MGAs); Marsh 38.5%; its investees not the plc are the Corsair-type assets,high
+HUW,Helios Underwriting,Lloyd's capacity vehicle; Lloyd's approvals; concentrated register,high
+ARBB,Arbuthnot Banking Group,PRA bank; Angest 59.9%,high
+DFCH,Distribution Finance Capital,PRA bank; balance-sheet lender outside Corsair verticals,high
+MFX,Manx Financial Group,Sub-scale bank; dual IoM/UK licences; Mellon c.18%,high
+LINV,LendInvest,Leveraged mortgage platform; founders c.54%,high
+DUKE,Duke Capital,Investment-company-style capital provider not an operating business,medium
+ORCH,Orchard Funding,Premium-finance lender; GBP 16m cap; CEO 57%,high
+MANO,Manolete Partners,GBP 15m cap; net debt; lumpy insolvency claims; 68% in four holders,high
+RGG,RentGuarantor,Unproven claims base; GBP 150m cap on tiny audited history; founder 26%,medium
+RST,Restore,Records management; EV c.GBP 667m above band; off-vertical; Harwood 15.5%,high
+RWS,RWS Holdings,Translation/IP; above band; AI disruption; Brode and Griffiths 37%,high
+FRAN,Franchise Brands,Industrial van franchising; off-vertical,high
+PPHC,Public Policy Holding,US lobbying; Nasdaq dual-listed; 73% employee owned,high
+SAG,Science Group,Science consultancy and defence; off-vertical,high
+OHGR,One Health Group,EV c.GBP 31m; NHS-funded surgery; family c.40%,high
+ADVT,AdvancedAdvT,Software acquirer vehicle (Marwyn/BGF/Murria c.43%); not a natural target,high
+EYE,Eagle Eye Solutions,Retail loyalty SaaS; off-vertical,high
+DOTD,dotdigital,Marketing technology; off-vertical,high
+PULS,Pulsar Group,PR/media SaaS; net debt; Kestrel 28.6%,high
+RCN,Redcentric,IT managed services; 83% held by five funds after tender,high
+SFT,Software Circle,Vertical-software acquirer; 51% held by value investors; 2.0x levered; add-on at most,medium
+ARC,Arcontech,GBP 10m cap market-data software; add-on at most,medium
+PEEL,Peel Hunt,Investment bank; IFPR capital constrained; off-vertical,high
+CAV,Cavendish,Broker; GBP 23m cap; off-vertical,high
+TEAM,TEAM plc,GBP 18m loss-making consolidator,high
+TAVI,Tavistock Investments,GBP 7.5m; selling wealth units to Atomos,high
+CTG,Christie Group,GBP 37m cap; Gwyn estate 27.9%; below band,high
+DSW,DSW Capital,GBP 12m micro-cap; founders/licensees 55%,high
