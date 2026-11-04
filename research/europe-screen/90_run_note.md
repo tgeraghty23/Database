@@ -32,3 +32,12 @@
   Almawave, illimity, Alkemy, Intermonte, Anima, Relatech (Bregal), Openjobmetis. Consob: 30 delistings in 2025.
   Mechanics: mandatory bid 30%, sell-out 90%, squeeze-out 95%, loyalty shares split capital from votes.
   Agent challenge accepted: realistic Italian routes are negotiated minority/partnership deals, not dispersed P2Ps.
+- 2026-11-04 23:30 Return: European precedents (45 in-window deals). Premiums higher than UK: Sweden averaged 52%
+  (2025) and 43% (H1 2026); Germany software 33-53%; France bimodal (sponsors ~30%, founder squeeze-outs 60-200%);
+  Italy bank-led cheapest (5-22%); Spain ~18-19%. Mechanics: Sweden 90% redemption makes holdouts decisive (Karnov
+  withdrawn); Norway 2/3 EGM delisting route; Germany 95% rarely reached so 50-75% minimum + delisting offer; France
+  90% reached via pre-committed blocks; Italy 90/95 ladder with top-ups. Corrections accepted: Resurs bidder CVC +
+  Waldakt; Humana acquirer Ambea; Karnov bid withdrawn; Linedata and Link Mobility had no offers. New in-band comps:
+  Zalaris (Norvestor, HR/payroll, 2026), PSI Software (Warburg), All for One (VINCI), Penneo (Visma), Innofactor
+  (CapMan), Oma Savings Bank (S-Bank, pending). Provisional "premiums lower than UK" premise CONTRADICTED; argument
+  revised: continental premiums are higher, and deliverability depends on a pre-committed block of 20-50%.
