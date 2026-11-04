@@ -55,3 +55,26 @@
   co-invest. Gone: Esker (Bridgepoint/GA, Mar 2025), Visiativ, SII (Blackstone + family), Micropole (Talan), Prodware
   (Jan 2026), Itesoft. Keyrus squeeze-out blocked by >10% minority concert (deliverability precedent). No listed
   broker, wealth distributor or in-band payments name. Foreign-investment screening catches cyber and health.
+- 2026-11-05 00:10 Return: Germany. JDC Group (EUR 225m cap, EV ~284m, EBITDA 22.2m, Great-West 26.9%, float 41%) is
+  the best insurance-services/wealth-platform fit; Medios healthcare services (float 65%); Amadeus Fire distressed.
+  Founder-controlled: Hypoport (Slabke 32%), GFT (above band), adesso, Allgeier, Serviceware. OVB 97% held by insurers.
+  Gone: Netfonds (Warburg, 64% premium, Apr 2026 - direct Corsair-profile precedent), Datagroup (KKR), Nexus (TA),
+  CompuGroup (CVC), SNP (Carlyle), PSI (Warburg), All for One (VINCI), Nagarro (Persistent), USU, DFV. No German listed
+  payments name in band. Challenge accepted: Germany is a negotiated-stake market, not a tender market.
+- 2026-11-05 00:20 Integration. Provisional argument: Nordics/Germany deepest - held (Finland deepest on-vertical,
+  Sweden deepest in software/care); France founder-controlled - held; Italy hollowed out - held; Spain thin - held;
+  "premiums lower than UK" - contradicted and revised. Alternative (several dispersed in-band names at single-digit
+  multiples): rejected; only Infotel and CapMan approach it. Decision: conclude. A further round would resolve
+  coverage gaps (Scale, First North) and the two live situations; neither changes the four-conversation recommendation.
+- 2026-11-05 00:25 Decisive-claim checks (document sentence vs source): (1) JDC figures - company IR register and
+  Q4-25 call summary; EBITDA not from annual report: sentence kept, confidence stated. (2) Enento Otava 26.5% - FSA
+  flagging 13 Jun 2025: holds. (3) Netfonds 64% premium - EQS release: holds. (4) Swedish premium averages - Placera
+  counts: holds as reported, labelled "about". (5) Karnov sale review - secondary call summaries: sentence rewritten
+  to say so. (6) eQ/CapMan/Evli EBIT - company reports via data site: holds. (7) Infotel EBITDA 32.8 LTM vs FY25 EBIT
+  24.8 - both stated. (8) "No listed payments name in band in any of the five markets" - each agent checked and reported
+  none; stated as the specific boundary found, not as nonexistence.
+- 2026-11-05 00:30 Review record: agent challenges accepted on Sweden (not FS-specific), Finland (all family-anchored),
+  Germany (negotiated-stake market), Italy (minority routes), Spain (thin), France (controller-led). Proposals for
+  follow-up search rounds recorded, not run. No reviewer agents; owner writing review against reader reconstruction.
+  Supervision: none from the user during the run. Practical stop: per-agent search caps; evidential stop reached for
+  the ranking and the recommendation, not for coverage of growth segments.
