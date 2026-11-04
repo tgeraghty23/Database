@@ -1,0 +1,966 @@
+[
+ {
+  "ticker": "_META",
+  "company": "France market scan - notes",
+  "market": "Euronext Paris (compartments A/B/C) and Euronext Growth Paris; Euronext Access (ML-prefixed) noted only where a seed name sits there",
+  "scanned": [
+   "stockanalysis.com/list/euronext-paris/ : full market-cap-ranked list, page 1 of 2 (500 of 718 names, down to ~EUR 14m cap), read line by line for names in Corsair verticals with cap EUR 80-900m; stockanalysis shows no sector column for Paris so the whole list was read instead of a sector page",
+   "marketscreener.com company pages for 24 names (shareholders, sales mix, FY end) and news pages for 14 names (corporate activity Jan-Nov 2026)",
+   "abcbourse.com offer tables (OPA, OPAS, OPR) for 2024-2026 take-privates and live offers",
+   "AMF BDIF / Euronext notices via web search for the 'gone' names (Esker, Visiativ, SII, Micropole, Prodware, Generix, Itesoft, Rothschild & Co, Tessi, Keyrus)",
+   "company investor pages where reachable (Infotel, Sword, Bastide, Cegedim, Wavestone, Streamwide, ABC arbitrage); Gilbert Dupont note on Equasens (30 Mar 2026) for shareholder split"
+  ],
+  "fx": "All figures EUR as reported; no conversion needed except Firstcaution (reports in CHF; EUR figures taken from stockanalysis, rate not stated). EUR/USD 1.15 per brief for the EV band (USD 150-750m = EUR 130-650m).",
+  "web_search_calls_used": 15,
+  "jurisdiction_flags": "France: squeeze-out at 90% of capital and voting rights (since 2019, both Euronext Paris and Euronext Growth); mandatory-offer threshold 30% (50% on Euronext Growth); a minority concert above 10% can block a squeeze-out (Keyrus 2023 precedent). Foreign-investment screening (art. R.151-3 CMF) covers cybersecurity, data hosting and health activities, so Wallix, Equasens, Cegedim, LNA Sante and Bastide would need Ministry of Economy clearance for a non-EU buyer. Payment institutions (Worldline) and investment firms (Bourse Direct, Viel/CFT, ABC arbitrage AM) sit under ACPR/AMF change-of-control approval.",
+  "gone_2024_2026": [
+   {
+    "company": "Esker (Euronext Growth)",
+    "acquirer": "Boreal Bidco: Bridgepoint with General Atlantic and management",
+    "price": "EUR 262/share",
+    "closed": "offer success 4 Feb 2025; squeeze-out and delisting 3 Mar 2025",
+    "source": "esker.com press releases; AMF 225C0251"
+   },
+   {
+    "company": "Visiativ (Euronext Growth)",
+    "acquirer": "Alliativ (founders-led vehicle)",
+    "price": "EUR 37/share, +35.5% to undisturbed",
+    "closed": "squeeze-out and delisting 5 Sep 2024 (Alliativ 95.32%)",
+    "source": "AMF 224C1472 / 224C1141"
+   },
+   {
+    "company": "SII (Euronext Paris)",
+    "acquirer": "SII Goes On: founder family, management and Blackstone funds in concert",
+    "price": "EUR 70/share",
+    "closed": "AMF result 26 Feb 2024; trading suspended pending squeeze-out, delisted ~Mar 2024",
+    "source": "AMF 224C0201; Option Finance 13 Dec 2023"
+   },
+   {
+    "company": "Micropole (Euronext Growth)",
+    "acquirer": "Talan Holding (competing Miramar bid withdrawn 10 Sep 2024)",
+    "price": "EUR 3.12/share (~200% premium)",
+    "closed": "squeeze-out and delisting 5 Nov 2024",
+    "source": "AMF 224C1572; easybourse"
+   },
+   {
+    "company": "Prodware (Euronext Growth)",
+    "acquirer": "Phast Invest (founders' holding), OPR followed by squeeze-out",
+    "price": "EUR 28/share",
+    "closed": "last trading day 8 Jan 2026, delisted 28 Jan 2026",
+    "source": "AMF 226C0043/226C0068; Euronext notice 19 Jan 2026 on prodwaregroup.com"
+   },
+   {
+    "company": "Itesoft (Euronext Paris compartment C)",
+    "acquirer": "ITEMAN / CDML / SF2I concert, OPR",
+    "price": "EUR 4/share",
+    "closed": "squeeze-out 4 Jun 2024",
+    "source": "AMF 224C0601/224C0713; abcbourse OPR table"
+   },
+   {
+    "company": "Generix Group (Euronext Paris)",
+    "acquirer": "New Gen Holding (Montefiore, Pleiade)",
+    "price": "EUR 9.50 + 0.50 on squeeze-out",
+    "closed": "squeeze-out 13 Sep 2022 (before the 2024-2026 window; precedent only)",
+    "source": "AMF 222C1868/222C2150"
+   },
+   {
+    "company": "Rothschild & Co (Euronext Paris)",
+    "acquirer": "Concordia (Rothschild family holding), OPAS",
+    "price": "EUR 48 cum-dividend / EUR 38.60 after EUR 8 special distribution and dividend",
+    "closed": "offer 24 Jul-8 Sep 2023, squeeze-out Oct 2023 (just before window)",
+    "source": "AMF 223C1121/223C1411; rothschildandco.com"
+   },
+   {
+    "company": "Tessi (Euronext Paris)",
+    "acquirer": "Pixel Holding, OPR",
+    "price": "EUR 168.60",
+    "closed": "squeeze-out 25 Nov 2021 (precedent only)",
+    "source": "AMF 221C3101"
+   },
+   {
+    "company": "Keyrus - NOT gone",
+    "acquirer": "K Eagle Investment (Eric Cohen) OPAS at EUR 7 in 2023 reached 67.5% but a minority concert >10% blocked the squeeze-out; still listed on Euronext Growth (ALKEY)",
+    "price": "EUR 7 (2023)",
+    "closed": "n/a",
+    "source": "AMF 223C1128; marketscreener news"
+   },
+   {
+    "company": "Other 2025-2026 Paris take-privates seen in the abcbourse tables (outside verticals unless noted)",
+    "acquirer": "Exclusive Networks (Etna French Bidco: CD&R/Permira, EUR 18.96, Feb 2025 - cybersecurity distribution, relevant precedent); Altamir (Amboise, EUR 27.44, Sep 2025 - listed PE vehicle, wealth-adjacent); Believe (Upbeat Bidco OPR EUR 17.20, Jul 2025); Neoen (Brookfield); Verallia (BWGI); Waga Energy (EQT); Cogelec (Legrand); Fiducial Office Solutions OPR (Jul-Oct 2026); Eurobio Scientific OPR (Sep 2026); Media 6 OPR (May 2026); Balyo OPR (SoftBank, Mar 2026)",
+    "price": "various",
+    "closed": "2025-2026",
+    "source": "abcbourse.com/marches/offres?m=OPA / OPR; globenewswire; actusnews"
+   }
+  ],
+  "not_found_in_market": "No listed French insurance broker of size (April taken private 2019, now KKR; Diot-Siaci, Verlingue, Besse, Finaxy private). No listed independent wealth manager or fund distributor in band (Primonial, Crystal, Nortia private; Harvest software taken private 2019-20; Altamir taken private 2025; Amundi, Tikehau, Antin too large; Audacia EUR 25m too small; Advenis sub-EUR 50m). Payments: only Worldline (too large, leveraged) and HiPay (EUR 27m); Lyra, Market Pay, Lemonway, Alma private. HR/finance software in band: Sidetrade, Cegedim SRH (inside Cegedim), Quadient AP/AR (inside Quadient); Cegid, Lucca, Silae private; Esker gone. Healthcare services: Clariane (EUR 1.18bn cap, post-recap, heavily indebted) and emeis (EUR 1.63bn) above band; Ramsay GDS controlled (92.6% two holders); Vivalto, Elsan private.",
+  "challenges_to_assignment": "France's in-band pool is real but almost entirely founder- or family-controlled (Linedata 75%, Neurones 59%, Cegedim 61%, Bastide 53%, Equasens 67% via Welcoop, Streamwide 67%, Keyrus 79%, Bourse Direct 83%); the only dispersed-register names in band are Infotel (founder 26%), Aubay (founder concert ~26-44%), Sidetrade (founder 36%), Wallix (~19%) and LNA Sante (family+employees ~47%). Precedent premiums in 2024-2025 were wide (Micropole ~200%, Visiativ 35.5%, Esker ~30%+), consistent with founders using cheap small-cap valuations to delist. The best vertical fits (Linedata, 74Software/SBS) are either too tightly held or above band."
+ },
+ {
+  "ticker": "INF",
+  "company": "Infotel SA",
+  "isin": "FR0000071797",
+  "listing_status": "Euronext Paris, compartment B (inferred from cap; not verified on Euronext). Still listed; continuous news flow to 28 Oct 2026 (guidance confirmation). No offer period.",
+  "business": "French IT services (95% of sales) plus a small mainframe/database software line; application development, outsourcing and consulting for large accounts. Banking 42% and insurance 11.7% of 2025 revenue (54% financial services), France 89%.",
+  "corsair_vertical": "Business services / professional services with a financial-services client base (FS-focused IT services). Good fit; EV ~EUR 213m (~USD 245m) inside band.",
+  "market_cap_eur_m": {
+   "value": 284.47,
+   "currency": "EUR",
+   "source": "stockanalysis.com/quote/epa/INF/statistics/ and /financials/ (delayed Euronext price, 4 Nov 2026 17:35 CET)",
+   "as_of": "2026-11-04",
+   "note": "EUR 41.50/share, 6.85m shares; EV 212.6"
+  },
+  "fy_end": "31 December 2025",
+  "revenue_eur_m": 294.0,
+  "adj_ebitda_eur_m": {
+   "value": 32.8,
+   "note": "LTM EBITDA per stockanalysis; FY2025 operating income 24.8, net income 16.1"
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": 70.4,
+   "note": "net cash (cash 94.3, debt 23.9 incl. leases), stockanalysis latest balance sheet"
+  },
+  "ownership": "Bernard Connes-Lafforet (founder) 26.3%; Michel Koutchouk 5.5%; Moneta AM 5.1%; Amiral Gestion 5.0% (increased stake Apr 2026); Financiere de l'Echiquier 2.1%; treasury 1.6%. stockanalysis insiders 36.3%, float 4.37m of 6.85m shares (~64%). No single blocking stake above one-third.",
+  "corporate_activity": "None found 2024-2026: no approach, review or activism. Share buyback agreement Jun 2026; 20% stake in AeroEx (Swiss aerospace compliance software) Feb 2026; 2030 plan targets EUR 500m revenue (Mar 2026); 2026 growth target raised Sep 2026 (H1 +9.4%).",
+  "flags": "Founder aged and holding 26% - succession is the obvious catalyst; mid-single-digit EBIT margin business; net cash ~25% of cap; no regulatory licences; squeeze-out needs 90%.",
+  "sources": [
+   "https://stockanalysis.com/quote/epa/INF/statistics/",
+   "https://stockanalysis.com/quote/epa/INF/financials/",
+   "https://www.marketscreener.com/quote/stock/INFOTEL-5167/company/",
+   "https://www.marketscreener.com/quote/stock/INFOTEL-5167/news/",
+   "https://www.infotel.com/en/investors/"
+  ],
+  "confidence": "high - figures from two sources agree; ownership from marketscreener; activity from 25 recent headlines"
+ },
+ {
+  "ticker": "AUB",
+  "company": "Aubay SA",
+  "isin": "FR0000063737",
+  "listing_status": "Euronext Paris, compartment B (inferred). Still listed; Q3 2026 release 28 Oct 2026. No offer period.",
+  "business": "IT consulting and engineering services in France, Benelux, Iberia and Italy (~9,400 staff). Banking 39.6% and insurance 18.1% of sales (58% financial services).",
+  "corsair_vertical": "Business services / professional services, FS-heavy IT services. Fit good on client mix; EV EUR 657m (~USD 755m) sits at the very top of the band - would need co-investors after a premium.",
+  "market_cap_eur_m": {
+   "value": 670.18,
+   "currency": "EUR",
+   "source": "stockanalysis.com/quote/epa/AUB/statistics/ and /financials/ (delayed Euronext price, 4 Nov 2026 17:35 CET)",
+   "as_of": "2026-11-04",
+   "note": "EUR 52.80/share, 12.69m shares; EV 656.6"
+  },
+  "fy_end": "31 December 2025",
+  "revenue_eur_m": 601.9,
+  "adj_ebitda_eur_m": {
+   "value": 61.4,
+   "note": "LTM EBITDA (stockanalysis); FY2025 operating income 53.0, net income 38.1; FY2026 revenue guidance raised to EUR 705-710m (Oct 2026) after ~30% reported growth incl. an acquisition"
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": 13.6,
+   "note": "net cash (cash 68.8, debt 55.2 incl. leases)"
+  },
+  "ownership": "Philippe Rabasse (co-founder, CEO) 14.5%; Christophe Andrieux 7.8%; Amiral Gestion 7.5%; Philippe Cornette 3.9%; Christian Aubert (founder) 3.9%. stockanalysis insiders 43.8% (founders' concert), float 7.13m of 12.69m (~56%). Founders act in concert per past AMF filings (not re-verified).",
+  "corporate_activity": "None found: no bid, review or activist 2024-2026. Buyback up to 10% launched Jun 2026; three guidance raises in 2026; Invest Securities initiated Buy Jun 2026.",
+  "flags": "Size at top of band; founders' concert ~26-44% must be aligned; margins ~9% EBIT; labour-intensive model; no licences.",
+  "sources": [
+   "https://stockanalysis.com/quote/epa/AUB/statistics/",
+   "https://stockanalysis.com/quote/epa/AUB/financials/",
+   "https://www.marketscreener.com/quote/stock/AUBAY-4706/company/",
+   "https://www.marketscreener.com/quote/stock/AUBAY-4706/news/"
+  ],
+  "confidence": "high on figures; medium on concert percentage (two sources disagree: 26% named holders vs 43.8% 'insiders')"
+ },
+ {
+  "ticker": "LIN",
+  "company": "Linedata Services SA",
+  "isin": "FR0004156297",
+  "listing_status": "Euronext Paris, compartment B (inferred). Still listed; 9M 2026 revenue 27 Oct 2026. No offer period.",
+  "business": "Software and services for asset managers, fund servicers (62.9% of sales) and lenders/lessors (37.1%); North America 46%, France 30%, N. Europe 18%. 1,479 staff.",
+  "corsair_vertical": "Software - vertical for wealth/asset management and lending. Best vertical fit in France; EV EUR 295m (~USD 340m) in band.",
+  "market_cap_eur_m": {
+   "value": 225.64,
+   "currency": "EUR",
+   "source": "stockanalysis.com/quote/epa/LIN/statistics/ and /financials/ (delayed Euronext price, 4 Nov 2026 17:35 CET)",
+   "as_of": "2026-11-04",
+   "note": "EUR 47.50/share, 4.75m shares; EV 295.2"
+  },
+  "fy_end": "31 December 2025",
+  "revenue_eur_m": 169.6,
+  "adj_ebitda_eur_m": {
+   "value": 37.5,
+   "note": "derived: company-reported EBITDA margin 22.1% x revenue 169.6 (2025 annual results headline, 11 Feb 2026); stockanalysis LTM EBITDA 22.95 after H1 2026 decline; FY2025 operating income 23.2, net income 14.7 (EPS 3.04)"
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": -69.5,
+   "note": "net debt (debt 85.5 incl. leases, cash 16.0); ~1.9x FY25 EBITDA"
+  },
+  "ownership": "Anvaraly Jiva (founder-chairman) 74.95%; HMG Finance 1.9%; employee plan 1.4%; HC Capital 1.3%; treasury 1.1%. Free float ~20%. stockanalysis insiders 78.3%, float 1.03m shares.",
+  "corporate_activity": "None 2024-2026 beyond treasury-share buybacks and dividends. Revenue fell 7.7% in 2025 and 4.8% in H1 2026; Q3 2026 returned to growth (9M +1.7% organic). Partnerships with Broadridge NYFIX (Apr 2026) and AutoRek (Sep 2026).",
+  "flags": "Only deliverable as an agreed deal with Jiva (75%); he can squeeze out at 90% himself at any time; shrinking top line; H1 2026 results down; leverage moderate. No licences.",
+  "sources": [
+   "https://stockanalysis.com/quote/epa/LIN/statistics/",
+   "https://stockanalysis.com/quote/epa/LIN/financials/",
+   "https://www.marketscreener.com/quote/stock/LINEDATA-SERVICES-4770/company/",
+   "https://www.marketscreener.com/quote/stock/LINEDATA-SERVICES-4770/news/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "ticker": "EQS",
+  "company": "Equasens SA (ex-Pharmagest)",
+  "isin": "FR0012882389",
+  "listing_status": "Euronext Paris, compartment A per Gilbert Dupont note (Mar 2026). Still listed; 9M 2026 revenue 29 Oct 2026. No offer period.",
+  "business": "Healthcare software: pharmacy management software (73% of sales), software for care homes/hospitals (16%), e-health infrastructure, GP software, plus a small leasing-finance arm (Nanceo). France 87.5%, Italy, Belgium, Germany. ~1,500 staff.",
+  "corsair_vertical": "Software - vertical (healthcare) and healthcare services adjacent. Good fit; EV ~EUR 430m (~USD 495m) in band.",
+  "market_cap_eur_m": {
+   "value": 421.59,
+   "currency": "EUR",
+   "source": "stockanalysis.com/quote/epa/EQS/statistics/ and /financials/ (delayed Euronext price, 4 Nov 2026 17:35 CET)",
+   "as_of": "2026-11-04",
+   "note": "EUR 28.05/share, 15.03m shares; EV 434.2"
+  },
+  "fy_end": "31 December 2025",
+  "revenue_eur_m": 236.4,
+  "adj_ebitda_eur_m": {
+   "value": 66.7,
+   "note": "EBITDA courant FY2025 per Gilbert Dupont note 30 Mar 2026 (margin 28.2%); current operating income 48.2; net income group share 39.3"
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": 0.7,
+   "note": "net cash ex-IFRS16 at Dec 2025 (GD); net financial debt 10.5 incl. IFRS16; net cash incl. non-current financial assets 83.6 (company). stockanalysis shows -1.7."
+  },
+  "ownership": "Marque Verte Sante 60.5% (holding of Cooperative Welcoop, the pharmacists' cooperative), Cooperative Welcoop direct 6.1%, treasury 0.9%, free float 32.4% (at 31 Dec 2024, per GD note Mar 2026; no 2026 company split found). Marketscreener lists only sub-1% institutions (Echiquier, Capricorn, DNCA).",
+  "corporate_activity": "None: no bid, review or activist. Governance overhaul Jun 2026 (Dominique Pautrat, former CEO, becomes Chairman; four new directors); fire at ASCA subsidiary Sep 2026 (business continuity plan); growth slowing in Q3 2026; small bolt-ons (Erevo training, Jan 2026).",
+  "flags": "Controlled by a cooperative (Welcoop) whose members are the customers - a sale to PE is culturally and strategically unlikely without the cooperative's consent; health-data hosting (HDS) and foreign-investment screening; share price fell from ~EUR 75 (2022) to ~28.",
+  "sources": [
+   "https://stockanalysis.com/quote/epa/EQS/statistics/",
+   "https://stockanalysis.com/quote/epa/EQS/financials/",
+   "https://www.marketscreener.com/quote/stock/EQUASENS-23277319/company/",
+   "https://www.marketscreener.com/quote/stock/EQUASENS-23277319/news/",
+   "https://www.equasens.com/wp-content/uploads/2026/03/Gilbert-Dupont_30032026.pdf"
+  ],
+  "confidence": "high on figures; medium on current ownership (split dated 31 Dec 2024)"
+ },
+ {
+  "ticker": "ALBFR",
+  "company": "Sidetrade SA",
+  "isin": "FR0010202606",
+  "listing_status": "Euronext Growth Paris. Still listed; Q3 2026 revenue 20 Oct 2026. No offer period.",
+  "business": "SaaS order-to-cash / accounts-receivable automation with AI agents ('Aimie') for large enterprises; 421 staff; international 69% of sales (US, UK) after the 2021 Amalto deal.",
+  "corsair_vertical": "Software - finance tools (O2C, credit risk, collections). Good fit; EV EUR 297m (~USD 340m) in band.",
+  "market_cap_eur_m": {
+   "value": 289.2,
+   "currency": "EUR",
+   "source": "stockanalysis.com/quote/epa/ALBFR/statistics/ and /financials/ (delayed Euronext price, 4 Nov 2026 17:35 CET)",
+   "as_of": "2026-11-04",
+   "note": "EUR 202.50/share, 1.43m shares; EV 297.3"
+  },
+  "fy_end": "31 December 2025",
+  "revenue_eur_m": 61.6,
+  "adj_ebitda_eur_m": {
+   "value": 8.9,
+   "note": "LTM EBITDA (stockanalysis); FY2025 operating income 7.1, net income 9.0; H1 2026 'double-digit profitability growth', record bookings"
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": -8.1,
+   "note": "net debt (debt 28.0 incl. leases, cash 20.0)"
+  },
+  "ownership": "Olivier Novasque (founder-CEO) 35.6%; treasury 5.6%; Briarwood Chase 4.9%; Gay-Lussac 1.7%; Polar Capital 1.1%. Float ~56% (0.91m of 1.43m shares). stockanalysis insiders 36%.",
+  "corporate_activity": "None found 2024-2026; executive appointments Apr 2026; product launches (SAFE framework Sep 2026); US wins (Mistras, Sodexo).",
+  "flags": "Founder has blocking stake (>33%); thin share count and liquidity; ~4.8x EV/sales; Euronext Growth so 50% mandatory-offer threshold but 90% squeeze-out; no licences.",
+  "sources": [
+   "https://stockanalysis.com/quote/epa/ALBFR/statistics/",
+   "https://stockanalysis.com/quote/epa/ALBFR/financials/",
+   "https://www.marketscreener.com/quote/stock/SIDETRADE-S-A-3033378/company/",
+   "https://www.marketscreener.com/quote/stock/SIDETRADE-S-A-3033378/news/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "ticker": "ALCGM",
+  "company": "Cegedim SA",
+  "isin": "FR0000053506",
+  "listing_status": "Euronext Growth Paris (transferred from the regulated market in 2021). Still listed; Q3 2026 revenue 22 Oct 2026. No offer period.",
+  "business": "Health and insurance data/services group: third-party administration and flow management for health insurers and mutuals (insurance companies and services 73% of sales), doctor/pharmacy software (21%), payroll/HR SaaS (Cegedim SRH), e-invoicing/digitisation, cloud hosting. France 92%; 6,492 staff.",
+  "corsair_vertical": "Business services - insurance services (TPA/claims flows) plus HR and finance software and healthcare software. Fit on assets, but as a family conglomerate the angle is a carve-out (e.g. Cegedim Insurance Solutions or SRH) rather than the listed parent. EV ~EUR 394m (~USD 450m) in band.",
+  "market_cap_eur_m": {
+   "value": 135.01,
+   "currency": "EUR",
+   "source": "stockanalysis.com/quote/epa/ALCGM/statistics/ and /financials/ (delayed Euronext price, 4 Nov 2026 17:35 CET)",
+   "as_of": "2026-11-04",
+   "note": "EUR 9.81/share, 13.76m shares; EV 394.1"
+  },
+  "fy_end": "31 December 2025",
+  "revenue_eur_m": 649.2,
+  "adj_ebitda_eur_m": {
+   "value": 134.6,
+   "note": "company adjusted EBITDA FY2025 (20.7% margin, +9%); adjusted operating income 49.4; reported operating income 30.2; net profit group share 9.4 (cegedim.com/finance)"
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": -243.5,
+   "note": "net debt per stockanalysis incl. leases (debt 322.2, cash 78.7); ~1.8x adjusted EBITDA; company figure not extracted (chart only)"
+  },
+  "ownership": "Labrune family (via FCB) 61.1%; Amiral Gestion 7.8% (crossed below 5% of voting rights Oct 2026); treasury 2.7%; Bpifrance 2.0%; Quaero 2.0%. Float ~5.2m of 13.76m shares (~38%).",
+  "corporate_activity": "None: no bid or review 2024-2026; TP ICAP initiated Buy Jun 2026; Amiral reducing (Oct 2026). FY2026 guidance maintained (Oct 2026).",
+  "flags": "Family control (61%); low reported margins and high capex; health-data hosting and insurer-TPA activities fall under foreign-investment screening and insurance-distribution rules; Euronext Growth liquidity; history of share-price decline.",
+  "sources": [
+   "https://stockanalysis.com/quote/epa/ALCGM/statistics/",
+   "https://www.cegedim.com/finance/",
+   "https://www.marketscreener.com/quote/stock/CEGEDIM-5186/company/",
+   "https://www.marketscreener.com/quote/stock/CEGEDIM-5186/news/"
+  ],
+  "confidence": "medium-high (company FY figures; net debt only from data site)"
+ },
+ {
+  "ticker": "LNA",
+  "company": "LNA Sante SA",
+  "isin": "FR0004170017",
+  "listing_status": "Euronext Paris, compartment B (inferred). Still listed; H1 2026 results 16 Sep 2026. No offer period.",
+  "business": "Operator of 87 facilities / 10,115 beds (end-2025): nursing homes, rehabilitation and psychiatric clinics, home hospitalisation (HAD) in France, plus Belgium and Poland; small real-estate development arm. Sanitary France EUR 501m, medico-social France 328m of 2025 sales. 8,777 staff.",
+  "corsair_vertical": "Business services - healthcare services. Fit on activity; EV on data-site basis EUR 1.12bn is above band, but most debt is real-estate/IFRS16 - an opco-only EV would be far lower (not computed: company 'net debt excluding real estate' not found).",
+  "market_cap_eur_m": {
+   "value": 262.54,
+   "currency": "EUR",
+   "source": "stockanalysis.com/quote/epa/LNA/statistics/ and /financials/ (delayed Euronext price, 4 Nov 2026 17:35 CET)",
+   "as_of": "2026-11-04",
+   "note": "EUR 25.50/share, 10.30m shares; EV 1.12bn incl. all lease and property debt"
+  },
+  "fy_end": "31 December 2025",
+  "revenue_eur_m": 912.7,
+  "adj_ebitda_eur_m": {
+   "value": 99.3,
+   "note": "LTM EBITDA (stockanalysis, IFRS16 basis); FY2025 operating income 72.9, net income 24.2"
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": -851.0,
+   "note": "net debt incl. property and lease liabilities (debt 940.4, cash 89.4) per stockanalysis; operating net debt not found"
+  },
+  "ownership": "Siret family (founders) 23.3%; Nobinvest 2A 14.8%; LNA Ensemble (employee vehicle) 8.4%; SMABTP 4.0%; treasury 3.9%. Family + employees ~47%. Float 6.85m of 10.3m shares.",
+  "corporate_activity": "No bid or review. Sale of a home-hospitalisation site to Euryale with long-term partnership (Jul 2026, applauded by Oddo); acquisitions and three new HAD licences in Ile-de-France (May-Jul 2026); 2026 guidance given Mar 2026, seen as cautious.",
+  "flags": "Regional health agency (ARS) authorisations and tariff dependence; sector scrutiny post-Orpea; real-estate leverage; family/employee block; low equity value vs enterprise value.",
+  "sources": [
+   "https://stockanalysis.com/quote/epa/LNA/statistics/",
+   "https://stockanalysis.com/quote/epa/LNA/financials/",
+   "https://www.marketscreener.com/quote/stock/LNA-SANTE-17246/company/",
+   "https://www.marketscreener.com/quote/stock/LNA-SANTE-17246/news/"
+  ],
+  "confidence": "medium (EV definition issue; company-defined net debt not obtained)"
+ },
+ {
+  "ticker": "BLC",
+  "company": "Bastide Le Confort Medical SA",
+  "isin": "FR0000035370",
+  "listing_status": "Euronext Paris, compartment C (inferred). Still listed; FY2025/26 results 21 Oct 2026. No offer period.",
+  "business": "Home healthcare provider: respiratory assistance, home care equipment, nutrition/infusion/diabetes, stoma/wound care; services 61% of sales, France 92.6%; 3,641 staff after selling UK (Baywater, Sep 2025) and EXPERF/NMC (Jun 2026) to Sapio.",
+  "corsair_vertical": "Business services - healthcare services. Fit; EV EUR 392m (~USD 450m) in band.",
+  "market_cap_eur_m": {
+   "value": 140.83,
+   "currency": "EUR",
+   "source": "stockanalysis.com/quote/epa/BLC/statistics/ and /financials/ (delayed Euronext price, 4 Nov 2026 17:35 CET)",
+   "as_of": "2026-11-04",
+   "note": "EUR 19.00/share, 7.41m shares; EV 391.5"
+  },
+  "fy_end": "30 June 2026",
+  "revenue_eur_m": 482.4,
+  "adj_ebitda_eur_m": {
+   "value": 91.3,
+   "note": "LTM EBITDA (stockanalysis, IFRS16 basis); operating income 47.8; net income 58.1 inflated by disposal gain (pre-tax 14.6); revenue EUR 526m excluding EXPERF disposal; current operating margin target ~9%"
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": -250.9,
+   "note": "net debt incl. leases (debt 299.1, cash 48.2); ~2.7x EBITDA, falling after disposals"
+  },
+  "ownership": "Societe d'Investissement Bastide (family holding; Bpifrance and IRDI Soridec minorities in the holding since 2018, concert ~54%) 52.9%; Echiquier 1.7%; Vincent Bastide 1.6%; Financiere BGV 1.2%; OFI 1.2%. Float ~3.4m of 7.4m shares.",
+  "corporate_activity": "No bid, approach or review found 2024-2026. Deleveraging programme: Distrimed, Baywater (UK) and EXPERF/NMC disposals 2025-26; AlphaValue upgrade Sep 2026; one broker ended coverage Oct 2026.",
+  "flags": "Family holding 53% with Bpifrance inside; leverage; revenue depends on French social-security tariffs (LPPR cuts hit Q3 FY26); foreign-investment screening (health).",
+  "sources": [
+   "https://stockanalysis.com/quote/epa/BLC/statistics/",
+   "https://stockanalysis.com/quote/epa/BLC/financials/",
+   "https://www.marketscreener.com/quote/stock/BASTIDE-LE-CONFORT-MEDICA-5023/company/",
+   "https://www.marketscreener.com/quote/stock/BASTIDE-LE-CONFORT-MEDICA-5023/news/",
+   "https://www.bastide-groupe.fr/investisseurs/"
+  ],
+  "confidence": "medium-high"
+ },
+ {
+  "ticker": "ALLIX",
+  "company": "Wallix Group SA",
+  "isin": "FR0010131409",
+  "listing_status": "Euronext Growth Paris. Still listed; Q3 2026 revenue 22 Oct 2026. No offer period.",
+  "business": "Privileged-access management, identity governance and access-security software sold through channel partners; maintenance 43%, subscriptions 26%, licences 24% of sales; France 61%; 257 staff.",
+  "corsair_vertical": "Software - risk & compliance / identity. Fit on theme; small and barely profitable; EV EUR 149m (~USD 170m) at bottom of band.",
+  "market_cap_eur_m": {
+   "value": 153.05,
+   "currency": "EUR",
+   "source": "stockanalysis.com/quote/epa/ALLIX/statistics/ and /financials/ (delayed Euronext price, 4 Nov 2026 17:35 CET)",
+   "as_of": "2026-11-04",
+   "note": "EUR 22.85/share, 6.70m shares; EV 148.6"
+  },
+  "fy_end": "31 December 2025",
+  "revenue_eur_m": 45.8,
+  "adj_ebitda_eur_m": {
+   "value": -1.6,
+   "note": "LTM EBITDA negative (stockanalysis); FY2025 operating income -0.8, net income -0.9; H1 2026 positive FCF and improving earnings; 2026 targets confirmed"
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": 4.5,
+   "note": "net cash (cash 12.5, debt 8.0) before the EUR 25m (up to 65m) non-dilutive financing of Jul 2026"
+  },
+  "ownership": "Jean-Noel de Galzain (founder-CEO) 8.3%; Thierry Dassault 6.1%; Amaury Rosset 3.8%; OFI Invest 2.2%; Aguja Capital 2.2%; treasury 0.6%. stockanalysis insiders 19.3%, float 5.2m of 6.7m shares. Dispersed register.",
+  "corporate_activity": "No bid or review 2024-2026. EUR 25m growth financing Jul 2026; Deloitte Germany alliance; added to S&P Global BMI Sep 2026; 'sovereign' positioning.",
+  "flags": "Sovereign cybersecurity asset - foreign-investment screening would apply and the French state (Bpifrance/ANSSI ecosystem) is sensitive to non-EU ownership; sub-scale; licence-to-subscription transition.",
+  "sources": [
+   "https://stockanalysis.com/quote/epa/ALLIX/statistics/",
+   "https://stockanalysis.com/quote/epa/ALLIX/financials/",
+   "https://www.marketscreener.com/quote/stock/WALLIX-GROUP-22497377/company/",
+   "https://www.marketscreener.com/quote/stock/WALLIX-GROUP-22497377/news/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "ticker": "SWP",
+  "company": "Sword Group SE",
+  "isin": "FR0004180578",
+  "listing_status": "Euronext Paris, compartment B (inferred). Luxembourg-domiciled SE, French listing. Still listed; Q3 2026 revenue 22-23 Oct 2026. No offer period.",
+  "business": "IT and digital services in Switzerland, UK, Benelux/EU institutions, Spain, Middle East; data, cloud, managed services and some proprietary software. 2025 revenue EUR 357.7m; Q3 2026 organic growth ~17%.",
+  "corsair_vertical": "Business services - professional services; FS exposure exists (Swiss banks, insurers) but is not disclosed as a share of sales - weak-to-moderate fit. EV EUR 409m (~USD 470m) in band.",
+  "market_cap_eur_m": {
+   "value": 332.99,
+   "currency": "EUR",
+   "source": "stockanalysis.com/quote/epa/SWP/statistics/ and /financials/ (delayed Euronext price, 4 Nov 2026 17:35 CET)",
+   "as_of": "2026-11-04",
+   "note": "EUR 35.20/share, 9.46m shares; EV 409.0"
+  },
+  "fy_end": "31 December 2025",
+  "revenue_eur_m": 357.7,
+  "adj_ebitda_eur_m": {
+   "value": 33.5,
+   "note": "LTM EBITDA (stockanalysis); FY2025 operating income 32.2, net income 19.1"
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": -74.2,
+   "note": "net debt (debt 136.1 incl. leases, cash 61.9) after CirrusHQ (May 2026) and earlier acquisitions"
+  },
+  "ownership": "Eximium (Michel Baule family office) 20.0%; Jacques Mottard (founder-CEO) 17.9%; Independance AM ~12.3% across two vehicles; Saint Olive 1.8%. stockanalysis institutions 18.5%.",
+  "corporate_activity": "No bid or review. Acquisition of CirrusHQ (AWS specialist, Scotland) May 2026; EUR 93m eu-LISA framework with Netcompany/Sopra Steria Jun 2026; liquidity contract with Oddo.",
+  "flags": "Founder 18% plus friendly family office 20% = effective control; SE/Luxembourg structure (Luxembourg squeeze-out rules may apply for the company-law step; AMF for the offer); acquisitive, net debt rising.",
+  "sources": [
+   "https://stockanalysis.com/quote/epa/SWP/statistics/",
+   "https://stockanalysis.com/quote/epa/SWP/financials/",
+   "https://www.marketscreener.com/quote/stock/SWORD-GROUP-SE-5125/company/",
+   "https://www.marketscreener.com/quote/stock/SWORD-GROUP-SE-5125/news/",
+   "https://www.sword-group.com/en/investors/"
+  ],
+  "confidence": "medium (FS share of revenue not found)"
+ },
+ {
+  "ticker": "QDT",
+  "company": "Quadient SA",
+  "isin": "FR0000120560",
+  "listing_status": "Euronext Paris, compartment B (inferred; was A). Still listed; H1 FY2026 results 23 Sep 2026. No offer for the company; Lockers business being sold.",
+  "business": "Customer-communications management, AP/AR and e-invoicing software (Digital), mail-related hardware/services (Mail, in structural decline) and parcel lockers (being divested). North America 57% of sales; recurring 74%.",
+  "corsair_vertical": "Software - finance tools (AR/AP automation, e-invoicing) is a fit but sits inside a mail-hardware group; EV EUR 1.22bn above band and leverage ~4x data-site EBITDA. Weak fit for a whole-company deal; Digital carve-out would be the angle.",
+  "market_cap_eur_m": {
+   "value": 518.65,
+   "currency": "EUR",
+   "source": "stockanalysis.com/quote/epa/QDT/statistics/ and /financials/ (delayed Euronext price, 4 Nov 2026 17:35 CET)",
+   "as_of": "2026-11-04",
+   "note": "EUR 15.30/share, 33.90m shares; EV 1.22bn"
+  },
+  "fy_end": "31 January 2026",
+  "revenue_eur_m": 1036.0,
+  "adj_ebitda_eur_m": {
+   "value": 160.5,
+   "note": "LTM EBITDA (stockanalysis); FY2025/26 operating income 141, net loss -68 (impairments); H1 FY2026 FCF EUR 34m, Digital ARR +13%"
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": -682.7,
+   "note": "net debt (debt 806.2 incl. leases, cash 123.5); company leverage definition excludes leasing receivables"
+  },
+  "ownership": "Vesa Equity Investment (Daniel Kretinsky) 25.0%; Bpifrance 10.0%; Janus Henderson 5.0%; BWM 2.8%; Independance AM 1.3%. Float ~61%.",
+  "corporate_activity": "Strategic review of Lockers launched 20 Jul 2026; completed 23 Sep 2026 with decision to sell; UK open locker network sold to IDS Holdco for EUR 65m. No bid for the group; Kretinsky's 25% is the swing block.",
+  "flags": "EV above band; leverage; Kretinsky and Bpifrance anchor stakes; mail decline; French e-invoicing mandate is a tailwind for Digital.",
+  "sources": [
+   "https://stockanalysis.com/quote/epa/QDT/statistics/",
+   "https://stockanalysis.com/quote/epa/QDT/financials/",
+   "https://www.marketscreener.com/quote/stock/QUADIENT-S-A-4674/company/",
+   "https://www.marketscreener.com/quote/stock/QUADIENT-S-A-4674/news/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "ticker": "WLN",
+  "company": "Worldline SA",
+  "isin": "FR00140182K6",
+  "listing_status": "Euronext Paris (SBF 120). Still listed; Q3 2026 trading update 27 Oct 2026; EUR 500m 2027 notes tender launched 2 Nov 2026. No equity offer.",
+  "business": "European merchant acquiring/payment processing (Merchant Services 80%) and issuing/account processing for banks (Financial Services 20%); 14,500 staff; exiting non-core geographies (India, ANZ) and the CAWL JV with Credit Agricole (2026).",
+  "corsair_vertical": "Payments - on paper the core vertical, but out of band: EV EUR 2.56bn (~USD 2.9bn), net debt EUR 1.16bn, LTM EBITDA 272m, LTM net loss -998m.",
+  "market_cap_eur_m": {
+   "value": 621.04,
+   "currency": "EUR",
+   "source": "stockanalysis.com/quote/epa/WLN/statistics/ and /financials/ (delayed Euronext price, 4 Nov 2026 17:35 CET)",
+   "as_of": "2026-11-04",
+   "note": "EUR 10.97/share, 56.59m shares; EV 2.56bn. Share count of 56.6m vs ~283m historically implies a share consolidation after the 2026 recapitalisation - not verified"
+  },
+  "fy_end": "31 December 2025",
+  "revenue_eur_m": {
+   "value": null,
+   "note": "FY2025 not extracted; LTM revenue 3,961 (stockanalysis); 2026 guidance reinstated Oct 2026 after a cut in Jul 2026"
+  },
+  "adj_ebitda_eur_m": {
+   "value": 272.1,
+   "note": "LTM EBITDA (stockanalysis); LTM operating income 40.6; LTM net income -997.7"
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": -1160.0,
+   "note": "net debt (debt 3.01bn, cash 1.86bn)"
+  },
+  "ownership": "Bpifrance 10.3%; Credit Agricole 10.2%; BNP Paribas 8.5%; Credit Mutuel 7.9%; Goldman Sachs AM 3.3%; treasury 0.7% - a French bank/state anchor group following the 2026 recapitalisation. Float ~76%.",
+  "corporate_activity": "2025-26: capital increase with Bpifrance/Credit Agricole (reported; not verified here), disposals (Worldline India to IndiaIdeas Aug 2026; ANZ JV Jul 2026; CAWL to Credit Agricole Jun-Jul 2026), guidance cut Jul 2026 then beat Oct 2026, debt tender Nov 2026. No take-private approach found.",
+  "flags": "Payment-institution licences (ACPR, plus Belgian/German/Swiss entities) with change-of-control approvals; state/bank anchor shareholders; leverage; litigation and merchant-risk history (2024-25). Out of scope on size.",
+  "sources": [
+   "https://stockanalysis.com/quote/epa/WLN/statistics/",
+   "https://www.marketscreener.com/quote/stock/WORLDLINE-16783982/company/",
+   "https://www.marketscreener.com/quote/stock/WORLDLINE-16783982/news/"
+  ],
+  "confidence": "medium (recapitalisation and share consolidation inferred from share count, not sourced)"
+ },
+ {
+  "ticker": "NRO",
+  "company": "Neurones SA",
+  "isin": "FR0004050250",
+  "listing_status": "Euronext Paris, compartment B (inferred). Still listed; Q3 2026 release 4 Nov 2026. No offer period.",
+  "business": "IT infrastructure services (60%: cloud, cybersecurity, workplace), application services (34%) and consulting (6%) for large French accounts; 7,300 staff; 2026 revenue guidance ~EUR 900m.",
+  "corsair_vertical": "Business services - generalist IT services; FS exposure not disclosed; weak fit. EV EUR 724m (~USD 833m) above band.",
+  "market_cap_eur_m": {
+   "value": 927.47,
+   "currency": "EUR",
+   "source": "stockanalysis.com/quote/epa/NRO/statistics/ and /financials/ (delayed Euronext price, 4 Nov 2026 17:35 CET)",
+   "as_of": "2026-11-04",
+   "note": "EUR 38.90/share, 23.84m shares; EV 724.5"
+  },
+  "fy_end": "31 December 2025",
+  "revenue_eur_m": 857.2,
+  "adj_ebitda_eur_m": {
+   "value": 93.5,
+   "note": "LTM EBITDA (stockanalysis); FY2025 operating income 75.6, net income 52.1"
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": 260.2,
+   "note": "net cash (cash 301.9, debt 41.7)"
+  },
+  "ownership": "Luc de Chammard (founder-CEO) 59.5%; Bertrand Ducurtil 4.1%; treasury 1.9%; Echiquier 1.5%. Float ~35%.",
+  "corporate_activity": "None; buyback programme Jun 2026; guidance raised Aug 2026.",
+  "flags": "Founder controls 59.5%; above band; large net cash.",
+  "sources": [
+   "https://stockanalysis.com/quote/epa/NRO/statistics/",
+   "https://stockanalysis.com/quote/epa/NRO/financials/",
+   "https://www.marketscreener.com/quote/stock/NEURONES-5213/company/",
+   "https://www.marketscreener.com/quote/stock/NEURONES-5213/news/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "ticker": "WAVE",
+  "company": "Wavestone SA",
+  "isin": "FR0013357621",
+  "listing_status": "Euronext Paris, compartment B (inferred). Still listed. No offer period.",
+  "business": "Management and IT consulting (6,000+ staff) in France 54%, Germany 23% (Q_Perior, 2023), Switzerland, US/Canada, UK; strong financial-services practice (share not disclosed in sources consulted).",
+  "corsair_vertical": "Business services - professional services. Size check: EV EUR 754m (~USD 870m) above band; cap 854m. Out on size unless co-invested.",
+  "market_cap_eur_m": {
+   "value": 854.48,
+   "currency": "EUR",
+   "source": "stockanalysis.com/quote/epa/WAVE/statistics/ and /financials/ (delayed Euronext price, 4 Nov 2026 17:35 CET)",
+   "as_of": "2026-11-04",
+   "note": "EUR 34.80/share, 24.55m shares; EV 754.5"
+  },
+  "fy_end": "31 March 2026",
+  "revenue_eur_m": 954.4,
+  "adj_ebitda_eur_m": {
+   "value": 130.9,
+   "note": "LTM EBITDA (stockanalysis); FY2025/26 operating income 119.2 (recurring margin 12.6%), net income 82.0 (+8%)"
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": 101.2,
+   "note": "net cash (cash 121.4, debt 20.3)"
+  },
+  "ownership": "Pascal Imbert (co-founder, chairman) 23.2%; Michel Dancoisne (co-founder) 16.2%; employee plan 8.3%; Delphine Chavelas 4.8%; agens (Q_Perior vendors) 3.7%. stockanalysis insiders 45.4%, float 4.48m shares (~18%).",
+  "corporate_activity": "None; 'Lead the shift' 2030 strategic plan published with FY results (mid-2026).",
+  "flags": "Founders' concert ~40% plus employees; above band; cyclical consulting demand (organic +1% FY26).",
+  "sources": [
+   "https://stockanalysis.com/quote/epa/WAVE/statistics/",
+   "https://stockanalysis.com/quote/epa/WAVE/financials/",
+   "https://www.marketscreener.com/quote/stock/WAVESTONE-45568714/company/",
+   "https://www.wavestone.com/en/investors/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "ticker": "ABCA",
+  "company": "ABC arbitrage SA",
+  "isin": "FR0004040608",
+  "listing_status": "Euronext Paris, compartment B (inferred). Still listed; H1 2026 results 22 Sep 2026. No offer period.",
+  "business": "Proprietary statistical/derivatives arbitrage trading on European and US markets plus an AMF-regulated asset-management arm (ABC arbitrage Asset Management) running quantitative funds for third parties; 119 staff. H1 2026 net profit EUR 26.0m (+47%), ROE 27%.",
+  "corsair_vertical": "Weak fit: value is risk capital deployed in prop trading rather than a fee-based services business; the asset-management arm is small. Noted because the seed list included it.",
+  "market_cap_eur_m": {
+   "value": 346.57,
+   "currency": "EUR",
+   "source": "stockanalysis.com/quote/epa/ABCA/statistics/ and /financials/ (delayed Euronext price, 4 Nov 2026 17:35 CET)",
+   "as_of": "2026-11-04",
+   "note": "EUR 5.81/share, 59.65m shares; EV 159.4 (cash 189m is trading capital, not surplus)"
+  },
+  "fy_end": "31 December 2025",
+  "revenue_eur_m": 59.9,
+  "adj_ebitda_eur_m": {
+   "value": 25.0,
+   "note": "FY2025 operating income (stockanalysis); net income 25.1; 2025 ROE softened, H1 2026 rebound"
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": 187.1,
+   "note": "net cash per stockanalysis (cash 189.2, debt 2.1) - largely working trading capital"
+  },
+  "ownership": "Financiere WDD 12.0% and Aubepar Industries 11.9% (founder-linked holdings), David Hoey 5.9%, Eximium 5.0%, Dominique Ceolin 4.4%; stockanalysis insiders 10.2%, float 35.7m of 59.65m shares (~60%).",
+  "corporate_activity": "None 2024-2026; dividend policy returning to half-yearly payments (Dec 2026).",
+  "flags": "AMF-regulated management company (change-of-control approval); earnings volatility; founder blocks ~30% combined.",
+  "sources": [
+   "https://stockanalysis.com/quote/epa/ABCA/statistics/",
+   "https://stockanalysis.com/quote/epa/ABCA/financials/",
+   "https://www.marketscreener.com/quote/stock/ABC-ARBITRAGE-5094/company/",
+   "https://www.marketscreener.com/quote/stock/ABC-ARBITRAGE-5094/news/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "ticker": "ALSTW",
+  "company": "Streamwide SA",
+  "isin": "FR0010528059",
+  "listing_status": "Euronext Growth Paris. Still listed; H1 2026 results 21 Sep 2026. No offer period.",
+  "business": "Mission-critical communications software (team on mission / team on the run) for public safety, defence and telecom operators; licences 42%, maintenance 28%; France 61%, Americas 28%; 263 staff. FY2025 revenue +25%.",
+  "corsair_vertical": "Weak fit - telecom/public-safety software, not a Corsair vertical. Listed because seeded.",
+  "market_cap_eur_m": {
+   "value": 171.56,
+   "currency": "EUR",
+   "source": "stockanalysis.com/quote/epa/ALSTW/statistics/ and /financials/ (delayed Euronext price, 4 Nov 2026 17:35 CET)",
+   "as_of": "2026-11-04",
+   "note": "EUR 63.40/share, 2.71m shares; EV 161.3"
+  },
+  "fy_end": "31 December 2025",
+  "revenue_eur_m": 26.3,
+  "adj_ebitda_eur_m": {
+   "value": 7.5,
+   "note": "LTM EBITDA (stockanalysis); FY2025 operating income 7.8, net income 6.3"
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": 10.2,
+   "note": "net cash (cash 19.6, debt 9.4)"
+  },
+  "ownership": "Pascal Beglin (founder-CEO) 49.3%; Lilian Gaichies 17.4%; treasury 3.3%; Tiepolo 0.9%; Gay-Lussac 0.7%. Founders ~67%; float ~28% (745k shares).",
+  "corporate_activity": "None.",
+  "flags": "Founder control; defence/public-safety customers (export and foreign-investment screening); tiny float.",
+  "sources": [
+   "https://stockanalysis.com/quote/epa/ALSTW/statistics/",
+   "https://stockanalysis.com/quote/epa/ALSTW/financials/",
+   "https://www.marketscreener.com/quote/stock/STREAMWIDE-382968/company/",
+   "https://www.marketscreener.com/quote/stock/STREAMWIDE-382968/news/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "ticker": "ALKEY",
+  "company": "Keyrus SA",
+  "isin": "FR0004029411",
+  "listing_status": "Euronext Growth Paris. STILL LISTED (seed query 'gone?' is wrong): the 2023 OPAS at EUR 7 by K Eagle Investment (Eric Cohen) reached 67.5% but a minority concert above 10% blocked the squeeze-out. H1 2026 results 29 Sep 2026.",
+  "business": "Data, AI and digital consulting plus Absys Cyborg (Sage/Microsoft mid-market ERP integrator); 2,635 staff; France 52% of sales; serial bolt-ons and disposals (Life Sciences CRO sold to Astek 2025; Xiomega sold Aug 2026; inlumi, Vuealta, Upquest bought 2025-26).",
+  "corsair_vertical": "Weak fit - generalist data consulting; no FS specialism disclosed. EV EUR 204m in band but thin margins.",
+  "market_cap_eur_m": {
+   "value": 122.11,
+   "currency": "EUR",
+   "source": "stockanalysis.com/quote/epa/ALKEY/statistics/ and /financials/ (delayed Euronext price, 4 Nov 2026 17:35 CET)",
+   "as_of": "2026-11-04",
+   "note": "EUR 7.68/share, 15.90m shares; EV 203.7"
+  },
+  "fy_end": "31 December 2025",
+  "revenue_eur_m": 331.7,
+  "adj_ebitda_eur_m": {
+   "value": 7.9,
+   "note": "LTM EBITDA (stockanalysis); FY2025 operating income 2.4, net income 3.3; LTM net loss -8.5"
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": -74.7,
+   "note": "net debt (debt 109.9 incl. leases, cash 35.2)"
+  },
+  "ownership": "Eric Cohen / K Eagle Investment 71.5%; treasury 8.0%; a minority concert (>10%) formed in 2023 to block the squeeze-out; float ~3.55m shares (~22%).",
+  "corporate_activity": "2023 OPAS at EUR 7 (K Eagle), squeeze-out blocked; since then portfolio reshaping (disposals/acquisitions 2025-26); talks to divest Vision.bi (May 2026).",
+  "flags": "Controlled; already failed to delist once; leverage ~9x LTM EBITDA on data-site basis; low profitability.",
+  "sources": [
+   "https://stockanalysis.com/quote/epa/ALKEY/statistics/",
+   "https://stockanalysis.com/quote/epa/ALKEY/financials/",
+   "https://www.marketscreener.com/quote/stock/KEYRUS-5206/company/",
+   "https://www.marketscreener.com/quote/stock/KEYRUS-5206/news/",
+   "https://bdif.amf-france.org/back/api/v1/documents/2023/223C1128/5E640F3C74C25D1732EDAEE588861D9ED55B200225BA06AD44F9BFA19BC62CC4.pdf"
+  ],
+  "confidence": "high"
+ },
+ {
+  "ticker": "74SW",
+  "company": "74Software (ex-Axway Software)",
+  "isin": "FR0011040500",
+  "listing_status": "Euronext Paris, compartment A/B (cap ~EUR 1bn; not verified). Still listed; Q3 2026 revenue 29 Oct 2026; joined CAC Small/Mid&Small Sep 2026. No offer period.",
+  "business": "Holding of two software brands: SBS (core banking and lending software, EUR 371m 2025 revenue, bought from Sopra Steria in 2024) and Axway (API management, MFT, B2B integration, EUR 338m). 4,527 staff; France 30%, US 21%.",
+  "corsair_vertical": "Software - vertical banking software (SBS) is a strong fit, but EV EUR 1.23bn (~USD 1.4bn) is above band and the Sopra family (Sopra GMT 41.7% + Sopra Steria 11.1%) controls.",
+  "market_cap_eur_m": {
+   "value": 994.18,
+   "currency": "EUR",
+   "source": "stockanalysis.com/quote/epa/74SW/statistics/ and /financials/ (delayed Euronext price, 4 Nov 2026 17:35 CET)",
+   "as_of": "2026-11-04",
+   "note": "EUR 34.40/share, 28.90m shares; EV 1.23bn"
+  },
+  "fy_end": "31 December 2025",
+  "revenue_eur_m": 709.0,
+  "adj_ebitda_eur_m": {
+   "value": 121.8,
+   "note": "LTM EBITDA (stockanalysis); LTM operating income 97.8, net income 62.3; FY2025 segment revenue SBS 371 + Axway 338 - 2 adjustments (marketscreener)"
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": -235.2,
+   "note": "net debt (debt 300.3, cash 65.2) after the 2024 SBS acquisition"
+  },
+  "ownership": "Sopra GMT (Pasquier/Odin families) 41.7%; Sopra Steria 11.1%; Clipper Group 10.2%; Long Path Partners 10.0%; treasury 4.3%. Float ~23%.",
+  "corporate_activity": "Internal legal reorganisation to align group with portfolio-company model (Sep 2026); rolling buybacks (Jun-Oct 2026). No bid or review.",
+  "flags": "Controlled; above band; SBS clients are banks (no licence needed for the vendor).",
+  "sources": [
+   "https://stockanalysis.com/quote/epa/74SW/statistics/",
+   "https://www.marketscreener.com/quote/stock/74SOFTWARE-8174242/company/",
+   "https://www.marketscreener.com/quote/stock/74SOFTWARE-8174242/news/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "ticker": "BSD",
+  "company": "Bourse Direct SA",
+  "isin": "FR0000074254",
+  "listing_status": "Euronext Paris, compartment B/C (inferred). Still listed; no offer period.",
+  "business": "French online retail broker (Boursedirect.fr, Capitol, Tradebox; 63.1m online brokerage revenue 2025) plus execution/back-office for institutions (7.1m); 148 staff; subsidiary of Viel & Cie.",
+  "corsair_vertical": "Business services - wealth / retail investment platform. Fit on activity; EV not meaningful (broker balance sheet). Not deliverable: Viel & Cie holds 83.3% and SwissLife 8.4% - float ~8%.",
+  "market_cap_eur_m": {
+   "value": 272.5,
+   "currency": "EUR",
+   "source": "stockanalysis.com/quote/epa/BSD/statistics/ and /financials/ (delayed Euronext price, 4 Nov 2026 17:35 CET)",
+   "as_of": "2026-11-04",
+   "note": "EUR 5.28/share, 51.61m shares"
+  },
+  "fy_end": "31 December 2025",
+  "revenue_eur_m": 76.0,
+  "adj_ebitda_eur_m": {
+   "value": 29.6,
+   "note": "LTM operating income (stockanalysis); net income 21.9; FY2025 revenue 76.0 per marketscreener split, LTM 83.5 per stockanalysis"
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": null,
+   "note": "investment-firm balance sheet; stockanalysis shows debt 65.0 vs cash 56.0 but client-money/regulatory items make a net figure not meaningful"
+  },
+  "ownership": "Viel & Cie 83.3%; SwissLife France 8.4%; Amiral Gestion 2.2%. Float ~8%.",
+  "corporate_activity": "None.",
+  "flags": "ACPR/AMF investment-firm licence; captive to Viel (Patrick Combes); Viel could squeeze out at any time (above 90% with SwissLife).",
+  "sources": [
+   "https://stockanalysis.com/quote/epa/BSD/statistics/",
+   "https://www.marketscreener.com/quote/stock/BOURSE-DIRECT-5179/company/"
+  ],
+  "confidence": "high on ownership; medium on figures"
+ },
+ {
+  "ticker": "VIL",
+  "company": "Viel & Cie SA",
+  "isin": "FR0000050049",
+  "listing_status": "Euronext Paris, compartment A (inferred). Still listed; no offer period.",
+  "business": "Holding of Compagnie Financiere Tradition (interdealer broker, SIX-listed; 94% of sales), Bourse Direct (6%) and 40% of SwissLife Banque Privee. 2,575 staff.",
+  "corsair_vertical": "Business services - capital-markets intermediation / wealth. Out: cap EUR 1.06bn, 65.5% held by Viel & Cie Finance (Patrick Combes) plus 5.9% direct and 6.7% treasury; multi-jurisdiction broker licences.",
+  "market_cap_eur_m": {
+   "value": 1060.0,
+   "currency": "EUR",
+   "source": "stockanalysis.com/quote/epa/VIL/statistics/ and /financials/ (delayed Euronext price, 4 Nov 2026 17:35 CET)",
+   "as_of": "2026-11-04",
+   "note": "EUR 17.18/share, 61.94m shares"
+  },
+  "fy_end": "31 December 2025",
+  "revenue_eur_m": 1290.0,
+  "adj_ebitda_eur_m": {
+   "value": 177.9,
+   "note": "LTM operating income (stockanalysis); net income 134.6"
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": 77.7,
+   "note": "stockanalysis net cash (cash 551.5, debt 473.7) - broker balance sheet"
+  },
+  "ownership": "Viel & Cie Finance 65.5%; treasury 6.7%; Sycomore 5.9%; Patrick Combes 5.9%; Amiral 3.5%. Float ~12%.",
+  "corporate_activity": "None found.",
+  "flags": "Controlled; regulated (CFT under FINMA/FCA/others; SwissLife Banque Privee under ACPR); above band.",
+  "sources": [
+   "https://stockanalysis.com/quote/epa/VIL/statistics/",
+   "https://www.marketscreener.com/quote/stock/VIEL-CIE-4790/company/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "ticker": "ALFRE",
+  "company": "Freelance.com SA",
+  "isin": "FR0004187367",
+  "listing_status": "Euronext Growth Paris. Still listed; no offer period (not individually verified beyond data page).",
+  "business": "Intermediary between companies and independent consultants (portage salarial, freelance management, sourcing); gross revenue ~EUR 1.05bn LTM; EBITDA 27.6m.",
+  "corsair_vertical": "Business services - HR / professional-services intermediation; weak-to-moderate fit (HR services rather than HR software). EV EUR 139m (~USD 160m) at bottom of band.",
+  "market_cap_eur_m": {
+   "value": 121.47,
+   "currency": "EUR",
+   "source": "stockanalysis.com/quote/epa/ALFRE/statistics/ and /financials/ (delayed Euronext price, 4 Nov 2026 17:35 CET)",
+   "as_of": "2026-11-04",
+   "note": "EUR 2.15/share, 56.5m shares; EV 138.7"
+  },
+  "fy_end": "31 December 2025",
+  "revenue_eur_m": {
+   "value": null,
+   "note": "FY2025 not extracted; LTM revenue 1,050 (gross, pass-through heavy)"
+  },
+  "adj_ebitda_eur_m": {
+   "value": 27.6,
+   "note": "LTM EBITDA (stockanalysis); operating income 22.0; net income 23.4"
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": -17.2,
+   "note": "net debt (debt 113.6 incl. factoring/leases, cash 96.3)"
+  },
+  "ownership": "stockanalysis insiders 10.3%, float 10.2m of 56.5m shares (~18%) - implies large non-insider blocks (founders/holding) not identified; marketscreener not consulted.",
+  "corporate_activity": null,
+  "flags": "Ownership not verified; low-margin pass-through model; included as the only listed HR-services name in band.",
+  "sources": [
+   "https://stockanalysis.com/quote/epa/ALFRE/statistics/"
+  ],
+  "confidence": "low - single data source, ownership and activity not verified"
+ },
+ {
+  "ticker": "MLFIR",
+  "company": "Firstcaution SA",
+  "isin": "CH0120879058",
+  "listing_status": "Euronext Access Paris (ML segment), i.e. outside Euronext Paris/Growth scope. Swiss company. Still listed.",
+  "business": "FINMA-regulated Swiss surety insurer providing rental-deposit guarantees for residential and commercial leases; 62 staff; 2025 sales CHF 30m.",
+  "corsair_vertical": "Insurance - but underwriting capital, not distribution; and 96.5% owned by Compagnie du Mont-Cervin (float ~3.5%). Discard.",
+  "market_cap_eur_m": {
+   "value": 119.44,
+   "currency": "EUR",
+   "source": "stockanalysis.com/quote/epa/MLFIR/statistics/ and /financials/ (delayed Euronext price, 4 Nov 2026 17:35 CET)",
+   "as_of": "2026-11-04",
+   "note": "EUR 31.60/share (3 Nov 2026 close), 3.78m shares; figures converted by stockanalysis from CHF, rate not stated"
+  },
+  "fy_end": "31 December 2025",
+  "revenue_eur_m": {
+   "value": 32.2,
+   "note": "LTM, EUR per stockanalysis (CHF 30m company)"
+  },
+  "adj_ebitda_eur_m": {
+   "value": 4.0,
+   "note": "LTM EBITDA; operating income 3.1; net income 2.5"
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": 26.2,
+   "note": "net cash - insurer balance sheet"
+  },
+  "ownership": "Compagnie du Mont-Cervin SA 96.5%; float ~3.5%.",
+  "corporate_activity": null,
+  "flags": "FINMA change-of-control; no float; Euronext Access.",
+  "sources": [
+   "https://stockanalysis.com/quote/epa/MLFIR/statistics/",
+   "https://stockanalysis.com/quote/epa/MLFIR/company/",
+   "https://www.marketscreener.com/quote/stock/FIRSTCAUTION-SA-7054335/company/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "ticker": "S30",
+  "company": "Solutions 30 SE",
+  "isin": "FR0013379484",
+  "listing_status": "Euronext Paris. Still listed. No offer period.",
+  "business": "Field technicians for telecom/fibre connectivity (68%), energy (20%) and IT (12%) across Benelux, France, Germany, Italy, Poland; 6,300 staff.",
+  "corsair_vertical": "Not a Corsair vertical (field services); cap EUR 49m below band; LTM operating loss -12m, net loss -68m, net debt 119m. Discard.",
+  "market_cap_eur_m": {
+   "value": 49.33,
+   "currency": "EUR",
+   "source": "stockanalysis.com/quote/epa/S30/statistics/ and /financials/ (delayed Euronext price, 4 Nov 2026 17:35 CET)",
+   "as_of": "2026-11-04",
+   "note": "EUR 0.46/share, 107.1m shares; EV 188.1"
+  },
+  "fy_end": "31 December 2025",
+  "revenue_eur_m": {
+   "value": null,
+   "note": "LTM revenue 842.5"
+  },
+  "adj_ebitda_eur_m": {
+   "value": 13.9,
+   "note": "LTM EBITDA; operating income -12.0; net income -68.4"
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": -119.1,
+   "note": "net debt (debt 165.4, cash 46.3)"
+  },
+  "ownership": "Gianbeppi Fortis (co-founder) 16.2%; otherwise dispersed (float ~84%).",
+  "corporate_activity": "Not researched beyond data pages (distressed; 2021 short-seller/audit episode is history).",
+  "flags": "Distressed; leverage; out of band.",
+  "sources": [
+   "https://stockanalysis.com/quote/epa/S30/statistics/",
+   "https://www.marketscreener.com/quote/stock/SOLUTIONS-30-SE-47041212/company/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "ticker": "GDS",
+  "company": "Ramsay Generale de Sante SA",
+  "isin": "FR0000044471",
+  "listing_status": "Euronext Paris. Still listed but float ~1% (771k shares). No offer period.",
+  "business": "Largest private hospital group in France plus Nordics (Capio) and Italy; 491 facilities; FY June. LTM revenue EUR 5.38bn, EBITDA 361m, net debt 3.73bn.",
+  "corsair_vertical": "Healthcare services, but out: EV EUR 4.7bn; Ramsay Health Care 52.8% and Predica (Credit Agricole Assurances) 39.8%.",
+  "market_cap_eur_m": {
+   "value": 951.38,
+   "currency": "EUR",
+   "source": "stockanalysis.com/quote/epa/GDS/statistics/ and /financials/ (delayed Euronext price, 4 Nov 2026 17:35 CET)",
+   "as_of": "2026-11-04",
+   "note": "EUR 8.62/share, 110.4m shares; EV 4.72bn"
+  },
+  "fy_end": "30 June 2026",
+  "revenue_eur_m": 5380.0,
+  "adj_ebitda_eur_m": {
+   "value": 361.4,
+   "note": "LTM EBITDA (IFRS16 basis); operating income 198.8; net loss -48.3"
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": -3730.0,
+   "note": "net debt incl. leases"
+  },
+  "ownership": "Ramsay Health Care 52.8%; Predica 39.8%; Andre Attia 6.7%; float <1%.",
+  "corporate_activity": "Not researched (no float).",
+  "flags": "No float; out of band; ARS licences.",
+  "sources": [
+   "https://stockanalysis.com/quote/epa/GDS/statistics/",
+   "https://www.marketscreener.com/quote/stock/RAMSAY-GENERALE-DE-SANTE-4694/company/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "ticker": "ALCLA/ALBLD/ALHYP/COFA/PLX/EDEN",
+  "company": "Seed names discarded on size without full verification",
+  "listing_status": "All still listed on Euronext Paris or Euronext Growth per the stockanalysis list of 4 Nov 2026.",
+  "business": "Claranova (ALCLA) cap EUR 28.5m - consumer software, below band. Bilendi (ALBLD) cap EUR 35.5m - online panels/market research, below band and not a vertical. HiPay (ALHYP) cap EUR 26.5m - payment service provider, the only pure listed French payments name besides Worldline, below band. Coface (COFA) cap EUR 2.37bn - credit insurer (underwriting capital; Arch Capital ~30%), above band and outside the insurance-services definition. Pluxee (PLX) cap EUR 1.67bn and Edenred (EDEN) EUR 5.67bn - employee-benefit payments, above band. Also noted: Alan Allman Associates (AAA) cap EUR 80.5m but EV 242m with net debt 160m (consulting roll-up, Euronext Paris) and Dekuple/ADLPartner (DKUPL) cap 83.7m (marketing services with insurance affinity distribution) - both weak fits and not verified further; Younited (YOUNI, EUR 294m) is a consumer lender/bank - context only; CFM Indosuez Wealth Management (MLCFM, EUR 860m) is a Credit Agricole-controlled Monaco bank on Euronext Access - context only; IDI (IDIP, EUR 479m) and Compagnie Lebon (ALBON, 107m) are listed investment holdings.",
+  "corsair_vertical": "n/a",
+  "market_cap_eur_m": {
+   "value": null,
+   "source": "https://stockanalysis.com/list/euronext-paris/",
+   "as_of": "2026-11-04"
+  },
+  "fy_end": null,
+  "revenue_eur_m": null,
+  "adj_ebitda_eur_m": null,
+  "net_cash_or_debt_eur_m": null,
+  "ownership": null,
+  "corporate_activity": null,
+  "flags": "Size screen only.",
+  "sources": [
+   "https://stockanalysis.com/list/euronext-paris/",
+   "https://stockanalysis.com/quote/epa/AAA/statistics/",
+   "https://stockanalysis.com/quote/epa/DKUPL/statistics/"
+  ],
+  "confidence": "medium (caps only)"
+ }
+]

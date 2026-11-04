@@ -48,3 +48,10 @@
   Columbus (Kunoe 66%), cBrain (34x). Norway nearly empty in band: Bouvet weak fit; Zalaris, Spir, Volue, Kahoot,
   Crayon gone; Carasent and SmartCraft relisted to Stockholm. Add-ons: Admicom, Digia, Alexandria, Lemonsoft, Talenom.
   Challenge accepted: Finnish asset managers are all founder/family anchored; only CapMan is dispersed.
+- 2026-11-04 23:50 Return: France. Fits with some float: Infotel (EV 213m, 54% FS clients, founder 26%, net cash
+  70m), Sidetrade (EV 297m, O2C finance SaaS, founder 36%), Wallix (EV 149m, identity/PAM, dispersed, breakeven).
+  Controlled fits: Linedata (EV 295m, best vertical fit, Jiva 75%), Equasens (Welcoop 67%), Bastide (family 53%),
+  Cegedim (insurer TPA + HR SaaS, Labrune 61%, carve-out angle), LNA Sante. Aubay (EV 657m, 58% FS clients) only with
+  co-invest. Gone: Esker (Bridgepoint/GA, Mar 2025), Visiativ, SII (Blackstone + family), Micropole (Talan), Prodware
+  (Jan 2026), Itesoft. Keyrus squeeze-out blocked by >10% minority concert (deliverability precedent). No listed
+  broker, wealth distributor or in-band payments name. Foreign-investment screening catches cyber and health.

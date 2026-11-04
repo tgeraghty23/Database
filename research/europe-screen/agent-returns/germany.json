@@ -1,0 +1,1327 @@
+[
+ {
+  "_meta": {
+   "market": "Germany (Frankfurt Prime Standard, General Standard, Scale; plus Austrian German-focused Fabasoft)",
+   "as_of": "2026-11-04",
+   "fx": "All figures EUR; no conversion needed. Band reference: EV EUR 130-650m (USD 150-750m at 1.15).",
+   "scanned": [
+    "stockanalysis.com Deutsche Boerse Xetra list, page 3 of 3 (market caps c. EUR 60m-1bn, 219 names) - filtered by name/industry for financials, software, IT services, insurance, brokers, payments, staffing, clinics",
+    "Wikipedia SDAX constituent list (68 names)",
+    "Seed list from task; stockanalysis quote/statistics pages for each candidate",
+    "Company IR pages where reachable (GFT, Medios, OVB, PSI, Amadeus Fire, M1 Kliniken); EQS/ad hoc releases via boerse-online/deraktionaer"
+   ],
+   "web_search_calls_used": 25,
+   "not_found_in_universe": "No German-listed payments company in band was found (Wirecard, Payone, Unzer, Computop, SumUp are gone or private; Worldline's Xetra line is a French issuer). No listed German corporate/trust-services provider found. German listed insurance brokers/pools are JDC, Netfonds (now Warburg Pincus), MLP, Hypoport (platforms) and OVB (tied distribution).",
+   "limitations": "Ownership for several context names (Patrizia, Oekoworld, MLP, Baader, Multitude, Mediclin, Atoss, secunet) not verified and written as null with a note. Net debt figures from stockanalysis include IFRS16 leases unless stated. EQS, Vectron and Synlab precedents are from memory and flagged low confidence."
+  }
+ },
+ {
+  "company": "JDC Group AG (JDC)",
+  "listing_status": "Listed, Frankfurt Scale (Open Market) and Xetra. No offer period. Company ran a voluntary public buyback offer for up to 222,222 shares (announced 16 Apr 2026).",
+  "business": "Advisortech and advisory platform for German and Austrian insurance and investment intermediaries (brands Jung DMS & Cie, FiNUM, allesmeins). Acts as pool/administrator for independent brokers and as white-label platform for banks and insurers (e.g. Versicherungskammer Bayern, Provinzial).",
+  "corsair_vertical": "Business services: insurance services / wealth distribution platform. Strong fit (insurance broker pool plus advisor technology).",
+  "market_cap_eur_m": {
+   "value": 224.8,
+   "source": "stockanalysis.com (Xetra delayed close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "financials": {
+   "fy_end": "31 Dec 2025",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": 247.9,
+   "adj_ebitda_eur_m": 22.2,
+   "net_income_eur_m": 7.1,
+   "net_cash_or_debt_eur_m": -59.2,
+   "notes": "Revenue/net income FY2025 per stockanalysis; EBITDA 22.2m per Q4-2025 call summary on the same page (+36%). Net debt -59.2m is stockanalysis ttm figure (cash 35.0m, debt 94.2m incl. leases/bond) - company-defined net debt not retrieved. Q1 2026: revenue 74.9m (+20%), EBITDA 8.1m. 2026 guidance revenue 300-330m, EBITDA 35-38m. Implied EV c. 284m."
+  },
+  "ownership": "Great-West Lifeco (Canada Life) 26.9%; management (founders Grabmaier/Konrad) 11.3%; Versicherungskammer Bayern 6.0%; Provinzial 6.0%; Teslin 6.0%; treasury 2.7%; free float 41.1% (company IR, as of 1 Jul 2026, via search summary). Great-West is a strategic anchor that could block or pre-empt a take-private.",
+  "corporate_activity": "No bid approach, strategic review or activist found 2024-2026. Great-West Lifeco became anchor shareholder in 2022 (bought founders' family-office stakes). 2026 voluntary buyback offer.",
+  "flags": "Regulated intermediaries (German insurance/investment broker licences under GewO 34d/34f; Austrian subsidiaries) - change of control notifiable but not a BaFin owner-control process. Strategic shareholder (Great-West) plus two public insurers on the register; bank/insurer platform contracts give customer concentration. Scale segment: no WpUeG mandatory-offer regime applies in the Open Market, which eases a negotiated stake build but squeeze-out still needs 95% (AktG) or 90% (merger squeeze-out). Leverage moderate.",
+  "sources": [
+   "https://stockanalysis.com/quote/etr/JDC/",
+   "https://stockanalysis.com/quote/etr/JDC/statistics/",
+   "https://jdcgroup.de/en/investor-relations-en/",
+   "https://www.deraktionaer.de/nachricht/eqs-news-jdc-erzielt-zum-jahresauftakt-erstmals-einen-konzernumsatz-von-rund-75-millionen-euro-in-einem-quartal-ebitda-waechst-ueber-60-prozent-deutsch-523742.html",
+   "https://www.versicherungsbote.de/id/4878279/JDC-bekommt-neuen-Grossaktionar/"
+  ],
+  "confidence": "medium-high: price, revenue and shareholder split from company/data-site sources; EBITDA and net debt from secondary summaries, not the annual report."
+ },
+ {
+  "company": "Hypoport SE (HYQ)",
+  "listing_status": "Listed, Frankfurt Prime Standard, SDAX. No offer period. Buyback of up to EUR 10m / 400,000 shares authorised for Aug-Oct 2026.",
+  "business": "Operates B2B technology platforms for the German credit, housing and insurance industries: Europace mortgage marketplace, Dr. Klein consumer mortgage brokerage, Qualitypool/Smart InsurTech insurance platforms, plus real-estate valuation tools (Value AG).",
+  "corsair_vertical": "Software/platform for financial services (mortgage and insurance distribution tech). Good thematic fit; EV c. EUR 650m is at the top of the band (USD c. 750m) so platform only with co-invest.",
+  "market_cap_eur_m": {
+   "value": 574.9,
+   "source": "stockanalysis.com (Xetra delayed close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "financials": {
+   "fy_end": "31 Dec 2025",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": 602.6,
+   "adj_ebitda_eur_m": null,
+   "ebitda_ttm_eur_m": 39.5,
+   "net_income_eur_m": 25.9,
+   "net_cash_or_debt_eur_m": -72.2,
+   "notes": "FY2025 revenue and net income from stockanalysis; FY2025 EBIT not retrieved (null). H1 2026 revenue c. 138m (+5%), EBIT 19.3m; 2026 guidance: gross profit at least 280m, EBIT 40-55m (cash-online, Aug 2026). Net debt -72.2m = stockanalysis ttm (cash 90.4m, debt 162.6m). EV 651m per stockanalysis."
+  },
+  "ownership": "Ronald Slabke (founder/CEO) c. 32.4%; Union Investment 6.7%; BlackRock 6.4%; treasury c. 2.7-3.2%; free float c. 64% (company explanatory report to 2026 AGM; comdirect/bawag).",
+  "corporate_activity": "None found 2024-2026 (no approach, review or activist). Share down c. 30% YTD 2026.",
+  "flags": "Founder blocking stake (32%) makes any take-private dependent on Slabke. Earnings are geared to German mortgage volumes (cyclical). Subsidiaries hold intermediary licences (no bank). WpUeG applies (30% control threshold; 95% squeeze-out). Leverage modest.",
+  "sources": [
+   "https://stockanalysis.com/quote/etr/HYQ/",
+   "https://stockanalysis.com/quote/etr/HYQ/statistics/",
+   "https://www.hypoport.de/wp-content/uploads/2026/04/Entwurf-Erlaeuternder-Bericht-des-Vorstands.pdf",
+   "https://www.cash-online.de/a/hypoport-sieht-sich-auf-kurs-jahresziele-2026-bestaetigt-723902/",
+   "https://en.wikipedia.org/wiki/SDAX"
+  ],
+  "confidence": "medium-high: ownership from company AGM document; FY2025 EBIT not retrieved."
+ },
+ {
+  "company": "GFT Technologies SE (GFT)",
+  "listing_status": "Listed, Frankfurt Prime Standard, SDAX. No offer period.",
+  "business": "IT services and software engineering focused on banks, insurers and (increasingly) industrial clients; c. 11,800 staff, strong in Brazil, Spain, UK and Germany; products include Smaragd regulatory-compliance suite and Wynxx GenAI delivery platform.",
+  "corsair_vertical": "Business services: professional/IT services to financial institutions (plus risk & compliance software). Good sector fit; EV c. EUR 810m (USD c. 930m) is above band - co-invest or minority only.",
+  "market_cap_eur_m": {
+   "value": 710.7,
+   "source": "stockanalysis.com (Xetra delayed close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "financials": {
+   "fy_end": "31 Dec 2025",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": 888.3,
+   "adj_ebitda_eur_m": null,
+   "ebitda_ttm_eur_m": 65.2,
+   "net_income_eur_m": 32.9,
+   "net_cash_or_debt_eur_m": -101.5,
+   "notes": "FY2025 revenue +2%, net income -29%. Adjusted EBIT not retrieved (null). Net debt and EBITDA are stockanalysis ttm figures (cash 42.0m, debt 143.5m)."
+  },
+  "ownership": "Ulrich Dietz (founder, chairman) 26.3%; Maria Dietz 9.5%; treasury 2.9%; free float 61.3% (company IR share page, June 2026).",
+  "corporate_activity": "None found 2024-2026. 2025 placement of 4.74% of capital by a holder (moneycab). No approach or review reported.",
+  "flags": "Founder family 35.8% is a de-facto blocking stake. Multi-country delivery (Brazil, Spain, UK) - FX and client concentration in banking. Above EV band. WpUeG/95% squeeze-out apply.",
+  "sources": [
+   "https://stockanalysis.com/quote/etr/GFT/",
+   "https://stockanalysis.com/quote/etr/GFT/statistics/",
+   "https://www.gft.com/int/en/about-us/investor-relations/share",
+   "https://www.moneycab.com/?p=1146009"
+  ],
+  "confidence": "medium-high: ownership from company page; profitability metrics from data site only."
+ },
+ {
+  "company": "adesso SE (ADN1)",
+  "listing_status": "Listed, Frankfurt Prime Standard, SDAX. No offer period.",
+  "business": "IT consulting and custom software with c. 11,500 staff; largest verticals are insurance and banking (in|sure insurance software suite), plus public sector, health and manufacturing, in DACH and internationally.",
+  "corsair_vertical": "Business services: professional/IT services with heavy insurance and banking exposure; owns vertical insurance software. Good fit on activity; EV c. EUR 820m (incl. leases) above band.",
+  "market_cap_eur_m": {
+   "value": 472.2,
+   "source": "stockanalysis.com (Xetra delayed close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "financials": {
+   "fy_end": "31 Dec 2025",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": 1470.0,
+   "adj_ebitda_eur_m": 123.6,
+   "net_income_eur_m": 18.2,
+   "net_cash_or_debt_eur_m": -346.3,
+   "notes": "FY2025 revenue c. 1.47bn (+14%), EBITDA 123.6m (+30%), EPS 2.83 per company release headline (finanzen.net). Net debt -346.3m is stockanalysis ttm (debt 398.3m incl. IFRS16 leases; cash 52.0m) - company net financial debt is lower but not retrieved. 2026 guidance revenue 1.6-1.7bn; Q1 2026 EBITDA 27.0m, H1 2026 revenue 794.3m."
+  },
+  "ownership": "Setanta GmbH (Michael Hochguertel) 28.27%; Prof. Volker Gruhn 27.40%; Rainer Rudolf 16.20%; Ludwig Fresenius 6.70%; free float c. 15-20% (boerse.de / voting-rights notice Apr 2025; stockanalysis insider 52%).",
+  "corporate_activity": "None found 2024-2026. Janus Henderson exited (below 3%).",
+  "flags": "Three founder/anchor holders control c. 72% - only a negotiated deal is possible; free float too small for a market take-private. Thin margins (EBITDA c. 8%); goodwill from acquisitions. WpUeG applies.",
+  "sources": [
+   "https://stockanalysis.com/quote/etr/ADN1/",
+   "https://stockanalysis.com/quote/etr/ADN1/statistics/",
+   "https://finanzen.net/nachricht/aktien/eqs-news-adesso-se-publishes-2025-consolidated-financial-statements-sales-increased-to-eur-1-47-billion-14-ebitda-improved-by-30-to-eur-123-6-million-earnings-per-share-eur-2-83-15585667",
+   "https://www.boerse.de/unternehmensprofil/Adesso-Aktie/DE000A0Z23Q5",
+   "https://www.boerse-online.de/dpa-afx/eqs-stimmrechte-adesso-se-deutsch-438819.html"
+  ],
+  "confidence": "medium: financials from company release headline; shareholder percentages from aggregators, consistent across two."
+ },
+ {
+  "company": "Allgeier SE (AEIN)",
+  "listing_status": "Listed, Frankfurt Prime Standard. No offer period. Buyback of up to 5% running Dec 2025-Apr 2026.",
+  "business": "IT services and software group (Enterprise IT; mgm technology partners) serving public sector, insurers and corporates in Germany; sold its IT-infrastructure managed-services unit in 2025 (EUR 75.7m proceeds) and Allgeier Engineering in H1 2026 to focus on AI platforms and software.",
+  "corsair_vertical": "Business services / enterprise software: moderate fit (mgm builds insurance and public-sector platforms). EV c. EUR 286m is in band.",
+  "market_cap_eur_m": {
+   "value": 152.5,
+   "source": "stockanalysis.com (Xetra delayed close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "financials": {
+   "fy_end": "31 Dec 2025",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": 335.0,
+   "adj_ebitda_eur_m": 44.8,
+   "net_income_eur_m": 22.2,
+   "net_cash_or_debt_eur_m": -40.0,
+   "notes": "Continuing operations: total output 335m, adjusted EBITDA 44.8m (13.4% margin); group incl. discontinued 400m / 50.4m (ad hoc 26 Mar 2026). Net income 22.2m per stockanalysis (includes disposal gain). Net financial debt c. -40m implied by company figures (cash 42m, financial liabilities 82m) excluding IFRS16 leases (22m) and factoring (14m); stockanalysis shows -79m. 2026 guidance revenue 350-390m, adj. EBITDA 47-53m (later 46-52m after Engineering sale)."
+  },
+  "ownership": "Carl Georg Duerschmidt (chairman) c. 26.3%; Detlef Dinsel c. 10.2%; treasury 3%; free float c. 48% (comdirect/AfU, undated).",
+  "corporate_activity": "Portfolio disposals 2025-2026 (infrastructure business, Engineering); dividend doubled to EUR 1.00; no approach or review found.",
+  "flags": "Founder stake 26% needs to be brought along. Restructured group with discontinued ops - quality of underlying earnings to verify. Leverage modest post-disposal. WpUeG applies.",
+  "sources": [
+   "https://stockanalysis.com/quote/etr/AEIN/",
+   "https://stockanalysis.com/quote/etr/AEIN/statistics/",
+   "https://www.boerse-online.de/dpa-afx/eqs-adhoc-allgeier-se-allgeier-erreicht-die-ergebnis-guidance-fuer-2025-und-verstaerkt-die-fokussierung-auf-ki-basierte-plattformtechnologien-und-softwareloesungen-deutsch-512901.html",
+   "https://www.allgeier.com/en/investor-relations/share",
+   "https://www.comdirect.de/inf/aktien/DE000A2GS633"
+  ],
+  "confidence": "medium: FY2025 from company ad hoc; ownership undated aggregator."
+ },
+ {
+  "company": "Serviceware SE (SJJ)",
+  "listing_status": "Listed, Frankfurt Prime Standard. No offer period.",
+  "business": "Enterprise service-management software (IT financial management/cloud cost, enterprise service management for IT, HR and field service, corporate performance management) sold mainly in DACH; c. 115m revenue, moving to SaaS.",
+  "corsair_vertical": "Software: enterprise/HR and finance tools - good vertical fit. EV c. EUR 128m is just below band.",
+  "market_cap_eur_m": {
+   "value": 147.0,
+   "source": "stockanalysis.com (Xetra delayed close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "financials": {
+   "fy_end": "30 Nov 2025 (FY2024/25)",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": 115.3,
+   "adj_ebitda_eur_m": 5.1,
+   "net_income_eur_m": null,
+   "net_cash_or_debt_eur_m": 19.2,
+   "notes": "FY2024/25 revenue 115.3m (prior 103.3m), EBITDA 5.1m (+57.6%) per company release; net result not retrieved. Net cash 19.2m per stockanalysis (cash 24.3m, debt 5.1m). H1 2025/26 EBITDA 2.0m; company guides significant EBITDA/EBIT increase for 2025/26. Montega target EUR 25."
+  },
+  "ownership": "Dirk K. Martin (CEO) c. 31.4%; Harald Popp c. 31.4%; free float c. 18-37% depending on source (comdirect/AfU; stockanalysis insiders 62.8%).",
+  "corporate_activity": "None found 2024-2026.",
+  "flags": "Two founders hold c. 63% - deal only with them; low EBITDA margin (c. 4%) during SaaS transition; sub-band EV. WpUeG applies.",
+  "sources": [
+   "https://stockanalysis.com/quote/etr/SJJ/",
+   "https://stockanalysis.com/quote/etr/SJJ/statistics/",
+   "https://serviceware-se.com/en/company/investor-relations/financial-news/serviceware-se-continues-profitable-growth-course-in-strong-fy-2024-2025",
+   "https://www.comdirect.de/inf/aktien/DE000A2G8X31"
+  ],
+  "confidence": "medium: financials from company release; ownership aggregator."
+ },
+ {
+  "company": "Smartbroker Holding AG (SB1)",
+  "listing_status": "Listed, Frankfurt Scale (Open Market) and Xetra. No offer period.",
+  "business": "Berlin online broker (Smartbroker+, a BaFin-licensed securities institution) plus Germany's largest retail finance portals (wallstreet-online.de, ariva.de, finanznachrichten.de); formerly wallstreet:online AG.",
+  "corsair_vertical": "Business services: wealth management / retail investment platform - thematic fit, but a broker with regulated entity and a founder-controlled register; EV c. EUR 117m below band and EBITDA c. zero.",
+  "market_cap_eur_m": {
+   "value": 132.9,
+   "source": "stockanalysis.com (Xetra delayed close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "financials": {
+   "fy_end": "31 Dec 2025",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": 68.3,
+   "adj_ebitda_eur_m": 0.0,
+   "net_income_eur_m": -10.6,
+   "net_cash_or_debt_eur_m": 15.5,
+   "notes": "Revenue 68.3m (+30%); operating EBITDA c. 0m (prior 1.4m) per preliminary figures Feb 2026; net loss 8.4-10.6m depending on source. 2026 guidance operating EBITDA -1.5 to +1.5m. Net cash 15.5m per stockanalysis; EUR 20m working-capital credit line secured."
+  },
+  "ownership": "Andre Kolbinger (founder/CEO, incl. AKD holding) c. 59.8%; other board members 7.9%; free float c. 32% (company research comments Sep 2025/Mar 2026).",
+  "corporate_activity": "None found; insider buying by Kolbinger and AKD Private Equity 2026.",
+  "flags": "BaFin owner-control procedure (WpIG) for the securities institution on any change of control; founder owns c. 60%; loss-making; competitive pressure from Trade Republic/Scalable. Open Market (no WpUeG).",
+  "sources": [
+   "https://stockanalysis.com/quote/etr/SB1/",
+   "https://stockanalysis.com/quote/etr/SB1/statistics/",
+   "https://ir-api.eqs.com//media/document/81104555-26d7-4886-87a3-679c92449c8e/assets/SB1-Comment-06-Mar-26_de.pdf",
+   "https://app.boersengefluester.de/en/newswire/DE000A2GS609/smartbroker-holding-ag/veroffentlicht-vorlaufige-zahlen-fur-2025-und-prognose-fur-2026-2281514"
+  ],
+  "confidence": "medium-high."
+ },
+ {
+  "company": "Amadeus Fire AG (AAD)",
+  "listing_status": "Listed, Frankfurt Prime Standard, SDAX. No offer period. New authorised capital approved at AGM 28 May 2026.",
+  "business": "Specialist staffing (temporary and permanent placement of finance, accounting, IT and office professionals) and vocational training (Comcave, GFN, Steuer-Fachschule Dr. Endriss) in Germany.",
+  "corsair_vertical": "Business services: professional services (finance/accounting staffing and training). Moderate fit; currently distressed, EV c. EUR 240m (incl. minority put liability) in band.",
+  "market_cap_eur_m": {
+   "value": 97.2,
+   "source": "stockanalysis.com (Xetra delayed close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "financials": {
+   "fy_end": "31 Dec 2025",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": 363.0,
+   "adj_ebitda_eur_m": null,
+   "operating_ebita_eur_m": 13.7,
+   "net_income_eur_m": -3.3,
+   "net_cash_or_debt_eur_m": -51.2,
+   "notes": "FY2025 revenue c. 363m (-16.8%) and operating EBITA c. 13.7m (-75%) derived from company IR percentage changes vs 2024 (436.9m / 55.5m); 6.1m one-off in training segment; no dividend for 2025. Net loss -3.3m ttm per stockanalysis. Net debt -51.2m stockanalysis (debt 53.6m). 2026 guidance revenue 362-394m, operating EBITA 20-31m; Q1 2026 EBITA -30%."
+  },
+  "ownership": "Active Ownership Corporation 17.9%; Allianz Global Investors 6.6%; DWS 4.9%; Invesco 3.3%; free float c. 57-64%; no founder block (AnlegerPlus guide Dec 2025; comdirect).",
+  "corporate_activity": "Activist/engaged investor Active Ownership (AOC) on register at c. 18%; share down c. 66% in 12 months; restructuring of training segment. No bid approach found.",
+  "flags": "Cyclical German staffing downturn; training segment depends on public (Agentur fuer Arbeit) funding; put liability to minority in training unit; register dispersed so a take-private is mechanically feasible but AOC would set the price. WpUeG applies.",
+  "sources": [
+   "https://stockanalysis.com/quote/etr/AAD/",
+   "https://stockanalysis.com/quote/etr/AAD/statistics/",
+   "https://group.amadeus-fire.de/en/investor-relations/overview/",
+   "https://anlegerplus.de/wp-content/uploads/2025/12/AL_Guide2026_IR_AmadeusFire_Web.pdf",
+   "https://group.amadeus-fire.de/wp-content/uploads/2026/03/Geschaeftsbericht_2025_DE.pdf"
+  ],
+  "confidence": "medium: FY2025 absolute figures derived from percentage changes on the company IR page."
+ },
+ {
+  "company": "Medios AG (ILM1)",
+  "listing_status": "Listed, Frankfurt Prime Standard, SDAX. No offer period.",
+  "business": "Specialty-pharma services: patient-specific compounding (oncology infusions), specialty drug supply to pharmacies and international compounding essentials (Ceban NL, Caelo acquired Oct 2026); c. EUR 2.1bn revenue, Berlin.",
+  "corsair_vertical": "Business services: healthcare services - good fit. EV c. EUR 400m in band; dispersed register.",
+  "market_cap_eur_m": {
+   "value": 284.8,
+   "source": "stockanalysis.com (Xetra delayed close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "financials": {
+   "fy_end": "31 Dec 2025",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": 2080.0,
+   "adj_ebitda_eur_m": 93.1,
+   "net_income_eur_m": 15.4,
+   "net_cash_or_debt_eur_m": -115.4,
+   "notes": "Revenue 2.08bn (+10%), EBITDA pre (company-adjusted) 93.1m (+18%), net income 15.4m per stockanalysis/FY call summary. Net debt -115.4m stockanalysis ttm (cash 84.6m, debt 200.0m). Ambition 2031: revenue 3.1bn and doubled adjusted EBITDA (CMD 29 Sep 2026)."
+  },
+  "ownership": "Martin Hesse (incl. BMSH GmbH) 19.7%; Luxempart 15.1%; Janus Henderson 6.4%; Axxion 6.1%; treasury 3.9%; free float 65.2% (company investor site, treasury as of 31 Mar 2026).",
+  "corporate_activity": "No approach or review found 2024-2026; active M&A (Ceban 2024, Caelo 2026); CFO Prusseit leaving at end of term (Sep 2026).",
+  "flags": "Pharmacy-reimbursement regulation (German SGB V pricing of compounded drugs) and low gross margins; leverage c. 1.7x EBITDA pre; two anchor holders (35%) but no blocking majority. WpUeG applies.",
+  "sources": [
+   "https://stockanalysis.com/quote/etr/ILM1/",
+   "https://stockanalysis.com/quote/etr/ILM1/statistics/",
+   "https://investors.medios.group/en/shares",
+   "https://investors.medios.group/en/"
+  ],
+  "confidence": "medium-high: ownership from company; EBITDA pre from call summary."
+ },
+ {
+  "company": "M1 Kliniken AG (M12)",
+  "listing_status": "Listed, Frankfurt Open Market (not regulated market). No offer period. Capital reduction of 1.09m shares effective 26 May 2026 (18.56m shares).",
+  "business": "Operator of the M1 Med Beauty chain of aesthetic-medicine clinics (c. 60+ sites in Germany, Austria, Netherlands, Switzerland, UK, CEE) plus a pharma trading segment (reduced after sale of Haemato Pharm).",
+  "corsair_vertical": "Business services: healthcare services (consumer aesthetics). Moderate fit (elective, consumer-paid). EV c. EUR 323m in band, net cash.",
+  "market_cap_eur_m": {
+   "value": 350.0,
+   "source": "stockanalysis.com (Xetra delayed close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "financials": {
+   "fy_end": "31 Dec 2025",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": 364.3,
+   "adj_ebitda_eur_m": null,
+   "ebitda_ttm_eur_m": 32.6,
+   "net_income_eur_m": 22.1,
+   "net_cash_or_debt_eur_m": 54.6,
+   "notes": "FY2025 revenue 364.3m includes the trade segment later sold (H1 2026 revenue 76.6m vs 183.5m after Haemato Pharm disposal); H1 2026 EBITDA 17.7m, EBIT 15.6m. Net cash 54.6m stockanalysis. FY2025 EBITDA not retrieved (null)."
+  },
+  "ownership": "MPH Health Care AG (listed holding, itself majority-owned by MAGNUM AG / Patrick Brenske family interests per older research) holds a majority - sources range from 61% to 75.8%, not verified for 2026. Free float small.",
+  "corporate_activity": "Disposal of Haemato Pharm 2025/26; share buyback and cancellation 2026. No bid approach found.",
+  "flags": "Controlled by MPH (listed parent) - deal only via MPH; Open Market listing (no WpUeG protection/process); medical-services regulation per country; consumer discretionary demand.",
+  "sources": [
+   "https://stockanalysis.com/quote/etr/M12/",
+   "https://stockanalysis.com/quote/etr/M12/statistics/",
+   "https://www.m1-kliniken.de/investor-relations/",
+   "https://www.investegate.co.uk/announcement/eqs/mph-health-care-ag--0w1q/eqs-news-mph-health-care-ag-publishes-financ-/9610821"
+  ],
+  "confidence": "medium-low: ownership percentage not verified for 2026."
+ },
+ {
+  "company": "OVB Holding AG (O4B)",
+  "listing_status": "Listed, Frankfurt Prime Standard. No offer period.",
+  "business": "Cologne-based financial-product distributor with c. 6,000 tied advisers selling insurance, pensions and investment products to households in 16 European countries (large CEE footprint).",
+  "corsair_vertical": "Business services: insurance services / wealth distribution - strong activity fit (asset-light distributor, net cash EUR 142m, EV only c. EUR 140m). Not deliverable: 97% held by three insurers.",
+  "market_cap_eur_m": {
+   "value": 270.8,
+   "source": "stockanalysis.com (Xetra delayed close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "financials": {
+   "fy_end": "31 Dec 2025",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": 437.6,
+   "adj_ebitda_eur_m": null,
+   "ebitda_ttm_eur_m": 16.5,
+   "net_income_eur_m": 8.6,
+   "net_cash_or_debt_eur_m": 141.9,
+   "notes": "FY2025 revenue 437.6m (+8%); FY2025 net income 8.6m (-55%) vs ttm 13.4m - sources conflict; EBIT not retrieved. Zero debt; cash 141.9m (stockanalysis). H1 2026 revenue forecast raised."
+  },
+  "ownership": "SIGNAL IDUNA Lebensversicherung 31.67% and SIGNAL IDUNA Krankenversicherung 21.27% (together 52.9%); Helvetia Baloise (via Baloise Leben Beteiligungsholding) 32.57%; Generali CEE Holding 11.48%; free float 3.01% (company Q1 2026 report, 31 Mar 2026).",
+  "corporate_activity": "None; Baloise stake transferred to Helvetia Baloise on the 5 Dec 2025 merger. A Helvetia Baloise or Generali exit would be the only entry route.",
+  "flags": "97% insurer-owned; free float 3% (illiquid). Insurance-intermediary licences in 16 countries. Would need a consortium sale by the three insurers - a carve-out angle rather than a public take-private.",
+  "sources": [
+   "https://stockanalysis.com/quote/etr/O4B/",
+   "https://stockanalysis.com/quote/etr/O4B/statistics/",
+   "https://www.ovb.eu/fileadmin/assets/Dokumente/ovb_holding/dreimonatsberichte/ovb_dreimonatsbericht_q1_2026.pdf",
+   "https://www.ovb.eu/fileadmin/assets/Dokumente/ovb_holding/factsheets/Factsheet_2025_D.pdf"
+  ],
+  "confidence": "high on ownership (company report); medium on earnings."
+ },
+ {
+  "company": "Fabasoft AG (FAA) - Austrian, German-focused",
+  "listing_status": "Listed on Frankfurt Prime Standard (primary) and Vienna; Linz-based, majority of revenue in Germany (public sector, Mindbreeze). No offer period.",
+  "business": "Document, records and process-management software and cloud (Fabasoft eGov-Suite for German/Austrian federal and state administrations, Fabasoft Cloud, Approve for industry, Mindbreeze insight engine); c. 500 staff.",
+  "corsair_vertical": "Software: compliance/records management for public sector - moderate fit (not FS-focused). EV c. EUR 148m in band (low end), net cash.",
+  "market_cap_eur_m": {
+   "value": 168.5,
+   "source": "stockanalysis.com (Vienna close 3 Nov 2026; Xetra line FAA)",
+   "as_of": "2026-11-04"
+  },
+  "financials": {
+   "fy_end": "31 Mar 2026 (FY2025/26)",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": 90.0,
+   "adj_ebitda_eur_m": null,
+   "ebitda_ttm_eur_m": 23.7,
+   "net_income_eur_m": 10.3,
+   "net_cash_or_debt_eur_m": 21.6,
+   "notes": "FY2025/26 revenue 90.0m (+3.7%), net income 10.3m (+17%). EBITDA ttm 23.7m, net cash 21.6m (cash 40.3m, debt 18.7m incl. leases) per stockanalysis."
+  },
+  "ownership": "Fallmann & Bauernfeind Privatstiftung (founders Helmut Fallmann and Leopold Bauernfeind) 42.9%; Axxion c. 5.1%; treasury c. 2%; free float c. 37-53% depending on source.",
+  "corporate_activity": "None found 2024-2026.",
+  "flags": "Founder foundation holds 43% (blocking); public-sector customer concentration; Austrian Takeover Act (30% threshold; 90% squeeze-out) rather than WpUeG for the Vienna-domiciled issuer.",
+  "sources": [
+   "https://stockanalysis.com/quote/vie/FAA/",
+   "https://stockanalysis.com/quote/etr/FAA/statistics/",
+   "https://www.comdirect.de/inf/aktien/AT0000785407",
+   "https://de.marketscreener.com/kurs/aktie/FABASOFT-AG-441525/unternehmen/"
+  ],
+  "confidence": "medium."
+ },
+ {
+  "company": "LAIQON AG (LQAG) - formerly Lloyd Fonds",
+  "listing_status": "Listed, Frankfurt Scale (Open Market). No offer period. 2026 'Konzernfinanzierung 2026/31': cash capital increase (up to 2.35m shares), bond 2026/31, contribution-in-kind at EUR 6.25 and EUR 13.4m debt-equity swap (Mar-Jun 2026).",
+  "business": "Hamburg asset and wealth manager (LAIQON Asset Management, LAIQON Wealth, digital wealth 'LAIC'/meine Bayerische Vermoegen, fund-of-funds for retail) with c. EUR 6-7bn AuM; loss-making build-out phase.",
+  "corsair_vertical": "Business services: wealth and asset management - thematic fit, but sub-scale, loss-making and refinancing; EV c. EUR 148m with negative EBITDA.",
+  "market_cap_eur_m": {
+   "value": 108.3,
+   "source": "stockanalysis.com (Xetra delayed close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "financials": {
+   "fy_end": "31 Dec 2025",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": 34.9,
+   "adj_ebitda_eur_m": -4.7,
+   "net_income_eur_m": -19.7,
+   "net_cash_or_debt_eur_m": -31.2,
+   "notes": "Revenue 34.9m (+12%); net loss -19.7m; EBITDA -4.7m is stockanalysis ttm; net debt -31.2m before 2026 refinancing (cash 10.6m, debt 41.8m)."
+  },
+  "ownership": null,
+  "ownership_note": "Not verified. Stockanalysis shows insiders 18.6%; CEO Achim Plate's vehicles (Plate Verwaltungs GmbH) subscribed to the 2026 bond; AnlegerPlus guide refers to the company website (Nov 2025). Write null.",
+  "corporate_activity": "2026 recapitalisation (bond, capital increases, debt-equity swap); AGM 27 Aug 2026 with new authorised capital. No bid approach found.",
+  "flags": "KAGB/KWG-licensed asset managers (BaFin owner-control on change of control); going-concern style refinancing; Open Market listing; small EV.",
+  "sources": [
+   "https://stockanalysis.com/quote/etr/LQAG/",
+   "https://stockanalysis.com/quote/etr/LQAG/statistics/",
+   "https://www.boerse-online.de/dpa-afx/eqs-news-laiqon-ag-verbesserung-der-kapitalstruktur-mit-konzernfinanzierung-202631-deutsch-527986.html",
+   "https://www.bankm.de/wp-content/uploads/2026/03/2026-03-31-BankM-SMC-Update-LAIQON.pdf"
+  ],
+  "confidence": "low-medium: ownership not found; financials data-site."
+ },
+ {
+  "company": "Oekoworld AG (VVV3)",
+  "listing_status": "Listed, Frankfurt (regulated market, General Standard) / Duesseldorf; preference shares are the listed class. No offer period.",
+  "business": "Hilden-based sustainable-fund manager (Oekoworld Oekovision etc., c. EUR 3-4bn AuM) with own distribution of pensions and funds via sales partners.",
+  "corsair_vertical": "Business services: asset management - thematic fit but tiny EV (c. EUR 37m after EUR 137m cash) and founder/family control; listed class is non-voting preference shares.",
+  "market_cap_eur_m": {
+   "value": 174.6,
+   "source": "stockanalysis.com (Xetra delayed close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "financials": {
+   "fy_end": "31 Dec 2025",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": 51.3,
+   "adj_ebitda_eur_m": null,
+   "ebitda_ttm_eur_m": 20.4,
+   "net_income_eur_m": 18.2,
+   "net_cash_or_debt_eur_m": 137.1,
+   "notes": "Revenue -18%, net income -32% in 2025 (fee pressure on sustainable funds). Zero debt."
+  },
+  "ownership": null,
+  "ownership_note": "Not verified in this run; voting ordinary shares are understood to be held by founder Alfred Platow's family/vehicle - treat as controlled. Write null.",
+  "corporate_activity": "None found.",
+  "flags": "KVG licence (BaFin owner control); non-voting listed class means no public route to control; shrinking AuM.",
+  "sources": [
+   "https://stockanalysis.com/quote/etr/VVV3/",
+   "https://stockanalysis.com/quote/etr/VVV3/statistics/"
+  ],
+  "confidence": "low: ownership not verified."
+ },
+ {
+  "company": "PATRIZIA SE (PAT)",
+  "listing_status": "Listed, Frankfurt Prime Standard, SDAX. No offer period.",
+  "business": "Augsburg-based real-asset investment manager (real estate and infrastructure funds) with c. EUR 56bn AuM for institutional, semi-professional and private investors.",
+  "corsair_vertical": "Business services: asset management - adjacent fit (real-asset rather than securities/wealth). EV c. EUR 750m at top of band; founder control.",
+  "market_cap_eur_m": {
+   "value": 571.5,
+   "source": "stockanalysis.com (Xetra delayed close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "financials": {
+   "fy_end": "31 Dec 2025",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": 258.4,
+   "adj_ebitda_eur_m": 63.0,
+   "net_income_eur_m": 18.0,
+   "net_cash_or_debt_eur_m": -145.9,
+   "notes": "EBITDA 63m (+35%) per FY2025 call summary; stockanalysis ttm EBITDA 33.3m (different definition). Net debt -145.9m stockanalysis ttm (cash 174.6m, debt 320.5m incl. fund-level/lease items) - company reports a net cash position on a different basis; not reconciled."
+  },
+  "ownership": null,
+  "ownership_note": "Founder/CEO Wolfgang Egger is understood to hold a majority via First Capital Partner GmbH; percentage not verified in this run. Free float c. 41% by stockanalysis float count.",
+  "corporate_activity": "None found 2024-2026.",
+  "flags": "Founder majority; KVG/AIFM licences in several countries (BaFin, CSSF owner control); earnings tied to real-estate transaction volumes.",
+  "sources": [
+   "https://stockanalysis.com/quote/etr/PAT/",
+   "https://stockanalysis.com/quote/etr/PAT/statistics/"
+  ],
+  "confidence": "low-medium: ownership not verified."
+ },
+ {
+  "company": "MLP SE (MLP)",
+  "listing_status": "Listed, Frankfurt Prime Standard, SDAX.",
+  "business": "Financial advisory group (Financial Consulting, MLP Banking SE, FERI asset management, DOMCURA insurance underwriting agency, RVM industrial broker, Deutschland.Immobilien).",
+  "corsair_vertical": "Insurance services / wealth - strong activity fit but too large (market cap EUR 1.25bn) and contains a bank (MLP Banking SE).",
+  "market_cap_eur_m": {
+   "value": 1250.0,
+   "source": "stockanalysis.com (Xetra delayed close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "financials": {
+   "fy_end": "31 Dec 2025",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": 1060.0,
+   "adj_ebitda_eur_m": null,
+   "net_income_eur_m": 55.6,
+   "net_cash_or_debt_eur_m": null,
+   "notes": "Context only; EBIT not retrieved."
+  },
+  "ownership": null,
+  "ownership_note": "Not researched (context name). Founder Manfred Lautenschlaeger historically c. 20%+; not verified.",
+  "corporate_activity": "None found.",
+  "flags": "Bank licence (ECB/BaFin owner control); size above band.",
+  "sources": [
+   "https://stockanalysis.com/quote/etr/MLP/"
+  ],
+  "confidence": "medium on size; context only."
+ },
+ {
+  "company": "flatexDEGIRO SE (FTK)",
+  "listing_status": "Listed, Frankfurt Prime Standard (MDAX/SDAX).",
+  "business": "Pan-European online broker (flatex, DEGIRO) with bank licence (flatexDEGIRO Bank AG).",
+  "corsair_vertical": "Wealth platform - too large (market cap EUR 2.5bn) and a bank. Context only.",
+  "market_cap_eur_m": {
+   "value": 2530.0,
+   "source": "stockanalysis.com (Xetra delayed close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "financials": {
+   "fy_end": "31 Dec 2025",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": 557.5,
+   "adj_ebitda_eur_m": null,
+   "net_income_eur_m": 160.4,
+   "net_cash_or_debt_eur_m": null,
+   "notes": "Context only."
+  },
+  "ownership": null,
+  "ownership_note": "Not researched (context).",
+  "corporate_activity": "Not researched.",
+  "flags": "Bank; size.",
+  "sources": [
+   "https://stockanalysis.com/quote/etr/FTK/"
+  ],
+  "confidence": "medium on size; context only."
+ },
+ {
+  "company": "Baader Bank AG (BWB)",
+  "listing_status": "Listed, Frankfurt (regulated market) and Munich m:access.",
+  "business": "Munich securities bank: market making, trading, B2B account/custody platform for neo-brokers and asset managers (Scalable Capital etc.).",
+  "corsair_vertical": "Bank - context only (balance-sheet institution). Market cap EUR 335m.",
+  "market_cap_eur_m": {
+   "value": 334.8,
+   "source": "stockanalysis.com (Xetra delayed close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "financials": {
+   "fy_end": "31 Dec 2025",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": 523.8,
+   "adj_ebitda_eur_m": null,
+   "net_income_eur_m": 50.7,
+   "net_cash_or_debt_eur_m": null,
+   "notes": "Bank P&L; EBITDA n/a."
+  },
+  "ownership": null,
+  "ownership_note": "Baader family / Baader Beteiligungs GmbH understood to hold a majority; stockanalysis float c. 28%; not verified.",
+  "corporate_activity": "Not researched.",
+  "flags": "Full bank licence; family control.",
+  "sources": [
+   "https://stockanalysis.com/quote/etr/BWB/",
+   "https://stockanalysis.com/quote/etr/BWB/statistics/"
+  ],
+  "confidence": "low-medium; context only."
+ },
+ {
+  "company": "Grenke AG (GLJ)",
+  "listing_status": "Listed, Frankfurt Prime Standard, SDAX.",
+  "business": "Small-ticket IT/equipment leasing for SMEs across Europe, with Grenke Bank for refinancing.",
+  "corsair_vertical": "Balance-sheet lender/bank - context only.",
+  "market_cap_eur_m": {
+   "value": 477.1,
+   "source": "stockanalysis.com (Xetra delayed close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "financials": {
+   "fy_end": "31 Dec 2025",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": 660.3,
+   "adj_ebitda_eur_m": null,
+   "net_income_eur_m": 57.2,
+   "net_cash_or_debt_eur_m": null,
+   "notes": "Debt 5.06bn is funding book, not corporate leverage."
+  },
+  "ownership": "Grenke family (Wolfgang Grenke and family vehicles) c. 43% (stockanalysis insider 42.98%); rest free float.",
+  "corporate_activity": "Not researched.",
+  "flags": "Bank licence; family control.",
+  "sources": [
+   "https://stockanalysis.com/quote/etr/GLJ/",
+   "https://stockanalysis.com/quote/etr/GLJ/statistics/"
+  ],
+  "confidence": "medium; context only."
+ },
+ {
+  "company": "Multitude AG (MULT) - ex Multitude SE/Ferratum",
+  "listing_status": "Still listed on Frankfurt Prime Standard (symbol MULT). Registered seat moved Finland -> Malta (Jun 2024) -> Zug, Switzerland (completed 30 Dec 2024); not listed on SIX. Market cap EUR 123m.",
+  "business": "Digital consumer and SME lender and online bank (Ferratum, CapitalBox, Multitude Bank plc in Malta) across Europe.",
+  "corsair_vertical": "Lender/bank - context only (not a Corsair vertical).",
+  "market_cap_eur_m": {
+   "value": 122.9,
+   "source": "stockanalysis.com (Xetra delayed close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "financials": {
+   "fy_end": "31 Dec 2025",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": 131.1,
+   "adj_ebitda_eur_m": null,
+   "net_income_eur_m": 23.3,
+   "net_cash_or_debt_eur_m": null,
+   "notes": "Bank-style P&L."
+  },
+  "ownership": null,
+  "ownership_note": "Founder/CEO Jorma Jokela understood to hold a majority; not verified in this run.",
+  "corporate_activity": "Redomiciliation 2024; no offer.",
+  "flags": "Maltese bank licence (MFSA/ECB owner control); founder control.",
+  "sources": [
+   "https://stockanalysis.com/quote/etr/MULT/",
+   "https://finanzen.net/nachricht/aktien/eqs-news-multitude-p-l-c-relocation-to-switzerland-expected-to-be-completed-on-30-december-2024-14104155",
+   "https://webdisclosure.com/press-release/multitude-ag-etr-mult-multitude-ag-successfully-relocates-its-registered-seat-to-switzerland-2vGDt1Hxu2g"
+  ],
+  "confidence": "medium on listing; context only."
+ },
+ {
+  "company": "secunet Security Networks AG (YSN)",
+  "listing_status": "Listed, Frankfurt Prime Standard, SDAX.",
+  "business": "German IT-security/identity vendor (SINA secure workstations, eID and border-control systems) mainly for the public sector.",
+  "corsair_vertical": "Risk & compliance/identity software - but market cap EUR 1.6bn (too large) and c. 75% owned by Giesecke+Devrient (strategic). Context only.",
+  "market_cap_eur_m": {
+   "value": 1600.0,
+   "source": "stockanalysis.com (Xetra delayed close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "financials": {
+   "fy_end": "31 Dec 2025",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": 458.8,
+   "adj_ebitda_eur_m": null,
+   "net_income_eur_m": 33.3,
+   "net_cash_or_debt_eur_m": null,
+   "notes": "No bank debt per Q4 2025 call."
+  },
+  "ownership": null,
+  "ownership_note": "Giesecke+Devrient majority (c. 75%) understood; not verified in this run.",
+  "corporate_activity": "None found.",
+  "flags": "Size; strategic majority owner; security-cleared government business (foreign-investment review).",
+  "sources": [
+   "https://stockanalysis.com/quote/etr/YSN/"
+  ],
+  "confidence": "medium on size; context only."
+ },
+ {
+  "company": "ATOSS Software SE (AOF)",
+  "listing_status": "Listed, Frankfurt Prime Standard, SDAX.",
+  "business": "Workforce-management/HR time-and-scheduling software (SaaS and on-prem) for DACH and European enterprises.",
+  "corsair_vertical": "Software: HR tools - strong vertical fit but market cap EUR 1.47bn (too large). Context only.",
+  "market_cap_eur_m": {
+   "value": 1470.0,
+   "source": "stockanalysis.com (Xetra delayed close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "financials": {
+   "fy_end": "31 Dec 2025",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": 189.3,
+   "adj_ebitda_eur_m": null,
+   "net_income_eur_m": 48.4,
+   "net_cash_or_debt_eur_m": null,
+   "notes": "Context only."
+  },
+  "ownership": null,
+  "ownership_note": "Founder/CEO Andreas Obereder understood to hold c. 50% via AOB Invest; General Atlantic held c. 20% 2023-2025; not verified in this run.",
+  "corporate_activity": "None found.",
+  "flags": "Size; founder control.",
+  "sources": [
+   "https://stockanalysis.com/quote/etr/AOF/"
+  ],
+  "confidence": "medium on size; context only."
+ },
+ {
+  "company": "Exasol AG (EXL)",
+  "listing_status": "Listed, Frankfurt Scale.",
+  "business": "Nuremberg in-memory analytics database vendor; customers in retail, banking/insurance, healthcare.",
+  "corsair_vertical": "Enterprise software - weak fit (horizontal data tech) and too small (market cap EUR 45m). Discard.",
+  "market_cap_eur_m": {
+   "value": 45.2,
+   "source": "stockanalysis.com (Xetra delayed close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "financials": {
+   "fy_end": "31 Dec 2025",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": 41.8,
+   "adj_ebitda_eur_m": null,
+   "net_income_eur_m": 3.0,
+   "net_cash_or_debt_eur_m": null,
+   "notes": "Below band."
+  },
+  "ownership": null,
+  "ownership_note": "Not researched (discarded on size).",
+  "corporate_activity": "Not researched.",
+  "flags": "Sub-scale.",
+  "sources": [
+   "https://stockanalysis.com/quote/etr/EXL/"
+  ],
+  "confidence": "medium on size; discarded."
+ },
+ {
+  "company": "q.beyond AG (QBY)",
+  "listing_status": "Listed, Frankfurt Prime Standard.",
+  "business": "Cologne IT services (cloud, SAP, security, managed services) for German mid-caps; c. 1,100 staff, revenue shrinking.",
+  "corsair_vertical": "IT services - weak fit and too small (market cap EUR 66m, breakeven). Discard.",
+  "market_cap_eur_m": {
+   "value": 65.8,
+   "source": "stockanalysis.com (Xetra delayed close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "financials": {
+   "fy_end": "31 Dec 2025",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": null,
+   "revenue_ttm_eur_m": 177.6,
+   "adj_ebitda_eur_m": null,
+   "net_income_eur_m": 0.0,
+   "net_cash_or_debt_eur_m": null,
+   "notes": "FY2025 figures not retrieved."
+  },
+  "ownership": null,
+  "ownership_note": "Not researched (discarded on size).",
+  "corporate_activity": "Not researched.",
+  "flags": "Sub-scale.",
+  "sources": [
+   "https://stockanalysis.com/quote/etr/QBY/"
+  ],
+  "confidence": "medium on size; discarded."
+ },
+ {
+  "company": "Cancom SE (COK)",
+  "listing_status": "Listed, Frankfurt Prime Standard, SDAX.",
+  "business": "German IT systems house (hardware/software resale, managed services, cloud) with c. 5,200 staff.",
+  "corsair_vertical": "IT services generalist - weak fit (no FS specialisation). Market cap EUR 609m, EV c. 814m, net debt 205m.",
+  "market_cap_eur_m": {
+   "value": 609.3,
+   "source": "stockanalysis.com (Xetra delayed close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "financials": {
+   "fy_end": "31 Dec 2025",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": 1710.0,
+   "adj_ebitda_eur_m": null,
+   "ebitda_ttm_eur_m": 51.8,
+   "net_income_eur_m": 28.7,
+   "net_cash_or_debt_eur_m": -205.1,
+   "notes": "Weak fit; noted for universe completeness."
+  },
+  "ownership": null,
+  "ownership_note": "Dispersed (institutional 37%, float c. 76% per stockanalysis); no block identified.",
+  "corporate_activity": "Not researched.",
+  "flags": "Low-margin reseller model.",
+  "sources": [
+   "https://stockanalysis.com/quote/etr/COK/",
+   "https://stockanalysis.com/quote/etr/COK/statistics/"
+  ],
+  "confidence": "medium; weak fit."
+ },
+ {
+  "company": "Mensch und Maschine Software SE (MUM)",
+  "listing_status": "Listed, Frankfurt Prime Standard.",
+  "business": "CAD/CAM/BIM software reseller (Autodesk) and own PLM/BIM software; revenue restated to agency basis in 2025.",
+  "corsair_vertical": "Weak fit (engineering software, not a Corsair vertical). Founder Adi Drotleff c. 50%. Noted for universe completeness only.",
+  "market_cap_eur_m": {
+   "value": 564.0,
+   "source": "stockanalysis.com (Xetra delayed close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "financials": {
+   "fy_end": "31 Dec 2025",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": 238.6,
+   "adj_ebitda_eur_m": null,
+   "ebitda_ttm_eur_m": 62.0,
+   "net_income_eur_m": 31.8,
+   "net_cash_or_debt_eur_m": -41.3,
+   "notes": "Weak fit."
+  },
+  "ownership": "Insiders c. 50.4% (stockanalysis; founder Adi Drotleff).",
+  "corporate_activity": "Not researched.",
+  "flags": "Founder control; outside verticals.",
+  "sources": [
+   "https://stockanalysis.com/quote/etr/MUM/",
+   "https://stockanalysis.com/quote/etr/MUM/statistics/"
+  ],
+  "confidence": "medium; weak fit."
+ },
+ {
+  "company": "Lang & Schwarz AG (LUS1)",
+  "listing_status": "Listed, Frankfurt Open Market / Duesseldorf.",
+  "business": "Duesseldorf market maker and issuer of derivatives; runs LS Exchange and OTC trading for neo-brokers (Trade Republic flow).",
+  "corsair_vertical": "Capital-markets trading firm - weak fit (balance-sheet/trading risk, regulated securities institution). Market cap EUR 143m; revenue swings with retail trading volumes.",
+  "market_cap_eur_m": {
+   "value": 143.5,
+   "source": "stockanalysis.com (Xetra delayed close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "financials": {
+   "fy_end": "31 Dec 2025",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": 1190.0,
+   "adj_ebitda_eur_m": null,
+   "net_income_eur_m": 48.5,
+   "net_cash_or_debt_eur_m": 150.1,
+   "notes": "Trading income basis; net cash 150m stockanalysis."
+  },
+  "ownership": null,
+  "ownership_note": "Not researched; institutional 6%.",
+  "corporate_activity": "Not researched.",
+  "flags": "Securities-institution licence; single-counterparty (Trade Republic) dependence; cum-ex tax provisions history.",
+  "sources": [
+   "https://stockanalysis.com/quote/etr/LUS1/",
+   "https://stockanalysis.com/quote/etr/LUS1/statistics/"
+  ],
+  "confidence": "low-medium; weak fit."
+ },
+ {
+  "company": "Bitcoin Group SE (ADE)",
+  "listing_status": "Listed, Frankfurt Scale / Duesseldorf.",
+  "business": "Holding for bitcoin.de crypto exchange and futurum bank AG.",
+  "corsair_vertical": "Crypto exchange/bank - weak fit; majority held by Priority AG. Market cap EUR 127m. Discard.",
+  "market_cap_eur_m": {
+   "value": 126.9,
+   "source": "stockanalysis.com (Xetra delayed close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "financials": {
+   "fy_end": "31 Dec 2025",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": null,
+   "revenue_ttm_eur_m": 7.9,
+   "adj_ebitda_eur_m": null,
+   "net_income_eur_m": -4.8,
+   "net_cash_or_debt_eur_m": null,
+   "notes": "Discarded."
+  },
+  "ownership": "Subsidiary of Priority AG (percentage not given on source).",
+  "corporate_activity": "Not researched.",
+  "flags": "Bank licence (futurum bank); crypto exposure; controlled.",
+  "sources": [
+   "https://stockanalysis.com/quote/etr/ADE/"
+  ],
+  "confidence": "low; discarded."
+ },
+ {
+  "company": "Brockhaus Technologies AG (BKHT)",
+  "listing_status": "Listed, Frankfurt Prime Standard. October 2026 share buyback/tender offer in which founders' vehicles and directors sold.",
+  "business": "Frankfurt technology holding whose main asset is Bikeleasing-Service (employer bike-leasing benefit platform) plus IHSE (KVM).",
+  "corsair_vertical": "Employee-benefits/HR platform - borderline fit; holding structure with large put/earn-out liabilities. Market cap EUR 167m; FY2025 loss -24.7m.",
+  "market_cap_eur_m": {
+   "value": 167.2,
+   "source": "stockanalysis.com (Xetra delayed close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "financials": {
+   "fy_end": "31 Dec 2025",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": 30.3,
+   "adj_ebitda_eur_m": null,
+   "net_income_eur_m": -24.7,
+   "net_cash_or_debt_eur_m": null,
+   "notes": "Stockanalysis revenue 30.3m looks like holding-level/agency revenue; group figures and net debt not retrieved."
+  },
+  "ownership": null,
+  "ownership_note": "Brockhaus Private Equity GmbH and founder vehicles (Manhattan Heritage, Falkenstein Heritage, Merval AG) are the main holders; percentages not retrieved.",
+  "corporate_activity": "Oct 2026 buyback offer with insider sales.",
+  "flags": "Holding discount, minority put liabilities to Bikeleasing founders, leveraged.",
+  "sources": [
+   "https://stockanalysis.com/quote/etr/BKHT/"
+  ],
+  "confidence": "low."
+ },
+ {
+  "company": "MEDICLIN AG (MED)",
+  "listing_status": "Listed, Frankfurt Prime Standard.",
+  "business": "Operator of 31 acute, rehabilitation and nursing facilities in Germany (c. 7,000 staff).",
+  "corsair_vertical": "Healthcare services - activity fit but controlled by Asklepios (c. 53%) and ERGO (c. 35%) per market knowledge (not verified this run), free float c. 12%; EV c. EUR 574m with net debt c. 305m. Context only.",
+  "market_cap_eur_m": {
+   "value": 268.4,
+   "source": "stockanalysis.com (Xetra delayed close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "financials": {
+   "fy_end": "31 Dec 2025",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": 801.1,
+   "adj_ebitda_eur_m": null,
+   "ebitda_ttm_eur_m": 87.9,
+   "net_income_eur_m": 25.5,
+   "net_cash_or_debt_eur_m": -305.0,
+   "notes": "Net debt includes IFRS16 property leases."
+  },
+  "ownership": null,
+  "ownership_note": "Asklepios/ERGO control understood; not verified in this run; stockanalysis float c. 24%.",
+  "corporate_activity": "Not researched.",
+  "flags": "Strategic majority; hospital regulation and real-estate leases.",
+  "sources": [
+   "https://stockanalysis.com/quote/etr/MED/",
+   "https://stockanalysis.com/quote/etr/MED/statistics/"
+  ],
+  "confidence": "low-medium; context only."
+ },
+ {
+  "company": "LIMES Schlosskliniken AG (LIK)",
+  "listing_status": "Listed, Frankfurt Open Market (Duesseldorf primary).",
+  "business": "Private psychiatric/psychosomatic clinics in Germany, Switzerland, Italy and Liechtenstein; revenue EUR 50m, growing 33%.",
+  "corsair_vertical": "Healthcare services - small (market cap EUR 158m on 298k shares, EUR 530/share), founder-controlled (GMF Capital/Gerd Frank understood), illiquid. Noted only.",
+  "market_cap_eur_m": {
+   "value": 157.9,
+   "source": "stockanalysis.com (Xetra delayed close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "financials": {
+   "fy_end": "31 Dec 2025",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": 50.0,
+   "adj_ebitda_eur_m": null,
+   "net_income_eur_m": 5.7,
+   "net_cash_or_debt_eur_m": null,
+   "notes": "Below band on EV."
+  },
+  "ownership": null,
+  "ownership_note": "GMF Capital GmbH is a disclosed insider seller (2026); founder control assumed, not verified.",
+  "corporate_activity": "Not researched.",
+  "flags": "Illiquid; Open Market; private-pay clinic model.",
+  "sources": [
+   "https://stockanalysis.com/quote/etr/LIK/"
+  ],
+  "confidence": "low."
+ },
+ {
+  "company": "Netfonds AG (NF4) - UNDER OFFER / BEING TAKEN PRIVATE",
+  "listing_status": "Warburg Pincus (German Wealth Technology GmbH, ex SCUR-Alpha 1996) agreed an investment agreement on 9 Mar 2026 and made a public offer at EUR 78.25 cash (64.4% premium to last close; 78.3% to 3-month VWAP); acceptance period to 20 Apr 2026; c. 53% irrevocably secured at launch (CEO Steinmeyer, CFO Reichelt, CBO, co-founder Duemmler), 'over 80%' by 15 Apr 2026. Delisting from the regulated market after settlement with no separate delisting offer required; a 4 Sep 2026 ad hoc still describes the share as listed on Munich m:access and tradable on Xetra, so a residual listing/stub remains. Shares trade at EUR 81 (above offer) on squeeze-out speculation. Final acceptance level not retrieved.",
+  "business": "Hamburg platform for independent financial and insurance advisers (fund and insurance pool, regulatory umbrella, wealth management 'NFS', B2B2C), EUR 31.5bn assets under administration; to be combined with Warburg Pincus-owned blau direkt.",
+  "corsair_vertical": "Insurance services / wealth platform - exactly the Corsair profile; taken by a competing FS-focused PE house (Warburg Pincus) in 2026 - the key German precedent.",
+  "market_cap_eur_m": {
+   "value": 186.7,
+   "source": "stockanalysis.com (Xetra delayed close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "financials": {
+   "fy_end": "31 Dec 2025",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": 277.7,
+   "adj_ebitda_eur_m": null,
+   "net_income_eur_m": 1.9,
+   "net_cash_or_debt_eur_m": null,
+   "notes": "Revenue +16%; EBITDA not retrieved (company reports 'EBITDA' c. 10-12m range historically, not verified)."
+  },
+  "ownership": "Warburg Pincus vehicle >80% (Apr 2026); residual minorities.",
+  "corporate_activity": "2026 take-private by Warburg Pincus at EUR 78.25 (c. EUR 180m equity value), supported by board; combination with blau direkt. Precedent premium 64-78%.",
+  "flags": "No longer investable; precedent for premium and for an FS-PE buyer using anchor irrevocables (53%) in a founder-held Open Market/m:access name.",
+  "sources": [
+   "https://stockanalysis.com/quote/etr/NF4/",
+   "https://www.deraktionaer.de/nachricht/eqs-news-weitere-ankeraktionaere-unterstuetzen-oeffentliches-angebot-warburg-pincus-hat-sich-bereits-jetzt-ueber-80-an-netfonds-gesichert-deutsch-517309.html",
+   "https://www.deraktionaer.de/nachricht/eqs-adhoc-netfonds-ag-schliesst-investment-agreement-mit-warburg-pincus-deutsch-508043.html",
+   "https://www.versicherungsbote.de/id/4948725/Blau-direkt-Warburg-Pincus-uebernimmt-Netfonds/",
+   "https://live.deutsche-boerse.com/nachrichten/EQS-Adhoc-Netfonds-AG-Veraenderung-im-IT-Vorstand--Fortfuehrung-der-Wachstumsstrategie-a577d3d6-5ee6-4666-9826-1d5fb95879b3"
+  ],
+  "confidence": "high on offer terms (company/bidder releases); medium on current listing status."
+ },
+ {
+  "company": "Nagarro SE (NA9) - GONE (under Persistent control)",
+  "listing_status": "Persistent Systems (Galaxy Germany Holding) voluntary offer at EUR 81 cash under a business combination agreement (2026); final stake 94.04% after additional acceptance period; left SDAX 14 Oct 2026; delisting from Prime Standard and squeeze-out announced as intended; closing expected by Q1 CY2027. Still quoted at EUR 77.90 on 4 Nov 2026.",
+  "business": "Digital engineering/IT services, c. EUR 1bn revenue.",
+  "corsair_vertical": "IT services - too large anyway (market cap EUR 964m at the offer-driven price).",
+  "market_cap_eur_m": {
+   "value": 964.1,
+   "source": "stockanalysis.com (Xetra delayed close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "financials": {
+   "fy_end": "31 Dec 2025",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": 999.3,
+   "adj_ebitda_eur_m": null,
+   "net_income_eur_m": 39.5,
+   "net_cash_or_debt_eur_m": null,
+   "notes": "Precedent only."
+  },
+  "ownership": "Persistent Systems 94.04%.",
+  "corporate_activity": "2026 strategic take-private by Persistent at EUR 81; press cites a c. 140% premium to the undisturbed price (not independently verified - the stock had fallen sharply in 2025-26).",
+  "flags": "Precedent: 94.04% is just under the 95% AktG squeeze-out threshold - bidder relies on delisting pressure.",
+  "sources": [
+   "https://stockanalysis.com/quote/etr/NA9/",
+   "https://goldesel.de/aktien/news/nagarro-aktie-persistent-plant-squeeze-out-nach-ubernahme-von-9404-prozent",
+   "https://www.persistent.com/wp-content/uploads/2026/08/pr-acceptance-period-commences-persistent-publishes-public-takeover-offer-all-nagarro-shares.pdf",
+   "https://goldesel.de/aktien/news/nagarro-aktie-persistent-ubernahme-fuhrt-zum-sdax-ausschluss"
+  ],
+  "confidence": "high."
+ },
+ {
+  "company": "DATAGROUP SE (D6H) - GONE",
+  "listing_status": "KKR public purchase offer announced 16 Apr 2025 at EUR 54 (c. 33% premium), later sweetened; founder Max Schaber's HHS sold/partnered; KKR reached c. 67% after free float largely declined; delisting agreed without a separate delisting offer. Stockanalysis shows the Xetra line inactive since 31 Jul 2026 (last EUR 77.50) - delisted 2026.",
+  "business": "German IT outsourcing/managed services (CORBOX), c. EUR 570m revenue.",
+  "corsair_vertical": "IT services - precedent only (KKR, 2025).",
+  "market_cap_eur_m": {
+   "value": 642.8,
+   "source": "stockanalysis.com, last trade 31 Jul 2026 (inactive)",
+   "as_of": "2026-07-31"
+  },
+  "financials": {
+   "fy_end": "30 Sep 2025",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": 571.6,
+   "adj_ebitda_eur_m": null,
+   "net_income_eur_m": 22.0,
+   "net_cash_or_debt_eur_m": null,
+   "notes": "Precedent only."
+  },
+  "ownership": "KKR c. 67% plus founder vehicle; delisted.",
+  "corporate_activity": "KKR take-private 2025-26; initial premium c. 33%; final price not retrieved (null).",
+  "flags": "Precedent: German delisting without separate offer once investment agreement signed; minorities left in an unlisted stub.",
+  "sources": [
+   "https://stockanalysis.com/quote/etr/D6H/",
+   "https://stock3.com/news/datagroup-kkr-will-uebernehmen-und-bietet-54-eur-pro-aktie-16293432",
+   "https://www.mainsights.io/ma-news/kkr-gets-rejected-by-free-float-shareholders-and-increases-its-stake-in-datagroup-publ-to-only-67-still-plans-delisting",
+   "https://finanzen.net/nachricht/aktien/eqs-adhoc-datagroup-enters-into-an-investment-agreement-with-and-supports-a-public-purchase-offer-of-kkr-at-a-price-of-eur-54-00-per-share-in-cash-14395704"
+  ],
+  "confidence": "medium-high."
+ },
+ {
+  "company": "CompuGroup Medical SE & Co. KGaA (COP) - GONE",
+  "listing_status": "CVC (Caesar BidCo) voluntary offer at EUR 22 (Dec 2024, completed 2 May 2025) then delisting offer at EUR 22; delisting from Frankfurt effective end of 24 Jun 2025. CVC ended with c. 27.8%; Gotthardt family kept c. 50.1% and control; CVC took three board seats.",
+  "business": "Healthcare software (practice/hospital/pharmacy IT), c. EUR 1.1bn revenue.",
+  "corsair_vertical": "Healthcare software - too large, but the structure (PE minority of c. 28% alongside a founding family, with delisting) is a relevant template for a minority-with-influence deal in Germany.",
+  "market_cap_eur_m": null,
+  "financials": {
+   "fy_end": "31 Dec 2024",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": null,
+   "adj_ebitda_eur_m": null,
+   "net_income_eur_m": null,
+   "net_cash_or_debt_eur_m": null,
+   "notes": "Not retrieved; delisted."
+  },
+  "ownership": "Gotthardt family c. 50.1%; CVC c. 27.8% (post-delisting).",
+  "corporate_activity": "CVC partial take-private and delisting 2024-25 at EUR 22 (premium c. 33% per press at announcement, not verified here).",
+  "flags": "Precedent for family-plus-PE delisting; delisting offer had no conditions and the family did not tender.",
+  "sources": [
+   "https://www.boerse-online.de/dpa-afx/eqs-news-cvc-schliesst-oeffentliches-delisting-angebot-fuer-compugroup-medical-erfolgreich-ab-deutsch-455527.html",
+   "https://www.boerse-online.de/dpa-afx/eqs-news-delisting-von-compugroup-medical-wird-zum-ablauf-des-24-juni-2025-wirksam-deutsch-453570.html",
+   "https://www.boersen-zeitung.de/unternehmen-branchen/cvc-nimmt-compugroup-von-der-boerse"
+  ],
+  "confidence": "high on status."
+ },
+ {
+  "company": "Nexus AG (NXU) - GONE",
+  "listing_status": "TA Associates (Project Neptune Bidco) offer at EUR 70 cash announced 5 Nov 2024 (44.2% premium to last close, 35.3% to 3-month VWAP, equity value c. EUR 1.21bn); 94.95% secured at end of additional acceptance period (8 Jan 2025); delisted 2025 (stockanalysis last trade 24 Nov 2025).",
+  "business": "Hospital information systems and healthcare software, DACH/NL/FR.",
+  "corsair_vertical": "Healthcare software - too large; precedent (TA, 2024-25) for premium level.",
+  "market_cap_eur_m": {
+   "value": 1230.0,
+   "source": "stockanalysis.com, last trade 24 Nov 2025 (inactive)",
+   "as_of": "2025-11-24"
+  },
+  "financials": {
+   "fy_end": "31 Dec 2025",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": 310.3,
+   "adj_ebitda_eur_m": null,
+   "net_income_eur_m": 42.6,
+   "net_cash_or_debt_eur_m": null,
+   "notes": "Precedent only."
+  },
+  "ownership": "TA Associates 94.95%+.",
+  "corporate_activity": "TA take-private 2024-25 at EUR 70 (44% premium).",
+  "flags": "Precedent: software premium 44%, board-recommended, irrevocables 26.9%.",
+  "sources": [
+   "https://stockanalysis.com/quote/etr/NXU/",
+   "https://www.gettex.de/en/news-overview/newsdetail/eqs-news-final-results-of-the-public-takeover-offer-for-nexus-ag-ta-secures-9495-of-all-nexus-shares/",
+   "https://live.deutsche-boerse.com/news/Nexus-AG-Nexus-AG-and-TA-enter-into-investment-agreement-TA-announces-voluntary-public-takeover-offer-ff08394f-0ae0-43fa-8430-3b518f2d3c42"
+  ],
+  "confidence": "high."
+ },
+ {
+  "company": "SNP Schneider-Neureither & Partner SE (SHF) - CARLYLE-CONTROLLED",
+  "listing_status": "Carlyle (Succession German Bidco) offer at EUR 61 cash under investment agreement of 23 Dec 2024; acquired the Marguerre (Octapharma) block; completed c. 10 Apr 2025; bidder stated intent to delist or squeeze out. Stockanalysis still shows an active Xetra quote at EUR 98 (market cap EUR 714m) with SNP described as a subsidiary of Succession German Bidco - residual listing/stub; current free float and delisting status not verified.",
+  "business": "SAP data-transformation software (CrystalBridge/Kyano) and services, Heidelberg.",
+  "corsair_vertical": "Enterprise software - precedent only (Carlyle 2025); not investable.",
+  "market_cap_eur_m": {
+   "value": 714.4,
+   "source": "stockanalysis.com (Xetra delayed close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "financials": {
+   "fy_end": "31 Dec 2025",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": 296.8,
+   "adj_ebitda_eur_m": null,
+   "net_income_eur_m": 31.8,
+   "net_cash_or_debt_eur_m": null,
+   "notes": "Precedent only."
+  },
+  "ownership": "Succession German Bidco (Carlyle) majority; percentage not retrieved.",
+  "corporate_activity": "Carlyle take-private 2025 at EUR 61; share now well above offer price.",
+  "flags": "Illustrates German stubs trading above offer after a controlling-stake deal without squeeze-out.",
+  "sources": [
+   "https://stockanalysis.com/quote/etr/SHF/",
+   "https://finanzen.net/nachricht/aktien/eqs-adhoc-snp-conclusion-of-an-investment-agreement-with-carlyle-and-announcement-of-a-voluntary-public-takeover-offer-and-subsequent-delisting-14112235",
+   "https://snpgroup.com/en/about-snp/news/snp-offer-period-for-voluntary-public-tender-offer-from-carlyle-begins"
+  ],
+  "confidence": "medium: deal terms verified; current listing state unclear."
+ },
+ {
+  "company": "PSI Software SE (PSAN) - GONE (Warburg Pincus)",
+  "listing_status": "Warburg Pincus (Zest Bidco) voluntary offer at EUR 45 cash (2025); 81.7% secured after additional period ending 2 Jan 2026 (E.ON kept 17.77%); delisting agreement signed 8 Sep 2026 with an unconditional delisting acquisition offer at the statutory minimum price (6-month VWAP) and application to revoke the Prime Standard admission. Still quoted at EUR 45.10.",
+  "business": "Energy-grid and industrial process-control software, Berlin.",
+  "corsair_vertical": "Weak fit (energy/industrial software) - precedent only (FS-PE buyer Warburg Pincus active in German software).",
+  "market_cap_eur_m": {
+   "value": 703.4,
+   "source": "stockanalysis.com (Xetra delayed close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "financials": {
+   "fy_end": "31 Dec 2025",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": 285.5,
+   "adj_ebitda_eur_m": null,
+   "net_income_eur_m": -31.6,
+   "net_cash_or_debt_eur_m": null,
+   "notes": "Precedent only."
+  },
+  "ownership": "Zest Bidco (Warburg Pincus) c. 82%; E.ON 17.8%.",
+  "corporate_activity": "Warburg Pincus take-private 2025-26.",
+  "flags": "Precedent for delisting offer at minimum price after a prior takeover offer.",
+  "sources": [
+   "https://stockanalysis.com/quote/etr/PSAN/",
+   "https://www.psi.de/en/company/investor-relations/ad-hoc-announcements/psi-software-se-and-zest-bidco-gmbh-enter-into-delisting-agreement-public-delisting-acquisition-offer-announced",
+   "https://www.linklaters.com/about-us/news-and-deals/deals/2026/september/linklaters-advises-psi-software-on-delisting-agreement-with-warburg-pincus"
+  ],
+  "confidence": "high."
+ },
+ {
+  "company": "All for One Group SE (A1OS) - GONE (VINCI Energies)",
+  "listing_status": "VINCI Energies (Axians) voluntary offer at EUR 67.50 cash under a business combination agreement (2026); 83.56% by 9 Sep 2026, 87.33% at completion on 13 Oct 2026; delisting agreement and unconditional delisting offer at EUR 67.50 announced; delisting expected around Dec 2026. Still quoted at EUR 78.",
+  "business": "SAP-centred IT services and managed cloud for DACH mid-market, c. EUR 500m revenue.",
+  "corsair_vertical": "IT services - precedent only (strategic buyer, 2026).",
+  "market_cap_eur_m": {
+   "value": 359.8,
+   "source": "stockanalysis.com (Xetra delayed close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "financials": {
+   "fy_end": "30 Sep 2025",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": 503.7,
+   "adj_ebitda_eur_m": null,
+   "net_income_eur_m": 11.2,
+   "net_cash_or_debt_eur_m": null,
+   "notes": "Precedent only."
+  },
+  "ownership": "VINCI Energies 87.33%.",
+  "corporate_activity": "Strategic take-private 2026 at EUR 67.50; premium not retrieved.",
+  "flags": "Precedent.",
+  "sources": [
+   "https://stockanalysis.com/quote/etr/A1OS/",
+   "https://live.deutsche-boerse.com/news/EQS-News-All-for-One-VINCI-Energies-takeover-offer-completed----Delisting-agreement-concluded-and-VINCI-Energies-delisting-acquisition-offer-announced-e49bea09-fc3e-4e73-8b1c-e6f6a72a78d7",
+   "https://www.vinci-energies.de/app/uploads/sites/28/2026/08/2026-08-12-Pressemitteilung-VINCI-Energies-Annahmefrist-Barangebot-Aktien-All-for-One-afo.pdf"
+  ],
+  "confidence": "high."
+ },
+ {
+  "company": "USU Software AG - GONE",
+  "listing_status": "Delisted 2024: delisting agreement Mar 2024 with AUSUM GmbH (founder Udo Strehl, 53.7%) and NUNUS GmbH delisting offer at EUR 18.50 (10.4% above statutory minimum); c. 81.5% held after offer; shares no longer traded on a regulated market (stockanalysis OSP2 page removed).",
+  "business": "IT/enterprise service-management and knowledge-management software (Moeglingen).",
+  "corsair_vertical": "Enterprise software - precedent (founder-led delisting at a low premium).",
+  "market_cap_eur_m": null,
+  "financials": {
+   "fy_end": "31 Dec 2023",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": null,
+   "adj_ebitda_eur_m": null,
+   "net_income_eur_m": null,
+   "net_cash_or_debt_eur_m": null,
+   "notes": "Not retrieved; delisted."
+  },
+  "ownership": "AUSUM/NUNUS (Strehl) c. 81.5%.",
+  "corporate_activity": "Founder delisting 2024 at EUR 18.50; analysts called it below intrinsic value (GBC fair value EUR 27).",
+  "flags": "Precedent: German delisting at statutory minimum-plus with a controlling founder.",
+  "sources": [
+   "https://usu.com/en-us/company/investor-relations/ad-hoc-announcements/usu-software-ag-plans-delisting-conclusion-of-a-delisting-agreement",
+   "https://irpages2.eqs.com/Download/Research/20240711_USU_Update.pdf"
+  ],
+  "confidence": "high."
+ },
+ {
+  "company": "DFV Deutsche Familienversicherung AG - GONE",
+  "listing_status": "Delisted from Frankfurt: delisting agreement with Haron Holding S.A., voluntary takeover and delisting offer (offer document 14 Oct 2024); last listing day 29 Nov 2024; IFRS group reporting discontinued.",
+  "business": "Frankfurt digital insurer (supplementary health, pet, property) - underwriting capital.",
+  "corsair_vertical": "Insurer (underwriting) - outside Corsair scope regardless; precedent for small-cap delisting.",
+  "market_cap_eur_m": null,
+  "financials": {
+   "fy_end": "31 Dec 2024",
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": null,
+   "adj_ebitda_eur_m": null,
+   "net_income_eur_m": null,
+   "net_cash_or_debt_eur_m": null,
+   "notes": "Not retrieved; delisted."
+  },
+  "ownership": "Haron Holding S.A. (vehicle linked to founder/CEO Stefan Knoll per press; not verified) majority post-offer.",
+  "corporate_activity": "Delisting 2024 citing EUR 2.5m annual savings.",
+  "flags": "Precedent only.",
+  "sources": [
+   "https://www.deutsche-familienversicherung.de/ueber-uns/presse/pressemitteilungen/artikel/dfv-deutsche-familienversicherung-ag-decides-to-delist-from-the-frankfurt-stock-exchange/",
+   "https://www.bakermckenzie.com/de/newsroom/2024/10/haron-holding-takeover-delisting-offer",
+   "https://www.cash-online.de/a/dfv-deutsche-familienversicherung-zieht-sich-von-der-boerse-zurueck-684260/"
+  ],
+  "confidence": "high on status."
+ },
+ {
+  "company": "EQS Group AG - GONE (not re-verified)",
+  "listing_status": "Taken private by Thoma Bravo (offer EUR 40 cash, announced Nov 2023, completed and delisted 2024) - from prior knowledge; not re-verified in this run (no search budget left; stockanalysis page removed).",
+  "business": "Compliance, investor-relations and whistleblowing SaaS (Munich).",
+  "corsair_vertical": "Risk & compliance software - would have been an exact fit; precedent for a US software PE buyer.",
+  "market_cap_eur_m": null,
+  "financials": {
+   "fy_end": null,
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": null,
+   "adj_ebitda_eur_m": null,
+   "net_income_eur_m": null,
+   "net_cash_or_debt_eur_m": null,
+   "notes": "Not retrieved."
+  },
+  "ownership": "Thoma Bravo.",
+  "corporate_activity": "Take-private 2023-24.",
+  "flags": "Precedent; verify terms before citing.",
+  "sources": [],
+  "confidence": "low (memory only)."
+ },
+ {
+  "company": "Vectron Systems AG - GONE (not re-verified)",
+  "listing_status": "Acquired by Shift4 Payments (public offer 2024, c. EUR 10.50/share; subsequently delisted) - from prior knowledge; not re-verified in this run.",
+  "business": "POS software/hardware for hospitality with integrated payments.",
+  "corsair_vertical": "Integrated payments/vertical software - precedent for a strategic payments buyer.",
+  "market_cap_eur_m": null,
+  "financials": {
+   "fy_end": null,
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": null,
+   "adj_ebitda_eur_m": null,
+   "net_income_eur_m": null,
+   "net_cash_or_debt_eur_m": null,
+   "notes": "Not retrieved."
+  },
+  "ownership": "Shift4.",
+  "corporate_activity": "Strategic takeover 2024.",
+  "flags": "Precedent; verify terms before citing.",
+  "sources": [],
+  "confidence": "low (memory only)."
+ },
+ {
+  "company": "SYNLAB AG - GONE (not re-verified)",
+  "listing_status": "Cinven (Ephios Bidco) takeover and delisting offer 2023-24; delisted from Frankfurt 2024 - cited by Boersen-Zeitung as a PE delisting example; terms not re-verified here.",
+  "business": "Laboratory diagnostics services.",
+  "corsair_vertical": "Healthcare services - too large; precedent.",
+  "market_cap_eur_m": null,
+  "financials": {
+   "fy_end": null,
+   "currency": "EUR",
+   "fx_rate": "n/a",
+   "revenue_eur_m": null,
+   "adj_ebitda_eur_m": null,
+   "net_income_eur_m": null,
+   "net_cash_or_debt_eur_m": null,
+   "notes": "Not retrieved."
+  },
+  "ownership": "Cinven.",
+  "corporate_activity": "PE take-private/delisting 2024 (Elliott held out as minority).",
+  "flags": "Precedent.",
+  "sources": [
+   "https://www.boersen-zeitung.de/unternehmen-branchen/finanzinvestor-cvc-traegt-mit-compugroup-zur-riesenwelle-der-delistings-bei"
+  ],
+  "confidence": "low-medium."
+ }
+]
