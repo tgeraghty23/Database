@@ -41,3 +41,10 @@
   Zalaris (Norvestor, HR/payroll, 2026), PSI Software (Warburg), All for One (VINCI), Penneo (Visma), Innofactor
   (CapMan), Oma Savings Bank (S-Bank, pending). Provisional "premiums lower than UK" premise CONTRADICTED; argument
   revised: continental premiums are higher, and deliverability depends on a pre-committed block of 20-50%.
+- 2026-11-04 23:40 Return: Norway/Denmark/Finland. Finland is the deepest pool: Evli (EUR 577m, EBIT 61m, founder
+  families >50% votes), eQ (331m, EBIT 28m, net cash, Ehrnrooth/Rettig ~33%), CapMan (313m, dispersed, lumpy), Enento
+  (credit/KYC data, 381m cap, EV ~525m, Otava 26.5% stake built 2025), Pihlajalinna (195m, EBIT 44m, insurer anchors),
+  United Bankers (241m, founder block), Taaleri (204m, Garantia insurer inside). Denmark: Trifork (251m, Swiss law),
+  Columbus (Kunoe 66%), cBrain (34x). Norway nearly empty in band: Bouvet weak fit; Zalaris, Spir, Volue, Kahoot,
+  Crayon gone; Carasent and SmartCraft relisted to Stockholm. Add-ons: Admicom, Digia, Alexandria, Lemonsoft, Talenom.
+  Challenge accepted: Finnish asset managers are all founder/family anchored; only CapMan is dispersed.
