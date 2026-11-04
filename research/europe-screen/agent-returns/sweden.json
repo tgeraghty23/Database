@@ -1,0 +1,1702 @@
+[
+  {
+    "ticker": "_META",
+    "company": "Sweden screen run notes",
+    "screen_status": "meta",
+    "listing_status": "Scanned: stockanalysis.com/list/nasdaq-stockholm/ page 1 (500 largest of 739 Stockholm-traded stocks incl. First North names, SEK market caps, 2026-11-04). Page 2 (names below approx SEK 330m / EUR 30m) could not be loaded but is entirely below the EUR 80m floor. Figures from stockanalysis.com quote/statistics/financials pages; ownership from Millistream data via inderes.dk company pages (undated; consulted 2026-11-04); corporate activity from MFN/Cision releases via inderes.se, placera.se, affarsvarlden.se, casino.org. 13 WebSearch calls used of 25.",
+    "business": "FX: SEK/EUR 11.0 per 00_brief.md for all conversions. Market caps are 2026-11-04 delayed closes. EV = stockanalysis definition (debt incl. IFRS 16 leases). 'adj_ebitda' is stockanalysis TTM EBITDA or FY2025 operating income where noted - company-reported adjusted EBITA was not retrieved and should be before any ranking.",
+    "corsair_vertical": "Band used for candidate generation: market cap EUR 80-900m (SEK 0.88-9.9bn). In-band names on-vertical or arguable: Karnov, Addnode, Lime, BTS, Knowit, Proact, Kambi, Carasent, Exsitec, Catella, Enea, Softronic, Ework. Sub-band on-vertical: Case Group, Mangold (NGM), Dedicare, mySafety, Freja eID, Qliro, Brock Milton. Not found listed in Sweden: independent wealth managers (Soderberg & Partners, Max Matthiessen, Carnegie are private/bank-owned), insurance brokers of scale, trust/corporate-services firms, and listed payments firms other than bank-licensed Qliro/Avarda/Norion.",
+    "flags": "Challenges to the assignment: (1) the in-band Swedish pool is mostly software/IT-services and care, not financial-services software or FS business services; the only FS-facing on-vertical names (Catella, Case, Mangold, mySafety, Qliro) are sub-band or controlled. (2) The best-fit name by business (Karnov) is at/above the EV ceiling and already running a sale process with Goldman Sachs. (3) 2024-26 precedents show high take-private volume in Sweden (Fortnox, Byggfakta, Pagero, Resurs, Norva24, Humana, Lasernet, Cint) and that 90% squeeze-out plus holdout institutions can defeat a recommended bid (Karnov 2024).",
+    "sources": [
+      "https://stockanalysis.com/list/nasdaq-stockholm/"
+    ],
+    "confidence": "see per-row"
+  },
+  {
+    "ticker": "KAR",
+    "company": "Karnov Group AB (publ)",
+    "screen_status": "candidate",
+    "listing_status": "Nasdaq Stockholm, Mid Cap. Still listed. No live offer. Board is reviewing strategic options including a potential sale (Q2 2026 call, Goldman Sachs adviser, per Quartr/Affarsvarlden secondary sources; no primary release found).",
+    "business": "Legal, tax and regulatory information and workflow software (legal research, compliance tools, continuing education) for legal, tax and business professionals in Denmark, Sweden, Norway, France, Spain and Portugal. Divested EHS division to Infopro Digital for EUR 92m (completed 2025), now 'AI legal solutions' focus.",
+    "corsair_vertical": "Software: risk and compliance / vertical software (legal and regulatory information). Strong vertical fit; EV (approx EUR 910m) sits at or just above the top of the EV band so would need co-investors.",
+    "market_cap_eur_m": {
+      "value_eur_m": 732.7,
+      "value_sek_m": 8060,
+      "source": "stockanalysis.com/quote/sto/KAR (SEK 83.90, 96.09m shares)",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": {
+      "value_eur_m": 910.0,
+      "value_sek_m": 10010,
+      "source": "stockanalysis.com statistics page, 2026-11-04; EV = market cap + total debt (incl. IFRS 16 leases as reported) - cash"
+    },
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": {
+      "value": 240.1,
+      "local": "SEK 2641m",
+      "note": "FY2025 per stockanalysis.com financials (company-reported, SEK m)"
+    },
+    "adj_ebitda_eur_m": {
+      "value": 120.9,
+      "note": "EBITDA TTM SEK 1,330m per stockanalysis statistics; FY2025 operating income SEK 1,123m (vs 146m FY2024) is inflated by the gain on the EHS divestment, so underlying adj. EBITA is materially lower (company-reported adj. EBITA not retrieved). Treat as upper bound."
+    },
+    "net_cash_or_debt_eur_m": {
+      "value": -177.3,
+      "note": "Net debt SEK 1,950m (debt 2,130m, cash 183m) per stockanalysis statistics; approx 1.5x reported TTM EBITDA, higher on underlying EBITDA."
+    },
+    "ownership": "Long Path Partners 13.8%; Anabranch Capital 8.7%; Vor Capital 7.4%; Janus Henderson 6.4%; Alantra EQMC 5.0%; Handelsbanken Fonder 4.7%; Invesco 4.7%; Carnegie Fonder 3.9%; Greenoaks 3.9%; treasury 3.6% (Millistream via inderes.dk, undated, consulted 2026-11-04). Dispersed institutional register, no founder block; Long Path/Greenoaks are the 2024 failed bidders.",
+    "corporate_activity": "2024: recommended cash offer SEK 84/share from Greenoaks Capital and Long Path Partners, withdrawn (board statement on withdrawal, December 2024). Nov 2025: EHS division sold to Infopro Digital for EUR 92m; part of proceeds used to buy back up to 5% of shares (Feb 2026). Q2 2026: board evaluating strategic options including a potential sale, Goldman Sachs advising (secondary sources). Ongoing buybacks Oct-Nov 2026.",
+    "flags": "EV at the top of or above Corsair's band. Leverage moderate. Two prior bidders still on the register (Long Path, Greenoaks) - either competitors or partners. Business is non-financial-services, so fits 'software/compliance' but not FS-specific. Sweden: compulsory redemption (squeeze-out) at 90% of shares (Companies Act ch. 22); mandatory bid at 30% of votes; Nasdaq Stockholm Takeover Rules; delisting normally after 90% reached.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/KAR/",
+      "https://stockanalysis.com/quote/sto/KAR/statistics/",
+      "https://stockanalysis.com/quote/sto/KAR/financials/",
+      "https://www.inderes.dk/en/companies/Karnov-Group/ownership",
+      "https://mfn.se/cis/a/karnov-group/karnov-group-statement-by-the-board-of-directors-in-relation-to-the-withdrawal-of-the-public-offer-from-greenoaks-and-long-path-31812183",
+      "https://quartr.com/events/karnov-group-kar-q2-2026_3efFg5Bk",
+      "https://www.affarsvarlden.se/artikel/karnov-rapporterar-samre-an-vantat",
+      "https://www.inderes.se/releases/karnov-group-divests-its-ehs-division-to-infopro-digital-group-for-eur-92-million"
+    ],
+    "confidence": "medium: market cap and register solid; strategic-review claim rests on call summaries not a company release; EBITDA distorted by disposal gain."
+  },
+  {
+    "ticker": "ANOD.B",
+    "company": "Addnode Group AB (publ)",
+    "screen_status": "candidate",
+    "listing_status": "Nasdaq Stockholm, Mid Cap (A and B shares; B listed). Still listed. No live offer.",
+    "business": "Software and services for design management (Autodesk reseller/solutions), product lifecycle management and process management (public-sector case management, Sweden). Revenue fell 25% in FY2025 as the Autodesk transaction model moved to agency, so the drop is largely optical.",
+    "corsair_vertical": "Software: vertical/enterprise software and IT solutions. Fit is moderate (engineering/public-sector verticals rather than financial services); size at top of band on market cap, above on EV.",
+    "market_cap_eur_m": {
+      "value_eur_m": 800.9,
+      "value_sek_m": 8810,
+      "source": "stockanalysis.com/quote/sto/ANOD.B (SEK 65.00, 135.6m shares)",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": {
+      "value_eur_m": 1040.9,
+      "value_sek_m": 11450,
+      "source": "stockanalysis.com statistics page, 2026-11-04; EV = market cap + total debt (incl. IFRS 16 leases as reported) - cash"
+    },
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": {
+      "value": 526.6,
+      "local": "SEK 5793m",
+      "note": "FY2025 per stockanalysis.com financials (company-reported, SEK m)"
+    },
+    "adj_ebitda_eur_m": {
+      "value": 75.4,
+      "note": "EBITDA TTM SEK 829m; FY2025 operating income SEK 607m (FY2024 608m). Stockanalysis figures, company adj. EBITA not retrieved."
+    },
+    "net_cash_or_debt_eur_m": {
+      "value": -240.0,
+      "note": "Net debt SEK 2,640m (debt 3,430m incl. leases, cash 792m) per stockanalysis; approx 3.2x TTM EBITDA on this basis - higher than Corsair's 'modest leverage'."
+    },
+    "ownership": "Lannebo 10.7% cap/8.5% votes; AP2 6.4%; AP4 6.3%; SEB IM 5.5%; Cliens 5.0%; Aretro Capital (chairman Staffan Hanstorp and Jonas Gejer) 4.2% cap/16.4% votes; Handelsbanken Fonder 4.1%; Vanguard 3.7%; Nordea Funds 2.8%; Dick Hasselstrom 1.1% cap/8.4% votes (Millistream via inderes.dk, undated). Dual-class: A-shares give insiders approx 25% of votes on approx 5% of capital.",
+    "corporate_activity": "No bid approach, strategic review or activist found 2024-2026. Aretro Capital has both increased and trimmed its stake in recent years (press releases). Serial acquirer itself.",
+    "flags": "Leverage above 3x on reported basis; insider voting control via A-shares makes a hostile approach impractical but a recommended deal feasible. Not financial-services-facing. Sweden: compulsory redemption (squeeze-out) at 90% of shares (Companies Act ch. 22); mandatory bid at 30% of votes; Nasdaq Stockholm Takeover Rules; delisting normally after 90% reached.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/ANOD.B/",
+      "https://stockanalysis.com/quote/sto/ANOD.B/statistics/",
+      "https://stockanalysis.com/quote/sto/ANOD.B/financials/",
+      "https://www.inderes.dk/en/companies/Addnode-Group/ownership",
+      "https://www.inderes.se/en/releases/addnode-groups-main-owner-aretro-capital-strengthens-its-ownership"
+    ],
+    "confidence": "medium: figures from a data site; ownership undated."
+  },
+  {
+    "ticker": "LIME",
+    "company": "Lime Technologies AB (publ)",
+    "screen_status": "candidate",
+    "listing_status": "Nasdaq Stockholm, Mid Cap. Still listed. No live offer. EGM called (2026) to authorise share buybacks.",
+    "business": "Nordic SaaS CRM vendor (Lime CRM, Lime Go, industry-specific editions for utilities, housing, wholesale, membership organisations) plus implementation consulting; approx 525 staff, Lund.",
+    "corsair_vertical": "Software: enterprise/vertical SaaS. Good fit on business model; not FS-specific.",
+    "market_cap_eur_m": {
+      "value_eur_m": 320.0,
+      "value_sek_m": 3520,
+      "source": "stockanalysis.com/quote/sto/LIME (SEK 263.50, 13.34m shares)",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": {
+      "value_eur_m": 329.1,
+      "value_sek_m": 3620,
+      "source": "stockanalysis.com statistics page, 2026-11-04; EV = market cap + total debt (incl. IFRS 16 leases as reported) - cash"
+    },
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": {
+      "value": 68.0,
+      "local": "SEK 747.6m",
+      "note": "FY2025 per stockanalysis.com financials (company-reported, SEK m)"
+    },
+    "adj_ebitda_eur_m": {
+      "value": 16.3,
+      "note": "EBITDA TTM SEK 179m (approx 22-25% margin per company commentary); FY2025 operating income SEK 146m. Stockanalysis."
+    },
+    "net_cash_or_debt_eur_m": {
+      "value": -9.5,
+      "note": "Net debt SEK 105m (debt 176m incl. leases, cash 71m). Effectively ungeared."
+    },
+    "ownership": "AB Grenspecialisten 10.2%; SEB Fonder 9.2%; Syringa Capital (chairman Erik Syren's vehicle, partially sold down 2025-26 but 'still committed') 8.8%; ODIN 8.0%; Cliens 7.8%; Spiltan 4.1%; Lansforsakringar 3.6%; Nordea 3.4%; Danske Invest 3.3%; Robur 2.4% (Millistream via inderes.dk, undated). Dispersed, fund-heavy register; founder/chair below 10%.",
+    "corporate_activity": "No bid, review or activist found 2024-2026. Syringa Capital sold part of its holding (2025/26). Buyback authorisation proposed 2026.",
+    "flags": "Valuation is the obstacle (approx 18x EV/EBITDA TTM per stockanalysis), not deliverability. Grenspecialisten (10.2%) was part of the Formpipe/Lasernet take-private consortium in 2026, i.e. a holder willing to roll into private deals. Sweden: compulsory redemption (squeeze-out) at 90% of shares (Companies Act ch. 22); mandatory bid at 30% of votes; Nasdaq Stockholm Takeover Rules; delisting normally after 90% reached.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/LIME/",
+      "https://stockanalysis.com/quote/sto/LIME/statistics/",
+      "https://stockanalysis.com/quote/sto/LIME/financials/",
+      "https://www.inderes.dk/en/companies/Lime-Technologies/ownership",
+      "https://inderes.se/releases/syringa-capital-sells-holding-in-lime-technologies-still-committed-and-large-owner",
+      "https://www.inderes.se/en/releases/limes-board-of-directors-calls-extraordinary-general-meeting-proposes-authorisation-for-share-buyback"
+    ],
+    "confidence": "medium-high: price, cap and register consistent across sources."
+  },
+  {
+    "ticker": "BTS.B",
+    "company": "BTS Group AB (publ)",
+    "screen_status": "candidate",
+    "listing_status": "Nasdaq Stockholm, Mid Cap (A and B shares). Still listed. No live offer.",
+    "business": "Global professional-services firm: strategy execution, leadership development, sales enablement, assessment and digital learning for large corporates; approx 60% of revenue in North America. Founded by CEO/chair Henrik Ekelund.",
+    "corsair_vertical": "Business services: professional services (consulting/training). Fit is moderate: not FS-specific, people-based.",
+    "market_cap_eur_m": {
+      "value_eur_m": 392.7,
+      "value_sek_m": 4320,
+      "source": "stockanalysis.com/quote/sto/BTS.B (SEK 222.50, 19.4m shares)",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": {
+      "value_eur_m": 409.1,
+      "value_sek_m": 4500,
+      "source": "stockanalysis.com statistics page, 2026-11-04; EV = market cap + total debt (incl. IFRS 16 leases as reported) - cash"
+    },
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": {
+      "value": 245.7,
+      "local": "SEK 2703m",
+      "note": "FY2025 per stockanalysis.com financials (company-reported, SEK m)"
+    },
+    "adj_ebitda_eur_m": {
+      "value": 28.7,
+      "note": "EBITDA TTM SEK 316m; FY2025 operating income SEK 214m (FY2024 298m). FY2024 net income inflated by one-off."
+    },
+    "net_cash_or_debt_eur_m": {
+      "value": -16.7,
+      "note": "Net debt SEK 184m (debt 607m incl. leases, cash 423m)."
+    },
+    "ownership": "Henrik Ekelund (founder) 20.3% cap / 41.7% votes; Stefan af Petersens 11.6% / 9.6%; Lannebo 9.1%; Nordea Fonder 8.8%; Handelsbanken Fonder 6.2%; SEB Fonder 6.2%; AMF 4.4% (Millistream via inderes.dk, undated). Founder has effective control via A-shares.",
+    "corporate_activity": "No bid, review or activist found 2024-2026.",
+    "flags": "Founder control (42% of votes) means only a founder-sponsored deal is possible; earnings fell in 2025 on US softness. Sweden: compulsory redemption (squeeze-out) at 90% of shares (Companies Act ch. 22); mandatory bid at 30% of votes; Nasdaq Stockholm Takeover Rules; delisting normally after 90% reached.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/BTS.B/",
+      "https://stockanalysis.com/quote/sto/BTS.B/statistics/",
+      "https://stockanalysis.com/quote/sto/BTS.B/financials/",
+      "https://www.inderes.dk/en/companies/BTS-Group/ownership"
+    ],
+    "confidence": "medium."
+  },
+  {
+    "ticker": "PACT",
+    "company": "Proact IT Group AB (publ)",
+    "screen_status": "candidate",
+    "listing_status": "Nasdaq Stockholm, Mid Cap. Still listed. No live offer.",
+    "business": "Data-centre and hybrid-cloud infrastructure integrator and managed-services provider (storage, backup, security, Kubernetes) in Sweden, UK, Netherlands, Germany; serves regulated sectors including insurance and healthcare.",
+    "corsair_vertical": "Weak fit: IT infrastructure services rather than Corsair's FS-software or FS-services verticals. Listed for completeness (in band, cheap).",
+    "market_cap_eur_m": {
+      "value_eur_m": 330.0,
+      "value_sek_m": 3630,
+      "source": "stockanalysis.com/quote/sto/PACT (SEK 144.60, 25.1m shares)",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": {
+      "value_eur_m": 340.0,
+      "value_sek_m": 3740,
+      "source": "stockanalysis.com statistics page, 2026-11-04; EV = market cap + total debt (incl. IFRS 16 leases as reported) - cash"
+    },
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": {
+      "value": 424.8,
+      "local": "SEK 4673m",
+      "note": "FY2025 per stockanalysis.com financials (company-reported, SEK m)"
+    },
+    "adj_ebitda_eur_m": {
+      "value": 39.6,
+      "note": "EBITDA TTM SEK 436m; FY2025 operating income SEK 255m (FY2024 296m)."
+    },
+    "net_cash_or_debt_eur_m": {
+      "value": -9.9,
+      "note": "Net debt SEK 109m (debt 651m incl. leases, cash 542m)."
+    },
+    "ownership": "AB Grenspecialisten 13.3%; Fidelity 10.0%; Handelsbanken Fonder 4.9%; Alcur 4.8%; Avanza Pension 4.3%; Polaris Management 3.4%; treasury 2.2% (Millistream via inderes.dk, undated).",
+    "corporate_activity": "No bid, review or activist found 2024-2026. Earnings down 44% in FY2025.",
+    "flags": "Low multiple (approx 6.7x EV/EBITDA TTM) and dispersed register, but off-vertical. Sweden: compulsory redemption (squeeze-out) at 90% of shares (Companies Act ch. 22); mandatory bid at 30% of votes; Nasdaq Stockholm Takeover Rules; delisting normally after 90% reached.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/PACT/",
+      "https://stockanalysis.com/quote/sto/PACT/statistics/",
+      "https://stockanalysis.com/quote/sto/PACT/financials/",
+      "https://www.inderes.dk/en/companies/Proact-IT-Group/ownership"
+    ],
+    "confidence": "medium."
+  },
+  {
+    "ticker": "KNOW",
+    "company": "Knowit AB (publ)",
+    "screen_status": "candidate",
+    "listing_status": "Nasdaq Stockholm, Mid Cap. Still listed. No live offer. CEO Per Wallentin stepped down 1 Aug 2026; Fredrik Ekerhovd interim CEO; permanent search ongoing.",
+    "business": "Nordic IT and management consultancy (approx 3,500 staff) across Solutions, Experience, Connectivity and Insight; public sector and financial services are large client groups.",
+    "corsair_vertical": "Business services: professional services (IT/management consulting). Moderate fit; turnaround situation.",
+    "market_cap_eur_m": {
+      "value_eur_m": 297.3,
+      "value_sek_m": 3270,
+      "source": "stockanalysis.com/quote/sto/KNOW (SEK 120.20, 27.24m shares)",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": {
+      "value_eur_m": 344.5,
+      "value_sek_m": 3790,
+      "source": "stockanalysis.com statistics page, 2026-11-04; EV = market cap + total debt (incl. IFRS 16 leases as reported) - cash"
+    },
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": {
+      "value": 527.1,
+      "local": "SEK 5798m",
+      "note": "FY2025 per stockanalysis.com financials (company-reported, SEK m)"
+    },
+    "adj_ebitda_eur_m": {
+      "value": 28.9,
+      "note": "EBITDA TTM SEK 318m. FY2025 operating income SEK -213m after SEK 399m non-cash goodwill impairment (Connectivity); underlying EBIT approx SEK 186m."
+    },
+    "net_cash_or_debt_eur_m": {
+      "value": -47.2,
+      "note": "Net debt SEK 519m (debt 781m incl. leases, cash 262m)."
+    },
+    "ownership": "Formica Capital I AB 13.3%; JCE Group AB 9.4% (both former Cybercom owners, 2021 merger); TIND Asset Management 5.9%; AAT Invest 5.0%; Fidelity 4.3%; Unionen 4.0%; Egil Dahl 3.4% (Millistream via inderes.dk, undated).",
+    "corporate_activity": "No bid or formal review found 2024-2026. Revenue fell 10% in 2025, goodwill impairment, long-serving CEO replaced (2026), chairman declined re-election. Classic 'new management, cheap' setup.",
+    "flags": "Two aligned holders at 22.7% could anchor or block; consultancy margins thin; 'modest leverage' met. Sweden: compulsory redemption (squeeze-out) at 90% of shares (Companies Act ch. 22); mandatory bid at 30% of votes; Nasdaq Stockholm Takeover Rules; delisting normally after 90% reached.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/KNOW/",
+      "https://stockanalysis.com/quote/sto/KNOW/statistics/",
+      "https://stockanalysis.com/quote/sto/KNOW/financials/",
+      "https://www.inderes.dk/en/companies/Knowit/ownership",
+      "https://www.nasdaq.com/articles/knowit-ceo-wallentin-step-down-names-fredrik-ekerhovd-interim-ceo",
+      "https://www.knowit.eu/news-press/operative-efficiency-and-new-leadership/"
+    ],
+    "confidence": "medium."
+  },
+  {
+    "ticker": "KAMBI",
+    "company": "Kambi Group plc",
+    "screen_status": "candidate",
+    "listing_status": "Nasdaq Stockholm (Malta plc; segment to verify - trades as KAMBI on Nasdaq Stockholm per stockanalysis). Still listed. No live offer. Q3 2026 report due 4 Nov 2026. 10% buyback authorised June 2026.",
+    "business": "B2B sports-betting technology (sportsbook platform, odds, managed trading) for regulated operators in Europe and the Americas; Malta HQ, approx 1,000 staff.",
+    "corsair_vertical": "Weak fit / off-vertical: gambling B2B technology is outside Corsair's verticals (payments, software, FS business services). Recorded because it is in band, net cash, and a perennial takeover candidate.",
+    "market_cap_eur_m": {
+      "value_eur_m": 347.3,
+      "value_sek_m": 3820,
+      "source": "stockanalysis.com/quote/sto/KAMBI (SEK 144.80, 26.39m shares)",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": {
+      "value_eur_m": 322.7,
+      "value_sek_m": 3550,
+      "source": "stockanalysis.com statistics page, 2026-11-04; EV = market cap + total debt (incl. IFRS 16 leases as reported) - cash"
+    },
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": {
+      "value": 162.0,
+      "local": "EUR 162.02m",
+      "note": "FY2025, reports in EUR (stockanalysis financials)"
+    },
+    "adj_ebitda_eur_m": {
+      "value": 30.7,
+      "note": "EBITDA TTM SEK 338m; FY2025 operating income EUR 12.3m on revenue EUR 162.0m (reports in EUR; -8% y/y)."
+    },
+    "net_cash_or_debt_eur_m": {
+      "value": 34.1,
+      "note": "Net cash SEK 375m (cash 464m, debt 88m)."
+    },
+    "ownership": "Veralda Investment (Anders Strom, founder of Unibet/Kindred) 22.6%; Avanza Pension 5.1%; AP2 4.9%; Nordnet Pension 4.2%; Jofam 3.5%; treasury 3.4% (Millistream via inderes.dk, undated).",
+    "corporate_activity": "2022: poison pill removed. 2024: Genius Sports takeover rumour denied. 2025: 2027 targets withdrawn, capital returned via buybacks; Shape Games acquisition. No formal review 2025-2026 found.",
+    "flags": "Gambling licences in multiple jurisdictions (change-of-control approvals); Kindred (now FDJ) contract concentration; Malta plc governed by Maltese company law for squeeze-out though Swedish takeover rules apply to the listing.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/KAMBI/",
+      "https://stockanalysis.com/quote/sto/KAMBI/statistics/",
+      "https://stockanalysis.com/quote/sto/KAMBI/financials/",
+      "https://www.inderes.dk/en/companies/Kambi-Group/ownership",
+      "https://www.casino.org/news/kambi-refutes-rumor-of-potential-takeover-by-genius-sports/",
+      "https://quartr.com/events/kambi-group-kambi-q2-2026_3eeVfxdh"
+    ],
+    "confidence": "medium; revenue in EUR from company, cap in SEK."
+  },
+  {
+    "ticker": "CARA",
+    "company": "Carasent AB (publ)",
+    "screen_status": "candidate",
+    "listing_status": "Nasdaq Stockholm, Small Cap (moved from Oslo Bors to Stockholm 2023). Still listed. No live offer. SEK 150m buyback running to AGM 2026.",
+    "business": "Cloud electronic-health-record and practice-management SaaS (Webdoc, Medrave, Infosolutions acquired 2026) for private healthcare providers in Sweden, Norway, Finland and Germany.",
+    "corsair_vertical": "Software: vertical SaaS (healthcare). Fit via Corsair's healthcare-services/vertical-software lens; sub-scale for a platform (EV approx EUR 160m) but a plausible add-on or minority.",
+    "market_cap_eur_m": {
+      "value_eur_m": 160.9,
+      "value_sek_m": 1770,
+      "source": "stockanalysis.com/quote/sto/CARA (SEK 26.25, 67.39m shares)",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": {
+      "value_eur_m": 159.1,
+      "value_sek_m": 1750,
+      "source": "stockanalysis.com statistics page, 2026-11-04; EV = market cap + total debt (incl. IFRS 16 leases as reported) - cash"
+    },
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": {
+      "value": 31.3,
+      "local": "SEK 343.8m",
+      "note": "FY2025 per stockanalysis.com financials (company-reported, SEK m)"
+    },
+    "adj_ebitda_eur_m": {
+      "value": 2.8,
+      "note": "EBITDA TTM SEK 31m per stockanalysis (likely after one-offs/capitalised items; company reports higher adj. EBITDA - not retrieved). FY2025 operating income SEK 9.4m."
+    },
+    "net_cash_or_debt_eur_m": {
+      "value": 2.0,
+      "note": "Net cash SEK 22m (cash 47m, debt 25m) before Infosolutions (SEK 115-120m EV, Q2 2026) and buyback."
+    },
+    "ownership": "Vitruvian Partners 19.2%; Handelsbanken Funds 6.1%; AP2 4.6%; treasury 4.2%; Nordnet Pension 3.9%; Schroders 3.6%; Avanza Pension 3.6%; Molcap 3.5%; NBIM 2.9% (Millistream via inderes.dk, undated).",
+    "corporate_activity": "Spring 2024: indicative SEK 20/share approach from EG (Denmark) rejected by Vitruvian, no formal offer. 2025: revised targets, SEK 150m buyback. April 2026: Infosolutions acquisition.",
+    "flags": "Vitruvian (PE) 19% is the gatekeeper and a natural seller at the right price; EV/EBITDA very high on reported figures. Sweden: compulsory redemption (squeeze-out) at 90% of shares (Companies Act ch. 22); mandatory bid at 30% of votes; Nasdaq Stockholm Takeover Rules; delisting normally after 90% reached.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/CARA/",
+      "https://stockanalysis.com/quote/sto/CARA/statistics/",
+      "https://stockanalysis.com/quote/sto/CARA/financials/",
+      "https://www.inderes.dk/en/companies/Carasent/ownership",
+      "https://www.affarsvarlden.se/kommentar/carasent-chans-till-budhojning",
+      "https://www.placera.se/telegram/carasent-carasent-to-buy-infosolutions-sverige-in-sek115-million-deal-20260427"
+    ],
+    "confidence": "medium."
+  },
+  {
+    "ticker": "EXS",
+    "company": "Exsitec Holding AB (publ)",
+    "screen_status": "candidate",
+    "listing_status": "Nasdaq Stockholm, Small Cap (listed First North 2020, moved to main market; verify date). Still listed. No live offer.",
+    "business": "Implements and resells ERP, payroll/HR, procurement, CRM and analytics software (Visma, Medius, etc.) to mid-sized companies in Sweden, Norway, Denmark and Finland; approx 700 staff; serial acquirer of local Visma partners.",
+    "corsair_vertical": "Software / HR and finance tools (services-led). Good thematic fit with Corsair's 'HR and finance tools'; size below EV band (EV approx EUR 175m), so add-on or small platform.",
+    "market_cap_eur_m": {
+      "value_eur_m": 139.1,
+      "value_sek_m": 1530,
+      "source": "stockanalysis.com/quote/sto/EXS (SEK 113.50, 13.45m shares)",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": {
+      "value_eur_m": 176.4,
+      "value_sek_m": 1940,
+      "source": "stockanalysis.com statistics page, 2026-11-04; EV = market cap + total debt (incl. IFRS 16 leases as reported) - cash"
+    },
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": {
+      "value": 81.4,
+      "local": "SEK 894.9m",
+      "note": "FY2025 per stockanalysis.com financials (company-reported, SEK m)"
+    },
+    "adj_ebitda_eur_m": {
+      "value": 12.6,
+      "note": "EBITDA TTM SEK 139m; FY2025 operating income SEK 121m (FY2024 98m)."
+    },
+    "net_cash_or_debt_eur_m": {
+      "value": -37.2,
+      "note": "Net debt SEK 409m (debt 463m incl. leases and earn-outs, cash 54m); approx 2.9x TTM EBITDA."
+    },
+    "ownership": "Syntrans AB (founder vehicle) 18.1%; Grenspecialisten 10.1%; Creades 9.6%; Cliens 9.2%; Johan Kallblad (CEO) 7.0%; Case Kapitalforvaltning 5.0%; Alcur 4.2%; AP2 4.1% (Millistream via inderes.dk, undated). Founder/management approx 25%.",
+    "corporate_activity": "No bid, review or activist found 2024-2026; steady bolt-on acquirer.",
+    "flags": "Dependence on Visma partner status; founder/management block needs to be on side. Sweden: compulsory redemption (squeeze-out) at 90% of shares (Companies Act ch. 22); mandatory bid at 30% of votes; Nasdaq Stockholm Takeover Rules; delisting normally after 90% reached.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/EXS/",
+      "https://stockanalysis.com/quote/sto/EXS/statistics/",
+      "https://stockanalysis.com/quote/sto/EXS/financials/",
+      "https://www.inderes.dk/en/companies/Exsitec/ownership"
+    ],
+    "confidence": "medium."
+  },
+  {
+    "ticker": "CAT.B",
+    "company": "Catella AB (publ)",
+    "screen_status": "candidate",
+    "listing_status": "Nasdaq Stockholm, Small Cap (A and B shares). Still listed. No live offer. SEK 100m buyback started June 2026; new chair (Erik Rune) proposed for AGM 2026.",
+    "business": "Real-estate-focused financial group: Investment/Asset Management (property funds and mandates, approx EUR 13-14bn AUM per company), Corporate Finance (property transaction advisory) and Principal Investments (development projects, e.g. Kaktus Towers sold 2025). Catella Fonder (Swedish equity/bond funds) sold earlier.",
+    "corsair_vertical": "Business services: wealth and asset management (property asset manager). Genuine vertical fit; EV below band (approx EUR 140m) and value is a mix of fee business and balance-sheet projects.",
+    "market_cap_eur_m": {
+      "value_eur_m": 126.4,
+      "value_sek_m": 1390,
+      "source": "stockanalysis.com/quote/sto/CAT.B (SEK 16.18, 85.82m shares)",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": {
+      "value_eur_m": 141.8,
+      "value_sek_m": 1560,
+      "source": "stockanalysis.com statistics page, 2026-11-04; EV = market cap + total debt (incl. IFRS 16 leases as reported) - cash"
+    },
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": {
+      "value": 181.1,
+      "local": "SEK 1992m",
+      "note": "FY2025 per stockanalysis.com financials (company-reported, SEK m)"
+    },
+    "adj_ebitda_eur_m": {
+      "value": 4.4,
+      "note": "EBITDA TTM SEK 48m per stockanalysis (TTM net loss SEK -151m); FY2025 operating income SEK 332m was lifted by project disposals (Kaktus Towers). Underlying fee-business EBIT not retrieved."
+    },
+    "net_cash_or_debt_eur_m": {
+      "value": -13.7,
+      "note": "Net debt SEK 151m (debt 1,330m incl. bond, cash 1,170m) per stockanalysis; cash SEK 1.7bn after Kaktus sale per ABG note."
+    },
+    "ownership": "Claesson & Anderzen group 49.4% capital / 49.2% votes; Gran Fondo Capital 8.4%; Avanza Pension 3.1%; Symmetry Invest 3.0%; treasury 2.9% (Millistream via inderes.dk, undated). Traction (previously no. 2) sold almost all its stake June 2026 after public criticism of the board and main owner.",
+    "corporate_activity": "2025: Kaktus Towers disposal; Catella Valuation France sold to Newmark (Q4). 2026: Traction exit and criticism of strategy; buyback; board refresh. No formal strategic review or bid found.",
+    "flags": "Controlling holder at 49% (above mandatory-bid threshold, below squeeze-out) - a take-private only happens with Claesson & Anderzen. Regulated: AIFM/fund-management licences in Sweden, Germany, France etc. require FI change-of-control approval. Earnings volatile (project gains). Sweden: compulsory redemption (squeeze-out) at 90% of shares (Companies Act ch. 22); mandatory bid at 30% of votes; Nasdaq Stockholm Takeover Rules; delisting normally after 90% reached.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/CAT.B/",
+      "https://stockanalysis.com/quote/sto/CAT.B/statistics/",
+      "https://stockanalysis.com/quote/sto/CAT.B/financials/",
+      "https://www.inderes.dk/en/companies/Catella/ownership",
+      "https://www.realtid.se/bors-finans/traction-dumpar-innehav-i-catella/",
+      "https://www.inderes.dk/en/releases/catella-divests-valuation-france-to-newmark-to-sharpen-strategic-focus",
+      "https://borsvarlden.com/artiklar/catella-ready-to-spring-into-action-abg"
+    ],
+    "confidence": "medium."
+  },
+  {
+    "ticker": "ENEA",
+    "company": "Enea AB (publ)",
+    "screen_status": "candidate",
+    "listing_status": "Nasdaq Stockholm, Small Cap. Still listed. No live offer.",
+    "business": "Telecom and cybersecurity software (network security, signalling/messaging protection, cloud-native network functions) sold to operators and vendors.",
+    "corsair_vertical": "Weak fit: telecom software, not FS. In band on size and cheap (approx 4.8x EV/EBITDA TTM); recorded for completeness.",
+    "market_cap_eur_m": {
+      "value_eur_m": 85.7,
+      "value_sek_m": 943,
+      "source": "stockanalysis.com/quote/sto/ENEA (SEK 50.20, 18.79m shares)",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": {
+      "value_eur_m": 104.5,
+      "value_sek_m": 1150,
+      "source": "stockanalysis.com statistics page, 2026-11-04; EV = market cap + total debt (incl. IFRS 16 leases as reported) - cash"
+    },
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": {
+      "value": 80.8,
+      "local": "SEK 889m",
+      "note": "FY2025 per stockanalysis.com financials (company-reported, SEK m)"
+    },
+    "adj_ebitda_eur_m": {
+      "value": 20.5,
+      "note": "EBITDA TTM SEK 226m (capitalised R&D heavy); FY2025 operating income SEK 178m."
+    },
+    "net_cash_or_debt_eur_m": {
+      "value": -18.5,
+      "note": "Net debt SEK 203m (debt 311m, cash 108m)."
+    },
+    "ownership": "Per Lindberg (investor/chair) 36.3%; Handelsbanken Fonder 3.9%; Canaccord 3.5%; Aberdeen 2.9%; treasury 2.4% (Millistream via inderes.dk, undated).",
+    "corporate_activity": "No bid or review found 2024-2026.",
+    "flags": "36% holder decides. Off-vertical. Sweden: compulsory redemption (squeeze-out) at 90% of shares (Companies Act ch. 22); mandatory bid at 30% of votes; Nasdaq Stockholm Takeover Rules; delisting normally after 90% reached.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/ENEA/",
+      "https://stockanalysis.com/quote/sto/ENEA/statistics/",
+      "https://stockanalysis.com/quote/sto/ENEA/financials/",
+      "https://www.inderes.dk/en/companies/Enea/ownership"
+    ],
+    "confidence": "medium."
+  },
+  {
+    "ticker": "SOF.B",
+    "company": "Softronic AB (publ)",
+    "screen_status": "candidate",
+    "listing_status": "Nasdaq Stockholm, Small Cap (A and B shares). Still listed. No live offer.",
+    "business": "Swedish IT and management consultancy (Microsoft 365/Dynamics, AI/data, managed IT, cybersecurity), 485 staff; notable public-sector and member-organisation client base.",
+    "corsair_vertical": "Business services: professional services (IT consulting). Moderate fit; at the floor of the band.",
+    "market_cap_eur_m": {
+      "value_eur_m": 90.9,
+      "value_sek_m": 1000,
+      "source": "stockanalysis.com/quote/sto/SOF.B (SEK 19.00, 52.63m shares)",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": {
+      "value_eur_m": 90.3,
+      "value_sek_m": 993,
+      "source": "stockanalysis.com statistics page, 2026-11-04; EV = market cap + total debt (incl. IFRS 16 leases as reported) - cash"
+    },
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": {
+      "value": 83.3,
+      "local": "SEK 915.9m",
+      "note": "FY2025 per stockanalysis.com financials (company-reported, SEK m)"
+    },
+    "adj_ebitda_eur_m": {
+      "value": 9.3,
+      "note": "EBITDA TTM SEK 102m; FY2025 operating income SEK 83m."
+    },
+    "net_cash_or_debt_eur_m": {
+      "value": 0.6,
+      "note": "Net cash SEK 7m."
+    },
+    "ownership": "Traction 22.0% cap / 21.2% votes; Andreas Eriksson and companies 19.6% / 30.0%; Stig Martin and companies 8.1% / 15.4%; Robur 4.8% (Millistream via inderes.dk, undated). Three holders control approx 67% of votes.",
+    "corporate_activity": "No bid or review found 2024-2026.",
+    "flags": "Closely held; only a negotiated deal. Small. Sweden: compulsory redemption (squeeze-out) at 90% of shares (Companies Act ch. 22); mandatory bid at 30% of votes; Nasdaq Stockholm Takeover Rules; delisting normally after 90% reached.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/SOF.B/",
+      "https://stockanalysis.com/quote/sto/SOF.B/statistics/",
+      "https://stockanalysis.com/quote/sto/SOF.B/financials/",
+      "https://www.inderes.dk/en/companies/Softronic/ownership"
+    ],
+    "confidence": "medium."
+  },
+  {
+    "ticker": "EWRK",
+    "company": "Ework Group AB (publ)",
+    "screen_status": "candidate",
+    "listing_status": "Nasdaq Stockholm, Small Cap. Still listed. No live offer.",
+    "business": "Consultant-sourcing / talent-solutions intermediary (IT, engineering, business) in Sweden, Norway, Finland, Denmark, Poland, Germany, Netherlands; gross revenue SEK 13.7bn but thin net margin.",
+    "corsair_vertical": "Business services: professional services (workforce intermediary). Weak-to-moderate fit; at the floor of the band on market cap.",
+    "market_cap_eur_m": {
+      "value_eur_m": 79.4,
+      "value_sek_m": 873,
+      "source": "stockanalysis.com/quote/sto/EWRK (SEK 50.50, 17.29m shares)",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": {
+      "value_eur_m": 94.5,
+      "value_sek_m": 1040,
+      "source": "stockanalysis.com statistics page, 2026-11-04; EV = market cap + total debt (incl. IFRS 16 leases as reported) - cash"
+    },
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": {
+      "value": 1249.2,
+      "local": "SEK 13741m",
+      "note": "FY2025 per stockanalysis.com financials (company-reported, SEK m)"
+    },
+    "adj_ebitda_eur_m": {
+      "value": 11.2,
+      "note": "FY2025 operating income SEK 123m (FY2024 190m); stockanalysis EBITDA TTM SEK 75m looks inconsistent (data error flagged on page)."
+    },
+    "net_cash_or_debt_eur_m": {
+      "value": -15.2,
+      "note": "Net debt SEK 167m (debt 196m, cash 29m); working-capital-driven."
+    },
+    "ownership": "Investment AB Arawak (Staffan Salen) 43.3%; Avanza Pension 16.8%; Salen family vehicles approx 5% (Millistream via inderes.dk, undated).",
+    "corporate_activity": "No bid or review found 2024-2026; revenue down 13% in 2025 on weak consultant demand.",
+    "flags": "43% controlling holder; low-margin volume business. Sweden: compulsory redemption (squeeze-out) at 90% of shares (Companies Act ch. 22); mandatory bid at 30% of votes; Nasdaq Stockholm Takeover Rules; delisting normally after 90% reached.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/EWRK/",
+      "https://stockanalysis.com/quote/sto/EWRK/statistics/",
+      "https://stockanalysis.com/quote/sto/EWRK/financials/",
+      "https://www.inderes.dk/en/companies/Ework-Group/ownership"
+    ],
+    "confidence": "medium."
+  },
+  {
+    "ticker": "CASE",
+    "company": "Case Group AB (publ)",
+    "screen_status": "sub-band on-vertical",
+    "listing_status": "Nasdaq First North Growth Market (verify; listed 2021). Still listed. No live offer.",
+    "business": "Swedish fund and asset manager (Case Kapitalforvaltning): equity, fixed-income and multi-strategy funds and institutional mandates; 17 staff.",
+    "corsair_vertical": "Business services: wealth and asset management. On-vertical but far below band (market cap EUR 59m): add-on only.",
+    "market_cap_eur_m": {
+      "value_eur_m": 58.5,
+      "value_sek_m": 644,
+      "source": "stockanalysis.com/quote/sto/CASE (SEK 20.00, 32.18m shares)",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": {
+      "value_eur_m": 54.0,
+      "value_sek_m": 594,
+      "source": "stockanalysis.com statistics page, 2026-11-04; EV = market cap + total debt (incl. IFRS 16 leases as reported) - cash"
+    },
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": {
+      "value": 19.3,
+      "local": "SEK 212m",
+      "note": "FY2025 per stockanalysis.com financials (company-reported, SEK m)"
+    },
+    "adj_ebitda_eur_m": {
+      "value": 4.8,
+      "note": "FY2025 operating income SEK 53m (FY2024 22m); EBITDA TTM SEK 48m."
+    },
+    "net_cash_or_debt_eur_m": {
+      "value": 4.5,
+      "note": "Net cash SEK 50m."
+    },
+    "ownership": "Svensson Enterprises 29.9%; Stefan Edberg 15.0%; Sandahlsbolagen 7.6%; Nicklas Lidstrom 6.2%; Henrik Stenson 5.5%; Olof Andersson 5.5%; Johan Andrassy 5.2% (Millistream via inderes.dk, undated). Closely held by founder and sports-personality investors.",
+    "corporate_activity": "None found 2024-2026.",
+    "flags": "FI-licensed fund manager (change-of-control approval). Tiny. Sweden: compulsory redemption (squeeze-out) at 90% of shares (Companies Act ch. 22); mandatory bid at 30% of votes; Nasdaq Stockholm Takeover Rules; delisting normally after 90% reached.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/CASE/",
+      "https://stockanalysis.com/quote/sto/CASE/statistics/",
+      "https://stockanalysis.com/quote/sto/CASE/financials/",
+      "https://www.inderes.dk/en/companies/Case-Group/ownership"
+    ],
+    "confidence": "medium-low (segment not verified)."
+  },
+  {
+    "ticker": "MANG",
+    "company": "Mangold Fondkommission AB",
+    "screen_status": "context (NGM, sub-band)",
+    "listing_status": "NGM Main Regulated (Nordic Growth Market), not Nasdaq - outside the strict scope; recorded as context. Still listed.",
+    "business": "Swedish investment bank/securities firm: corporate finance for small caps, certified adviser, market making, and private banking/wealth advisory; 69 staff.",
+    "corsair_vertical": "Business services: wealth management / capital-markets services. On-vertical but sub-scale (market cap EUR 55m) and thin profits.",
+    "market_cap_eur_m": {
+      "value_eur_m": 55.4,
+      "value_sek_m": 609,
+      "source": "stockanalysis.com/quote/sto/MANG (SEK 1,270, 0.48m shares)",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": null,
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": {
+      "value": 20.4,
+      "local": "SEK 224m",
+      "note": "FY2025 per stockanalysis.com financials (company-reported, SEK m)"
+    },
+    "adj_ebitda_eur_m": {
+      "value": 0.2,
+      "note": "FY2025 operating income SEK 2m; net income SEK 23m (financial items)."
+    },
+    "net_cash_or_debt_eur_m": {
+      "value": null,
+      "note": "Securities firm balance sheet; cash SEK 763m includes client-related balances - not comparable."
+    },
+    "ownership": "Gomobile NU AB 29.9%; Tammerlov Invest 16.6%; Alandsbanken (nominee) 16.5%; Futur Pension 15.2% (Millistream via inderes.dk, undated). Four holders approx 78%.",
+    "corporate_activity": "None found 2024-2026.",
+    "flags": "FI-licensed securities company; NGM listing; illiquid.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/MANG/",
+      "https://stockanalysis.com/quote/sto/MANG/statistics/",
+      "https://stockanalysis.com/quote/sto/MANG/financials/",
+      "https://www.inderes.dk/en/companies/Mangold/ownership"
+    ],
+    "confidence": "medium-low."
+  },
+  {
+    "ticker": "DEDI",
+    "company": "Dedicare AB (publ)",
+    "screen_status": "sub-band on-vertical",
+    "listing_status": "Nasdaq Stockholm, Small Cap. Still listed. No live offer.",
+    "business": "Healthcare and social-care staffing (doctors, nurses, psychosocial staff) in Sweden, Norway, UK and Denmark; approx 900 staff.",
+    "corsair_vertical": "Business services: healthcare services (staffing). On-vertical but sub-band (market cap EUR 58m) and cyclical after Swedish regions cut agency use.",
+    "market_cap_eur_m": {
+      "value_eur_m": 57.6,
+      "value_sek_m": 634,
+      "source": "stockanalysis.com/quote/sto/DEDI (SEK 63.40, 9.99m shares)",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": {
+      "value_eur_m": 63.1,
+      "value_sek_m": 694,
+      "source": "stockanalysis.com statistics page, 2026-11-04; EV = market cap + total debt (incl. IFRS 16 leases as reported) - cash"
+    },
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": {
+      "value": 132.3,
+      "local": "SEK 1455m",
+      "note": "FY2025 per stockanalysis.com financials (company-reported, SEK m)"
+    },
+    "adj_ebitda_eur_m": {
+      "value": 2.8,
+      "note": "FY2025 operating income SEK 31m (FY2024 44m); EBITDA TTM SEK 67m."
+    },
+    "net_cash_or_debt_eur_m": {
+      "value": -5.5,
+      "note": "Net debt SEK 60m."
+    },
+    "ownership": null,
+    "corporate_activity": "None found 2024-2026.",
+    "flags": "Ownership not retrieved (inderes page 404). Regional-procurement exposure. Sweden: compulsory redemption (squeeze-out) at 90% of shares (Companies Act ch. 22); mandatory bid at 30% of votes; Nasdaq Stockholm Takeover Rules; delisting normally after 90% reached.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/DEDI/",
+      "https://stockanalysis.com/quote/sto/DEDI/statistics/",
+      "https://stockanalysis.com/quote/sto/DEDI/financials/"
+    ],
+    "confidence": "low-medium: ownership null."
+  },
+  {
+    "ticker": "SAFETY.B",
+    "company": "mySafety Group AB",
+    "screen_status": "sub-band on-vertical",
+    "listing_status": "Nasdaq First North Growth Market (verify). Still listed. No live offer.",
+    "business": "Nordic distributor of ID-theft, fraud and key/card protection insurance and services sold via partners and direct; insurance intermediary, not risk carrier.",
+    "corsair_vertical": "Business services: insurance services (distribution). On-vertical, sub-band (market cap EUR 35m).",
+    "market_cap_eur_m": {
+      "value_eur_m": 35.4,
+      "value_sek_m": 389,
+      "source": "stockanalysis.com/quote/sto/SAFETY.B (SEK 17.32, 22.48m shares)",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": {
+      "value_eur_m": 37.6,
+      "value_sek_m": 414,
+      "source": "stockanalysis.com statistics page, 2026-11-04; EV = market cap + total debt (incl. IFRS 16 leases as reported) - cash"
+    },
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": {
+      "value": 30.2,
+      "local": "SEK 332.7m",
+      "note": "FY2025 per stockanalysis.com financials (company-reported, SEK m)"
+    },
+    "adj_ebitda_eur_m": {
+      "value": 4.8,
+      "note": "EBITDA TTM SEK 53m; FY2025 operating income SEK 14m (turnaround from loss)."
+    },
+    "net_cash_or_debt_eur_m": {
+      "value": -2.3,
+      "note": "Net debt SEK 25m."
+    },
+    "ownership": null,
+    "corporate_activity": "None found 2024-2026.",
+    "flags": "Ownership not retrieved (inderes page 404). Insurance-distribution registration with FI. Tiny.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/SAFETY.B/",
+      "https://stockanalysis.com/quote/sto/SAFETY.B/statistics/",
+      "https://stockanalysis.com/quote/sto/SAFETY.B/financials/"
+    ],
+    "confidence": "low-medium."
+  },
+  {
+    "ticker": "FREJA",
+    "company": "Freja eID Group AB (publ)",
+    "screen_status": "sub-band on-vertical",
+    "listing_status": "Nasdaq First North Growth Market (verify). Still listed. No live offer.",
+    "business": "Swedish government-approved digital identity (eID) wallet and private eID/e-signature/onboarding platform; loss-making, SEK 51m revenue.",
+    "corsair_vertical": "Software: compliance/identity. On-vertical theme but pre-profit and sub-band (market cap EUR 55m).",
+    "market_cap_eur_m": {
+      "value_eur_m": 55.3,
+      "value_sek_m": 608,
+      "source": "stockanalysis.com/quote/sto/FREJA (SEK 21.30)",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": null,
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": {
+      "value": 4.6,
+      "local": "SEK 51.1m",
+      "note": "FY2025 per stockanalysis.com financials (company-reported, SEK m)"
+    },
+    "adj_ebitda_eur_m": {
+      "value": -1.4,
+      "note": "FY2025 net loss SEK -15m; no positive EBITDA."
+    },
+    "net_cash_or_debt_eur_m": {
+      "value": null,
+      "note": "Not retrieved."
+    },
+    "ownership": null,
+    "corporate_activity": "None found 2024-2026.",
+    "flags": "Ownership not retrieved. Venture-stage economics; identity scheme regulation.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/FREJA/"
+    ],
+    "confidence": "low."
+  },
+  {
+    "ticker": "QLIRO",
+    "company": "Qliro AB (publ)",
+    "screen_status": "sub-band / regulated context",
+    "listing_status": "Nasdaq Stockholm, Small Cap. Still listed. No live offer.",
+    "business": "Swedish BNPL/e-commerce payments provider (invoice, part-payment, Pay Later checkout) for Nordic merchants, funded by savings deposits; holds a credit-institution licence.",
+    "corsair_vertical": "Payments (integrated/B2B checkout). On-vertical but sub-band (market cap EUR 37m), loss-making, and a regulated balance-sheet lender - closer to 'context' than target.",
+    "market_cap_eur_m": {
+      "value_eur_m": 36.7,
+      "value_sek_m": 404,
+      "source": "stockanalysis.com/quote/sto/QLIRO (SEK 11.80, 34.24m shares)",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": null,
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": {
+      "value": 27.7,
+      "local": "SEK 304.9m",
+      "note": "FY2025 per stockanalysis.com financials (company-reported, SEK m)"
+    },
+    "adj_ebitda_eur_m": {
+      "value": -8.4,
+      "note": "FY2025 net loss SEK -93m; TTM operating loss SEK -14m (improving)."
+    },
+    "net_cash_or_debt_eur_m": {
+      "value": null,
+      "note": "Bank-type balance sheet (deposits fund receivables); net cash not meaningful."
+    },
+    "ownership": "Rite Ventures 20.6%; Mandatum Life 9.1%; Avanza Pension 8.5%; Peter Lindell 8.4%; Nordnet Pension 5.8%; Per Ekstrand 5.0% (Millistream via inderes.dk, undated).",
+    "corporate_activity": "Rights issue 2024 backed by Rite Ventures; no bid or review found 2024-2026.",
+    "flags": "FI credit-institution licence (owner-suitability assessment); sub-scale; losses.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/QLIRO/",
+      "https://stockanalysis.com/quote/sto/QLIRO/statistics/",
+      "https://www.inderes.dk/en/companies/Qliro/ownership"
+    ],
+    "confidence": "medium."
+  },
+  {
+    "ticker": "SFAB",
+    "company": "Solid Forsakringsaktiebolag (publ)",
+    "screen_status": "context (insurer)",
+    "listing_status": "Nasdaq Stockholm, Small Cap (spun out of Resurs 2021). Still listed.",
+    "business": "Nordic niche non-life insurer (payment protection, travel, product/warranty, roadside) distributed through retailers, banks and car dealers.",
+    "corsair_vertical": "Insurer: value is in underwriting plus affinity distribution - brief excludes underwriting capital, so context only.",
+    "market_cap_eur_m": {
+      "value_eur_m": 177.3,
+      "value_sek_m": 1950,
+      "source": "stockanalysis.com/quote/sto/SFAB (SEK 110.60)",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": null,
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": {
+      "value": 104.5,
+      "local": "SEK 1150m",
+      "note": "FY2025 per stockanalysis.com financials (company-reported, SEK m)"
+    },
+    "adj_ebitda_eur_m": {
+      "value": 13.5,
+      "note": "FY2025 net income SEK 149m (insurer; EBITDA not meaningful)."
+    },
+    "net_cash_or_debt_eur_m": {
+      "value": null,
+      "note": "Insurer; not meaningful."
+    },
+    "ownership": "Waldakt AB (Bengtsson family / Resurs founders) 32.4%; Investment AB Spiltan 10.3%; Avanza Pension 4.3%; Erik Selin 3.5% (Millistream via inderes.dk, undated).",
+    "corporate_activity": "None found 2024-2026. Waldakt was co-bidder (with CVC) for Resurs Holding in 2024.",
+    "flags": "Insurer licence (FI/Solvency II change-of-control). 32% anchor.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/SFAB/",
+      "https://www.inderes.dk/en/companies/Solid-Forsakring/ownership"
+    ],
+    "confidence": "medium."
+  },
+  {
+    "ticker": "ENITY",
+    "company": "Enity Holding AB (publ) (formerly Bluestep Bank)",
+    "screen_status": "context (bank)",
+    "listing_status": "Nasdaq Stockholm (IPO 2025). Still listed.",
+    "business": "Specialist mortgage bank (non-conforming first/second-charge mortgages, equity release) in Sweden, Norway, Finland; renamed from Bluestep Bank Dec 2024.",
+    "corsair_vertical": "Bank - context only (outside Corsair verticals per brief).",
+    "market_cap_eur_m": {
+      "value_eur_m": 354.5,
+      "value_sek_m": 3900,
+      "source": "stockanalysis.com/quote/sto/ENITY (SEK 78.00)",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": null,
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": {
+      "value": 116.4,
+      "local": "SEK 1280m",
+      "note": "FY2025 per stockanalysis.com financials (company-reported, SEK m)"
+    },
+    "adj_ebitda_eur_m": {
+      "value": 27.9,
+      "note": "FY2025 net income SEK 307m (bank)."
+    },
+    "net_cash_or_debt_eur_m": {
+      "value": null,
+      "note": "Bank."
+    },
+    "ownership": null,
+    "corporate_activity": "IPO 2025 (EQT exit).",
+    "flags": "Bank licence.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/ENITY/"
+    ],
+    "confidence": "medium-low."
+  },
+  {
+    "ticker": "HOFI",
+    "company": "Hoist Finance AB (publ)",
+    "screen_status": "context (bank/too large)",
+    "listing_status": "Nasdaq Stockholm, Large/Mid Cap. Still listed.",
+    "business": "Credit-market company buying NPL/performing portfolios; FY2025 revenue SEK 4.43bn, net income SEK 1.01bn. Market cap EUR 1.58bn - above band and a regulated balance-sheet lender.",
+    "corsair_vertical": "Bank/balance-sheet lender or platform above size band - context only.",
+    "market_cap_eur_m": {
+      "value_eur_m": 1580.9,
+      "value_sek_m": 17390,
+      "source": "stockanalysis.com/quote/sto/HOFI",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": null,
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": null,
+    "adj_ebitda_eur_m": null,
+    "net_cash_or_debt_eur_m": null,
+    "ownership": null,
+    "corporate_activity": null,
+    "flags": "Regulated bank or above EV band.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/HOFI/"
+    ],
+    "confidence": "high on size, not researched further."
+  },
+  {
+    "ticker": "AVARDA",
+    "company": "Avarda Bank AB (publ) (formerly TF Bank)",
+    "screen_status": "context (bank/too large)",
+    "listing_status": "Nasdaq Stockholm, Large/Mid Cap. Still listed.",
+    "business": "Digital consumer-credit, e-commerce payments and credit-card bank; FY2025 revenue SEK 1.91bn, net income SEK 641m. Renamed from TF Bank. Market cap EUR 1.31bn - above band, bank.",
+    "corsair_vertical": "Bank/balance-sheet lender or platform above size band - context only.",
+    "market_cap_eur_m": {
+      "value_eur_m": 1313.6,
+      "value_sek_m": 14450,
+      "source": "stockanalysis.com/quote/sto/AVARDA",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": null,
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": null,
+    "adj_ebitda_eur_m": null,
+    "net_cash_or_debt_eur_m": null,
+    "ownership": null,
+    "corporate_activity": null,
+    "flags": "Regulated bank or above EV band.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/AVARDA/"
+    ],
+    "confidence": "high on size, not researched further."
+  },
+  {
+    "ticker": "NORION",
+    "company": "Norion Bank AB (publ) (formerly Collector)",
+    "screen_status": "context (bank/too large)",
+    "listing_status": "Nasdaq Stockholm, Large/Mid Cap. Still listed.",
+    "business": "Corporate, real-estate and consumer lending plus Walley payments; FY2025 revenue SEK 3.01bn, net income SEK 1.43bn. Market cap EUR 1.07bn - above band, bank; Walley payments arm is the only on-vertical piece.",
+    "corsair_vertical": "Bank/balance-sheet lender or platform above size band - context only.",
+    "market_cap_eur_m": {
+      "value_eur_m": 1068.2,
+      "value_sek_m": 11750,
+      "source": "stockanalysis.com/quote/sto/NORION",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": null,
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": null,
+    "adj_ebitda_eur_m": null,
+    "net_cash_or_debt_eur_m": null,
+    "ownership": null,
+    "corporate_activity": null,
+    "flags": "Regulated bank or above EV band.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/NORION/"
+    ],
+    "confidence": "high on size, not researched further."
+  },
+  {
+    "ticker": "SAVE",
+    "company": "Nordnet AB (publ)",
+    "screen_status": "context (bank/too large)",
+    "listing_status": "Nasdaq Stockholm, Large/Mid Cap. Still listed.",
+    "business": "Nordic digital savings/brokerage platform; FY2025 revenue SEK 6.09bn, net income SEK 3.08bn. Market cap EUR 7.8bn - far too large (confirmed).",
+    "corsair_vertical": "Bank/balance-sheet lender or platform above size band - context only.",
+    "market_cap_eur_m": {
+      "value_eur_m": 7821.8,
+      "value_sek_m": 86040,
+      "source": "stockanalysis.com/quote/sto/SAVE",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": null,
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": null,
+    "adj_ebitda_eur_m": null,
+    "net_cash_or_debt_eur_m": null,
+    "ownership": null,
+    "corporate_activity": null,
+    "flags": "Regulated bank or above EV band.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/SAVE/"
+    ],
+    "confidence": "high on size, not researched further."
+  },
+  {
+    "ticker": "AZA",
+    "company": "Avanza Bank Holding AB (publ)",
+    "screen_status": "context (bank/too large)",
+    "listing_status": "Nasdaq Stockholm, Large/Mid Cap. Still listed.",
+    "business": "Swedish savings/brokerage platform; FY2025 revenue SEK 4.96bn, net income SEK 2.61bn. Market cap EUR 5.3bn - far too large (confirmed).",
+    "corsair_vertical": "Bank/balance-sheet lender or platform above size band - context only.",
+    "market_cap_eur_m": {
+      "value_eur_m": 5258.2,
+      "value_sek_m": 57840,
+      "source": "stockanalysis.com/quote/sto/AZA",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": null,
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": null,
+    "adj_ebitda_eur_m": null,
+    "net_cash_or_debt_eur_m": null,
+    "ownership": null,
+    "corporate_activity": null,
+    "flags": "Regulated bank or above EV band.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/AZA/"
+    ],
+    "confidence": "high on size, not researched further."
+  },
+  {
+    "ticker": "ATT",
+    "company": "Attendo AB (publ)",
+    "screen_status": "too large / discard",
+    "listing_status": "Nasdaq Stockholm, Large/Mid Cap. Still listed.",
+    "business": "Nordic elderly-care and disability-care operator; FY2025 revenue SEK 18.99bn, net income SEK 813m. Market cap EUR 1.47bn.",
+    "corsair_vertical": "Healthcare services - fits vertical but above band.",
+    "market_cap_eur_m": {
+      "value_eur_m": 1470.0,
+      "value_sek_m": 16170,
+      "source": "stockanalysis.com/quote/sto/ATT",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": null,
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": null,
+    "adj_ebitda_eur_m": null,
+    "net_cash_or_debt_eur_m": null,
+    "ownership": null,
+    "corporate_activity": null,
+    "flags": "Above EV band or off-model.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/ATT/"
+    ],
+    "confidence": "high on size."
+  },
+  {
+    "ticker": "AMBEA",
+    "company": "Ambea AB (publ)",
+    "screen_status": "too large / discard",
+    "listing_status": "Nasdaq Stockholm, Large/Mid Cap. Still listed.",
+    "business": "Nordic care operator (Nytida, Vardaga, Stendi, Altiden, Klara); FY2025 revenue SEK 16.11bn, net income SEK 665m; acquired Humana in Oct 2026 (approx 98% acceptance). Market cap EUR 1.37bn pre-Humana consolidation.",
+    "corsair_vertical": "Healthcare services - fits vertical but above band; is itself the consolidator (see Humana precedent).",
+    "market_cap_eur_m": {
+      "value_eur_m": 1373.6,
+      "value_sek_m": 15110,
+      "source": "stockanalysis.com/quote/sto/AMBEA",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": null,
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": null,
+    "adj_ebitda_eur_m": null,
+    "net_cash_or_debt_eur_m": null,
+    "ownership": null,
+    "corporate_activity": null,
+    "flags": "Above EV band or off-model.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/AMBEA/"
+    ],
+    "confidence": "high on size."
+  },
+  {
+    "ticker": "VIT.B",
+    "company": "Vitec Software Group AB (publ)",
+    "screen_status": "too large / discard",
+    "listing_status": "Nasdaq Stockholm, Large/Mid Cap. Still listed.",
+    "business": "Nordic vertical-software serial acquirer (incl. banking/finance, healthcare, pharmacy verticals); FY2025 revenue SEK 3.63bn, net income SEK 435m. Market cap EUR 1.12bn, EV higher.",
+    "corsair_vertical": "Vertical software - ideal fit on model but above band and richly valued; no takeover history.",
+    "market_cap_eur_m": {
+      "value_eur_m": 1120.9,
+      "value_sek_m": 12330,
+      "source": "stockanalysis.com/quote/sto/VIT.B",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": null,
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": null,
+    "adj_ebitda_eur_m": null,
+    "net_cash_or_debt_eur_m": null,
+    "ownership": null,
+    "corporate_activity": null,
+    "flags": "Above EV band or off-model.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/VIT.B/"
+    ],
+    "confidence": "high on size."
+  },
+  {
+    "ticker": "SINCH",
+    "company": "Sinch AB (publ)",
+    "screen_status": "too large / discard",
+    "listing_status": "Nasdaq Stockholm, Large/Mid Cap. Still listed.",
+    "business": "CPaaS (messaging, voice, email APIs); TTM revenue SEK 26.8bn. Market cap EUR 2.9bn.",
+    "corsair_vertical": "Software/communications - above band; periodic PE-interest speculation; not pursued.",
+    "market_cap_eur_m": {
+      "value_eur_m": 2891.8,
+      "value_sek_m": 31810,
+      "source": "stockanalysis.com/quote/sto/SINCH",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": null,
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": null,
+    "adj_ebitda_eur_m": null,
+    "net_cash_or_debt_eur_m": null,
+    "ownership": null,
+    "corporate_activity": null,
+    "flags": "Above EV band or off-model.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/SINCH/"
+    ],
+    "confidence": "high on size."
+  },
+  {
+    "ticker": "BURE",
+    "company": "Bure Equity AB (publ)",
+    "screen_status": "too large / discard",
+    "listing_status": "Nasdaq Stockholm, Large/Mid Cap. Still listed.",
+    "business": "Listed investment company (Vitrolife, Mycronic, Mentice etc.). Market cap EUR 2.1bn.",
+    "corsair_vertical": "Investment company, not an operating business - discard.",
+    "market_cap_eur_m": {
+      "value_eur_m": 2090.0,
+      "value_sek_m": 22990,
+      "source": "stockanalysis.com/quote/sto/BURE",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": null,
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": null,
+    "adj_ebitda_eur_m": null,
+    "net_cash_or_debt_eur_m": null,
+    "ownership": null,
+    "corporate_activity": null,
+    "flags": "Above EV band or off-model.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/BURE/"
+    ],
+    "confidence": "high on size."
+  },
+  {
+    "ticker": "INTRUM",
+    "company": "Intrum AB (publ)",
+    "screen_status": "too large / discard",
+    "listing_status": "Nasdaq Stockholm, Large/Mid Cap. Still listed.",
+    "business": "European credit-management/debt-collection services and portfolio investor; TTM revenue SEK 16.1bn, EBITDA SEK 6.05bn, net debt SEK 35.5bn (EV SEK 43.8bn / EUR 4.0bn) after 2024-25 restructuring. Market cap EUR 594m is in band but EV is not.",
+    "corsair_vertical": "Business services (credit services) - weak fit; leverage approx 6x; post-restructuring equity. Record only.",
+    "market_cap_eur_m": {
+      "value_eur_m": 593.6,
+      "value_sek_m": 6530,
+      "source": "stockanalysis.com/quote/sto/INTRUM",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": null,
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": null,
+    "adj_ebitda_eur_m": null,
+    "net_cash_or_debt_eur_m": null,
+    "ownership": null,
+    "corporate_activity": null,
+    "flags": "Above EV band or off-model.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/INTRUM/"
+    ],
+    "confidence": "high on size."
+  },
+  {
+    "ticker": "B3",
+    "company": "B3 Consulting Group AB (publ)",
+    "screen_status": "below band / discard",
+    "listing_status": "Nasdaq Stockholm or First North (segment not verified). Still listed.",
+    "business": "Swedish IT/management consultancy, 874 staff; FY2025 revenue SEK 1.21bn, net income SEK 11m (-87%). Market cap EUR 21m - far below band; professional-services fit but sub-scale.",
+    "corsair_vertical": "See business note.",
+    "market_cap_eur_m": {
+      "value_eur_m": 21.3,
+      "value_sek_m": 234,
+      "source": "stockanalysis.com/quote/sto/B3",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": null,
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": null,
+    "adj_ebitda_eur_m": null,
+    "net_cash_or_debt_eur_m": null,
+    "ownership": null,
+    "corporate_activity": null,
+    "flags": "Below EUR 80m market-cap floor.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/B3/"
+    ],
+    "confidence": "high on size."
+  },
+  {
+    "ticker": "NEPA",
+    "company": "Nepa AB (publ)",
+    "screen_status": "below band / discard",
+    "listing_status": "Nasdaq Stockholm or First North (segment not verified). Still listed.",
+    "business": "Consumer-research/analytics; FY2025 revenue SEK 223m, loss SEK -34m. Market cap EUR 5m - discard.",
+    "corsair_vertical": "See business note.",
+    "market_cap_eur_m": {
+      "value_eur_m": 5.2,
+      "value_sek_m": 57,
+      "source": "stockanalysis.com/quote/sto/NEPA",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": null,
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": null,
+    "adj_ebitda_eur_m": null,
+    "net_cash_or_debt_eur_m": null,
+    "ownership": null,
+    "corporate_activity": null,
+    "flags": "Below EUR 80m market-cap floor.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/NEPA/"
+    ],
+    "confidence": "high on size."
+  },
+  {
+    "ticker": "BUSER",
+    "company": "Bambuser AB (publ)",
+    "screen_status": "below band / discard",
+    "listing_status": "Nasdaq Stockholm or First North (segment not verified). Still listed.",
+    "business": "Live video-commerce SaaS; FY2025 revenue SEK 83m, loss SEK -113m. Market cap EUR 13m - discard (off-vertical, loss-making).",
+    "corsair_vertical": "See business note.",
+    "market_cap_eur_m": {
+      "value_eur_m": 13.5,
+      "value_sek_m": 148,
+      "source": "stockanalysis.com/quote/sto/BUSER",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": null,
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": null,
+    "adj_ebitda_eur_m": null,
+    "net_cash_or_debt_eur_m": null,
+    "ownership": null,
+    "corporate_activity": null,
+    "flags": "Below EUR 80m market-cap floor.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/BUSER/"
+    ],
+    "confidence": "high on size."
+  },
+  {
+    "ticker": "NETEL",
+    "company": "Netel Holding AB (publ)",
+    "screen_status": "below band / discard",
+    "listing_status": "Nasdaq Stockholm or First North (segment not verified). Still listed.",
+    "business": "Telecom/power infrastructure contractor; FY2025 revenue SEK 2.92bn, loss SEK -117m. Market cap EUR 27m - discard (off-vertical).",
+    "corsair_vertical": "See business note.",
+    "market_cap_eur_m": {
+      "value_eur_m": 26.7,
+      "value_sek_m": 294,
+      "source": "stockanalysis.com/quote/sto/NETEL",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": null,
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": null,
+    "adj_ebitda_eur_m": null,
+    "net_cash_or_debt_eur_m": null,
+    "ownership": null,
+    "corporate_activity": null,
+    "flags": "Below EUR 80m market-cap floor.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/NETEL/"
+    ],
+    "confidence": "high on size."
+  },
+  {
+    "ticker": "CX",
+    "company": "CombinedX AB (publ)",
+    "screen_status": "below band / discard",
+    "listing_status": "Nasdaq Stockholm or First North (segment not verified). Still listed.",
+    "business": "Swedish IT consultancy group, 432 staff; FY2025 revenue SEK 949m, net income SEK 38m. Market cap EUR 48m - sub-band professional services.",
+    "corsair_vertical": "See business note.",
+    "market_cap_eur_m": {
+      "value_eur_m": 48.0,
+      "value_sek_m": 528,
+      "source": "stockanalysis.com/quote/sto/CX",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": null,
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": null,
+    "adj_ebitda_eur_m": null,
+    "net_cash_or_debt_eur_m": null,
+    "ownership": null,
+    "corporate_activity": null,
+    "flags": "Below EUR 80m market-cap floor.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/CX/"
+    ],
+    "confidence": "high on size."
+  },
+  {
+    "ticker": "ONEF",
+    "company": "Oneflow AB (publ)",
+    "screen_status": "below band / discard",
+    "listing_status": "Nasdaq Stockholm or First North (segment not verified). Still listed.",
+    "business": "Contract-management/e-signature SaaS; FY2025 revenue SEK 171m, loss SEK -51m. Market cap EUR 44m - sub-band, loss-making.",
+    "corsair_vertical": "See business note.",
+    "market_cap_eur_m": {
+      "value_eur_m": 44.4,
+      "value_sek_m": 488,
+      "source": "stockanalysis.com/quote/sto/ONEF",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": null,
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": null,
+    "adj_ebitda_eur_m": null,
+    "net_cash_or_debt_eur_m": null,
+    "ownership": null,
+    "corporate_activity": null,
+    "flags": "Below EUR 80m market-cap floor.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/ONEF/"
+    ],
+    "confidence": "high on size."
+  },
+  {
+    "ticker": "BMC",
+    "company": "Brock Milton Capital AB",
+    "screen_status": "below band / discard",
+    "listing_status": "Nasdaq Stockholm or First North (segment not verified). Still listed.",
+    "business": "Special-situations investment manager (BMC Global Select fund), Malmo, 9 staff; FY2025 revenue SEK 156m, net income SEK 22m. Market cap EUR 34m - on-vertical (asset management) but tiny.",
+    "corsair_vertical": "See business note.",
+    "market_cap_eur_m": {
+      "value_eur_m": 34.1,
+      "value_sek_m": 375,
+      "source": "stockanalysis.com/quote/sto/BMC",
+      "as_of": "2026-11-04",
+      "fx": "SEK/EUR 11.0 (brief assumption)"
+    },
+    "enterprise_value_eur_m": null,
+    "fy_end": "31 December 2025",
+    "revenue_eur_m": null,
+    "adj_ebitda_eur_m": null,
+    "net_cash_or_debt_eur_m": null,
+    "ownership": null,
+    "corporate_activity": null,
+    "flags": "Below EUR 80m market-cap floor.",
+    "sources": [
+      "https://stockanalysis.com/quote/sto/BMC/"
+    ],
+    "confidence": "high on size."
+  },
+  {
+    "ticker": "HUM",
+    "company": "Humana AB (publ)",
+    "screen_status": "gone / precedent / discard",
+    "listing_status": "GONE. Ambea AB recommended public offer announced 29 Jun 2026: SEK 62.30/share cash plus a CVR on a damages claim against the Swedish state (80% of any award to accepting holders). Final acceptance approx 97.99% after extended period to 14 Oct 2026; compulsory redemption called; last trading day on Nasdaq Stockholm 27 Oct 2026. Trade buyer, healthcare services; FY2025 revenue SEK 10.0bn; pre-offer market cap approx SEK 3.4bn (EUR 300m) - squarely in band.",
+    "business": null,
+    "corsair_vertical": null,
+    "market_cap_eur_m": null,
+    "enterprise_value_eur_m": null,
+    "fy_end": null,
+    "revenue_eur_m": null,
+    "adj_ebitda_eur_m": null,
+    "net_cash_or_debt_eur_m": null,
+    "ownership": null,
+    "corporate_activity": "GONE. Ambea AB recommended public offer announced 29 Jun 2026: SEK 62.30/share cash plus a CVR on a damages claim against the Swedish state (80% of any award to accepting holders). Final acceptance approx 97.99% after extended period to 14 Oct 2026; compulsory redemption called; last trading day on Nasdaq Stockholm 27 Oct 2026. Trade buyer, healthcare services; FY2025 revenue SEK 10.0bn; pre-offer market cap approx SEK 3.4bn (EUR 300m) - squarely in band.",
+    "flags": null,
+    "sources": [
+      "https://www.inderes.se/releases/ambea-ab-publ-offentliggor-slutligt-utfall-i-det-rekommenderade-offentliga-uppkopserbjudandet-till-aktieagarna-i-humana-ab",
+      "https://www.placera.se/telegram/humana-ambea-lagger-bud-vill-sla-ihop-bolag-20260629",
+      "https://stockanalysis.com/quote/sto/HUM/"
+    ],
+    "confidence": "high where sources listed; 'not re-verified' items are from prior knowledge."
+  },
+  {
+    "ticker": "LASER",
+    "company": "Lasernet Group AB (formerly Formpipe Software AB)",
+    "screen_status": "gone / precedent / discard",
+    "listing_status": "GONE. Formpipe sold its Public-sector business (2025, SEK 760m distributed) and renamed Lasernet. Tabellae BidCo ApS (consortium: Tabellae HoldCo, Mission Trail Partners, AB Grenspecialisten) recommended cash offer SEK 30/share valuing the company at approx SEK 879m (EUR 80m); declared unconditional and completed 23 Jul 2026; delisting applied for 30 Jul 2026; last stockanalysis trade 24 Aug 2026. Precedent: strategic/PE-backed consortium with an existing 10% holder (Grenspecialisten) rolling in. FY2025 revenue SEK 243m, EBITDA margin approx 26%.",
+    "business": null,
+    "corsair_vertical": null,
+    "market_cap_eur_m": null,
+    "enterprise_value_eur_m": null,
+    "fy_end": null,
+    "revenue_eur_m": null,
+    "adj_ebitda_eur_m": null,
+    "net_cash_or_debt_eur_m": null,
+    "ownership": null,
+    "corporate_activity": "GONE. Formpipe sold its Public-sector business (2025, SEK 760m distributed) and renamed Lasernet. Tabellae BidCo ApS (consortium: Tabellae HoldCo, Mission Trail Partners, AB Grenspecialisten) recommended cash offer SEK 30/share valuing the company at approx SEK 879m (EUR 80m); declared unconditional and completed 23 Jul 2026; delisting applied for 30 Jul 2026; last stockanalysis trade 24 Aug 2026. Precedent: strategic/PE-backed consortium with an existing 10% holder (Grenspecialisten) rolling in. FY2025 revenue SEK 243m, EBITDA margin approx 26%.",
+    "flags": null,
+    "sources": [
+      "https://mfn.se/a/taballaebidco/tabellae-bidco-announces-a-recommended-public-cash-offer-of-sek-30-per-share-to-the-shareholders-of-formpipe",
+      "https://www.placera.se/pressmeddelanden/lasernet-group-lasernet-group-ab-publ-applies-for-delisting-and-convenes-an-extraordinary-general-meeting-20260730",
+      "https://stockanalysis.com/quote/sto/FPIP/"
+    ],
+    "confidence": "high where sources listed; 'not re-verified' items are from prior knowledge."
+  },
+  {
+    "ticker": "CINT",
+    "company": "Cint Group AB (publ)",
+    "screen_status": "gone / precedent / discard",
+    "listing_status": "GONE/ in process. Triton Fund 6 and Bolero Holdings (via TriCarbs BidCo AB) public cash offer announced 27 Apr 2026; board applied for delisting at bidder's request (2026). Market-research software - software precedent, PE buyer.",
+    "business": null,
+    "corsair_vertical": null,
+    "market_cap_eur_m": null,
+    "enterprise_value_eur_m": null,
+    "fy_end": null,
+    "revenue_eur_m": null,
+    "adj_ebitda_eur_m": null,
+    "net_cash_or_debt_eur_m": null,
+    "ownership": null,
+    "corporate_activity": "GONE/ in process. Triton Fund 6 and Bolero Holdings (via TriCarbs BidCo AB) public cash offer announced 27 Apr 2026; board applied for delisting at bidder's request (2026). Market-research software - software precedent, PE buyer.",
+    "flags": null,
+    "sources": [
+      "https://www.inderes.se/en/releases/cint-has-applied-for-delisting-of-its-shares-from-nasdaq-stockholm"
+    ],
+    "confidence": "high where sources listed; 'not re-verified' items are from prior knowledge."
+  },
+  {
+    "ticker": "FNOX",
+    "company": "Fortnox AB (publ)",
+    "screen_status": "gone / precedent / discard",
+    "listing_status": "GONE. EQT X and First Kraft (Olof Hallrup) via Omega II AB offer announced 31 Mar 2025 (SEK 90/share, approx SEK 55bn); unconditional 12 Jun 2025; delisting applied June 2025. SME accounting/finance SaaS - the flagship 'HR and finance tools' precedent, far above Corsair's band.",
+    "business": null,
+    "corsair_vertical": null,
+    "market_cap_eur_m": null,
+    "enterprise_value_eur_m": null,
+    "fy_end": null,
+    "revenue_eur_m": null,
+    "adj_ebitda_eur_m": null,
+    "net_cash_or_debt_eur_m": null,
+    "ownership": null,
+    "corporate_activity": "GONE. EQT X and First Kraft (Olof Hallrup) via Omega II AB offer announced 31 Mar 2025 (SEK 90/share, approx SEK 55bn); unconditional 12 Jun 2025; delisting applied June 2025. SME accounting/finance SaaS - the flagship 'HR and finance tools' precedent, far above Corsair's band.",
+    "flags": null,
+    "sources": [
+      "https://www.inderes.se/en/releases/fortnox-ab-publ-applies-for-delisting-from-nasdaq-stockholm-and-cancels-publication-of-interim-report-for-the-period-march-june-2025"
+    ],
+    "confidence": "high where sources listed; 'not re-verified' items are from prior knowledge."
+  },
+  {
+    "ticker": "RESURS",
+    "company": "Resurs Holding AB (publ)",
+    "screen_status": "gone / precedent / discard",
+    "listing_status": "GONE. CVC and Waldakt (via Ronneby UK Ltd) cash offer SEK 23.50/share announced 17 Jun 2024, unconditional 3 Sep 2024 (approx 87%); crossed 90% Sep 2025, compulsory redemption and delisting requested 29 Sep 2025. Consumer-finance bank (context precedent: PE plus family anchor taking a regulated lender private).",
+    "business": null,
+    "corsair_vertical": null,
+    "market_cap_eur_m": null,
+    "enterprise_value_eur_m": null,
+    "fy_end": null,
+    "revenue_eur_m": null,
+    "adj_ebitda_eur_m": null,
+    "net_cash_or_debt_eur_m": null,
+    "ownership": null,
+    "corporate_activity": "GONE. CVC and Waldakt (via Ronneby UK Ltd) cash offer SEK 23.50/share announced 17 Jun 2024, unconditional 3 Sep 2024 (approx 87%); crossed 90% Sep 2025, compulsory redemption and delisting requested 29 Sep 2025. Consumer-finance bank (context precedent: PE plus family anchor taking a regulated lender private).",
+    "flags": null,
+    "sources": [
+      "https://www.cvc.com/media/news/2024/cvc-and-waldakt-acting-through-ronneby-uk-limited-announce-the-final-outcome-for-the-recommended-cash-offer-to-the-shareholders-of-resurs-holding-ab-publ/",
+      "https://www.inderes.se/en/releases/ronneby-uk-limited-has-requested-compulsory-redemption-and-requested-that-resurs-holdings-shares-be-delisted-from-nasdaq-stockholm"
+    ],
+    "confidence": "high where sources listed; 'not re-verified' items are from prior knowledge."
+  },
+  {
+    "ticker": "BFG",
+    "company": "Byggfakta Group Nordic & International AB",
+    "screen_status": "gone / precedent / discard",
+    "listing_status": "GONE. Giant BidCo (Stirling Square-led consortium with TA Associates and Macquarie Capital) offer approx SEK 10.1bn; unconditional 19 Apr 2024 with 99%; last trading day 23 May 2024. Construction-data/software precedent, PE consortium.",
+    "business": null,
+    "corsair_vertical": null,
+    "market_cap_eur_m": null,
+    "enterprise_value_eur_m": null,
+    "fy_end": null,
+    "revenue_eur_m": null,
+    "adj_ebitda_eur_m": null,
+    "net_cash_or_debt_eur_m": null,
+    "ownership": null,
+    "corporate_activity": "GONE. Giant BidCo (Stirling Square-led consortium with TA Associates and Macquarie Capital) offer approx SEK 10.1bn; unconditional 19 Apr 2024 with 99%; last trading day 23 May 2024. Construction-data/software precedent, PE consortium.",
+    "flags": null,
+    "sources": [
+      "https://www.inderes.se/releases/byggfaktas-application-for-delisting-has-been-approved",
+      "https://www.macquarie.com/th/en/about/news/2024/macquarie-capital-announcements-regarding-byggfakta.html"
+    ],
+    "confidence": "high where sources listed; 'not re-verified' items are from prior knowledge."
+  },
+  {
+    "ticker": "PAGERO",
+    "company": "Pagero Group AB (publ)",
+    "screen_status": "gone / precedent / discard",
+    "listing_status": "GONE. Thomson Reuters cash offer (SEK 50/share, after a competing Vertex bid) completed and delisted H1 2024 (not re-verified this run; from prior knowledge). E-invoicing/compliance software - strategic buyer precedent.",
+    "business": null,
+    "corsair_vertical": null,
+    "market_cap_eur_m": null,
+    "enterprise_value_eur_m": null,
+    "fy_end": null,
+    "revenue_eur_m": null,
+    "adj_ebitda_eur_m": null,
+    "net_cash_or_debt_eur_m": null,
+    "ownership": null,
+    "corporate_activity": "GONE. Thomson Reuters cash offer (SEK 50/share, after a competing Vertex bid) completed and delisted H1 2024 (not re-verified this run; from prior knowledge). E-invoicing/compliance software - strategic buyer precedent.",
+    "flags": null,
+    "sources": [],
+    "confidence": "high where sources listed; 'not re-verified' items are from prior knowledge."
+  },
+  {
+    "ticker": "NWG",
+    "company": "Nordic Waterproofing Holding AB",
+    "screen_status": "gone / precedent / discard",
+    "listing_status": "GONE. Kingspan Group offer 2024 (building products; off-vertical, discard; not re-verified this run).",
+    "business": null,
+    "corsair_vertical": null,
+    "market_cap_eur_m": null,
+    "enterprise_value_eur_m": null,
+    "fy_end": null,
+    "revenue_eur_m": null,
+    "adj_ebitda_eur_m": null,
+    "net_cash_or_debt_eur_m": null,
+    "ownership": null,
+    "corporate_activity": "GONE. Kingspan Group offer 2024 (building products; off-vertical, discard; not re-verified this run).",
+    "flags": null,
+    "sources": [],
+    "confidence": "high where sources listed; 'not re-verified' items are from prior knowledge."
+  },
+  {
+    "ticker": "NORVA",
+    "company": "Norva24 Group AB",
+    "screen_status": "gone / precedent / discard",
+    "listing_status": "GONE. Apax Funds (Nordahl BidCo) SEK 36.50/share offer announced 10 Mar 2025, 98.3% by 7 May 2025. Off-vertical (underground-infrastructure services) but a 2025 PE take-private data point.",
+    "business": null,
+    "corsair_vertical": null,
+    "market_cap_eur_m": null,
+    "enterprise_value_eur_m": null,
+    "fy_end": null,
+    "revenue_eur_m": null,
+    "adj_ebitda_eur_m": null,
+    "net_cash_or_debt_eur_m": null,
+    "ownership": null,
+    "corporate_activity": "GONE. Apax Funds (Nordahl BidCo) SEK 36.50/share offer announced 10 Mar 2025, 98.3% by 7 May 2025. Off-vertical (underground-infrastructure services) but a 2025 PE take-private data point.",
+    "flags": null,
+    "sources": [
+      "https://www.inderes.fi/en/releases/norva24-has-applied-for-delisting-of-its-shares-from-nasdaq-stockholm"
+    ],
+    "confidence": "high where sources listed; 'not re-verified' items are from prior knowledge."
+  },
+  {
+    "ticker": "BRE2",
+    "company": "Bredband2 i Skandinavien AB",
+    "screen_status": "gone / precedent / discard",
+    "listing_status": "GONE. Telia offer 18 Jul 2025, 96.7% by 2 Feb 2026, delisted from First North 23 Feb 2026. Off-vertical telecom; trade-buyer data point.",
+    "business": null,
+    "corsair_vertical": null,
+    "market_cap_eur_m": null,
+    "enterprise_value_eur_m": null,
+    "fy_end": null,
+    "revenue_eur_m": null,
+    "adj_ebitda_eur_m": null,
+    "net_cash_or_debt_eur_m": null,
+    "ownership": null,
+    "corporate_activity": "GONE. Telia offer 18 Jul 2025, 96.7% by 2 Feb 2026, delisted from First North 23 Feb 2026. Off-vertical telecom; trade-buyer data point.",
+    "flags": null,
+    "sources": [
+      "https://www.inderes.se/releases/nasdaq-has-decided-on-delisting-of-the-shares-in-bredband2-the-last-day-for-trading-in-the-shares-in-bredband2-will-be-on-23-february-2026"
+    ],
+    "confidence": "high where sources listed; 'not re-verified' items are from prior knowledge."
+  },
+  {
+    "ticker": "ENLABS",
+    "company": "Enlabs AB",
+    "screen_status": "gone / precedent / discard",
+    "listing_status": "GONE before the window: acquired by Entain 2021 (gambling; off-vertical). Discard.",
+    "business": null,
+    "corsair_vertical": null,
+    "market_cap_eur_m": null,
+    "enterprise_value_eur_m": null,
+    "fy_end": null,
+    "revenue_eur_m": null,
+    "adj_ebitda_eur_m": null,
+    "net_cash_or_debt_eur_m": null,
+    "ownership": null,
+    "corporate_activity": "GONE before the window: acquired by Entain 2021 (gambling; off-vertical). Discard.",
+    "flags": null,
+    "sources": [],
+    "confidence": "high where sources listed; 'not re-verified' items are from prior knowledge."
+  },
+  {
+    "ticker": "ZAP",
+    "company": "Zaptec ASA",
+    "screen_status": "gone / precedent / discard",
+    "listing_status": "Not a Swedish listing (Oslo Bors), EV-charging hardware - off-vertical. Discard.",
+    "business": null,
+    "corsair_vertical": null,
+    "market_cap_eur_m": null,
+    "enterprise_value_eur_m": null,
+    "fy_end": null,
+    "revenue_eur_m": null,
+    "adj_ebitda_eur_m": null,
+    "net_cash_or_debt_eur_m": null,
+    "ownership": null,
+    "corporate_activity": "Not a Swedish listing (Oslo Bors), EV-charging hardware - off-vertical. Discard.",
+    "flags": null,
+    "sources": [],
+    "confidence": "high where sources listed; 'not re-verified' items are from prior knowledge."
+  },
+  {
+    "ticker": "KAR-2024",
+    "company": "Karnov Group - failed bid (precedent)",
+    "screen_status": "gone / precedent / discard",
+    "listing_status": "Greenoaks Capital and Long Path Partners recommended cash offer SEK 84/share (2024) withdrawn Dec 2024 after acceptance shortfall; both remain on the register (13.8% and 3.9%). Shows Swedish institutions will hold out against a recommended offer at a modest premium.",
+    "business": null,
+    "corsair_vertical": null,
+    "market_cap_eur_m": null,
+    "enterprise_value_eur_m": null,
+    "fy_end": null,
+    "revenue_eur_m": null,
+    "adj_ebitda_eur_m": null,
+    "net_cash_or_debt_eur_m": null,
+    "ownership": null,
+    "corporate_activity": "Greenoaks Capital and Long Path Partners recommended cash offer SEK 84/share (2024) withdrawn Dec 2024 after acceptance shortfall; both remain on the register (13.8% and 3.9%). Shows Swedish institutions will hold out against a recommended offer at a modest premium.",
+    "flags": null,
+    "sources": [
+      "https://mfn.se/cis/a/karnov-group/karnov-group-statement-by-the-board-of-directors-in-relation-to-the-withdrawal-of-the-public-offer-from-greenoaks-and-long-path-31812183"
+    ],
+    "confidence": "high where sources listed; 'not re-verified' items are from prior knowledge."
+  },
+  {
+    "ticker": "CARA-2024",
+    "company": "Carasent - rejected approach (precedent)",
+    "screen_status": "gone / precedent / discard",
+    "listing_status": "EG (Denmark) indicative SEK 20/share approach spring 2024 rejected by Vitruvian (19%); no formal offer. Shares now SEK 26.25.",
+    "business": null,
+    "corsair_vertical": null,
+    "market_cap_eur_m": null,
+    "enterprise_value_eur_m": null,
+    "fy_end": null,
+    "revenue_eur_m": null,
+    "adj_ebitda_eur_m": null,
+    "net_cash_or_debt_eur_m": null,
+    "ownership": null,
+    "corporate_activity": "EG (Denmark) indicative SEK 20/share approach spring 2024 rejected by Vitruvian (19%); no formal offer. Shares now SEK 26.25.",
+    "flags": null,
+    "sources": [
+      "https://www.affarsvarlden.se/kommentar/carasent-chans-till-budhojning"
+    ],
+    "confidence": "high where sources listed; 'not re-verified' items are from prior knowledge."
+  }
+]

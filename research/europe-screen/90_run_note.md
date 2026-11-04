@@ -17,3 +17,11 @@
   bank with Ureta c.40%. No listed broker, payments, HR/finance or compliance software of band size. Add-ons: Facephi
   (identity, EUR 45m) for IDnow; Seresco (payroll). Gone: Applus, Opdenergy, Tier1, Catalana Occidente, Agile Content.
   Mechanics: 30% mandatory bid; squeeze-out 90/90; delisting needs AGM exclusion offer. Premiums 13-25% controller-led.
+- 2026-11-04 23:00 Return: Sweden. Fits: Karnov (EUR 733m cap, EV ~910m, legal/compliance software, board sale review
+  with Goldman per Q2-26 commentary, failed 2024 Greenoaks/Long Path bid, both still hold) - above EV ceiling without
+  co-invest; Lime Technologies (EUR 320m, CRM SaaS, ~18x); Exsitec (EUR 139m, ERP/payroll implementer, founder ~25%);
+  Catella (EUR 126m, property asset manager, C&A 49%); Carasent (EUR 161m, health EHR, Vitruvian 19%). Knowit in
+  turnaround. Sub-band FS names: Case Group, Mangold, mySafety, Freja eID, Qliro. Too large: Nordnet, Avanza, Attendo,
+  Ambea, Vitec, Hoist. Gone: Humana (Ambea, Oct 2026), Formpipe (Tabellae, Jul 2026), Cint (Triton, Apr 2026),
+  Fortnox (EQT, 2025), Resurs (CVC/Waldakt), Byggfakta, Norva24 (Apax), Bredband2, Pagero. Squeeze-out 90%, mandatory
+  bid 30% of votes. Agent challenge accepted: Sweden's in-band pool is software/IT and care, not FS-specific.

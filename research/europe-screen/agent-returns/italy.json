@@ -1,0 +1,740 @@
+[
+ {
+  "_meta": true,
+  "market": "Italy (Euronext Milan, Euronext STAR Milan, Euronext Growth Milan)",
+  "run_date": "2026-11-04",
+  "fx": "All figures EUR native (Borsa Italiana reports in EUR); no conversion applied. Brief's EUR/USD 1.15 implies EV band about EUR 130m-650m.",
+  "scanned": [
+   "it.wikipedia.org/wiki/FTSE_Italia_STAR constituent list as at 27 Oct 2026 (57 names, with Borsa Italiana super-sector labels) - used as the STAR sector scan: Servizi finanziari (Banca Ifis, doValue, Equita, Generalfinance, Italmobiliare, Moltiply, Tamburi), Banche (Banca Sistema), Assicurazioni (REVO), Tecnologia (Cy4Gate, Esprinet, Eurotech, Reply, Sabaf, Seco, Sesa, Sys-Dat, TXT, WIIT), Salute (Amplifon, El.En, Fine Foods, Garofalo HC, PharmaNutra).",
+   "stockanalysis.com/list/borsa-italiana/ (1,395 lines; only the first 500 render server-side and these are dominated by foreign dual listings prefixed '1', so the page was NOT usable as a small-cap universe; pagination is JS-only).",
+   "borsaitaliana.it STAR list page returned an empty table (JS-rendered). Euronext Growth Milan: no usable constituent list obtained; EGM names were checked individually (Expert.ai, Doxee, Cyberoo, Yolo, Health Italia).",
+   "Company IR pages: equita.eu share-capital page (Oct 2026), investors.wiit.cloud (H1 2026), gpigroup.com; Consob 'azionariato' pages for REVO (25 Feb 2026), doValue (17 Dec 2024 page, updated FIG lines 11 Apr 2025) and GPI (2 Mar 2026) - further Consob requests were bot-blocked (Radware)."
+  ],
+  "search_budget": "24 WebSearch calls used of 25; roughly 70 WebFetch calls.",
+  "gone_since_2024_verified": [
+   {
+    "company": "Tinexta (STAR; digital trust, cyber, business innovation)",
+    "acquirer": "Zinc BidCo (Advent International + Nextalia funds, with Tecno Holding)",
+    "terms": "voluntary OPA at EUR 15.00/share; offeror at ~90.3% after acceptance period (22 Jul 2026); delisted from Euronext STAR Milan 9 Sep 2026 (Borsa Italiana decision 9142 of 2 Sep 2026)",
+    "sources": [
+     "https://www.borsaitaliana.it/borsa/notizie/teleborsa/finanza/tinexta-delisting-piu-vicino-con-risultati-definitivi-opa-offerente-al-903-del-capitale-163_2026-07-22_TLB.html",
+     "https://www.emarketstorage.it/sites/default/files/comunicati/2026-09/20260909_188916.pdf",
+     "https://www.websim.it/azioni/small-mid-cap/notizie/tinexta-accordo-vincolante-tra-tecno-holding-ed-i-fondi-advent-nextalia-opa-a-eu150-20250805051526//"
+    ]
+   },
+   {
+    "company": "Digital Value (Euronext Milan; ICT services, public sector/telco)",
+    "acquirer": "One Equity Partners (OEP IX)",
+    "terms": "bought 59.29% from DV Holding (closing 5 Mar 2026), mandatory OPA at EUR 29.00/share, 93.6% at close of acceptance (15 May 2026), squeeze-out and delisting; stockanalysis shows last trade 27 May 2026",
+    "sources": [
+     "https://www.borsaitaliana.it/borsa/notizie/teleborsa/finanza/opa-digital-value-raggiunto-il-936-del-capitale-delisting-vicino-219_2026-05-15_TLB.html",
+     "https://financecommunity.it/one-equity-partners-sale-al-9359-di-digital-value-dopo-la-opa-e-prepara-il-suo-delisting/"
+    ]
+   },
+   {
+    "company": "Almawave (EGM; AI/data software)",
+    "acquirer": "Almaviva (parent)",
+    "terms": "OPA at EUR 4.30 (37% premium), 97.91% reached, delisted 18 Dec 2025",
+    "sources": [
+     "https://www.teleborsa.it/AMP/News/2025/10/03/almawave-la-controllante-almaviva-lancia-l-opa-per-il-delisting-a-4-30-euro-3.html"
+    ]
+   },
+   {
+    "company": "Relatech (STAR; IT services/software)",
+    "acquirer": "Gemini BidCo (Bregal Unternehmerkapital)",
+    "terms": "OPA at EUR 2.53/share (max EUR 50.1m), delisted Dec 2024 after squeeze-out of final 2.15%",
+    "sources": [
+     "https://in.marketscreener.com/quote/stock/RELATECH-S-P-A-60731451/news/Bregal-Unternehmerkapital-GmbH-entered-into-a-binding-agreement-to-acquire-a-majority-stake-in-Relat-47112938"
+    ]
+   },
+   {
+    "company": "Openjobmetis (STAR; staffing / HR services)",
+    "acquirer": "Groupe CRIT via Plavisgas",
+    "terms": "EUR 16.50/share; 98.9% reached; delisted 8 Jul 2024",
+    "sources": [
+     "https://www.marketscreener.com/quote/stock/OPENJOBMETIS-S-P-A-25358957/",
+     "https://www.borsainside.com/mercati_italiani/doppio-delisting-su-borsa-italiana-e-ufficiale-ecco-chi-lascera-piazza-affari"
+    ]
+   },
+   {
+    "company": "Intermonte Partners SIM (EGM; investment bank/broker)",
+    "acquirer": "Banca Generali",
+    "terms": "OPA at EUR 3.04/share (~EUR 98m), 95.9% reached Jan 2025, delisted 5 Feb 2025",
+    "sources": [
+     "https://www.teleborsa.it/News/2025/01/24/banca-generali-fine-opa-al-95-9percent-di-intermonte-mossa-pilastro-importante-per-il-futuro-171.html"
+    ]
+   },
+   {
+    "company": "illimity Bank (STAR; challenger bank)",
+    "acquirer": "Banca Ifis",
+    "terms": "OPAS (cash+shares, ~EUR 298m), 92.5% Jul 2025, 95.4% after sell-out, delisted 19 Sep 2025",
+    "sources": [
+     "https://www.websim.it/azioni/small-mid-cap/notizie/banca-ifis-raggiunto-il-95398-di-illimity-con-la-fase-di-sell--out-20250901051512/"
+    ]
+   },
+   {
+    "company": "Alkemy (STAR; digital consulting)",
+    "acquirer": "Retex (FSI SGR)",
+    "terms": "OPA at EUR 12.00/share, 98.09% reached, delisted 14 Jul 2025",
+    "sources": [
+     "https://www.websim.it/azioni/small-mid-cap/notizie/alkemy-oggi-parte-il-sell-out-al-termine-il-delisting/"
+    ]
+   },
+   {
+    "company": "Anima Holding (Euronext Milan; asset manager)",
+    "acquirer": "Banco BPM Vita",
+    "terms": "voluntary OPA launched Nov 2024 (EUR 6.20 raised to EUR 7.00 per press), 89.95% at 9 Apr 2025; delisting date not confirmed in sources consulted but the stock is no longer in the STAR/blue-chip lists scanned",
+    "sources": [
+     "https://www.orafinanza.it/it/banco-bpm-opa-su-anima-con-obiettivo-delisting"
+    ]
+   },
+   {
+    "company": "Health Italia (EGM; supplementary health funds / insurance services)",
+    "acquirer": "Lonvita (controlling-shareholder vehicle, Clessidra Capital Credit financing)",
+    "terms": "OPA at EUR 300/share (max EUR 18m), 96.76% reached, delisted 26 Mar 2026",
+    "sources": [
+     "https://www.teleborsa.it/AMP/News/2026/03/16/health-italia-raggiunto-il-96-758percent-del-capitale-delisting-dal-26-marzo-2026-223.html"
+    ]
+   },
+   {
+    "company": "Solutions Capital Management SIM (EGM; asset manager)",
+    "acquirer": null,
+    "terms": "OPA-linked delisting 6 May 2026 (acquirer not captured)",
+    "sources": [
+     "https://www.soldionline.it/tag/delisting/"
+    ]
+   },
+   {
+    "company": "Eles (EGM; semiconductor test; not a Corsair vertical)",
+    "acquirer": null,
+    "terms": "OPA-linked delisting 24 Apr 2026",
+    "sources": [
+     "https://www.soldionline.it/tag/delisting/"
+    ]
+   }
+  ],
+  "gone_earlier_not_verified_this_run": "Cerved (ION, 2022), TAS Group (Rivean/Gilde, 2023), Piteco (Dedagroup, 2023), Net Insurance (Poste Italiane, 2023), Digital360 (Three Hills, 2023 agreement), Assiteca (Howden, 2022), Be Shaping the Future (Engineering/Apax, 2022), Banca Finnat (2023), Cattolica (Generali, 2022). From memory/press; not re-verified under the search budget.",
+  "consob_delisting_statistics": "Consob annual report (press, Jun 2026): 2025 saw 11 delistings on Euronext Milan (9 after OPA/OPAS) and 19 on EGM (11 after OPA), about EUR 2.5bn of capitalisation lost. Source: https://www.ilnordest.it/italia-ed-esteri/consob-certifica-la-grande-fuga-dalla-borsa-nel-2025-30-delisting-per-2-5-miliardi-js1onjcd",
+  "jurisdiction_flags": "Italy (TUF): mandatory bid at 30% (25% for non-SME issuers when no larger holder; SMEs may set 25-40% in by-laws); sell-out obligation above 90% (art. 108) unless float is restored; squeeze-out right at 95% (art. 111). EGM by-laws replicate these thresholds contractually (30% OPA; 90%/95% sell-out/squeeze-out). Loyalty (double) voting shares are common (GPI, Equita, WIIT) so capital and voting percentages diverge. Banks/SIMs/insurers need Bank of Italy/ECB or IVASS change-of-control clearance; Golden Power screening applies to cyber/defence software (Cy4gate) and can be invoked for healthcare and critical IT.",
+  "challenges_to_assignment": "The Italian pool in Corsair's verticals is thin and shrinking: the four most obvious digital-trust/IT names (Tinexta, Digital Value, Almawave, Relatech) and the obvious HR-services name (Openjobmetis) have all been taken private since Dec 2024, and the financial-services names left in band are either banks (context only) or carry EVs above the band because of acquisition debt (GPI, doValue, WIIT). Listed Italian payments companies in band: none found (Nexi EUR 5.5bn; VNE is a tiny EGM hardware name). Listed insurance brokers in band: none (Yolo EUR 5m; Health Italia delisted Mar 2026). HR/finance software: none listed of size (Zucchetti, TeamSystem private). Expect precedent premiums of 25-40% (Almawave 37%, Tinexta/Digital Value negotiated with blockholders) and controlling founders/families as the gating item in almost every case."
+ },
+ {
+  "ticker": "TXT",
+  "company": "TXT e-solutions S.p.A.",
+  "listing_status": "Euronext STAR Milan; listed and trading (Q2 2026 results Aug 2026; buyback running, 3.19% treasury at 26 Jun 2026). No offer period.",
+  "business": "Software engineering and digital advisory group: Software Engineering (aerospace/defence, automotive, Pacelab configurators), Smart Solutions and Digital Advisory (the former Banking & Finance unit serving Italian banks and insurers with core-system, compliance and data projects). About 3,500 staff; growing by acquisition (FY25 revenue +29%).",
+  "corsair_vertical": "Software / professional services - partial fit: the FS-focused Digital Advisory unit is a Corsair-type asset, but the group majority is aerospace/industrial engineering software, so a whole-company deal is a mixed fit.",
+  "market_cap_eur_m": {
+   "value": 617.0,
+   "currency_note": "EUR native, no FX conversion",
+   "source": "stockanalysis.com/quote/bit/TXT/ (delayed Euronext Milan close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "fy_end": "31 Dec 2025",
+  "revenue_eur_m": 394.3,
+  "adj_ebitda_eur_m": {
+   "value": null,
+   "note": "FY2025 EBITDA not retrieved from a primary source; stockanalysis TTM EBITDA EUR 43.1m, FY2025 operating income EUR 41.1m (FY24 26.6m). Management guides 2026 EBITDA above EUR 65m (transcript summary)."
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": -123.1,
+   "note": "Net debt, latest balance sheet per stockanalysis (cash 119.5, debt 242.5 incl. leases); EV EUR 744m, inside the band."
+  },
+  "ownership": "Laserline S.p.A. (Enrico Magni, chairman) 25.618% of voting rights (Consob, 17 Jan 2025; simplywall.st shows 30.9%, unreconciled); treasury 3.19%; institutional 6.4% (stockanalysis). Free float roughly 65-70%. Magni's block is below 30% so no mandatory-bid issue for him, but a bidder needs his support.",
+  "corporate_activity": "None found 2024-2026: no bid approach, strategic review or activist. Activity is bolt-on M&A funded by debt and buybacks; Edison notes 'on the acquisition trail'.",
+  "flags": "Chairman's 25.6% block; EV already ~EUR 744m (top of band); acquisition leverage rising; defence/aerospace software exposure may attract Golden Power review; mixed sector mix dilutes FS angle.",
+  "sources": [
+   "https://stockanalysis.com/quote/bit/TXT/",
+   "https://stockanalysis.com/quote/bit/TXT/statistics/",
+   "https://stockanalysis.com/quote/bit/TXT/financials/",
+   "https://www.consob.it/web/area-pubblica/w/txt-e-solutions-spa-azionariato-1",
+   "https://www.borsaitaliana.it/borsa/notizie/teleborsa/finanza/txt-esolutions-riepilogo-sull-acquisto-di-azioni-proprie-117_2026-07-02_TLB.html",
+   "https://www.edisongroup.com/research/on-the-acquisition-trail/21098/"
+  ],
+  "confidence": "medium - price/cap and FY25 revenue from stockanalysis; ownership from Consob via search snippet (Jan 2025), EBITDA not confirmed."
+ },
+ {
+  "ticker": "EQUI",
+  "company": "Equita Group S.p.A.",
+  "listing_status": "Euronext STAR Milan; listed and trading. Reserved capital increase to Iccrea Banca completed Sep 2026; Xenon AIFM acquisition capital increase to execute by 30 Nov 2026. No offer period.",
+  "business": "Independent Italian investment bank: sales & trading and market making, investment banking (M&A, ECM/DCM, debt advisory) and alternative asset management (Equita Capital SGR: private debt, PE/VC funds; Xenon AIFM pending). About 206 staff, 2025 revenue EUR 119m.",
+  "corsair_vertical": "Business services / wealth and asset management (plus capital-markets advisory) - good fit, closest Italian analogue to UK mid-market broker-asset manager precedents.",
+  "market_cap_eur_m": {
+   "value": 333.5,
+   "currency_note": "EUR native, no FX conversion",
+   "source": "stockanalysis.com/quote/bit/EQUI/ (delayed Euronext Milan close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "fy_end": "31 Dec 2025",
+  "revenue_eur_m": 119.2,
+  "adj_ebitda_eur_m": {
+   "value": null,
+   "note": "Not meaningful for a SIM; FY2025 operating/pre-tax income EUR 33.3m (FY24 20.2m), net income EUR 24.3m."
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": 60.1,
+   "note": "stockanalysis shows cash 274.4 vs debt 214.2 (broker balance sheet with trading book); treat as regulatory capital, not an EV input."
+  },
+  "ownership": "As at Oct 2026 (company IR): management and professionals 30% of capital / 41% of votes (shareholders' agreement; loyalty shares), Iccrea Banca 15% capital / 12% votes (strategic partner since Sep 2026), Anima SGR ~6% capital, Fenera Holding 4% capital / 6% votes, treasury 3%, market float ~42% of capital / ~35% of votes.",
+  "corporate_activity": "Iccrea Banca strategic partnership with 15% reserved capital increase (Sep 2026); Xenon AIFM acquisition (Jul 2026); Deotto left the management shareholders' agreement (27 Oct 2026). No bid approach or strategic review found.",
+  "flags": "Regulated SIM group (Bank of Italy/Consob change-of-control); management pact with 41% of votes plus Iccrea 12% makes a hostile route impossible - any deal is a negotiated partnership; EV small (equity value EUR 334m) and brokerage earnings cyclical.",
+  "sources": [
+   "https://stockanalysis.com/quote/bit/EQUI/",
+   "https://stockanalysis.com/quote/bit/EQUI/statistics/",
+   "https://stockanalysis.com/quote/bit/EQUI/financials/",
+   "https://www.equita.eu/en/corporate-governance/share-capital-and-shareholders.html",
+   "https://www.borsaitaliana.it/borsa/notizie/teleborsa/finanza/equita-fabio-enrico-deotto-esce-dal-patto-parasociale-dopo-la-cessazione-delle-cariche-in-azienda-141_2026-10-27_TLB.html"
+  ],
+  "confidence": "high - company IR ownership table dated Oct 2026 plus stockanalysis financials."
+ },
+ {
+  "ticker": "GHC",
+  "company": "Garofalo Health Care S.p.A.",
+  "listing_status": "Euronext STAR Milan; listed and trading (H1 2026 results 10 Sep 2026; Malatesta Novello clinic acquisition EUR 69.3m signed Sep 2026). No offer period.",
+  "business": "Private accredited hospital and clinic operator in northern/central Italy (hospitals, rehabilitation, psychiatric, diagnostics, long-term care), ~2,840 staff, revenue mostly from regional health services (SSN) plus private pay.",
+  "corsair_vertical": "Business services / healthcare services - direct fit on sector; buy-and-build clinic platform.",
+  "market_cap_eur_m": {
+   "value": 470.4,
+   "currency_note": "EUR native, no FX conversion",
+   "source": "stockanalysis.com/quote/bit/GHC/ (delayed Euronext Milan close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "fy_end": "31 Dec 2025",
+  "revenue_eur_m": 485.1,
+  "adj_ebitda_eur_m": {
+   "value": null,
+   "note": "FY2025 EBITDA not retrieved from primary source; stockanalysis TTM EBITDA EUR 76.7m, FY2025 operating income EUR 54.4m, net income EUR 23.4m. H1 2026 net profit fell to EUR 15.2m."
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": -230.9,
+   "note": "Net debt per stockanalysis latest balance sheet (debt 243.1 incl. IFRS16, cash 12.2); EV ~EUR 712m, just above the EUR 650m band top before the Oct 2026 acquisition."
+  },
+  "ownership": "Maria Laura Garofalo (CEO) ~63% directly and via An.Rama / Larama 98 (MF, Jan 2024, after Peninsula's 4.1% exit); Fondazione Enpam 4.83% (Apr 2024, board seat). Free float roughly 30-35%. No 2025-26 holder update obtained.",
+  "corporate_activity": "No bid, strategic review or activist found 2024-2026. Steady clinic acquisitions (Malatesta Novello Sep 2026). MF 2024 piece 'GHC in cerca di M&A' refers to GHC as buyer.",
+  "flags": "Founder-CEO controls ~63%: only a negotiated deal (partial sale or co-investment) is possible; regional SSN accreditation and tariff dependence; EV slightly above band and leverage ~3x EBITDA after deals; healthcare Golden Power possible.",
+  "sources": [
+   "https://stockanalysis.com/quote/bit/GHC/",
+   "https://stockanalysis.com/quote/bit/GHC/statistics/",
+   "https://stockanalysis.com/quote/bit/GHC/financials/",
+   "https://www.milanofinanza.it/news/azioni-garofalo-health-care-in-rialzo-dopo-l-uscita-di-peninsula-ecco-come-cambia-l-zionariato-del-gruppo-202401231509255340",
+   "https://www.quotidianosanita.it/lavoro-e-professioni/enpam-investe-in-garofalo-health-care-ed-entra-nel-cda/",
+   "https://www.borsaitaliana.it/borsa/notizie/teleborsa/finanza/garofalo-health-care-acquista-casa-di-cura-malatesta-novello-per-693-milioni-di-euro-89_2026-09-23_TLB.html"
+  ],
+  "confidence": "medium - financials current; ownership dated 2024."
+ },
+ {
+  "ticker": "SYS",
+  "company": "SYS-DAT S.p.A.",
+  "listing_status": "Euronext STAR Milan since 2 Jul 2024 IPO (EUR 3.40, EUR 34m raised, 35.1% float); listed and trading. No offer period.",
+  "business": "Italian business software group: proprietary ERP and vertical applications for SMEs (manufacturing, fashion, retail, services), CRM, BI, document management and cloud, growing by acquiring regional software houses (A&C Group 2025). FY25 revenue EUR 89m (+56%).",
+  "corsair_vertical": "Software (vertical and enterprise, HR/finance tools via ERP) - good fit; small end of band.",
+  "market_cap_eur_m": {
+   "value": 255.3,
+   "currency_note": "EUR native, no FX conversion",
+   "source": "stockanalysis.com/quote/bit/SYS/ (delayed Euronext Milan close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "fy_end": "31 Dec 2025",
+  "revenue_eur_m": 89.35,
+  "adj_ebitda_eur_m": {
+   "value": null,
+   "note": "FY2025 EBITDA not retrieved; stockanalysis TTM EBITDA EUR 13.7m, operating income 10.6m, FY25 net income EUR 6.9m (+11.5%)."
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": 38.3,
+   "note": "Net cash per stockanalysis (cash 47.0, debt 8.7); EV ~EUR 217m."
+  },
+  "ownership": "Founding Neuroni family: Vittorio Neuroni (chairman) 28.2% and Matteo Neuroni (CEO) 17.2% at Jan 2025; Emanuele Angelidis ~20% at IPO; Barca Capital Partners >5% (Jan 2025); Alkemia Capital >5% (2026). stockanalysis insider ownership 54.9%. Float ~35-40%.",
+  "corporate_activity": "None found: IPO 2024, greenshoe exercised, A&C Group acquisition, Investor Day 2026. No bid or review.",
+  "flags": "Founders/insiders ~55%: negotiated only; valuation ~16x TTM EBITDA; small EV (EUR 217m) sits at the bottom of the band; limited liquidity.",
+  "sources": [
+   "https://stockanalysis.com/quote/bit/SYS/",
+   "https://stockanalysis.com/quote/bit/SYS/statistics/",
+   "https://www.websim.it/azioni/small-mid-cap/notizie/sys-dat-oggi-sbarca-in-borsa-sul-segmento-star/",
+   "https://uk.marketscreener.com/quote/stock/SYS-DATNPV-171989439/news/SYS-DAT-lands-on-the-STAR-after-raising-EUR34-million-47285686",
+   "https://www.websim.it/azioni/small-mid-cap/notizie/sys-dat-alkemia-capital-supera-il-5-del-capitale/"
+  ],
+  "confidence": "medium - ownership percentages from press at different dates and not reconciled."
+ },
+ {
+  "ticker": "GPI",
+  "company": "GPI S.p.A.",
+  "listing_status": "Euronext Milan (main list); listed and trading (H1 2026 results Oct 2026). No offer period.",
+  "business": "Healthcare IT and services group (Trento): hospital/territorial information systems, population-health and administrative software, plus outsourced services (CUP call centres, logistics, payroll) for Italian regional health systems; expanding in US/LatAm. ~EUR 546m revenue.",
+  "corsair_vertical": "Software (vertical healthcare) + healthcare services - fits on sector; mixed software/BPO margins.",
+  "market_cap_eur_m": {
+   "value": 441.4,
+   "currency_note": "EUR native, no FX conversion",
+   "source": "stockanalysis.com/quote/bit/GPI/ (delayed Euronext Milan close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "fy_end": "31 Dec 2025",
+  "revenue_eur_m": 546.2,
+  "adj_ebitda_eur_m": {
+   "value": null,
+   "note": "FY2025 EBITDA not retrieved; stockanalysis TTM EBITDA EUR 88.7m, FY25 operating income EUR 48.0m, net income 16.2m (FY24 103.8m inflated by disposal gain)."
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": -469.9,
+   "note": "Net debt per stockanalysis (debt 608.1 incl. leases, cash 138.2); EV ~EUR 907m - ABOVE the EUR 650m band; leverage ~5x TTM EBITDA."
+  },
+  "ownership": "FM S.p.A. (Fausto Manzana, founder) 60.571% of voting rights (~47.9% of capital, loyalty shares); CDP Equity 23.820% of votes (~18.4% capital, since 2022 investment agreement); Fondazione ENPAIA 6.234% of votes (Feb 2026). Consob position 2 Mar 2026. Free float ~30% of capital.",
+  "corporate_activity": "Jul 2025: FM confirmed informal contacts with PE funds (KKR named by MF) on sale of a minority or control, possibly leading to a full OPA and delisting; price gap reported. Oct 2025: shareholders' agreements with CDP Equity not renewed. No outcome announced as at Nov 2026 - a live situation to track.",
+  "flags": "EV above band and leverage high; founder controls 60% of votes plus CDP Equity (state) as 2nd holder - political/Golden Power sensitivity on healthcare data; regional public-sector contract concentration.",
+  "sources": [
+   "https://stockanalysis.com/quote/bit/GPI/",
+   "https://stockanalysis.com/quote/bit/GPI/statistics/",
+   "https://stockanalysis.com/quote/bit/GPI/financials/",
+   "https://www.consob.it/web/area-pubblica/w/gpi-spa-azionariato-2",
+   "https://www.websim.it/azioni/small-mid-cap/notizie/gpi-confermati-contatti-con-fondi-ma-distanze-sul-prezzo/",
+   "https://www.websim.it/azioni/small-mid-cap/notizie/gpi-manzana-valuta-cessione-di-una-quota-di-minoranza-a-fondi-pe/",
+   "https://tr.tradingview.com/news/reuters.com,2025-10-10:newsml_INFb9jzjH:0-gpi-s-p-a-non-renewal-of-the-shareholders-agreements-under-the-investment-agreement-signed-on-22-june-2022-between-fm-s-p-a-cdp-equity-s-p-a-gpi-s-p-a-and-fausto-manzana"
+  ],
+  "confidence": "medium-high - Consob ownership current; 2026 status of PE talks unknown."
+ },
+ {
+  "ticker": "DOV",
+  "company": "doValue S.p.A.",
+  "listing_status": "Euronext STAR Milan; listed and trading (CMD Oct 2026, Q3 results due 9 Nov 2026). No offer period.",
+  "business": "Largest southern-European credit servicer: NPL/UTP and performing loan servicing, real-estate and collateral services for banks and investors in Italy, Spain, Greece, Cyprus; added Gardant (Italy, 2024) and coeo (Germany, 2025). ~4,100 staff, 2025 revenue EUR 572m.",
+  "corsair_vertical": "Business services (financial-services outsourcing / credit servicing) - adjacent fit; not a named Corsair vertical but an FS-services platform.",
+  "market_cap_eur_m": {
+   "value": 343.2,
+   "currency_note": "EUR native, no FX conversion",
+   "source": "stockanalysis.com/quote/bit/DOV/ (delayed Euronext Milan close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "fy_end": "31 Dec 2025",
+  "revenue_eur_m": 572.2,
+  "adj_ebitda_eur_m": {
+   "value": null,
+   "note": "FY2025 EBITDA not retrieved; stockanalysis TTM EBITDA EUR 120.0m, FY25 operating income EUR 102.6m, net loss EUR 8.2m. 2029 plan targets EBITDA EUR 330-350m (CMD Oct 2026)."
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": -900.5,
+   "note": "Net debt per stockanalysis (debt ~1.06bn, cash 158m); EV ~EUR 1.37bn - well above band; leverage ~7.5x TTM EBITDA."
+  },
+  "ownership": "Fortress (FIG Buyer GP) 23.19% of votes; Elliott (Tiber Investments) 17.75%; Bain Capital Credit 10.00% (Fortress-Bain pact since Jun 2023); Mikhail Stiskin (Hilve Holdings) 5.29% (Jul 2026). Float ~44%.",
+  "corporate_activity": "2024 Gardant acquisition with capital increase brought Elliott in; 2025 coeo acquisition; Oct 2026 CMD with EUR 10m buyback. No take-private approach found; three PE/credit funds already hold 51%.",
+  "flags": "EV and leverage far outside band; equity story is deleveraging; three financial sponsors on the register; regulated servicer (art. 115 TULPS / Bank of Italy 106 licence in Italy, Greek/Spanish servicer licences).",
+  "sources": [
+   "https://stockanalysis.com/quote/bit/DOV/",
+   "https://stockanalysis.com/quote/bit/DOV/statistics/",
+   "https://stockanalysis.com/quote/bit/DOV/financials/",
+   "https://www.consob.it/web/area-pubblica/w/dovalue-spa-azionariato-",
+   "https://www.teleborsa.it/AMP/News/2026/08/04/dovalue-mikhail-stiskin-ha-una-partecipazione-del-5-29percent-161.html"
+  ],
+  "confidence": "high on figures/ownership; fit is the question."
+ },
+ {
+  "ticker": "REVO",
+  "company": "REVO Insurance S.p.A.",
+  "listing_status": "Euronext STAR Milan; listed and trading (H1 2026 results 6 Aug 2026). No offer period.",
+  "business": "Specialty non-life insurer for SMEs (surety, financial lines, property, engineering, marine, parametric) distributed through brokers and agents, ~EUR 415m 2025 revenue (+33%), H1 2026 premiums +15%, net profit EUR 13.5m.",
+  "corsair_vertical": "Insurance - WEAK FIT: value is in underwriting capital and the IVASS licence, not in distribution or services (brief excludes underwriters). Listed here because it is the only in-band Italian insurance name.",
+  "market_cap_eur_m": {
+   "value": 660.0,
+   "currency_note": "EUR native, no FX conversion",
+   "source": "stockanalysis.com/quote/bit/REVO/ (delayed Euronext Milan close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "fy_end": "31 Dec 2025",
+  "revenue_eur_m": 415.2,
+  "adj_ebitda_eur_m": {
+   "value": null,
+   "note": "Not meaningful for an insurer; FY25 operating income EUR 31.4m, net income EUR 22.4m."
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": null,
+   "note": "Insurer; stockanalysis shows debt 14.0 vs cash 11.0 (holding level). Solvency ratio not retrieved."
+  },
+  "ownership": "Consob 25 Feb 2026: Vittoria Assicurazioni (Carlo Acutis) 15.53% (IVASS cleared to 20%, Feb 2026; MF Aug 2026 'just under 20%'); REVO Advisory (founder-managers, Alberto Minali) 11.75%; Fondazione Cariverona 6.80%; SCOR 6.73%. Float ~55-60%; institutional 28.6%.",
+  "corporate_activity": "Vittoria Assicurazioni building to 20% ('speculative appeal', MF/Websim Jan 2026); Eurocaution (Benelux surety) acquisition abandoned 9 Oct 2026; key managers left Oct 2026 (stock -). No formal bid.",
+  "flags": "IVASS change-of-control and Solvency II capital; Vittoria as strategic anchor could pre-empt; underwriting risk is not Corsair's thesis.",
+  "sources": [
+   "https://stockanalysis.com/quote/bit/REVO/",
+   "https://stockanalysis.com/quote/bit/REVO/statistics/",
+   "https://stockanalysis.com/quote/bit/REVO/financials/",
+   "https://www.consob.it/web/area-pubblica/w/revo-insurance-spa-azionariato-",
+   "https://www.websim.it/azioni/small-mid-cap/notizie/revo-insurance-vittoria-assicurazioni-pronta-a-salire-fino-al-20-aumenta-l-appeal-speculativo-da-parte-dei-grandi-gruppi-20260105071520/",
+   "https://www.borsaitaliana.it/borsa/notizie/teleborsa/finanza/revo-scende-in-borsa-dopo-uscita-di-manager-chiave-intesa-vede-impatto-limitato-155_2026-10-22_TLB.html"
+  ],
+  "confidence": "high on data; discard on vertical."
+ },
+ {
+  "ticker": "WIIT",
+  "company": "WIIT S.p.A.",
+  "listing_status": "Euronext STAR Milan; listed and trading (H1 2026 results Aug 2026; WIIT Schweiz formed Oct 2026). No offer period.",
+  "business": "Premium private/hybrid cloud and managed services for mid-sized enterprises in Italy, Germany and Switzerland (data centres, disaster recovery, cybersecurity, SAP hosting); ~570 staff; FY25 revenue EUR 168m; H1 2026 adj. EBITDA EUR 34.2m (41.8% margin).",
+  "corsair_vertical": "Weak fit - IT infrastructure/cloud hosting rather than vertical software or FS services; included because it is an in-band Italian technology name with high recurring revenue.",
+  "market_cap_eur_m": {
+   "value": 631.3,
+   "currency_note": "EUR native, no FX conversion",
+   "source": "stockanalysis.com/quote/bit/WIIT/ (delayed Euronext Milan close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "fy_end": "31 Dec 2025",
+  "revenue_eur_m": 167.9,
+  "adj_ebitda_eur_m": {
+   "value": null,
+   "note": "FY2025 adj. EBITDA not retrieved; stockanalysis TTM EBITDA EUR 53.3m, FY25 operating income 25.7m, net income 10.5m. H1 2026 adj. EBITDA EUR 34.2m."
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": -411.6,
+   "note": "stockanalysis net debt (incl. bonds and leases); company adj. NFP ex-IFRS16 -EUR 173.6m at 30 Jun 2026. EV ~EUR 1.04bn on stockanalysis basis - above band."
+  },
+  "ownership": "Alessandro Cozzi (founder-CEO) via WIIT Fin S.r.l. ~69.9% of voting rights (Consob position 24 Aug 2026, loyalty shares); capital percentage not obtained. Institutional 5.2%.",
+  "corporate_activity": "None found: bond refinancing, ING EUR 40m facility (Jun 2026), treasury share sale (Sep 2026), Swiss acquisitions under evaluation. No bid or review.",
+  "flags": "Founder holds ~70% of votes - no path without him; EV above band at 17x TTM EBITDA; data-centre capex and bond leverage.",
+  "sources": [
+   "https://stockanalysis.com/quote/bit/WIIT/",
+   "https://stockanalysis.com/quote/bit/WIIT/statistics/",
+   "https://stockanalysis.com/quote/bit/WIIT/financials/",
+   "https://investors.wiit.cloud/",
+   "https://www.consob.it/web/consob-and-its-activities/w/wiit-spa-azionariato-"
+  ],
+  "confidence": "medium."
+ },
+ {
+  "ticker": "CY4",
+  "company": "Cy4gate S.p.A.",
+  "listing_status": "Euronext STAR Milan; listed and trading (Q2 2026 results Sep 2026). No offer period.",
+  "business": "Cyber intelligence and cybersecurity products/services for armed forces, law enforcement, institutions and corporates (decision intelligence, forensic, incident response; RCS Lab lawful-interception subsidiary). FY25 revenue EUR 101.5m (+35%), still loss-making at EBIT.",
+  "corsair_vertical": "Weak fit - defence/government cyber rather than risk & compliance software for FS; Golden Power territory.",
+  "market_cap_eur_m": {
+   "value": 228.4,
+   "currency_note": "EUR native, no FX conversion",
+   "source": "stockanalysis.com/quote/bit/CY4/ (delayed Euronext Milan close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "fy_end": "31 Dec 2025",
+  "revenue_eur_m": 101.5,
+  "adj_ebitda_eur_m": {
+   "value": null,
+   "note": "FY2025 EBITDA not retrieved; stockanalysis TTM EBITDA EUR 10.9m; FY25 operating income -4.9m, net loss -10.0m."
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": -9.2,
+   "note": "Net debt per stockanalysis (cash 24.4, debt 33.7); EV ~EUR 240m."
+  },
+  "ownership": "Elettronica S.p.A. (Benigni family with Thales and Leonardo as shareholders) 38.38%; TEC Cyber 16.16%; First Sicaf >5%; float ~43.6% (Euronext Mar 2025; Consob 14 Jun 2026 consistent).",
+  "corporate_activity": "Dec 2024 press report of potential interest from Indra (Il Fatto Quotidiano); no offer followed. 2022 EUR 90m rights issue for RCS Lab.",
+  "flags": "Defence-strategic controller (Elettronica/Leonardo/Thales) and Golden Power make a financial take-private implausible; lawful-interception business reputational risk; loss-making.",
+  "sources": [
+   "https://stockanalysis.com/quote/bit/CY4/",
+   "https://stockanalysis.com/quote/bit/CY4/statistics/",
+   "https://stockanalysis.com/quote/bit/CY4/financials/",
+   "https://www.consob.it/web/area-pubblica/w/cy4gate-spa-azionariato-2",
+   "https://www.websim.it/azioni/small-mid-cap/notizie/cy4gate-il-fatto-quotidiano-riporta-di-un-potenziale-interesse-da-parte-di-indra-su-cy4-20241209071525/"
+  ],
+  "confidence": "medium-high; discard on fit."
+ },
+ {
+  "ticker": "EXAI",
+  "company": "Expert.ai S.p.A.",
+  "listing_status": "Euronext Growth Milan; listed and trading (new board 30 Jun 2026). No offer period; CEO said a reverse merger would be evaluated (Apr 2026).",
+  "business": "Natural-language AI software (hybrid symbolic/LLM platform) for insurance claims/underwriting automation, financial services document intelligence, media and public sector; ~250 staff; FY25 revenue EUR 40.8m (+63%), near EBITDA break-even.",
+  "corsair_vertical": "Software (insurance/FS process automation) - thematic fit but sub-scale, loss-making and EGM-listed.",
+  "market_cap_eur_m": {
+   "value": 174.6,
+   "currency_note": "EUR native, no FX conversion",
+   "source": "stockanalysis.com/quote/bit/EXAI/ (delayed Euronext Milan close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "fy_end": "31 Dec 2025",
+  "revenue_eur_m": 40.8,
+  "adj_ebitda_eur_m": {
+   "value": null,
+   "note": "stockanalysis TTM EBITDA EUR 1.5m; FY25 operating income -3.6m, net loss -5.7m."
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": -11.7,
+   "note": "Net debt per stockanalysis (cash 3.5, debt 15.2)."
+  },
+  "ownership": "GUM Group 10.24%, Ergo S.r.l. 5.98%, Stefano Spaggiari (founder) 3.26% (Il Sole 24 Ore profile, 10 Jul 2026; Ergo 8.13% in Jan 2024). Widely held otherwise; institutional 3.8%.",
+  "corporate_activity": "2024 rights issue backed by GUM/Ergo; 2026-28 plan (Apr 2026) with US focus and possible merger; no bid found.",
+  "flags": "EV ~EUR 186m on EUR 1.5m EBITDA (valuation on AI narrative); EGM governance; dispersed register means an OPA at 30% is the route but equity value is below the band on any earnings basis.",
+  "sources": [
+   "https://stockanalysis.com/quote/bit/EXAI/",
+   "https://stockanalysis.com/quote/bit/EXAI/statistics/",
+   "https://stockanalysis.com/quote/bit/EXAI/financials/",
+   "https://mercati.ilsole24ore.com/azioni/borsa-italiana/dettaglio-completo/EXAI.MI/analisi-fondamentale/profilo-societario",
+   "https://www.milanofinanza.it/news/expert-ai-verso-la-profittabilita-con-uno-sguardo-agli-stati-uniti-l-ad-dario-pardi-valuteremo-una-fusione-202604221853005563"
+  ],
+  "confidence": "low-medium - ownership from a data-vendor snapshot."
+ },
+ {
+  "ticker": "DOX",
+  "company": "Doxee S.p.A.",
+  "listing_status": "Euronext Growth Milan; listed and trading (H1 2026 results 30 Sep 2026).",
+  "business": "Customer communications management, e-invoicing/digital preservation (compliance) and interactive-video CX SaaS for utilities, telcos, banks and insurers; ~154 staff; TTM revenue EUR 31.8m.",
+  "corsair_vertical": "Software (compliance / digital trust) - fits vertical but far below size band (market cap EUR 42m).",
+  "market_cap_eur_m": {
+   "value": 41.8,
+   "currency_note": "EUR native, no FX conversion",
+   "source": "stockanalysis.com/quote/bit/DOX/ (delayed Euronext Milan close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "fy_end": "31 Dec 2025",
+  "revenue_eur_m": null,
+  "adj_ebitda_eur_m": {
+   "value": null,
+   "note": "TTM EBITDA EUR 1.6m, net income EUR 0.3m (stockanalysis); FY2025 line items not retrieved."
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": -10.6,
+   "note": "Net debt per stockanalysis."
+  },
+  "ownership": null,
+  "corporate_activity": "None found.",
+  "flags": "Too small for the band; only relevant as an add-on target.",
+  "sources": [
+   "https://stockanalysis.com/quote/bit/DOX/",
+   "https://stockanalysis.com/quote/bit/DOX/statistics/"
+  ],
+  "confidence": "medium - discard on size."
+ },
+ {
+  "ticker": "PRO",
+  "company": "Banca Profilo S.p.A.",
+  "listing_status": "Euronext Milan; listed and trading; 1-for-10 reverse split 27 Jul 2026. No offer period.",
+  "business": "Milan private bank and investment bank (private banking, wealth/trust services, capital markets, digital bank Tinaba 15%); ~169 staff; 2025 revenue EUR 60.4m, equity EUR 161m.",
+  "corsair_vertical": "CONTEXT ONLY - licensed bank (outside Corsair verticals) though its value is in wealth-management distribution; closest to a wealth asset.",
+  "market_cap_eur_m": {
+   "value": 109.6,
+   "currency_note": "EUR native, no FX conversion",
+   "source": "stockanalysis.com/quote/bit/PRO/ (delayed Euronext Milan close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "fy_end": "31 Dec 2025",
+  "revenue_eur_m": 60.4,
+  "adj_ebitda_eur_m": {
+   "value": null,
+   "note": "Bank; TTM net income EUR 8.7m (incl. tax benefit), pre-tax EUR 4.2m."
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": null,
+   "note": "Bank balance sheet; not applicable. Book value EUR 161.4m (P/B ~0.68x)."
+  },
+  "ownership": "Arepo BP (Sator Private Equity Fund, Matteo Arpe; fund in liquidation since 2022) is the controlling shareholder (62.4% historically; 2023 TFC deal valued 29% at EUR 50.4m = EUR 180m for 100%); current exact percentage not verified this run.",
+  "corporate_activity": "Perennial sale process: at least six failed attempts 2020-2024 (Attestor/Finint, Banor, L&B/RiverRock, Twenty First Capital 2023, Barents Re/LMDV 2024); Arpe rejoined board May 2025 to 'facilitate Sator exit' (Jun 2025 restructuring announcement); reverse split Jul 2026. Open situation.",
+  "flags": "ECB/Bank of Italy change-of-control; sub-scale and loss-prone; a PE buyer needs a bank-holding structure. Precedent for how hard Italian bank-wealth take-privates are.",
+  "sources": [
+   "https://stockanalysis.com/quote/bit/PRO/",
+   "https://stockanalysis.com/quote/bit/PRO/statistics/",
+   "https://forbes.it/2025/06/27/matteo-arpe-ritorno-banca-profilo-venderla/",
+   "https://www.tipranks.com/news/company-announcements/banca-profilo-secures-leadership-continuity-amid-strategic-restructuring",
+   "https://www.bancaprofilo.it/wp-content/uploads/2023/05/2023.05.22-Comunicato-Stampa-ArepoBP.pdf"
+  ],
+  "confidence": "medium - ownership percentage not confirmed."
+ },
+ {
+  "ticker": "BST",
+  "company": "Banca Sistema S.p.A.",
+  "listing_status": "Euronext STAR Milan; listed; Banca CF+ (Elliott) voluntary OPAS (Jun 2025, raised to EUR 1.89 Feb 2026) then mandatory OPAS completed Aug 2026; CF+ ~70% of capital; merger of CF+ into Banca Sistema approved by boards Jun 2026; stock to remain listed.",
+  "business": "Specialty bank: factoring of public-administration receivables, salary-backed loans (CQS), pledge lending (Kruso Kapital) and deposits; 2025 revenue EUR 160.7m.",
+  "corsair_vertical": "CONTEXT ONLY - bank/balance-sheet lender.",
+  "market_cap_eur_m": {
+   "value": 122.2,
+   "currency_note": "EUR native, no FX conversion",
+   "source": "stockanalysis.com/quote/bit/BST/ (delayed Euronext Milan close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "fy_end": "31 Dec 2025",
+  "revenue_eur_m": 160.7,
+  "adj_ebitda_eur_m": {
+   "value": null,
+   "note": "Bank; not applicable."
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": null,
+   "note": "Bank; not applicable."
+  },
+  "ownership": "Banca CF+ (Elliott-backed) ~70% of capital / ~69% of votes after the 2026 mandatory offer (CF+ release Aug 2026); residual float ~30%.",
+  "corporate_activity": "Taken over by Banca CF+ 2025-26 without delisting (precedent for a sponsor-backed bank combination keeping a listing).",
+  "flags": "Controlled; bank licence; no role for Corsair.",
+  "sources": [
+   "https://stockanalysis.com/quote/bit/BST/",
+   "https://www.soldionline.it/notizie/azioni-italia/banca-sistema-banca-cf-esclude-delisting-dopo-opas",
+   "https://financecommunity.it/banca-cf-elliott-chiude-con-successo-la-opas-su-banca-sistema-tutti-gli-advisor/",
+   "https://www.emarketstorage.it/sites/default/files/comunicati/2026-08/20260806_188045.pdf"
+  ],
+  "confidence": "medium-high."
+ },
+ {
+  "ticker": "GF",
+  "company": "Generalfinance S.p.A.",
+  "listing_status": "Euronext STAR Milan; listed and trading (H1 2026 results Jul 2026). No offer period.",
+  "business": "Factoring for distressed and turnaround SMEs in Italy (turnover EUR 3.87bn 2025, +28%); 2025 revenue EUR 70.5m, net income EUR 29m; expanding internationally (Spain).",
+  "corsair_vertical": "CONTEXT ONLY - regulated financial intermediary (art. 106 TUB), balance-sheet lender.",
+  "market_cap_eur_m": {
+   "value": 235.6,
+   "currency_note": "EUR native, no FX conversion",
+   "source": "stockanalysis.com/quote/bit/GF/ (delayed Euronext Milan close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "fy_end": "31 Dec 2025",
+  "revenue_eur_m": 70.45,
+  "adj_ebitda_eur_m": {
+   "value": null,
+   "note": "Lender; FY25 net income ~EUR 29m (transcript summary)."
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": null,
+   "note": "Lender; not applicable."
+  },
+  "ownership": null,
+  "corporate_activity": "None found; H1 2026 guidance trimmed after one-off legal settlement.",
+  "flags": "Bank of Italy supervised; founder (Gianolli family) control reported in press but not verified this run.",
+  "sources": [
+   "https://stockanalysis.com/quote/bit/GF/"
+  ],
+  "confidence": "low on ownership; context only."
+ },
+ {
+  "ticker": "MOL",
+  "company": "Moltiply Group S.p.A. (ex MutuiOnline)",
+  "listing_status": "Euronext STAR Milan; listed and trading.",
+  "business": "Online broking/comparison (Mavriq: mutuionline, segugio, Verivox in Germany) and BPO & Tech for banks/insurers; FY25 revenue EUR 696m (+48% with Verivox).",
+  "corsair_vertical": "Business services / FS distribution and BPO - fits, but TOO LARGE (market cap EUR 1.37bn).",
+  "market_cap_eur_m": {
+   "value": 1370.0,
+   "currency_note": "EUR native, no FX conversion",
+   "source": "stockanalysis.com/quote/bit/MOL/ (delayed Euronext Milan close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "fy_end": "31 Dec 2025",
+  "revenue_eur_m": 695.9,
+  "adj_ebitda_eur_m": {
+   "value": null,
+   "note": "Not retrieved - excluded on size."
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": null,
+   "note": "Not retrieved."
+  },
+  "ownership": null,
+  "corporate_activity": "None found.",
+  "flags": "Size; founder-controlled (Pescarmona/Fracassi via Casper) per long-standing disclosures, not re-verified.",
+  "sources": [
+   "https://stockanalysis.com/quote/bit/MOL/"
+  ],
+  "confidence": "high on size exclusion."
+ },
+ {
+  "ticker": "CYB",
+  "company": "Cyberoo S.p.A.",
+  "listing_status": "Euronext Growth Milan; listed and trading.",
+  "business": "Managed detection and response / cybersecurity services for Italian SMEs; FY revenue EUR 25.0m, net income EUR 2.1m (-53%).",
+  "corsair_vertical": "Software/risk - too small (market cap EUR 48m).",
+  "market_cap_eur_m": {
+   "value": 48.1,
+   "currency_note": "EUR native, no FX conversion",
+   "source": "stockanalysis.com/quote/bit/CYB/ (delayed Euronext Milan close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "fy_end": null,
+  "revenue_eur_m": 24.98,
+  "adj_ebitda_eur_m": {
+   "value": null,
+   "note": "Not retrieved."
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": null,
+   "note": "Not retrieved."
+  },
+  "ownership": null,
+  "corporate_activity": "None found.",
+  "flags": "Size.",
+  "sources": [
+   "https://stockanalysis.com/quote/bit/CYB/"
+  ],
+  "confidence": "medium - discard on size."
+ },
+ {
+  "ticker": "YOLO",
+  "company": "Yolo Group S.p.A.",
+  "listing_status": "Euronext Growth Milan (professional segment); listed; FNSI/Eurizon fund invested Apr 2026.",
+  "business": "Digital insurance broker/insurtech platform for consumers, SMEs and partner distribution; FY25 revenue EUR 12.9m, net loss EUR 3.6m.",
+  "corsair_vertical": "Insurance services (distribution) - right vertical, but market cap EUR 5m; only an add-on.",
+  "market_cap_eur_m": {
+   "value": 5.1,
+   "currency_note": "EUR native, no FX conversion",
+   "source": "stockanalysis.com/quote/bit/YOLO/ (delayed Euronext Milan close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "fy_end": "31 Dec 2025",
+  "revenue_eur_m": 12.93,
+  "adj_ebitda_eur_m": {
+   "value": null,
+   "note": "Loss-making; net loss EUR 3.6m."
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": null,
+   "note": "Not retrieved."
+  },
+  "ownership": null,
+  "corporate_activity": "FNSI (CDP/Eurizon) investment Apr 2026.",
+  "flags": "Size, losses.",
+  "sources": [
+   "https://stockanalysis.com/quote/bit/YOLO/",
+   "https://www.milanofinanza.it/news/fondo-nazionale-strategico-indiretto-eurizon-investe-in-yolo-che-punta-a-35-milioni-di-premi-202604090835301940"
+  ],
+  "confidence": "medium - discard on size."
+ },
+ {
+  "ticker": "NEXI",
+  "company": "Nexi S.p.A.",
+  "listing_status": "Euronext Milan; listed. Press: CVC weighed ~EUR 9bn bid (FT, 28 Apr 2026); CDP Equity to rise to 29.9% (May 2026); TPG offer for digital banking unit rejected (Dec 2025).",
+  "business": "European paytech (merchant acquiring, issuing processing, digital banking solutions).",
+  "corsair_vertical": "Payments - fit on vertical, TOO LARGE (market cap EUR 5.46bn).",
+  "market_cap_eur_m": {
+   "value": 5460.0,
+   "currency_note": "EUR native, no FX conversion",
+   "source": "stockanalysis.com/quote/bit/NEXI/ (delayed Euronext Milan close, 4 Nov 2026)",
+   "as_of": "2026-11-04"
+  },
+  "fy_end": null,
+  "revenue_eur_m": null,
+  "adj_ebitda_eur_m": {
+   "value": null,
+   "note": "Excluded on size."
+  },
+  "net_cash_or_debt_eur_m": {
+   "value": null,
+   "note": "Excluded on size."
+  },
+  "ownership": null,
+  "corporate_activity": "CVC take-private interest (Apr 2026); CDP Equity increasing stake.",
+  "flags": "Size; state (CDP) anchor.",
+  "sources": [
+   "https://stockanalysis.com/quote/bit/NEXI/"
+  ],
+  "confidence": "high on exclusion."
+ },
+ {
+  "ticker": "TOO_LARGE_OR_DISCARDED",
+  "company": "Size/type exclusions confirmed 4 Nov 2026",
+  "listing_status": "Azimut Holding EUR 5.08bn; Banca Generali EUR 6.93bn (under MPS all-share offer, Aug-Nov 2026); FinecoBank EUR 13.58bn; Reply EUR 4.91bn; Sesa EUR 1.40bn; Tamburi Investment Partners EUR 1.47bn (investment holding - discard); Banca Ifis EUR 632m (bank - context only, acquirer of illimity); Moltiply EUR 1.37bn; Nexi EUR 5.46bn.",
+  "business": null,
+  "corsair_vertical": null,
+  "market_cap_eur_m": null,
+  "fy_end": null,
+  "revenue_eur_m": null,
+  "adj_ebitda_eur_m": null,
+  "net_cash_or_debt_eur_m": null,
+  "ownership": null,
+  "corporate_activity": null,
+  "flags": null,
+  "sources": [
+   "https://stockanalysis.com/quote/bit/AZM/",
+   "https://stockanalysis.com/quote/bit/BGN/",
+   "https://stockanalysis.com/quote/bit/FBK/",
+   "https://stockanalysis.com/quote/bit/REY/",
+   "https://stockanalysis.com/quote/bit/SES/",
+   "https://stockanalysis.com/quote/bit/TIP/",
+   "https://stockanalysis.com/quote/bit/IF/"
+  ],
+  "confidence": "high"
+ }
+]
