@@ -50,3 +50,9 @@ Minimal event record, per METHOD.md "How to test this method". Dated entries, ne
   business; Impax in outflow turnaround (BNP ~14% holder, ~35% of AUM). Premier Miton and Mercia add-on size only.
   Mortgage Advice Bureau moved to Main Market 1 May 2026 (remove). Brokers (Peel Hunt, Cavendish) off-vertical.
   Gap: bid-approach checks for Fintel, Polar, Mercia, Cavendish incomplete (search budget).
+- 2026-11-04 21:30 Return 6 (professional services): FRP Advisory (EV ~GBP 277m, adj EBITDA GBP 46.1m, net cash,
+  no >10% holder, partner lock-ins to 2031), BTG Consulting (EV ~GBP 196m, EBITDA GBP 33.3m), Keystone Law (EV ~GBP
+  233m, Knight ~28%, SRA 10% approvals), Optima Health (EV ~GBP 340m, Ashcroft concert party ~30%, Harwood 11%, ~3.5x
+  levered) are fits. Knights, Gateley, MHA harder (SRA / audit-ownership rules). TPFG partial (FCA broking ~30% of
+  revenue). Restore and RWS above band and off-vertical. Harwood Capital is the recurring activist (Restore 15.5%,
+  Optima 11.2%). No bids in the batch 2024-26. Agent challenge accepted: professional-services list was over-inclusive.
