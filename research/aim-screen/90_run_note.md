@@ -39,3 +39,8 @@ Minimal event record, per METHOD.md "How to test this method". Dated entries, ne
   (GBP 138m, cash run down, founder stake likely blocking) marginal. Intercede, KRM22, PCI-PAL right sub-sector but
   sub-scale; PCI-PAL FY26 audit delayed. Ramsdens: FirstCash offer at 675p approved by holders Aug 2026 (note: higher
   than the 609p June figure; CMA clearance pending). TruFin now a near cash-shell after Playstack sale. Finseta micro-cap.
+- 2026-11-04 21:10 Return 4 (software): GB Group moved to Main Market 30 Oct 2025 (remove). Bravura Solutions is a
+  genuine wealth-software fit (A$282.6m revenue, A$77.1m cash EBITDA, net cash) but ASX-primary with a secondary AIM
+  line since 28 Jul 2026; any deal is an Australian scheme; L6/Pinetree 22.8%. Netcall best in-range UK name (EV ~GBP
+  205m, EBITDA GBP 12.1m, dispersed register). AdvancedAdvT is an acquirer (Marwyn/BGF/Murria ~43%). ActiveOps,
+  Skillcast, GetBusy, Celebrus, Arcontech, Software Circle: on-theme, add-on only. No third-party bids in the batch.
