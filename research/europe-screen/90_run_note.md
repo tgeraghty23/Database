@@ -25,3 +25,10 @@
   Ambea, Vitec, Hoist. Gone: Humana (Ambea, Oct 2026), Formpipe (Tabellae, Jul 2026), Cint (Triton, Apr 2026),
   Fortnox (EQT, 2025), Resurs (CVC/Waldakt), Byggfakta, Norva24 (Apax), Bredband2, Pagero. Squeeze-out 90%, mandatory
   bid 30% of votes. Agent challenge accepted: Sweden's in-band pool is software/IT and care, not FS-specific.
+- 2026-11-04 23:15 Return: Italy. Fits: Equita (EUR 334m, mgmt pact 41% votes, Iccrea 15%), Garofalo Health Care
+  (EUR 470m cap, EV ~712m, founder ~63%), Sys-Dat (EUR 255m, SME ERP, founders ~55%), TXT e-solutions (EUR 617m cap,
+  EV 744m, only FS unit fits). GPI (healthcare IT, EV ~907m) is a live situation: FM confirmed PE contacts incl. KKR
+  Jul 2025; CDP pact not renewed Oct 2025. Gone: Tinexta (Advent/Nextalia, Sep 2026), Digital Value (OEP, May 2026),
+  Almawave, illimity, Alkemy, Intermonte, Anima, Relatech (Bregal), Openjobmetis. Consob: 30 delistings in 2025.
+  Mechanics: mandatory bid 30%, sell-out 90%, squeeze-out 95%, loyalty shares split capital from votes.
+  Agent challenge accepted: realistic Italian routes are negotiated minority/partnership deals, not dispersed P2Ps.
