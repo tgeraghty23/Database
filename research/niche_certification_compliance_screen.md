@@ -1,126 +1,312 @@
-# Niche certification & compliance services: UK / Europe PE screen
+# Niche certification and compliance services: UK and Europe PE screen
 
-Prepared 5 November 2026. Two parts: (1) the investor prompt, (2) the prompt run, i.e. the screen itself.
+Prepared 5 November 2026. Three passes, as specified in the investor prompt: (1) the certifications and their demand drivers, (2) who awards, certifies and trains, (3) who owns the private companies. Ownership of UK founder-owned names was checked against the Companies House PSC register on 5 November 2026. Section 4 lists what could not be verified.
 
----
-
-## Part 1: The prompt
-
-> **Role.** You are a mid-market private equity investor (£50m–£500m EV cheques) building a thesis in niche certification and compliance services across the UK and continental Europe. You favour businesses where a regulation, insurer, trade body or customer mandate makes a certificate, licence card or audit non-discretionary; where the scheme owner or the training/assessment provider earns recurring fees (renewals, re-certification, annual audits, membership, e-learning subscriptions); and where the market is fragmented enough for a buy-and-build.
->
-> **Task.** Work in three passes.
->
-> **Pass 1 – List the niche certifications.** For the UK first, then France, Germany, Benelux, the Nordics, Italy and Spain, list the certifications, licence cards, scheme memberships and mandatory audits that sit in the following verticals: occupational health & safety; construction and trades competence cards; electrical, gas, oil, solid-fuel and renewables installer schemes; energy and building performance assessment; fire, security and asbestos; lifting, pressure and plant inspection; food safety and supply-chain audit standards; contractor pre-qualification; management-system certification (ISO 9001/14001/45001/27001); information security and cyber; financial-crime and regulatory compliance qualifications; transport and dangerous goods; offshore and wind; and professional/IT frameworks. For each, state what drives demand (statute, insurer, customer mandate, trade-body rule) and the renewal cycle.
->
-> **Pass 2 – Who awards and who trains.** For every certification, separate (a) the scheme owner or awarding organisation, (b) the certification/assessment bodies that audit against it, and (c) the commercial training providers that prepare candidates. Note legal form (charity, trade association, statutory body, government contract, private company).
->
-> **Pass 3 – Cap table.** For every private-company name in Pass 2, state the current controlling shareholder and any financial sponsor, minority or growth investor, sovereign or family office on the cap table, with the year they came in and the entry valuation where public. Flag (i) founder- or family-owned assets with no institutional capital, (ii) sponsor-owned assets at 4+ years' hold that are likely sellers, (iii) assets that cannot be bought (charity, statutory, foundation, association) but whose approved-provider network can be consolidated. Finish with a ranked shortlist of actionable targets and the strategic acquirers already active in each vertical.
->
-> **Output.** Tables, one row per certification, with sources. Say explicitly where ownership could not be verified.
+Legal-form key: **CH** charity or chartered body · **TA** trade association or not-for-profit company · **ST** statutory, government or government-contract body · **FND** foundation · **PLC** listed company · **PRIV** private company · **PE** sponsor-owned.
 
 ---
 
-## Part 2: The prompt run
+## Pass 1: The certifications, demand drivers and renewal cycles
 
-### 2.1 Reading the market first
+### 1.1 Occupational health and safety
 
-Three structural points shape the whole screen.
-
-1. **Most scheme owners are unbuyable.** NEBOSH, IOSH, City & Guilds, CSCS, CITB, UKATA, BAFE, IPAF, OPITO, GWO, BSI, the German TÜVs, AFNOR, AENOR and most Nordic bodies are charities, trade associations, foundations or statutory bodies. The investable layer sits one step down: the certification bodies that audit against the standard, and the approved training providers that prepare candidates.
-2. **The investable layer has already been heavily consolidated by sponsors.** The UK map is dominated by six platforms: Phenna Group (Oakley Capital), Citation Group (KKR / Hg / HarbourVest), Alcumus-Veriforce (Apax), The GRC Group (Inflexion), Achilles (Bridgepoint) and the listed consolidator Wilmington plc. On the continent the equivalents are Normec (Astorg), Socotec (Cobepa / CD&R / Mubadala / Bpifrance), Apave (GAPAVE / PAI), Kiwa (SHV) and, since 2026, DQS (Montagu) and Vega Formazione (Clessidra).
-3. **The white space is the long tail of approved providers and the founder-owned awarding organisations.** Highfield, Qualsafe, RTITB, NPORS, IASME, Logic Certification and a few hundred NEBOSH / IOSH / UKATA / IPAF / GWO approved centres remain founder-owned with no institutional capital found.
-
-### 2.2 The list: UK
-
-| # | Certification / scheme | Demand driver | Renewal | Scheme owner / awarding body (legal form) | Who certifies or trains | Capital on the cap table |
-|---|---|---|---|---|---|---|
-| 1 | NEBOSH General / Construction Certificate & Diploma | Employer H&S competence duty; insurers; tender PQQ | None (qualification), CPD via IOSH | NEBOSH (charity) | Astutis, Phoenix Health & Safety, RRC, SHEilds, Wise Global, ~600 accredited centres | Astutis and Phoenix: **Wilmington plc** (listed; bought Nov 2023 for up to £21.5m and Oct 2024 for £30.25m). Most other centres founder-owned. |
-| 2 | IOSH Managing Safely / Working Safely | Employer duty, tender PQQ | 3 years (refresher) | IOSH (chartered charity) | Same provider universe as NEBOSH; iHasco (e-learning) | iHasco: **Citation Group** (KKR 47% / Hg 47% pre-Dec 2024; HarbourVest joined Dec 2024). |
-| 3 | CSCS / CPCS / NPORS plant & site cards | Build UK and main-contractor site mandate | 5 years, with Health, Safety & Environment test | CSCS Ltd (not-for-profit); CPCS run by NOCN (charity); NPORS (private) | Thousands of accredited test centres and plant trainers | NPORS founder/private, no sponsor found. CITB (statutory levy body) runs the HS&E test via contractor (Pearson VUE). |
-| 4 | Gas Safe Register | Statute (Gas Safety Regs 1998) | Annual registration, 5-year ACS reassessment | HSE scheme, operated under contract by **Capita plc** (listed) | ACS centres (Logic Certification, BPEC, LCL Awards, Bluflame etc.) | Logic Certification private/founder; BPEC charity. Contract-based asset, not buyable; the ACS centre network is. |
-| 5 | NICEIC / NAPIT / SELECT electrical competent-person schemes | Part P Building Regs; customer mandate | Annual assessment | NICEIC via Certsure LLP (JV of Electrical Safety First charity and ECA); NAPIT (private) | NAPIT Training; Stroma (building control, inspection) | **NAPIT, Stroma and Elmhurst Energy are all Phenna Group** (Oakley Capital Fund V, majority since Aug 2022 at >£1bn EV; Inflexion exited at 5.5x). NAPIT bought Stroma's installer certification in 2019. |
-| 6 | MCS (solar/heat-pump installers), HETAS, OFTEC, TrustMark | Grant eligibility (BUS, ECO4), building regs | Annual | MCS Service Co (owned by MCS Charitable Foundation); HETAS and OFTEC (not-for-profit) | Certification bodies: NAPIT, NICEIC, Elmhurst, Stroma, HETAS | Certification layer again largely Phenna. |
-| 7 | Domestic / Non-domestic Energy Assessor, EPC, SAP, Retrofit Assessor (PAS 2035) | Statute (EPBD), ECO funding rules | Annual accreditation | Government-approved accreditation schemes: Elmhurst, Stroma (merged into Elmhurst Oct 2023), Quidos, Sterling, ECMK | Same schemes train and accredit | Elmhurst/Stroma: **Phenna / Oakley**. Quidos, Sterling, ECMK founder-owned, no sponsor found. |
-| 8 | Asbestos: UKATA awareness / non-licensed / licensed; BOHS P402-P405 | Control of Asbestos Regs 2012 | Annual refresher | UKATA (not-for-profit), BOHS (charity), IATP, ARCA | ~200 UKATA members; surveying firms | Fragmented, founder-owned. Phenna has consolidated several surveying/testing firms. |
-| 9 | Fire: BAFE SP203/SP205, FRACS, FIA qualifications, NSI / SSAIB Gold | Fire Safety Order 2005; insurers | Annual audit | BAFE (not-for-profit), FIA (trade assoc.), NSI (not-for-profit) | Certified fire and security contractors | Service layer: Marlowe plc fire & security was acquired by **Mitie plc** (completed 4 Aug 2025, c.£366–400m). |
-| 10 | Lifting / pressure inspection (LOLER, PSSR, PUWER written schemes) | Statute, insurer condition | 6–12 months | Engineer surveyors (SAFed members) | British Engineering Services, Allianz, Zurich, HSB, Bureau Veritas | BES: **Inflexion** since the 2015 RSA carve-out, reinvested via continuation vehicle with **AlpInvest (Carlyle)** alongside; Barings senior debt. Likely seller. |
-| 11 | Working at height: IPAF PAL card, PASMA, IRATA | HSE guidance, hirer mandate | 5 years (IPAF), 3 years (IRATA) | IPAF (not-for-profit), PASMA (trade assoc.), IRATA (not-for-profit) | ~700 IPAF training centres, hire companies | Fragmented; no scheme-level sponsor exposure. |
-| 12 | Forklift / MHE: RTITB, ITSSAR, AITT accreditation | PUWER, insurer | 3–5 years | RTITB (private), ITSSAR, AITT | ~1,000 accredited trainers | RTITB founder/private, no sponsor found. Consolidation target. |
-| 13 | First aid at work, food hygiene L2/L3, SIA door supervisor, fire marshal | Statute (FAW Regs; Food Hygiene Regs; Private Security Industry Act) | 3 years (FAW), 3 years (SIA) | Ofqual-regulated awarding organisations: **Highfield**, **Qualsafe Awards**, ProQual, TQUK, FAA, Laser, Innovate, Active IQ | Thousands of approved centres | **Highfield**: Sprenger family-owned (Doncaster), no PE found. **Qualsafe**: founder/private, no sponsor found. **TQUK**: AQA (charity) since Dec 2022, c.£35m. AoFA Qualifications sold to Personal Track Safety Ltd. These two founder-owned awarding bodies are the most obvious un-sponsored assets in the UK list. |
-| 14 | Contractor pre-qualification: SafeContractor, CHAS, Constructionline, SMAS, Achilles RISQS / UVDB | Client mandate (SSIP, PAS 91), rail/utilities | Annual | Private schemes | Same companies | SafeContractor + ISOQAR: **Alcumus / Apax** (Feb 2022, £600m+). CHAS: Veriforce, now **Apax** (controlling stake from Thoma Bravo, Aug 2024; merged with Alcumus Nov 2024). Constructionline: **GTCR** (via Once For All, from Warburg Pincus, Jul 2023; Warburg paid £160m in 2018). Achilles: **Bridgepoint** (Sep 2021 from Hg). Avetta: **EQT** (Apr 2024, c.$3bn). |
-| 15 | ISO 9001 / 14001 / 45001 / 27001 certification and lead-auditor training | Tender requirement, customer mandate | Annual surveillance, 3-year recert | UKAS-accredited certification bodies | BSI (royal charter), LRQA, NQA, ISOQAR, QMS International, IMSM, Centre for Assessment, BM TRADA | LRQA: **Goldman Sachs Asset Management** (2021), Hillhouse reportedly buying a minority. NQA: Ascertiva Group, owned by Electrical Safety First (charity). ISOQAR: **Apax**. QMS International: **Citation**. IMSM: bought by Marlowe 2023 (£17.4m), now **The GRC Group / Inflexion** (Axiom GRC). BM TRADA: Element, **Temasek** (2022, c.$7bn; kept after a 2025 sale process). |
-| 16 | Cyber Essentials / CE Plus; CREST; ISO 27001 | NCSC, MoD and NHS supplier mandate | Annual | IASME Consortium (sole NCSC partner since Apr 2020; private, founder-owned, no sponsor found); CREST (not-for-profit) | 400+ IASME certification bodies | IASME is the single most strategic un-sponsored scheme asset in UK cyber compliance; its contract-based status is the key diligence point. |
-| 17 | Financial-crime and regulatory compliance: ICA diplomas, CISI, ACAMS | FCA SM&CR, MLRO competence | CPD | ICA: **Wilmington plc**. CISI (charity). ACAMS: **Wendel** (2022, $500m). | Wilmington, Fitch Learning (Hearst), BPP (**TDR Capital**) | |
-| 18 | Driver CPC, ADR, DGSA, FORS | EU/UK statute, TfL contract mandate | 5 years (CPC), 5 years (ADR) | DVSA/JAUPT; SQA (ADR, DGSA); FORS (TfL scheme, run by Sopra Steria) | Hundreds of JAUPT-approved centres; 3t, RTITB, Driver Hire | Fragmented, founder-owned. |
-| 19 | Offshore: OPITO BOSIET / MIST; GWO Basic Safety | Operator mandate (OEUK, wind OEMs) | 2–4 years | OPITO (not-for-profit), GWO (non-profit) | 3t Energy Group (Survivex, AIS), RelyOn Nutec, Maersk Training, OEG Training (bought OPS Training 2024) | 3t: **Blue Water Energy** since 2018, long hold, likely seller. RelyOn Nutec: **Mubadala Capital** (Jul 2024, from Polaris). |
-| 20 | ITIL / PRINCE2 / CompTIA / Lean Six Sigma | Public-sector and IT-employer mandate | 3 years (ITIL CPD) | PeopleCert (owns Axelos since 2021, £380m; founder Byron Nicolaides with **FTV Capital** minority; €300m bond due 2031 issued Dec 2025; agreed to buy City & Guilds' commercial awarding arm). CompTIA products: **H.I.G. Capital and Thoma Bravo** (announced Nov 2024). | QA Ltd (**CVC**, 2017, £700m, marketed 2023, long hold), Firebrand, ILX | |
-
-### 2.3 The list: continental Europe
-
-| # | Country | Certification / scheme | Demand driver | Scheme owner / awarder | Certifiers / trainers | Capital on the cap table |
-|---|---|---|---|---|---|---|
-| 21 | NL / BE | VCA / SCC contractor safety certificate, VCA Basis / VOL exams | Client mandate (petrochem, utilities) | SSVV foundation (NL), BeSaCC-VCA (BE) | Normec, Kiwa, DNV, TÜV Nederland; exam centres; e-learning | Normec: **Astorg** (2020 from Summit; €2bn+ continuation vehicle 2024; US entry Aug 2025). Kiwa: **SHV Holdings** (family conglomerate, 2021 from NPM Capital). |
-| 22 | NL | Asbestos DIA / DAV, SC-530/540 | Statute | Ascert (foundation) | Training and certification firms | Fragmented; Normec active. |
-| 23 | FR | Contrôle technique construction, vérifications réglementaires (électricité, levage, ascenseurs), CACES plant cards, amiante SS3/SS4, diagnostiqueur immobilier (DPE) | Code du travail, Code de la construction | State-accredited (COFRAC) bodies; CACES by CNAM/INRS; DPE certifiers (Qualixpert, I.Cert, Dekra, AFNOR, BV) | Apave, Socotec, Bureau Veritas, Dekra, Qualiconsult, Alpes Contrôles, BTP Consultants | Apave: GAPAVE association majority, **PAI Partners** c.33% (2021, €700m EV; continuation-vehicle talks). Socotec: **Cobepa** control, **CD&R** minority (2019), **Mubadala + Bpifrance** minority (May 2024). BTP Consultants: **Apax Partners (France)**. Qualiconsult: founder/management-controlled, minority outside capital reported, investor unverified. Bureau Veritas: listed, Wendel largest holder. |
-| 24 | FR | CQP APS private security officer, SSIAP fire officer | Livre VI Code de la sécurité intérieure; CNAPS approval | Branch bodies (ADEF/CPNEFP), CNPP for SSIAP | Goron/CECYS, RATP Sécurité Expertises, Thrace, hundreds of approved OFs | Highly fragmented, no sponsor-backed consolidator identified. Roll-up white space. |
-| 25 | DE | TÜV / DEKRA Sachverständige, Brandschutzbeauftragter, TRGS 519 asbestos, Arbeitssicherheit (DGUV Vorschrift 2), SCC | Statute, DGUV | TÜV SÜD / Rheinland / Nord (association and foundation-owned), DEKRA e.V., DQS | Same; BAD GmbH (TÜV Rheinland), ias Gruppe, Dekra Akademie | DQS: **Montagu** majority agreed May 2026, DIN retains stake (sellers: UL Solutions, DGQ, DIN, VDMA, Spectaris, HDB, ZVEI). TÜV and DEKRA not buyable. |
-| 26 | IT | RSPP / ASPP, Accordo Stato-Regioni safety training, formazione obbligatoria D.Lgs 81/08 | Statute | Regions; AiFOS (association) | Vega Formazione, Mega Italia Media (listed, Euronext Growth Milan), hundreds of enti di formazione | Vega Formazione: **Clessidra Private Equity** majority from founders, Oct 2026. Signal that Italian safety training is now a sponsor theme. |
-| 27 | ES | Servicio de Prevención Ajeno (SPA) accreditation and mandatory PRL training; certificación eficiencia energética; OCA inspection | Ley 31/1995 PRL | Autoridad laboral regional | Quirón Prevención (Quirónsalud / Fresenius), Vitaly, Cualtis, Preving | Vitaly (Preving + Cualtis, ex Artá Capital / Corpfin): combined with Avanta under **H.I.G. Capital**, with **MCH Private Equity** minority, May 2026. OCA Global: family-controlled, Activa Capital listed as investor, unverified. Applus+: **I Squared + TDR (Amber EquityCo)**, delisted after 2024 offer. |
-| 28 | Nordics | Arbetsmiljö / HMS cards, hot-work certificates, Byggbranschens säkerhetspark, ID06 | Collective agreements, insurer rules | Trade bodies, RISE (state), Nemko / FORCE (foundations) | Kiwa Inspecta, Dekra, DNV, local trainers | Kiwa (SHV). Scheme owners not buyable; trainer layer fragmented. |
-| 29 | Pan-EU | EcoVadis, Sedex / SMETA, BRCGS, IFS, FSSC 22000, GlobalG.A.P. | Retailer and buyer mandate | EcoVadis (private); Sedex (not-for-profit); BRCGS (LGC majority, BRC minority); IFS (retail assocs); GlobalG.A.P. (FoodPLUS) | Auditing by SGS, Intertek, BV, LRQA, Kiwa, NSF | EcoVadis: **CVC Growth** largest institutional holder (2020), **Astorg and BeyondNetZero** led $500m round (2022), GIC, General Atlantic. BRCGS: LGC, owned by **Cinven and Astorg** (2019). |
-
-### 2.4 Cap-table read-across
-
-| Sponsor | Assets in this screen | Entry | Read |
+| Certification | Jurisdiction | Demand driver | Renewal |
 |---|---|---|---|
-| Oakley Capital | Phenna (NAPIT, Stroma, Elmhurst, CTS, c.30 bolt-ons) | 2022 | Active buyer of bolt-ons; competitor for UK certification assets. |
-| Apax | Alcumus, Veriforce/CHAS, BTP Consultants | 2022–24 | Dominant in contractor PQQ; may divest non-core. |
-| Inflexion | The GRC Group (ex Marlowe GRC, IMSM, Axiom), BES, formerly Alcumus and Phenna | 2015–24 | BES is a 10-year hold in a continuation vehicle: likely seller. |
-| KKR / Hg / HarbourVest | Citation (iHasco, QMS) | 2016/2020/2024 | Recap done Dec 2024; next event 2027+. |
-| Bridgepoint | Achilles | 2021 | Mid-hold; bolt-on buyer (GRMS, Jan 2025). |
-| Astorg | Normec, EcoVadis, LGC/BRCGS | 2019–22 | Normec continuation vehicle 2024; still acquiring. |
-| Cobepa / CD&R / Mubadala / Bpifrance | Socotec | 2013–24 | Fully syndicated; IPO candidate. |
-| PAI | Apave minority | 2021 | Continuation-vehicle talks reported. |
-| Montagu | DQS | 2026 | New platform; will buy EU certification bodies. |
-| Clessidra | Vega Formazione | 2026 | New Italian platform; will buy enti di formazione. |
-| H.I.G. / MCH | Vitaly + Avanta | 2026 | Spanish SPA roll-up continues. |
-| Blue Water Energy | 3t Energy Group | 2018 | 8-year hold: likely seller. |
-| CVC | QA Ltd | 2017 | Marketed 2023, unsold: likely seller. |
-| Temasek | Element (BM TRADA) | 2022 | Pulled 2025 sale on price; strategic carve-outs possible. |
-| GSAM (+ Hillhouse) | LRQA | 2021 | Minority process under way. |
-| Wilmington plc (listed) | Astutis, Phoenix, ICA | 2023–24 | Strategic buyer of UK H&S training at 10x+ EBITDA. |
-| Mitie plc (listed) | Marlowe fire, security, water | 2025 | Strategic buyer of UK facilities compliance. |
+| NEBOSH General, Construction, Fire and Environmental Certificates; NEBOSH Diploma | UK, Middle East, international | Employer competence duty (MHSWR 1999 reg 7); tender PQQ; insurer expectation | None for the qualification; CPD via IOSH membership |
+| IOSH Managing Safely / Working Safely / Leading Safely | UK and international | Same; the default line-manager course for SMEs and corporates | 3-year refresher |
+| First Aid at Work (FAW), Emergency FAW, Paediatric | UK | Health and Safety (First-Aid) Regulations 1981 | 3 years |
+| Fire marshal / warden; fire risk assessor competency | UK | Regulatory Reform (Fire Safety) Order 2005 | Typically 3 years |
+| RSPP / ASPP, Accordo Stato-Regioni mandatory training; formazione lavoratori, preposti, dirigenti | Italy | D.Lgs 81/2008 | 5-year refresher (40h RSPP; 6h workers) |
+| Prevención de Riesgos Laborales (PRL): mandatory employer prevention service (SPA) plus worker training | Spain | Ley 31/1995 | Annual SPA contract; training by sector agreement (construction TPC card: 20h, 5 years) |
+| Sicherheitsbeauftragter, Fachkraft für Arbeitssicherheit (SiFa), Betriebsarzt provision | Germany | ASiG and DGUV Vorschrift 2 | SiFa one-off; annual service contracts |
+| Arbeidsveiligheid: VCA Basis / VOL / VIL (also SCC in Germany, VCA/LSC in Belgium) | NL, BE, DE | Client mandate in petrochem, utilities, construction | 10 years (diploma); annual company VCA audit, 3-year recert |
+| CACES (plant), habilitation électrique, SST (sauveteur secouriste du travail) | France | Code du travail | CACES 5 years (10 for some categories); habilitation 3 years; SST 2 years |
 
-### 2.5 Shortlist of actionable targets
+### 1.2 Construction and trade competence cards
 
-**Founder-owned, no institutional capital found (primary targets)**
-1. Highfield Group (awarding organisation, e-learning, c.300k certificates a year). Sprenger family.
-2. Qualsafe Group (first-aid and H&S awarding organisation and training).
-3. IASME Consortium (sole NCSC Cyber Essentials partner, 400+ certification bodies). Contract risk to diligence.
-4. RTITB and NPORS (forklift and plant accreditation).
-5. Quidos, Sterling Accreditation, ECMK (energy assessor accreditation schemes not yet in Phenna).
-6. Logic Certification, LCL Awards (gas ACS and installer certification).
-7. French CQP APS / SSIAP training organisations (no consolidator yet).
-8. Long tail of NEBOSH Gold, IOSH, UKATA, IPAF and GWO approved centres.
+| Certification | Jurisdiction | Demand driver | Renewal |
+|---|---|---|---|
+| CSCS card (plus affiliated: ECS, CPCS, JIB, CISRS, ACE) | UK | Build UK / main-contractor site rule; HS&E test | 5 years, retest |
+| CPCS and NPORS plant operator cards | UK | Contractor site rule; HSE PUWER guidance | 5 years (CPCS blue), NPORS 3–5 years |
+| IPAF PAL card, PASMA, IRATA rope access | UK and international | HSE WAH Regs 2005; hirer mandate | IPAF 5 years; PASMA 5 years; IRATA 3 years |
+| Forklift / MHE operator certificate (RTITB, ITSSAR, AITT, NPORS) | UK | PUWER; insurer | 3–5 years |
+| ID06, Byggbranschens säkerhetspark, HMS card (NO), SSG Entre (SE industrial) | Nordics | Collective agreement and site rule | ID06 annual; SSG Entre 3 years |
+| Carte BTP / Carte professionnelle | France | Statute (anti-fraud) | Annual |
+| Tarjeta Profesional de la Construcción (TPC) | Spain | Construction collective agreement | 5 years |
 
-**Sponsor-owned at 4+ years, likely sellers (secondary)**
-9. British Engineering Services (Inflexion, 2015).
-10. 3t Energy Group (Blue Water Energy, 2018).
-11. QA Ltd (CVC, 2017).
-12. Achilles (Bridgepoint, 2021) from 2026–27.
+### 1.3 Gas, electrical, oil, solid fuel and renewables installer schemes
 
-**Not buyable, but their provider networks are**
-NEBOSH, IOSH, CSCS, CITB, UKATA, IPAF, BAFE, OPITO, GWO, TÜV, DEKRA, AFNOR, AENOR, SSVV, Ascert.
+| Certification | Jurisdiction | Demand driver | Renewal |
+|---|---|---|---|
+| Gas Safe Register + ACS competence assessment | UK | Gas Safety (Installation and Use) Regs 1998 | Annual registration; ACS 5 years |
+| NICEIC / NAPIT / SELECT / ECA competent person scheme (Part P) | UK | Building Regulations Part P; customer mandate | Annual assessment visit |
+| MCS (solar PV, heat pumps, battery), HETAS (solid fuel), OFTEC (oil), TrustMark | UK | Grant eligibility (Boiler Upgrade Scheme, ECO4, Warm Homes); building regs | Annual |
+| Qualibat, QualiPAC, RGE (Reconnu Garant de l'Environnement) | France | MaPrimeRénov' and CEE subsidy eligibility | 4-year cycle, annual audit |
+| Installateur-Zertifizierung, Fachunternehmererklärung for BEG subsidies | Germany | KfW / BAFA subsidies | Per project |
+| Erkend installateur (InstallQ / CO-certificering) | Netherlands | Statute (CO-vrij, 2023) | 3 years, annual surveillance |
 
-### 2.6 What could not be verified
+### 1.4 Energy and building performance assessment
 
-- Highfield and Qualsafe: no PE found; ownership inferred from press and Companies House references, not a shareholder register.
-- Qualiconsult: a minority outside investor was reported by CFNEWS but not named.
-- OCA Global: Activa Capital appears on an aggregator only.
-- PeopleCert: FTV's current percentage not disclosed.
-- Applus+: delisting completion not confirmed from a primary source.
-- Hillhouse / LRQA minority: reported as pending, not closed.
+| Certification | Jurisdiction | Demand driver | Renewal |
+|---|---|---|---|
+| Domestic / non-domestic Energy Assessor (EPC), SAP, SBEM, Retrofit Assessor and Coordinator (PAS 2035) | UK | EPBD (statutory on sale/let); ECO and Warm Homes funding rules | Annual accreditation, CPD, QA sampling |
+| Diagnostiqueur immobilier (DPE, amiante, plomb, gaz, électricité) | France | Code de la construction; mandatory on sale/let | 7-year certification cycle with surveillance |
+| Energieausweis / Energieberater (dena-listed) | Germany | GEG; BAFA subsidies | Listing 3 years |
+| Certificado de Eficiencia Energética | Spain | RD 390/2021 | Per certificate (10 years validity) |
+
+### 1.5 Fire, security and asbestos
+
+| Certification | Jurisdiction | Demand driver | Renewal |
+|---|---|---|---|
+| BAFE SP203 / SP205, FIA qualifications, LPCB, NSI Gold, SSAIB | UK | Fire Safety Order; insurer condition; Building Safety Act | Annual audit |
+| SIA licence (door supervisor, security guard, CCTV, CP) | UK | Private Security Industry Act 2001 | 3 years |
+| Asbestos: UKATA / IATP awareness, non-licensed, licensed; BOHS P402-P405; HSE licence | UK | Control of Asbestos Regs 2012 | Annual refresher; HSE licence 1–3 years |
+| CQP APS (agent de prévention et de sécurité), SSIAP 1–3 | France | Code de la sécurité intérieure; CNAPS card | APS card 5 years (MAC APS 24h); SSIAP recyclage 3 years |
+| Sachkunde TRGS 519 (asbestos), Brandschutzbeauftragter, Sachkundiger für Sicherheitstechnik | Germany | GefStoffV, Landesbauordnung | 6 years (TRGS 519 refresher) |
+| Asbestos DIA / DAV / DTA personal certificates, SC-530/540 company certs; Asbestattest (Flanders) | NL, BE | Asbestverwijderingsbesluit; OVAM decree | 3 years |
+
+### 1.6 Lifting, pressure and plant inspection
+
+| Certification | Jurisdiction | Demand driver | Renewal |
+|---|---|---|---|
+| LOLER thorough examination, PSSR written scheme, PUWER inspection, electrical EICR | UK | Statute; insurer policy condition | 6 or 12 months |
+| Vérifications réglementaires périodiques (levage, électricité, ascenseurs, pression) | France | Code du travail; arrêtés | Annual / 6-monthly |
+| ZÜS inspection (pressure, lifts), Prüfung ortsveränderlicher Betriebsmittel | Germany | BetrSichV | 1–4 years |
+| Keuring hijswerktuigen, NEN 3140 / NEN 3840, Warenwetbesluit | Netherlands | Arbobesluit | Annual |
+
+### 1.7 Food and supply-chain audit standards
+
+| Certification | Jurisdiction | Demand driver | Renewal |
+|---|---|---|---|
+| Level 2 / 3 Food Safety, HACCP, allergen awareness | UK | Food Hygiene Regs 2006; EHO inspection | Recommended 3 years |
+| BRCGS Food / Packaging / Storage, IFS, FSSC 22000, SALSA, Red Tractor, GlobalG.A.P. | UK and EU | Retailer and brand mandate (GFSI benchmark) | Annual audit |
+| SMETA (Sedex), EcoVadis rating, amfori BSCI | Pan-EU | Buyer ESG mandate, CSRD/CSDDD supply-chain diligence | Annual |
+
+### 1.8 Contractor pre-qualification
+
+| Certification | Jurisdiction | Demand driver | Renewal |
+|---|---|---|---|
+| SSIP member schemes: SafeContractor, CHAS, Constructionline, SMAS Worksafe, Acclaim, Achilles | UK | Client procurement mandate; PAS 91; Common Assessment Standard | Annual |
+| Achilles UVDB, RISQS, FPAL, Building Confidence | UK utilities, rail, oil and gas | Buyer community mandate | Annual |
+| Avetta, ISNetworld, Veriforce | International | Owner-operator mandate | Annual subscription |
+| Qualibat, OPQIBI; VCA; Deutsche Bahn Lieferantenzulassung | FR, NL, DE | Buyer mandate | Annual |
+
+### 1.9 ISO management systems
+
+| Certification | Jurisdiction | Demand driver | Renewal |
+|---|---|---|---|
+| ISO 9001, 14001, 45001, 27001, 22301, 50001; IATF 16949; AS9100; ISO 13485 | UK and EU | Tender requirement; OEM mandate; regulated-sector mandate | Annual surveillance; 3-year recertification |
+| Lead auditor and internal auditor training (IRCA / CQI, Exemplar Global, PECB) | International | Certification-body auditor competence | 3-year CPD |
+
+### 1.10 Cyber and information security
+
+| Certification | Jurisdiction | Demand driver | Renewal |
+|---|---|---|---|
+| Cyber Essentials / CE Plus | UK | NCSC; MoD, NHS and central government supplier mandate | Annual |
+| CREST membership and exams; CHECK | UK | Government and FS penetration-testing mandate | 3 years |
+| ISO 27001, SOC 2, TISAX (automotive), NIS2 readiness, DORA | EU | OEM and regulator mandate | Annual / 3-year |
+| CISSP, CISM, CompTIA Security+, OSCP | International | Employer and contract mandate | 3-year CPE |
+
+### 1.11 Financial-crime and regulatory compliance
+
+| Certification | Jurisdiction | Demand driver | Renewal |
+|---|---|---|---|
+| ICA diplomas (AML, compliance, financial crime), CISI, ACAMS CAMS | UK and international | FCA SM&CR, MLRO competence, JMLSG | Annual CPD |
+| Chartered Insurance Institute, CII; PRINCE2 / APM for FS change | UK | FCA and PRA competence rules | CPD |
+| IHK-Zertifikat Geldwäschebeauftragter, AFC certification | Germany, France | GwG, ACPR guidance | CPD |
+
+### 1.12 Transport and dangerous goods
+
+| Certification | Jurisdiction | Demand driver | Renewal |
+|---|---|---|---|
+| Driver CPC (35h periodic), Transport Manager CPC | UK and EU | EU Directive 2003/59; operator licence | 5 years |
+| ADR driver training, DGSA, IATA DGR, IMDG | UK and EU | ADR agreement; CDG Regs | ADR 5 years; DGSA 5 years; IATA 2 years |
+| FORS (Fleet Operator Recognition Scheme), CLOCS | UK (London) | TfL and client mandate | Annual audit |
+| Taxi and PHV driver training, forklift, banksman | UK | Licensing authority | 3–5 years |
+
+### 1.13 Offshore and wind
+
+| Certification | Jurisdiction | Demand driver | Renewal |
+|---|---|---|---|
+| OPITO BOSIET / FOET / MIST / HUET | UK North Sea and international | Operator mandate (OEUK) | 4 years (FOET refresher) |
+| GWO Basic Safety Training, BTT, Advanced Rescue | International wind | OEM and developer mandate (Vestas, Siemens Gamesa, Ørsted) | 2 years |
+| STCW basic safety, ECDIS, DP | Maritime | IMO / MCA | 5 years |
+| IRATA, NEBOSH Oil & Gas, CompEx | Offshore | Operator mandate | 3–5 years |
+
+### 1.14 IT and professional frameworks
+
+| Certification | Jurisdiction | Demand driver | Renewal |
+|---|---|---|---|
+| ITIL, PRINCE2, MSP, MoR, AgileSHIFT (Axelos portfolio) | UK and international | Public-sector and large-enterprise mandate | 3-year CPD renewal (since 2023) |
+| CompTIA A+, Network+, Security+ | International | DoD 8570 and employer mandate | 3-year CE |
+| Lean Six Sigma, PMP, Scrum | International | Employer mandate | 3-year PDU |
+| City & Guilds / ILM leadership, Gen2 and Intertrain technical and rail qualifications | UK | Apprenticeship levy, Sentinel rail card | Sentinel 2 years |
 
 ---
 
-Sources used for ownership facts: Oakley/Phenna ([Inflexion](https://www.inflexion.com/news-and-insights/news/2022/inflexion-announces-sale-of-minority-investment-in-phenna), [Unquote](https://www.unquote.com/uk/official-record/3027698/oakley-buys-ticc-assets-phenna-cts-pe-owners-reap-5x-plus-money)); Stroma/LDC ([Clearwater](https://www.clearwatercf.com/fi/kokemus/referenssit/clearwater-advises-ldc-and-stroma-on-its-exit-to-phenna-group/)); Elmhurst/Stroma merger ([Elmhurst](https://elmhurstenergy.co.uk/?p=6862)); NAPIT/Stroma ([NAPIT](https://napit.org.uk/news/article/napit-acquires-stroma-installer-certification.aspx)); NQA/Ascertiva ([Electrical Review](https://v2.electricalreview.co.uk/?p=50708)); Achilles ([Hg](https://www.hgcapitaltrust.com/news-insights/news/2021/15-09-2021-131214256)); CHAS/Veriforce/Apax ([Thoma Bravo](https://www.thomabravo.com/press-releases/veriforce-completes-acquisition-of-chas-u.k.s-leading-contractor-management-company), [Alcumus](https://www.alcumus.com/en-gb/?p=34632)); Constructionline ([Wikipedia](https://en.wikipedia.org/wiki/Constructionline), [Construction Index](https://theconstructionindex.co.uk/news/view/capita-quids-in-with-160m-constructionline-sale)); Marlowe GRC/Inflexion ([Slaughter and May](https://www.slaughterandmay.com/recent-work/inflexion-on-its-acquisition-of-grc-software-and-services-assets-from-marlowe-plc-for-430-million/)); Mitie/Marlowe ([Mitie](https://www.mitie.com/wp-content/uploads/2025/08/Mitie-completes-the-acquisition-of-Marlowe-plc.pdf)); BES ([Unquote](https://www.unquote.com/uk/official-record/3022778/inflexion-reinvests-in-bes), [PE Insights](https://pe-insights.com/alpinvest-backs-225m-deal-former-rsa-testing-division-bes)); 3t ([Muckle](https://www.muckle-llp.com/about-us/case-studies/muckle-advises-3t-energy-on-transformational-acquisition/)); PeopleCert ([PeopleCert](https://www.peoplecert.org/news-and-announcements/2025/peoplecert-new-300-million-bond-issue-oversubscribed), [FTV](https://ftvcapital.com/2021/peoplecert-completes-axelos-acquisition)); CompTIA ([Thoma Bravo](https://www.thomabravo.com/press-releases/h.i.g.-capital-and-thoma-bravo-to-acquire-comptia-brand-and-products)); Astutis and Phoenix ([Wilmington](https://wilmingtonplc.com/wilmington-plc-acquires-astutis-ltd-0), [Osborne Clarke](https://www.osborneclarke.com/news/osborne-clarke-advises-wilmington-ps30m-acquisition-phoenix-health-safety)); Citation ([Hg](https://hgcapital.com/portfolio/the-citation-group/), [TheBusinessDesk](https://www.thebusinessdesk.com/northwest/news/2144541-private-equity-investor-harbourvest-takes-stake-in-citation)); Alcumus ([Apax](https://apax.com/news-views/apax-funds-to-acquire-alcumus)); BRCGS ([Food Manufacture](https://www.foodmanufacture.co.uk/Article/2016/11/25/Food-safety-audit-scheme-organisation-taken-over)); Apave ([Unquote](https://www.unquote.com/france/official-record/3023960/pai-partners-backs-apave)); Normec ([Astorg](https://www.astorg.com/news/astorg-to-acquire-normec-group-from-summit-partners), [Normec](https://normecgroup.com/news/normec-reaches-over-eur2-billion-valuation)); Vitaly/H.I.G. ([InforCapital](https://inforcapital.com/news/hig-compra-vitaly-y-crea-un-gigante-de-1000-millones-en-riesgos-laborales-con-avanta/)); IASME ([NCSC](https://www.ncsc.gov.uk/information/cyber-essentials)); RelyOn Nutec ([RelyOn Nutec](https://relyonnutec.com/articles/2024/5/polaris-sells-relyon-nutec-to-mubadala-capital)); Socotec ([Socotec](https://www.socotec.com/en/socotec-group/governance), [Debevoise](https://www.debevoise.com/news/2024/05/debevoise-advises-cdr-in-mubadala-and-bpifrance)); TQUK/AQA ([TQUK](https://servicehub.tquk.org/knowledge/what-is-the-relationship-between-tquk-and-aqa)); Avetta ([Bloomberg](https://www.bloomberg.com/news/articles/2024-04-02/eqt-said-to-near-3-billion-deal-for-compliance-risk-firm-avetta)); Qualiconsult ([CFNEWS](https://www.cfnews.net/L-actualite/LBO/Operations/OBO/Qualiconsult-controle-son-actionnariat-86168)); Kiwa ([Wikipedia](https://en.wikipedia.org/wiki/Kiwa_NV)); LRQA ([LRQA](https://www.lrqa.com/en-my/lrqa-growth-strategy/benefits-for-lrqa/)); Applus+ ([Bolsamanía](https://www.bolsamania.com/noticias_print/empresas/economia--isq-y-tdr-amber-cumplen-su-objetivo-y-logran-el-apoyo-del-7065-de-los-accionistas-de-applus-a-su-opa--16920010.html)); Element ([Bloomberg](https://news.bloomberglaw.com/capital-markets/temasek-to-keep-element-materials-olam-food-until-ripe-for-sale)); IMSM ([TheBusinessMagazine](https://thebusinessmagazine.co.uk/corporate-finance/wiltshire-audit-firm-imsm-acquired-by-marlowe/)); Highfield ([The Star](https://www.thestar.co.uk/news/how-doncaster-publisher-become-one-of-biggest-exam-boards-in-britain-46251)); QA Ltd ([CVC](https://cvc.com/media/news/2017/2017-06-19-cvc-fund-vi-agrees-to-acquire-qa-group)); EcoVadis ([CVC](https://cvc.com/media/news/2022/2022-06-14-ecovadis-secures-500m-investment-from-astorg-and-beyondnetzero)); Vega Formazione ([Teleborsa](https://www.teleborsa.it/News/2026/10/05/clessidra-private-equity-acquisisce-vega-formazione-89.html)); DQS/Montagu ([act legal](https://actlegal.com/news/montagu-acquires-majority-stake-in-dqs-din-remains-invested)).
+## Pass 2: Who awards, who certifies, who trains
+
+| Vertical | Scheme owner / awarding organisation (legal form) | Certification or assessment bodies (legal form) | Commercial trainers and delivery (legal form) |
+|---|---|---|---|
+| H&S qualifications (UK) | NEBOSH (CH); IOSH (CH); British Safety Council (CH); RoSPA (CH); Ofqual-regulated AOs: Highfield (PRIV), Qualsafe Awards (PRIV), TQUK (CH, via AQA), ProQual (PRIV), FAA (PRIV), NCFE (CH), Pearson (PLC), City & Guilds commercial arm (PRIV, PeopleCert) | Not applicable (AOs certify directly through approved centres) | Astutis (PLC, Wilmington); Phoenix Health & Safety (PLC, Wilmington); RRC (PRIV); SHEilds (PRIV); Wise Global (PRIV); iHasco e-learning (PE, Citation); Praxis42 (PRIV); c.600 NEBOSH and 2,000 IOSH centres (PRIV) |
+| H&S services (EU) | AiFOS (TA, IT); regional authorities (ST, IT/ES); DGUV (ST, DE); SSVV (FND, NL); BeSaCC-VCA (TA, BE); INRS (ST, FR) | VCA exam centres (PRIV, NL); regional labour authority accreditation of SPAs (ST, ES) | Vega Formazione (PE, Clessidra); Mega Italia Media (PLC, Euronext Growth Milan); Quirón Prevención (PLC, Fresenius); Vitaly-Avanta (PE, H.I.G.); BAD GmbH (TÜV Rheinland, TA); ias Gruppe (FND-owned); Arsipa (PRIV); Dekra Akademie (DEKRA e.V.); Apave Formation (PRIV/PE); AFTRAL (TA, FR) |
+| Construction cards | CSCS Ltd (TA); CITB (ST, levy); NOCN for CPCS (CH); NPORS (PRIV); IPAF (TA); PASMA (TA); IRATA (TA); RTITB (PRIV); ITSSAR (PRIV); AITT (TA); ID06 AB (TA, SE) | CITB HS&E test via Pearson VUE (PLC); card schemes self-certify | c.1,000 accredited forklift trainers; 700 IPAF centres; plant trainers (PRIV); 3t Energy Group (PE); Train'd Up (PE, Chiltern) |
+| Gas, electrical, renewables | HSE / Gas Safe Register operated by Capita (ST contract, PLC operator); Certsure LLP for NICEIC (JV of Electrical Safety First CH and ECA TA); NAPIT (PE, Phenna); SELECT (TA); MCS Service Co (CH-owned); HETAS (TA); OFTEC (TA); TrustMark (ST-endorsed) | ACS assessment centres: Logic Certification / LCL Awards (PRIV), BPEC (CH), Bluflame (PRIV); competent-person schemes self-assess | NAPIT Training (PE); Logic4training (PRIV); c.200 gas and electrical centres (PRIV) |
+| Energy assessment | Government-approved accreditation schemes (ST approval): Elmhurst (PE, Phenna), Quidos (PRIV), Sterling Accreditation (PRIV), ECMK (Cotality UK, US strategic), CIBSE (CH); Qualixpert, I.Cert, Dekra, AFNOR, BV for DPE (FR); dena (ST, DE) | Same schemes accredit and QA | Same schemes train; Retrofit Academy (PRIV) |
+| Fire, security, asbestos | BAFE (TA); FIA (TA); NSI (TA); SSAIB (TA); LPCB (BRE, PRIV); SIA (ST); UKATA (TA); IATP (TA); BOHS (CH); ARCA (TA); CNAPS (ST, FR); ADEF (TA, FR); CNPP (TA, FR); Ascert (FND, NL); OVAM (ST, BE) | BAFE-registered certifiers (BSI, NSI, SSAIB, LPCB); asbestos UKAS labs (Phenna, Element, Socotec, Lucion) | Fire and security contractors (Mitie-Marlowe PLC; Chubb; PRIV long tail); SIA training via Highfield, Pearson, ProQual, IQ centres (PRIV); UKATA members (PRIV); French security training OFs (PRIV, fragmented) |
+| Lifting and pressure inspection | SAFed (TA); HSE (ST); DREAL / Ministère du Travail (ST, FR); ZÜS accreditation by DAkkS (ST, DE) | British Engineering Services (PE, Inflexion); Allianz, Zurich, HSB (insurers, PLC); Bureau Veritas (PLC); Apave (PE minority); Socotec (PE); Dekra (e.V.); TÜV (TA/FND); Kiwa (SHV family); Vinçotte (Kiwa) | LEEA (TA) training; Apave and Socotec in-house academies |
+| Food and supply chain | BRCGS (LGC, PE); IFS (retail associations, DE/FR); FSSC Foundation (FND, NL); Sedex (TA); EcoVadis (PE); GlobalG.A.P. / FoodPLUS (PRIV, DE); Red Tractor (TA); SALSA (TA); CIEH (CH); RSPH (CH) | SGS, Intertek, Bureau Veritas, LRQA, Kiwa, NSF, DNV, Eurofins | Highfield (PRIV); Qualsafe (PRIV); Techni-K (PRIV); CB academies |
+| Contractor pre-qualification | SSIP (TA umbrella); scheme owners are private: SafeContractor (PE), CHAS (PE), Constructionline (PE), SMAS Worksafe (PE, Citation), Acclaim (PE), Achilles (PE), Avetta (PE), Veriforce (PE) | Scheme owners assess | Scheme owners also sell e-learning |
+| ISO management systems | ISO (TA); UKAS (ST); national accreditation bodies (COFRAC, DAkkS, RvA, ENAC, Accredia) (ST) | BSI (Royal Charter); LRQA (PE); NQA (CH-owned); ISOQAR (PE); QMS International (PE, Citation); IMSM (PE, Inflexion); Centre for Assessment (Growth Company, TA); BM TRADA (Element, sovereign); Intertek, SGS, BV, DNV (PLC/FND); TÜV; DQS (PE, Montagu); AFNOR Certification (TA); AENOR (TA); Kiwa; Normec (PE); Certiquality, IMQ, RINA (IT) | IRCA / CQI (CH); BSI Training; Bywater (PRIV); PECB (PRIV, CA); Exemplar Global (TA) |
+| Cyber | NCSC (ST); IASME Consortium as sole CE partner (PE, Phenna); CREST (TA); ISC2 (TA); ISACA (TA); ENX / TISAX (TA, DE) | 400+ IASME certification bodies (PRIV); CREST member firms; Bureau Veritas, LRQA (bought Core Business Solutions 2025), Normec, Kiwa | QA Ltd (PE, CVC); Firebrand (PRIV); SANS (PRIV); OffSec (PE, Spectrum); Bureau Veritas via IFCR (DK) |
+| Financial crime and compliance | ICA (PLC, Wilmington); CISI (CH); ACAMS (PE, Wendel); CII (CH) | Not applicable | Wilmington (PLC); Fitch Learning (Hearst, PRIV); BPP (PE, TDR); Kaplan (Graham Holdings, PLC); VinciWorks (PE, Inflexion) |
+| Transport and dangerous goods | DVSA / JAUPT (ST); SQA for ADR and DGSA (ST); CILT (CH); IATA (TA); FORS (TfL scheme, ST, run by Sopra Steria PLC); AFTRAL and Promotrans (TA, FR); DEKRA / TÜV (DE) | Not applicable | c.700 JAUPT-approved CPC centres (PRIV); RTITB (PRIV); Driver Hire (PRIV); 3t (PE); Forget Formation / ECF (PRIV, FR) |
+| Offshore and wind | OPITO (TA); GWO (TA); MCA (ST); IMCA (TA) | Not applicable (training-provider approval) | 3t Energy Group / Survivex / AIS (PE, Blue Water); RelyOn Nutec (sovereign, Mubadala Capital); Maersk Training (A.P. Møller, sale to OpenGate Capital pending 2026); OEG Training (PE, Apollo); Stream Marine (PRIV); FMTC (PRIV, NL); Wind Academy (PRIV) |
+| IT and professional frameworks | PeopleCert / Axelos (PRIV, FTV minority); CompTIA products (PE, H.I.G. and Thoma Bravo); APMG (PRIV); APM (CH); BCS (CH); PMI (TA); Scrum.org (PRIV) | PeopleCert examination network; Pearson VUE (PLC) | QA Ltd (PE); ILX (PRIV); Learning Tree (PRIV); BPP (PE); City & Guilds commercial arm incl. ILM and Gen2 (PeopleCert since Oct 2025) |
+
+---
+
+## Pass 3: Cap tables
+
+### 3.1 UK private companies named in Pass 2
+
+| Company | Role | Controlling shareholder | Sponsors and other investors (entry year, valuation where public) | Flag |
+|---|---|---|---|---|
+| Phenna Group (NAPIT, Stroma, Elmhurst Energy, IASME, CTS, c.30 bolt-ons) | Certification bodies, accreditation schemes, cyber scheme operator | Oakley Capital Fund V | Oakley majority (Aug 2022, >£1bn EV; bought Inflexion's 2021 minority at 5.5x); founders Paul Barry and David Harrison reinvested | Sponsor hold 4 years in 2026: likely seller or recap. Competitor for every UK certification bolt-on |
+| Alcumus (SafeContractor, ISOQAR, SafePQQ) merged with Veriforce (CHAS) | PQQ schemes, ISO certifier | Apax Funds | Apax bought Alcumus from Inflexion Feb 2022 (£600m+ EV); Apax took control of Veriforce from Thoma Bravo Aug 2024 (Apax Global Alpha £24.4m co-invest); merged Nov 2024 | Mid-hold; may divest non-core UK units |
+| The Citation Group (iHasco, QMS International, SMAS Worksafe, Atlas) | H&S services, ISO certifier, PQQ, e-learning | KKR and Hg (47% each pre-2024) | Hg (2016), KKR (2020), Hg re-invested 2020, HarbourVest minority (Dec 2024) | Recap done Dec 2024; next event 2027+ |
+| The GRC Group (ex-Marlowe GRC: William Martin, Barbour, VinciWorks, WorkNest, IMSM, Axiom GRC) | H&S and compliance software and services, ISO certifier | Inflexion Buyout Fund VI | Inflexion bought from Marlowe plc for £430m (completed 31 May 2024); IMSM had cost Marlowe up to £17.4m (2023) | Early hold; bolt-on buyer |
+| British Engineering Services | LOLER / PSSR inspection | Inflexion (continuation vehicle) | Inflexion since 2015 RSA carve-out; reinvested 2021 with AlpInvest (Carlyle) as co-investor (£225m); Barings senior debt | 10+ year hold: likely seller |
+| Achilles Information (UVDB, RISQS, FPAL, GRMS) | Buyer-community PQQ | Bridgepoint Development Capital | Bridgepoint (Sep 2021, from Hg who held since 2008); bolt-on GRMS Jan 2025 | Hold 5 years in 2026: watch for process |
+| Constructionline | PQQ | GTCR (via Once For All) | Capita sold to Warburg Pincus £160m (2018); Warburg sold to GTCR (Jul 2023) | Mid-hold |
+| Avetta | PQQ software | EQT X | EQT bought from Welsh Carson Apr 2024, c.$3bn, c.24x EBITDA | Early hold |
+| LRQA | ISO and supply-chain certifier, cyber | Goldman Sachs Alternatives | GSAM bought from Lloyd's Register Dec 2021; £500m TLB; Hillhouse reportedly buying significant minority (unconfirmed) | Hold 5 years: partial exit under way |
+| NQA (Ascertiva Group) | ISO certifier | Electrical Safety First (charity) | None | Charity-owned, could be carved out; no sponsor |
+| Element Materials Technology (BM TRADA) | Testing, timber and fire certification | Temasek | Temasek bought from Bridgepoint 2022 (>$7bn EV); 2025 sale process pulled on price | Sovereign owner; carve-outs possible |
+| 3t Energy Group (Survivex, AIS, Drilling Systems, Petrofac UK training) | OPITO / GWO / plant training | Blue Water Energy | Blue Water since 2018 formation | 8-year hold: likely seller |
+| OEG Group (OEG Training, ex OPS Training) | Offshore services and training | Apollo Funds | Apollo majority from Oaktree (Mar 2025, >$1bn); Oaktree retains minority | Early hold |
+| QA Ltd | IT, cyber, project-management training | CVC Fund VI | CVC from Bregal / EMK 2017 (£700m); marketed 2023, unsold | 9-year hold: likely seller |
+| BPP Education Group | Accountancy, law, compliance training | TDR Capital | TDR 2021 (<£700m); £2.5bn sale process 2024 failed, refinanced | Likely seller at right price |
+| Astutis; Phoenix Health & Safety; ICA; VinciWorks (pre-2024) | NEBOSH / IOSH training; compliance qualifications | Wilmington plc (listed) | Astutis Nov 2023 (up to £21.5m); Phoenix Oct 2024 (£30.25m) | Strategic acquirer, pays 10x+ EBITDA |
+| Marlowe fire, security, water and air (ex-Marlowe plc) | Fire and water compliance services | Mitie plc (listed) | Mitie completed 4 Aug 2025 (c.£366–400m) | Strategic acquirer |
+| PeopleCert (Axelos, City & Guilds commercial arm incl. ILM, Gen2, Intertrain) | ITIL / PRINCE2 owner; vocational AO; rail training | Byron Nicolaides (founder) | FTV Capital minority (Jun 2021); Axelos bought for £380m (2021); €300m 5.5% bond due 2031 (Dec 2025); C&G deal closed 31 Oct 2025 (c.€150m Eurobank-financed); Q1 2026 revenue £67.3m | Founder-controlled, bond-financed consolidator; IPO or sale candidate |
+| CompTIA (for-profit products arm) | IT certification | H.I.G. Capital and Thoma Bravo | Announced Nov 2024; nonprofit association retained separately | Early hold |
+| Train'd Up Railway Resourcing | Rail apprenticeships | Chiltern Capital | MBO backed Jun 2025 | Early hold |
+| **Highfield Group / Highfield Qualifications** (Doncaster) | Ofqual AO, food safety, SIA, first aid, e-learning; c.300k certificates a year | Christian Sprenger (50–75%) and Jason Sprenger (25–50%), PSC register | No institutional capital on register | **Founder-owned, no sponsor. Primary target** |
+| **Qualsafe Limited / Qualsafe Awards** | Ofqual AO, first aid, H&S, fire; Qualsafe Academy | Nigel Barraclough (50–75%), PSC register | None on register | **Founder-owned, no sponsor. Primary target** |
+| **NPORS Limited** | Plant operator card scheme | Stanley Chapman (75%+), born 1947, PSC register | None | **Founder-owned, succession-driven sale likely** |
+| **RTITB Limited** | Forklift / MHE accreditation | Skill Specialists Ltd (Laura Nelson, Michael Williams, Dorson Transform Ltd, each 25–50%), bought from Capitb Trust Mar 2022 | None institutional | **Management-owned since 2022 MBO; sponsor-ready** |
+| **Logic Certification Ltd (LCL Awards)** | Gas ACS and installer AO | Kevin Budd (50–75%), PSC register; Suzanne Budd ceased Mar 2025 | None | **Founder-owned, no sponsor** |
+| **Sterling Accreditation Ltd** | Energy assessor accreditation | James Campbell (25–50%), PSC register | None | **Founder-owned, no sponsor** |
+| **Quidos Ltd** | Energy assessor accreditation, PAS 2035 | Quidos Holdings Ltd (from Jun 2025), previously Lass Software Holdings (Philip Salaman, private investor, Dec 2023–Jun 2025) | Private investor, no fund | **Privately held, recently restructured; approachable** |
+| ECMK Ltd | Energy assessor accreditation | Cotality U.K. Ltd (formerly CoreLogic UK, US strategic) | Cotality owned by Stone Point Capital and Insight Partners (2021 take-private) | Strategic carve-out candidate |
+| IASME Consortium | Cyber Essentials partner | Mimas Topco / Mimas Bidco: **Phenna Group** (Oakley) | Acquired Oct 2021, multi-million, undisclosed | Not founder-owned; corrected from earlier draft |
+| SMAS Worksafe | SSIP scheme | The Citation Group | As Citation | Not independent; corrected from earlier draft |
+| Fitch Learning | FS and compliance training | Hearst (via Fitch Group) | Bought Moody's Analytics Learning Solutions and CSI (Dec 2025); Founderz | Strategic acquirer |
+| ILX Group, Firebrand, SHEilds, RRC, Wise Global, Praxis42, Stream Marine, Driver Hire, Bluflame, Techni-K | Trainers | Private; ownership not individually verified | Not verified | Long-tail bolt-ons |
+
+### 3.2 Continental Europe
+
+| Company | Role | Controlling shareholder | Sponsors and other investors | Flag |
+|---|---|---|---|---|
+| Normec Group (NL) | TIC and certification (incl. NCI, VCA, food, water) | Astorg | Astorg from Summit Partners (2020); continuation vehicle 2024 at >€2bn with €1.4bn new capital; US entry Aug 2025 | Active acquirer; recapitalised |
+| Socotec (FR) | Inspection, certification, training | Cobepa | CD&R minority (Dec 2019, 33%); Mubadala and Bpifrance minority (Apr 2024); earlier Five Arrows, BIP (exited 2019), Qualium (pre-2013) | Fully syndicated; IPO candidate |
+| Apave (FR) | Inspection, training (Apave Formation) | GAPAVE association | PAI Partners c.33% (2021, €250m for c.€700m EV); continuation-vehicle talks reported | PAI partial exit likely |
+| Bureau Veritas (FR) | TIC, certification, training | Listed; Wendel largest shareholder | Bought IFCR (DK cyber GRC training), Versatec, Contec AQS, EcoPlus (2025) | Strategic acquirer |
+| BTP Consultants (FR) | Contrôle technique | Apax Partners (France) | Apax France | Mid-hold |
+| Qualiconsult (FR) | Contrôle technique, SPS, asbestos | Founder / management (Duke family) | Minority outside investor reported by CFNEWS, name unverified | Founder-led, >€100m revenue: approachable |
+| Kiwa (NL) | TIC, certification (incl. Vinçotte, NQA US aerospace, TAWCert, PÜG, Valcert, IFC Group) | SHV Holdings (Fentener van Vlissingen family) | SHV bought from NPM Capital 2021 | Family-owned strategic acquirer; not for sale |
+| DQS Holding (DE) | ISO certifier | Montagu (majority, agreed May 2026, closing pending) | DIN retains stake; sellers UL Solutions, DGQ, VDMA, Spectaris, HDB, ZVEI | New platform; will buy EU certifiers |
+| Vega Formazione (IT) | H&S training (c.500 courses) | Clessidra Private Equity (majority, Oct 2026) | Founders retain minority | New platform; will buy Italian enti di formazione |
+| Mega Italia Media (IT) | H&S e-learning | Listed, Euronext Growth Milan | Founder family majority | Public-to-private candidate |
+| Vitaly + Avanta Salud Integral (ES) | SPA occupational risk prevention (ex Preving, Cualtis) | H.I.G. Capital (May 2026) | MCH Private Equity minority; founders Jesús Nieto, Andrés López, Josep Pla reinvest; earlier Artá Capital (2021), Corpfin (pre-2021) | c.€1bn combined; roll-up continues |
+| Quirón Prevención (ES) | SPA, largest in Spain | Fresenius Helios (listed) | Fresenius bought Quirónsalud from CVC 2016 (€5.76bn) | Strategic; possible carve-out |
+| Applus+ (ES) | TIC, vehicle inspection, certification | I Squared Capital and TDR Capital (Amber EquityCo) | Won contested bid vs Apollo at €12.78 (2024); delisted 27 Nov 2024 | Early hold |
+| OCA Global (ES) | Inspection, certification, training | Family-controlled | Activa Capital listed as investor on aggregator, unverified | Approachable |
+| EcoVadis (FR) | Supply-chain ESG ratings | Founders with institutional syndicate | CVC Growth largest institutional (2020, $200m); Astorg and BeyondNetZero led $500m (2022, >$1bn); GIC, General Atlantic, Princeville, Partech, Bain | IPO candidate |
+| LGC / BRCGS (UK/EU) | Food audit standard owner | Cinven and Astorg (2019) | BRC retains minority in BRCGS | Possible BRCGS carve-out |
+| RelyOn Nutec (DK) | Offshore safety training | Mubadala Capital (Jul 2024, PE Fund IV) | Polaris exited (held 2018–24) | Early hold |
+| Maersk Training (DK) | Offshore and maritime training | A.P. Møller-Mærsk (listed) | OpenGate Capital signed Aug 2026, closing pending | New sponsor entrant |
+| TÜV SÜD, TÜV Rheinland, TÜV Nord, DEKRA, AFNOR, AENOR, RINA, FORCE, RISE, Nemko | Certifiers | Foundations, associations, state | None | Not buyable; strategic acquirers of bolt-ons |
+
+### 3.3 Flags summarised
+
+**Founder- or family-owned, no institutional capital (verified on PSC register)**
+- Highfield Group (Sprenger family)
+- Qualsafe Limited / Qualsafe Awards (Nigel Barraclough)
+- NPORS (Stanley Chapman, age 79)
+- Logic Certification / LCL Awards (Kevin Budd)
+- Sterling Accreditation (James Campbell)
+- Quidos (private holding, Philip Salaman chain)
+- RTITB (2022 MBO vehicle Skill Specialists, no fund)
+- Qualiconsult (FR), OCA Global (ES), Mega Italia Media (IT, listed but family-controlled)
+
+**Sponsor holds of four-plus years (likely sellers 2026–27)**
+- British Engineering Services (Inflexion, 2015)
+- QA Ltd (CVC, 2017)
+- 3t Energy Group (Blue Water, 2018)
+- Achilles (Bridgepoint, 2021)
+- LRQA (GSAM, 2021; minority sale under way)
+- PeopleCert (FTV, 2021; founder-controlled, bond-financed)
+- Phenna Group (Oakley, 2022)
+- Alcumus (Apax, 2022)
+- BPP (TDR, 2021; failed 2024 sale)
+
+**Unbuyable scheme owners whose provider networks can be consolidated**
+- NEBOSH, IOSH (c.2,600 approved centres)
+- CSCS / CITB, IPAF (700 centres), PASMA, IRATA, UKATA (200 members)
+- Gas Safe (c.200 ACS centres), MCS / HETAS / OFTEC installer base
+- BAFE, NSI, SSAIB registered contractors
+- OPITO and GWO approved providers
+- JAUPT (700 Driver CPC centres)
+- SSVV / VCA exam and training centres (NL, BE)
+- Accordo Stato-Regioni enti di formazione (IT), SPA licences (ES), CNAPS-approved security OFs (FR)
+- IASME's 400 certification bodies (scheme owner itself is Phenna)
+
+### 3.4 Ranked target list
+
+| Rank | Target | Why | Indicative size | Likely competition |
+|---|---|---|---|---|
+| 1 | Highfield Group | Largest founder-owned Ofqual AO in compliance; c.300k certificates a year; e-learning and international (Dubai); family succession | Est. £30–60m revenue (unverified) | PeopleCert, Pearson, Wilmington, Phenna |
+| 2 | Qualsafe Group | Leading first-aid and H&S AO; Academy training arm; single controlling shareholder | Est. £10–20m revenue (unverified) | Same as above, plus AQA / NCFE |
+| 3 | RTITB plus NPORS (combined platform) | Forklift and plant accreditation duopoly outside CPCS; NPORS owner aged 79; RTITB MBO team sponsor-ready | Combined est. £10–15m revenue | Phenna, Citation, 3t |
+| 4 | Logic Certification / LCL Awards | Gas ACS assessment and installer AO; heat-pump and EV charging growth | Est. £5–10m revenue | Phenna (NAPIT), BPEC, City & Guilds (PeopleCert) |
+| 5 | Sterling Accreditation plus Quidos | The two independent energy-assessor schemes left outside Phenna; PAS 2035 retrofit tailwind | Est. £5–10m combined | Phenna (Elmhurst), Cotality (ECMK) |
+| 6 | British Engineering Services | Sponsor exit after 10 years; statutory inspection, insurer-linked recurring | c.£225m EV at 2021 recap | Apave, Socotec, Kiwa, BV, Dekra |
+| 7 | 3t Energy Group | Blue Water exit; OPITO and GWO network; wind transition | Est. £80–120m EV | RelyOn Nutec (Mubadala), OEG (Apollo), OpenGate (Maersk Training) |
+| 8 | French CQP APS / SSIAP training roll-up | No consolidator; CNAPS approval creates barrier; branch-mandated recurrence | Platform from €5–10m revenue | None identified |
+| 9 | Italian enti di formazione (post-Vega) | Clessidra has validated the thesis; hundreds of regional providers | Bolt-ons €2–10m revenue | Clessidra / Vega |
+| 10 | Qualiconsult | Founder-led >€100m revenue contrôle technique; minority already open | Est. €150–250m EV | Apax (BTP Consultants), Socotec, Apave |
+| 11 | Achilles | Bridgepoint hold 5 years; utilities and rail community moat | Est. £150–250m EV | Alcumus-Veriforce, Avetta (EQT), GTCR |
+| 12 | QA Ltd | CVC long hold; cyber and apprenticeship mix | £700m at 2017 entry | Cinven, KKR, TA, strategic (PeopleCert) |
+
+### 3.5 Strategic acquirers already active
+
+- **UK listed**: Wilmington plc (H&S and compliance training, 10x+ EBITDA), Mitie plc (facilities compliance), Capita plc (Gas Safe contract), Pearson plc (VUE testing).
+- **Sponsor-backed platforms**: Phenna (Oakley), Alcumus-Veriforce (Apax), Citation (KKR/Hg), The GRC Group (Inflexion), Achilles (Bridgepoint), Normec (Astorg), Socotec (Cobepa/CD&R), DQS (Montagu), Vega Formazione (Clessidra), Vitaly-Avanta (H.I.G.), OEG (Apollo), RelyOn Nutec (Mubadala).
+- **Founder-controlled consolidators**: PeopleCert (AO and IT frameworks), Kiwa / SHV (certification), Qualiconsult.
+- **Global TIC majors**: Bureau Veritas, SGS, Intertek, DNV, TÜV SÜD, Dekra, Applus+ (ISQ/TDR), Element (Temasek), LRQA (GSAM).
+
+---
+
+## 4. What could not be verified
+
+| Item | Status |
+|---|---|
+| Highfield, Qualsafe, NPORS, Logic, Sterling, Quidos revenue and EBITDA | Not public; size estimates are indicative only |
+| Qualiconsult minority investor | CFNEWS reports a minority opening; investor not named |
+| OCA Global and Activa Capital | Aggregator listing only |
+| Hillhouse minority in LRQA | Reported as near agreement; completion not confirmed |
+| DQS / Montagu, Maersk Training / OpenGate | Signed, closing not confirmed |
+| Intertrain inside the PeopleCert / City & Guilds perimeter | City & Guilds sold its commercial awarding and skills-training arms incl. Gen2; Intertrain's inclusion is assumed, not confirmed |
+| PeopleCert: FTV's current percentage | Not disclosed |
+| ILX, Firebrand, SHEilds, RRC, Wise Global, Praxis42, Stream Marine, FMTC, ias Gruppe, Arsipa, Qualixpert, I.Cert | Ownership not individually verified |
+| Applus+ squeeze-out after Nov 2024 delisting | Not confirmed |
+
+---
+
+## Sources
+
+Companies House PSC register (5 Nov 2026): [Highfield 06478925](https://find-and-update.company-information.service.gov.uk/company/06478925/persons-with-significant-control), [Qualsafe 04001868](https://find-and-update.company-information.service.gov.uk/company/04001868/persons-with-significant-control), [NPORS 03427694](https://find-and-update.company-information.service.gov.uk/company/03427694/persons-with-significant-control), [Skill Specialists 13771146](https://find-and-update.company-information.service.gov.uk/company/13771146/persons-with-significant-control), [Logic Certification 04615993](https://find-and-update.company-information.service.gov.uk/company/04615993/persons-with-significant-control), [Sterling Accreditation 06864378](https://find-and-update.company-information.service.gov.uk/company/06864378/persons-with-significant-control), [ECMK 04701167](https://find-and-update.company-information.service.gov.uk/company/04701167/persons-with-significant-control), [Quidos 05665301](https://find-and-update.company-information.service.gov.uk/company/05665301/persons-with-significant-control), [Mimas Bidco 13605424](https://find-and-update.company-information.service.gov.uk/company/13605424/persons-with-significant-control), [IASME 07897132](https://find-and-update.company-information.service.gov.uk/company/07897132/persons-with-significant-control).
+
+Deal sources: [IASME acquired by Phenna](https://iasme.co.uk/articles/iasme-has-been-acquired-by-phenna-group/); [Oakley / Phenna](https://www.inflexion.com/news-and-insights/news/2022/inflexion-announces-sale-of-minority-investment-in-phenna), [Unquote](https://www.unquote.com/uk/official-record/3027698/oakley-buys-ticc-assets-phenna-cts-pe-owners-reap-5x-plus-money); [Stroma / LDC](https://www.clearwatercf.com/fi/kokemus/referenssit/clearwater-advises-ldc-and-stroma-on-its-exit-to-phenna-group/); [Elmhurst / Stroma](https://elmhurstenergy.co.uk/?p=6862); [NAPIT / Stroma](https://napit.org.uk/news/article/napit-acquires-stroma-installer-certification.aspx); [NQA / Ascertiva](https://v2.electricalreview.co.uk/?p=50708); [Achilles / Bridgepoint](https://www.hgcapitaltrust.com/news-insights/news/2021/15-09-2021-131214256); [CHAS / Veriforce / Apax](https://www.thomabravo.com/press-releases/veriforce-completes-acquisition-of-chas-u.k.s-leading-contractor-management-company), [Alcumus update](https://www.alcumus.com/en-gb/?p=34632); [Alcumus / Apax](https://apax.com/news-views/apax-funds-to-acquire-alcumus); [Constructionline](https://en.wikipedia.org/wiki/Constructionline); [Marlowe GRC / Inflexion](https://www.slaughterandmay.com/recent-work/inflexion-on-its-acquisition-of-grc-software-and-services-assets-from-marlowe-plc-for-430-million/); [IMSM](https://thebusinessmagazine.co.uk/corporate-finance/wiltshire-audit-firm-imsm-acquired-by-marlowe/); [Mitie / Marlowe](https://www.mitie.com/wp-content/uploads/2025/08/Mitie-completes-the-acquisition-of-Marlowe-plc.pdf); [BES / Inflexion](https://www.unquote.com/uk/official-record/3022778/inflexion-reinvests-in-bes), [AlpInvest](https://pe-insights.com/alpinvest-backs-225m-deal-former-rsa-testing-division-bes); [3t / Blue Water](https://www.muckle-llp.com/about-us/case-studies/muckle-advises-3t-energy-on-transformational-acquisition/); [OEG / Apollo](https://ir.apollo.com/news-events/press-releases/detail/546/apollo-funds-to-acquire-oeg-a-leading-provider-of-core); [RelyOn Nutec / Mubadala](https://relyonnutec.com/articles/2024/5/polaris-sells-relyon-nutec-to-mubadala-capital); [Maersk Training / OpenGate](https://www.maersk.com/news/articles/2026/08/07/maersk-enters-agreement-to-divest-maersk-training); [PeopleCert / C&G](https://www.peoplecert.org/news-and-announcements/2025/peoplecert-announces-the-acquisition-of-City-and-Guilds), [PeopleCert bond](https://www.peoplecert.org/news-and-announcements/2025/peoplecert-new-300-million-bond-issue-oversubscribed), [FTV](https://ftvcapital.com/2021/peoplecert-completes-axelos-acquisition); [CompTIA](https://www.thomabravo.com/press-releases/h.i.g.-capital-and-thoma-bravo-to-acquire-comptia-brand-and-products); [Astutis](https://wilmingtonplc.com/wilmington-plc-acquires-astutis-ltd-0), [Phoenix](https://www.osborneclarke.com/news/osborne-clarke-advises-wilmington-ps30m-acquisition-phoenix-health-safety); [Citation](https://www.thebusinessdesk.com/northwest/news/2144541-private-equity-investor-harbourvest-takes-stake-in-citation); [SMAS / Citation](https://smasltd.com/about/); [TQUK / AQA](https://servicehub.tquk.org/knowledge/what-is-the-relationship-between-tquk-and-aqa); [QA / CVC](https://cvc.com/media/news/2017/2017-06-19-cvc-fund-vi-agrees-to-acquire-qa-group); [BPP / TDR](https://feweek.co.uk/training-giant-bpp-to-go-on-sale), [refinancing](https://www.cityam.com/?p=2309034); [Train'd Up / Chiltern](https://app.mergerlinks.com/transactions/2025-06-20-train-d-up); [Intertrain / City & Guilds](https://www.railstaff.co.uk/2019/11/13/city-guilds-group-acquires-intertrain/); [Fitch Learning](https://fitch.group/leadership/andreas.karaiskos/); [LRQA](https://www.lrqa.com/en-us/latest-news/lrqa-500m-term-loan-b-financing/); [Element / Temasek](https://news.bloomberglaw.com/capital-markets/temasek-to-keep-element-materials-olam-food-until-ripe-for-sale); [BRCGS / LGC](https://www.foodmanufacture.co.uk/Article/2016/11/25/Food-safety-audit-scheme-organisation-taken-over); [EcoVadis](https://cvc.com/media/news/2022/2022-06-14-ecovadis-secures-500m-investment-from-astorg-and-beyondnetzero); [Avetta / EQT](https://www.bloomberg.com/news/articles/2024-04-02/eqt-said-to-near-3-billion-deal-for-compliance-risk-firm-avetta); [Normec / Astorg](https://www.astorg.com/news/astorg-to-acquire-normec-group-from-summit-partners), [Normec €2bn](https://normecgroup.com/news/normec-reaches-over-eur2-billion-valuation); [Socotec governance](https://www.socotec.com/en/socotec-group/governance), [Mubadala / Bpifrance](https://www.debevoise.com/news/2024/05/debevoise-advises-cdr-in-mubadala-and-bpifrance); [Apave / PAI](https://www.unquote.com/france/official-record/3023960/pai-partners-backs-apave); [BTP Consultants / Apax](https://www.investec.com/advisory/fr/deals/btp/); [Qualiconsult](https://www.cfnews.net/L-actualite/LBO/Operations/OBO/Qualiconsult-controle-son-actionnariat-86168); [Kiwa](https://en.wikipedia.org/wiki/Kiwa_NV), [Kiwa / TAWCert](https://www.esche.de/en/news-and-insights/latest-news/detail/esche-advises-kiwa-on-the-acquisition-of-tawcert-zertifizierungsgesellschaft-mbh-for-management-systems-and-personnel); [DQS / Montagu](https://actlegal.com/news/montagu-acquires-majority-stake-in-dqs-din-remains-invested); [Vega / Clessidra](https://www.teleborsa.it/News/2026/10/05/clessidra-private-equity-acquisisce-vega-formazione-89.html); [Vitaly / H.I.G.](https://inforcapital.com/news/hig-compra-vitaly-y-crea-un-gigante-de-1000-millones-en-riesgos-laborales-con-avanta/), [Artá / Preving](https://www.unquote.com/southern-europe/official-record/3016614/art-capital-buys-majority-stake-in-preving-from-corpfin); [Quirónsalud / Fresenius](https://privateequityinternational.com/cvc-sells-spanish-private-hospital-operator-in-e5-8bn-deal); [Applus+ delisting](https://thecorner.eu/news-spain/applus-delisted-from-stock-exchange-as-of-today-following-ambers-takeover-bid/117788/); [Bureau Veritas 2025 deals](https://www.businesswire.com/news/home/20250724086785/en/Bureau-Veritas-Expands-its-Footprint-in-New-Strongholds-Through-Acquisitions-in-Cybersecurity-Nuclear-and-Transition-Services); [IASME / NCSC](https://www.ncsc.gov.uk/information/cyber-essentials); [Highfield background](https://www.thestar.co.uk/news/how-doncaster-publisher-become-one-of-biggest-exam-boards-in-britain-46251).
