@@ -31,6 +31,7 @@ Businesses are grouped into three segments and tagged by relevance to LegalVisio
 ## Rebuild
 - `python3 research/scripts/build_uk_online_legal.py research/uk_online_legal_services_market_map.xlsx` rebuilds the workbook from `research/data/uk_online_legal_*.json`.
 - `python3 research/scripts/build_uk_online_legal_html.py <out.html>` builds the one-page summary from the same data.
+- `node research/scripts/build_uk_online_legal_doc.js research/uk_online_legal_services_market_map.docx` builds the Word briefing (summary, market map, benchmark, LegalVision, deals, KPIs, company profiles).
 
 ## Key caveats
 - **Revenue:** most small UK companies file abridged or micro accounts without turnover; the "Revenue basis" column says whether a figure is filed, company-reported or estimated. Where turnover is missing, the notes give net assets, cash and headcount from the balance sheet.
